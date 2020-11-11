@@ -1,9 +1,9 @@
 ﻿{
 	"Sources/Methods/pfPromozioni.4dm": {
-		"startSelection": 0,
-		"endSelection": 0,
-		"firstSelectedLine": 52,
-		"lastSelectedLine": 53,
+		"startSelection": 18,
+		"endSelection": 18,
+		"firstSelectedLine": 44,
+		"lastSelectedLine": 44,
 		"folding": [
 			15,
 			20,
@@ -38,7 +38,7 @@
 			291
 		],
 		"bookmarks": [],
-		"stamp": "2020-09-29T19:23:06.000Z"
+		"stamp": "2020-11-11T10:21:31.832Z"
 	},
 	"Sources/Methods/utlOnErrCall.4dm": {
 		"startSelection": 0,
