@@ -1,3 +1,30 @@
 ﻿{
-	"editors": []
+	"editors": [
+		{
+			"type": "method",
+			"id": 2147483616,
+			"codeDescriptor": {
+				"type": 1,
+				"methodName": "pfPromozioni"
+			}
+		},
+		{
+			"type": "method",
+			"id": 2147483566,
+			"codeDescriptor": {
+				"type": 2,
+				"formName": "pfPromozioni",
+				"objectName": "Button1",
+				"methodPath": "/SOURCES/Forms/pfPromozioni/ObjectMethods/Button1.4dm"
+			}
+		},
+		{
+			"type": "form",
+			"id": 11,
+			"formName": "pfPromozioni"
+		},
+		{
+			"type": "explorer"
+		}
+	]
 }

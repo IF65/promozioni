@@ -1,6 +1,13 @@
 <?php
     @ini_set('memory_limit','8192M');
 
+    $debug = False;
+
+    $fileName = realpath(__DIR__ . '/..').'/debug.php';
+    if (file_exists($fileName)) {
+        $debug = true;
+    }
+
     $sqlDetails = [];
 
     require(realpath(__DIR__ . '/..').'/vendor/autoload.php');
