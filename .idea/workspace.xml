@@ -12,6 +12,13 @@
       <change beforePath="$PROJECT_DIR$/../nike/examples/~$Nike_Order__FILE 1.xlsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../nike/examples/~$Nike_Order__FILE.xlsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../p7m/extract.php" beforeDir="false" afterPath="$PROJECT_DIR$/../p7m/extract.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PFood/PFood.4dbase/Data/PFood.4DD" beforeDir="false" afterPath="$PROJECT_DIR$/PFood/PFood.4dbase/Data/PFood.4DD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PFood/PFood.4dbase/Data/PFood.4DIndx" beforeDir="false" afterPath="$PROJECT_DIR$/PFood/PFood.4dbase/Data/PFood.4DIndx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PFood/PFood.4dbase/userPreferences.if65/breakpoints.json" beforeDir="false" afterPath="$PROJECT_DIR$/PFood/PFood.4dbase/userPreferences.if65/breakpoints.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PFood/PFood.4dbase/userPreferences.if65/methodPreferences.json" beforeDir="false" afterPath="$PROJECT_DIR$/PFood/PFood.4dbase/userPreferences.if65/methodPreferences.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PFood/PFood.4dbase/userPreferences.if65/preferences.4DPreferences" beforeDir="false" afterPath="$PROJECT_DIR$/PFood/PFood.4dbase/userPreferences.if65/preferences.4DPreferences" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PFood/PFood.4dbase/userPreferences.if65/workspace.json" beforeDir="false" afterPath="$PROJECT_DIR$/PFood/PFood.4dbase/userPreferences.if65/workspace.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/promozioni.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/promozioni.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +49,7 @@
     <select />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.2">
     <include_path>
@@ -765,6 +772,7 @@
       <workItem from="1604805306060" duration="15000" />
       <workItem from="1604935674758" duration="2876000" />
       <workItem from="1605019999662" duration="2355000" />
+      <workItem from="1605083758635" duration="219000" />
     </task>
     <task id="LOCAL-00001" summary="Aggiunto elenco aderenti">
       <created>1571815756940</created>

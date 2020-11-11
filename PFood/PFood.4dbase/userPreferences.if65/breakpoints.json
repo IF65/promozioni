@@ -16,5 +16,12 @@
 			"objectName": "alpPromozioni",
 			"methodPath": "/SOURCES/Forms/pfPromozioni/ObjectMethods/alpPromozioni.4dm"
 		}
+	},
+	{
+		"line": 131,
+		"method": {
+			"type": 1,
+			"methodName": "pfPromozioni"
+		}
 	}
 ]

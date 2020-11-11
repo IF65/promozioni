@@ -2,9 +2,41 @@
 	"Sources/Methods/pfPromozioni.4dm": {
 		"startSelection": 0,
 		"endSelection": 0,
-		"firstSelectedLine": 0,
-		"lastSelectedLine": 0,
-		"folding": [],
+		"firstSelectedLine": 52,
+		"lastSelectedLine": 53,
+		"folding": [
+			15,
+			20,
+			22,
+			24,
+			28,
+			32,
+			46,
+			87,
+			90,
+			93,
+			96,
+			99,
+			100,
+			103,
+			104,
+			107,
+			111,
+			114,
+			135,
+			171,
+			174,
+			182,
+			195,
+			199,
+			203,
+			208,
+			211,
+			213,
+			246,
+			257,
+			291
+		],
 		"bookmarks": [],
 		"stamp": "2020-09-29T19:23:06.000Z"
 	},
@@ -73,12 +105,12 @@
 	},
 	"Sources/Methods/utlElencoNegozi.4dm": {
 		"startSelection": 0,
-		"endSelection": 7,
+		"endSelection": 0,
 		"firstSelectedLine": 0,
-		"lastSelectedLine": 44,
+		"lastSelectedLine": 0,
 		"folding": [],
 		"bookmarks": [],
-		"stamp": "2020-09-29T19:23:06.210Z"
+		"stamp": "2020-09-29T19:23:06.000Z"
 	},
 	"Sources/Methods/pfEntryStart.4dm": {
 		"startSelection": 14,
@@ -507,13 +539,13 @@
 		"stamp": "2020-09-29T19:23:06.282Z"
 	},
 	"Sources/DatabaseMethods/onStartup.4dm": {
-		"startSelection": 111,
-		"endSelection": 0,
-		"firstSelectedLine": 202,
-		"lastSelectedLine": 202,
+		"startSelection": 11,
+		"endSelection": 26,
+		"firstSelectedLine": 211,
+		"lastSelectedLine": 211,
 		"folding": [],
 		"bookmarks": [],
-		"stamp": "2020-10-05T18:43:42.986Z"
+		"stamp": "2020-10-05T18:43:42.000Z"
 	},
 	"Sources/DatabaseMethods/onWebConnection.4dm": {
 		"startSelection": 0,
@@ -579,13 +611,13 @@
 		"stamp": "2020-09-29T19:23:06.000Z"
 	},
 	"Sources/Forms/pfPromozioni/ObjectMethods/Button1.4dm": {
-		"startSelection": 32,
-		"endSelection": 0,
-		"firstSelectedLine": 1,
-		"lastSelectedLine": 1,
+		"startSelection": 0,
+		"endSelection": 12,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
 		"folding": [],
 		"bookmarks": [],
-		"stamp": "2020-09-29T19:23:06.495Z"
+		"stamp": "2020-09-29T19:23:06.000Z"
 	},
 	"Sources/Forms/pfPromozioni/ObjectMethods/Button2.4dm": {
 		"startSelection": 19,

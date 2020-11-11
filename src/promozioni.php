@@ -22,7 +22,7 @@
         $input = file_get_contents('php://input');
         $request = json_decode($input, true);
     }
-    
+    echo $input;
    	if ( ! isset( $request ) ) {
         die;
     }
