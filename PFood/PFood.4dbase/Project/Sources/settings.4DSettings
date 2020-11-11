@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><preferences stamp="5">
+	<com.4d>
+		<deployment>
+			<options/>
+		</deployment>
+		<general startup_environnement="1"/>
+		<server>
+			<network>
+				<client_server use_encryption="false"/>
+			</network>
+		</server>
+		<web>
+			<standalone_server>
+				<configuration port_number="80" publish_at_startup="true"/>
+			</standalone_server>
+		</web>
+	</com.4d>
+</preferences>

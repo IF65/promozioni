@@ -1,0 +1,115 @@
+﻿{
+	"destination": "detailScreen",
+	"windowSizingX": "fixed",
+	"windowMinHeight": 405,
+	"rightMargin": 7,
+	"bottomMargin": 7,
+	"menuBar": "Menu Bar #1",
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onUnload"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "842pt",
+		"paperHeight": "595pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"selAderente": {
+					"type": "dropdown",
+					"top": 21,
+					"left": 9,
+					"width": 198,
+					"height": 19,
+					"dataSource": "selAderente",
+					"focusable": false,
+					"class": "Supermedia_Bottoni",
+					"method": "ObjectMethods/selAderente.4dm",
+					"events": [
+						"onLoad",
+						"onClick",
+						"onDataChange"
+					]
+				},
+				"alpSedi": {
+					"type": "plugin",
+					"top": 57,
+					"left": 10,
+					"width": 198,
+					"height": 311,
+					"sizingY": "grow",
+					"dataSource": "alpSedi",
+					"pluginAreaKind": "%AreaListPro",
+					"borderStyle": "sunken",
+					"method": "ObjectMethods/alpSedi.4dm",
+					"events": [
+						"onLoad",
+						"onPluginArea"
+					],
+					"customProperties": "PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiIHN0YW5kYWxvbmU9InllcyIgPz4KPEFMUCB2ZXJzaW9uPSIweDA5MDkwMzAwIiBjYWNoZVNpemU9IjEwMjQiPgo8Q29sdW1ucyAvPgo8RHJhdyByb3dJbmRlbnQ9IjMuMDA7MS4wMCIgaGVhZGVySW5kZW50PSIzLjAwOzIuMDAiIGZvb3RlckluZGVudD0iMy4wMDsyLjAwIiBjb2xEaXZpZGVyQ29sb3I9IiNmZjgwODA4MCIgcm93RGl2aWRlckNvbG9yPSIjZmY4MDgwODAiIG1pc2NDb2xvcjE9IiNmZmVlZWVlZSIgbWlzY0NvbG9yMj0iI2ZmZmZmZmZmIiBtaXNjQ29sb3IzPSIjZmZlZWVlZWUiIG1pc2NDb2xvcjQ9IiNmZmVlZWVlZSIgbWlzY0NvbG9yNT0iIzAwZmZmZmZmIiBhbHRSb3dDb2xvcj0iI2ZmZWVlZWVlIiAvPgo8RHJhZyAvPgo8U2VsZWN0IC8+CjxTb3J0IC8+CjxFZGl0IGNsaWNrSG9sZERlbGF5PSIzMCIgY29weUZpZWxkRGVsaW1pdGVyPSImI3gwOTsiIGNvcHlSZWNvcmREZWxpbWl0ZXI9IiYjeDBEOyYjeDBBOyIgLz4KPEFQPgo8Q29sdW1uIGRhdGFUeXBlPSI1IiB3aWR0aD0iMCIgdXNlcldpZHRoPSIwIiBoZWFkZXJUZXh0PSJEZWZhdWx0Ij4KPGhlYWRlclN0eWxlIGZvbnQ9Ikx1Y2lkYSBHcmFuZGUiIHNpemU9IjEzIiB0ZXh0Q29sb3I9IiNmZjAwMDAwMCIgYmFja0NvbG9yPSIjMDBmZmZmZmYiIC8+CjxsaXN0U3R5bGUgZm9udD0iTHVjaWRhIEdyYW5kZSIgc2l6ZT0iMTMiIHRleHRDb2xvcj0iI2ZmMDAwMDAwIiBiYWNrQ29sb3I9IiMwMGZmZmZmZiIgLz4KPGZvb3RlclN0eWxlIGZvbnQ9Ikx1Y2lkYSBHcmFuZGUiIHNpemU9IjEzIiB0ZXh0Q29sb3I9IiNmZjAwMDAwMCIgYmFja0NvbG9yPSIjMDBmZmZmZmYiIC8+CjwvQ29sdW1uPgo8L0FQPgo8L0FMUD4K"
+				},
+				"Button1": {
+					"type": "button",
+					"top": 378,
+					"left": 7,
+					"width": 100,
+					"height": 20,
+					"sizingY": "move",
+					"dataSource": "Button1",
+					"text": "Conferma",
+					"class": "Supermedia_Bottoni",
+					"fontWeight": "bold",
+					"focusable": false,
+					"method": "ObjectMethods/Button1.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button2": {
+					"type": "button",
+					"top": 378,
+					"left": 110,
+					"width": 100,
+					"height": 20,
+					"sizingY": "move",
+					"dataSource": "Button2",
+					"action": "cancel",
+					"shortcutKey": "[Esc]",
+					"text": "Annulla",
+					"class": "Supermedia_Bottoni",
+					"fontWeight": "bold",
+					"focusable": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Text8": {
+					"type": "text",
+					"top": 10,
+					"left": 15,
+					"width": 85,
+					"height": 13,
+					"class": "Supermedia_Label",
+					"text": "Aderenti"
+				},
+				"lblCategorieSelezionate": {
+					"type": "text",
+					"top": 44,
+					"left": 21,
+					"width": 105,
+					"height": 13,
+					"class": "Supermedia_Label",
+					"text": "Categorie Selezionate"
+				}
+			}
+		}
+	]
+}

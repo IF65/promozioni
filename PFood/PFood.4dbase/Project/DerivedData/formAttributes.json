@@ -1,0 +1,52 @@
+﻿{
+	"forms": {
+		"pfNegozi": {
+			"timeStamp": "2020-09-29T19:23:06.000Z",
+			"destination": "detailScreen"
+		},
+		"pfCatalina": {
+			"timeStamp": "2020-09-29T19:23:06.000Z",
+			"destination": "detailScreen"
+		},
+		"pfSceltaSedi": {
+			"timeStamp": "2020-09-29T19:23:06.000Z",
+			"destination": "detailScreen"
+		},
+		"setupStampante": {
+			"timeStamp": "2020-09-29T19:23:06.000Z",
+			"destination": "detailScreen"
+		},
+		"pfIncarichi": {
+			"timeStamp": "2020-09-29T19:23:06.000Z",
+			"destination": "detailScreen"
+		},
+		"pfTemplate": {
+			"timeStamp": "2020-09-29T19:23:06.000Z",
+			"destination": "detailScreen"
+		},
+		"pfPromozioniInserimento": {
+			"timeStamp": "2020-09-29T19:23:06.000Z",
+			"destination": "detailScreen"
+		},
+		"termometro": {
+			"timeStamp": "2020-09-29T19:23:06.000Z",
+			"destination": "detailScreen"
+		},
+		"utlImpostaDataOraSpedizione": {
+			"timeStamp": "2020-09-29T19:23:06.000Z",
+			"destination": "detailScreen"
+		},
+		"stampaListaPromozioni": {
+			"timeStamp": "2020-09-29T19:23:06.000Z",
+			"destination": "detailScreen"
+		},
+		"pfPromozioni": {
+			"timeStamp": "2020-11-06T19:11:11.000Z",
+			"destination": "detailScreen"
+		},
+		"pfAderenti": {
+			"timeStamp": "2020-11-09T13:48:06.279Z",
+			"destination": "detailScreen"
+		}
+	}
+}

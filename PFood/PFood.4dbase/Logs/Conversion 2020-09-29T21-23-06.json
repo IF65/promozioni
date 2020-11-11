@@ -1,0 +1,33 @@
+﻿{
+	"messages": [
+		{
+			"message": "Exporting picture id:1, name:Menu bar 1, types:.tif to Mac HD:Users:if65:Desktop:PFood_v18.4dbase:Resources:Images:library:Menu bar 1.tif",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:2, name:Menu bar 1, types:.tif to Mac HD:Users:if65:Desktop:PFood_v18.4dbase:Resources:Images:library:Menu bar 1 (2).tif",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:3, name:Menu bar 1, types:.tif to Mac HD:Users:if65:Desktop:PFood_v18.4dbase:Resources:Images:library:Menu bar 1 (3).tif",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:4, name:Menu bar 1, types:.tif to Mac HD:Users:if65:Desktop:PFood_v18.4dbase:Resources:Images:library:Menu bar 1 (4).tif",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:5, name:Menu bar 1, types:.tif to Mac HD:Users:if65:Desktop:PFood_v18.4dbase:Resources:Images:library:Menu bar 1 (5).tif",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:6, name:Menu bar 1, types:.tif to Mac HD:Users:if65:Desktop:PFood_v18.4dbase:Resources:Images:library:Menu bar 1 (6).tif",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:10039, name:Termometro, types:.png to Mac HD:Users:if65:Desktop:PFood_v18.4dbase:Resources:Images:library:Termometro.png",
+			"severity": "info"
+		}
+	],
+	"success": true
+}

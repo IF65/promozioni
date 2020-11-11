@@ -1,0 +1,137 @@
+﻿{
+	"bars": [
+		{
+			"id": 1,
+			"name": "Menu Bar #1",
+			"picture": "/RESOURCES/Images/library/Menu bar 1 (6).tif",
+			"items": [
+				{
+					"link": 32001
+				},
+				{
+					"link": 32002
+				},
+				{
+					"link": 32003
+				}
+			]
+		}
+	],
+	"menus": [
+		{
+			"link": 32002,
+			"title": ":xliff:CommonMenuEdit",
+			"items": [
+				{
+					"title": ":xliff:CommonMenuItemUndo",
+					"shortcutAccel": true,
+					"shortcutKey": "Z",
+					"action": "undo"
+				},
+				{
+					"title": "(-",
+					"isSeparator": true
+				},
+				{
+					"title": ":xliff:CommonMenuItemCut",
+					"shortcutAccel": true,
+					"shortcutKey": "X",
+					"action": "cut"
+				},
+				{
+					"title": ":xliff:CommonMenuItemCopy",
+					"shortcutAccel": true,
+					"shortcutKey": "C",
+					"action": "copy"
+				},
+				{
+					"title": ":xliff:CommonMenuItemPaste",
+					"shortcutAccel": true,
+					"shortcutKey": "V",
+					"action": "paste"
+				},
+				{
+					"title": ":xliff:CommonMenuItemClear",
+					"action": "clear"
+				},
+				{
+					"title": ":xliff:CommonMenuItemSelectAll",
+					"shortcutAccel": true,
+					"shortcutKey": "A",
+					"action": "selectAll"
+				},
+				{
+					"title": "(-",
+					"isSeparator": true
+				},
+				{
+					"title": ":xliff:CommonMenuItemShowClipboard",
+					"action": "showClipboard"
+				}
+			]
+		},
+		{
+			"link": 32001,
+			"title": "Procedure",
+			"items": [
+				{
+					"title": "Promozioni",
+					"method": "pfPromozioni",
+					"shortcutAccel": true,
+					"shortcutKey": "p"
+				},
+				{
+					"title": "Item 1",
+					"isSeparator": true
+				},
+				{
+					"title": "Negozi",
+					"method": "pfNegozi"
+				},
+				{
+					"title": "Aderenti",
+					"method": "pfAderenti",
+					"shortcutShift": true,
+					"shortcutAccel": true,
+					"shortcutKey": "g"
+				},
+				{
+					"title": "Item 1",
+					"isSeparator": true
+				},
+				{
+					"title": "Incarichi",
+					"method": "pfIncarichi"
+				},
+				{
+					"title": "Item 1",
+					"isSeparator": true
+				},
+				{
+					"title": "Esci",
+					"method": "utlQuit",
+					"shortcutAccel": true,
+					"shortcutKey": "q"
+				}
+			]
+		},
+		{
+			"link": 32003,
+			"title": "Importazione",
+			"items": [
+				{
+					"title": "Catalina",
+					"method": "pfCatalina"
+				},
+				{
+					"title": "Item 1",
+					"isSeparator": true
+				},
+				{
+					"title": "IF65",
+					"method": "pfTemplate"
+				}
+			]
+		}
+	]
+}

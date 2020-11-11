@@ -1,0 +1,20 @@
+﻿[
+	{
+		"line": 7,
+		"method": {
+			"type": 2,
+			"formName": "pfCatalina",
+			"objectName": "Button4",
+			"methodPath": "/SOURCES/Forms/pfCatalina/ObjectMethods/Button4.4dm"
+		}
+	},
+	{
+		"line": 117,
+		"method": {
+			"type": 2,
+			"formName": "pfPromozioni",
+			"objectName": "alpPromozioni",
+			"methodPath": "/SOURCES/Forms/pfPromozioni/ObjectMethods/alpPromozioni.4dm"
+		}
+	}
+]

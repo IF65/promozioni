@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<svg xmlns="http://www.w3.org/2000/svg" height="32" viewBox="0 0 32 32" width="32">
+
+  <defs>
+    <pattern patternUnits="userSpaceOnUse" width="1" height="1" id="pattern_01">
+      <rect fill="white" stroke="none" width="1" height="1" />
+    </pattern>
+  </defs>
+  
+  <rect x="0" y="0" width="32" height="32" fill="url(#pattern_01)" stroke="none"/>
+
+</svg>

@@ -1,0 +1,409 @@
+﻿{
+	"destination": "detailScreen",
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"menuBar": "Menu Bar #1",
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onUnload",
+		"onResize"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "842pt",
+		"paperHeight": "595pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Group Box4": {
+					"type": "groupBox",
+					"top": 13,
+					"left": 557,
+					"width": 94,
+					"height": 46,
+					"class": "Supermedia_Label",
+					"text": "Codice"
+				},
+				"Group Box1": {
+					"type": "groupBox",
+					"top": 13,
+					"left": 225,
+					"width": 109,
+					"height": 46,
+					"class": "Supermedia_Label",
+					"text": "Data Corrente"
+				},
+				"Group Box3": {
+					"type": "groupBox",
+					"top": 13,
+					"left": 339,
+					"width": 213,
+					"height": 46,
+					"class": "Supermedia_Label",
+					"text": "Intervallo Date"
+				},
+				"Line": {
+					"type": "line",
+					"top": 869,
+					"left": 0,
+					"width": 779,
+					"sizingX": "grow",
+					"sizingY": "move",
+					"stroke": "#DDDDDD",
+					"strokeWidth": 0.1
+				},
+				"notePiePagina": {
+					"type": "input",
+					"top": 870,
+					"left": 7,
+					"width": 742,
+					"height": 13,
+					"sizingX": "grow",
+					"sizingY": "move",
+					"dataSource": "notePiePagina",
+					"class": "Supermedia_Bottoni",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Invisible Button1": {
+					"type": "button",
+					"top": 6,
+					"left": 754,
+					"width": 9,
+					"height": 7,
+					"dataSource": "Invisible Button",
+					"shortcutKey": "[Enter]",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Group Box6": {
+					"type": "groupBox",
+					"top": 13,
+					"left": 7,
+					"width": 213,
+					"height": 46,
+					"class": "Supermedia_Label",
+					"text": "Tipo"
+				},
+				"srcTipoPromozione": {
+					"type": "dropdown",
+					"top": 31,
+					"left": 15,
+					"width": 197,
+					"height": 20,
+					"dataSource": "srcTipoPromozione",
+					"class": "Supermedia_Bottoni",
+					"method": "ObjectMethods/srcTipoPromozione.4dm",
+					"events": [
+						"onLoad",
+						"onClick",
+						"onDataChange"
+					]
+				},
+				"srcDataCorrente": {
+					"type": "input",
+					"top": 34,
+					"left": 234,
+					"width": 68,
+					"height": 14,
+					"dataSource": "srcDataCorrente",
+					"dataSourceTypeHint": "date",
+					"class": "Supermedia_Campi_12",
+					"contextMenu": "none",
+					"dateFormat": "short",
+					"entryFilter": "!0&9##/##/####",
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/srcDataCorrente.4dm",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"srcDataCorrente1": {
+					"type": "subform",
+					"top": 33,
+					"left": 308,
+					"width": 19,
+					"height": 16,
+					"dataSource": "srcDataCorrente",
+					"dataSourceTypeHint": "date",
+					"detailForm": "DateButton",
+					"focusable": false,
+					"deletableInList": false,
+					"doubleClickInRowAction": "editSubrecord",
+					"doubleClickInEmptyAreaAction": "addSubrecord",
+					"selectionMode": "multiple",
+					"printFrame": "variable",
+					"method": "ObjectMethods/srcDataCorrente1.4dm",
+					"events": [
+						"onLoad",
+						"onDataChange"
+					]
+				},
+				"srcDataDa": {
+					"type": "input",
+					"top": 34,
+					"left": 348,
+					"width": 68,
+					"height": 14,
+					"dataSource": "srcDataDa",
+					"dataSourceTypeHint": "date",
+					"class": "Supermedia_Campi_12",
+					"contextMenu": "none",
+					"dateFormat": "short",
+					"entryFilter": "!0&9##/##/####",
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/srcDataDa.4dm",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"srcDataDa1": {
+					"type": "subform",
+					"top": 33,
+					"left": 422,
+					"width": 19,
+					"height": 16,
+					"dataSource": "srcDataDa",
+					"dataSourceTypeHint": "date",
+					"detailForm": "DateButton",
+					"focusable": false,
+					"deletableInList": false,
+					"doubleClickInRowAction": "editSubrecord",
+					"doubleClickInEmptyAreaAction": "addSubrecord",
+					"selectionMode": "multiple",
+					"printFrame": "variable",
+					"method": "ObjectMethods/srcDataDa1.4dm",
+					"events": [
+						"onLoad",
+						"onDataChange"
+					]
+				},
+				"srcDataA": {
+					"type": "input",
+					"top": 34,
+					"left": 452,
+					"width": 68,
+					"height": 14,
+					"dataSource": "srcDataA",
+					"dataSourceTypeHint": "date",
+					"class": "Supermedia_Campi_12",
+					"contextMenu": "none",
+					"dateFormat": "short",
+					"entryFilter": "!0&9##/##/####",
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/srcDataA.4dm",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"srcDataA1": {
+					"type": "subform",
+					"top": 33,
+					"left": 526,
+					"width": 19,
+					"height": 16,
+					"dataSource": "srcDataA",
+					"dataSourceTypeHint": "date",
+					"detailForm": "DateButton",
+					"focusable": false,
+					"deletableInList": false,
+					"doubleClickInRowAction": "editSubrecord",
+					"doubleClickInEmptyAreaAction": "addSubrecord",
+					"selectionMode": "multiple",
+					"printFrame": "variable",
+					"method": "ObjectMethods/srcDataA1.4dm",
+					"events": [
+						"onLoad",
+						"onDataChange"
+					]
+				},
+				"alpIncarichi": {
+					"type": "plugin",
+					"top": 71,
+					"left": 8,
+					"width": 763,
+					"height": 765,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "alpIncarichi",
+					"pluginAreaKind": "%AreaListPro",
+					"borderStyle": "sunken",
+					"method": "ObjectMethods/alpIncarichi.4dm",
+					"events": [
+						"onLoad",
+						"onPluginArea"
+					],
+					"customProperties": "PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiIHN0YW5kYWxvbmU9InllcyIgPz4KPEFMUCB2ZXJzaW9uPSIweDA5MDkwMzAwIiBjYWNoZVNpemU9IjEwMjQiPgo8Q29sdW1ucyAvPgo8RHJhdyByb3dJbmRlbnQ9IjMuMDA7MS4wMCIgaGVhZGVySW5kZW50PSIzLjAwOzIuMDAiIGZvb3RlckluZGVudD0iMy4wMDsyLjAwIiBjb2xEaXZpZGVyQ29sb3I9IiNmZjgwODA4MCIgcm93RGl2aWRlckNvbG9yPSIjZmY4MDgwODAiIG1pc2NDb2xvcjE9IiNmZmVlZWVlZSIgbWlzY0NvbG9yMj0iI2ZmZmZmZmZmIiBtaXNjQ29sb3IzPSIjZmZlZWVlZWUiIG1pc2NDb2xvcjQ9IiNmZmVlZWVlZSIgbWlzY0NvbG9yNT0iIzAwZmZmZmZmIiBhbHRSb3dDb2xvcj0iI2ZmZWVlZWVlIiAvPgo8RHJhZyAvPgo8U2VsZWN0IC8+CjxTb3J0IC8+CjxFZGl0IGNsaWNrSG9sZERlbGF5PSIzMCIgY29weUZpZWxkRGVsaW1pdGVyPSImI3gwOTsiIGNvcHlSZWNvcmREZWxpbWl0ZXI9IiYjeDBEOyYjeDBBOyIgLz4KPEFQPgo8Q29sdW1uIGRhdGFUeXBlPSI1IiB3aWR0aD0iMCIgdXNlcldpZHRoPSIwIiBoZWFkZXJUZXh0PSJEZWZhdWx0Ij4KPGhlYWRlclN0eWxlIGZvbnQ9Ikx1Y2lkYSBHcmFuZGUiIHNpemU9IjEzIiB0ZXh0Q29sb3I9IiNmZjAwMDAwMCIgYmFja0NvbG9yPSIjMDBmZmZmZmYiIC8+CjxsaXN0U3R5bGUgZm9udD0iTHVjaWRhIEdyYW5kZSIgc2l6ZT0iMTMiIHRleHRDb2xvcj0iI2ZmMDAwMDAwIiBiYWNrQ29sb3I9IiMwMGZmZmZmZiIgLz4KPGZvb3RlclN0eWxlIGZvbnQ9Ikx1Y2lkYSBHcmFuZGUiIHNpemU9IjEzIiB0ZXh0Q29sb3I9IiNmZjAwMDAwMCIgYmFja0NvbG9yPSIjMDBmZmZmZmYiIC8+CjwvQ29sdW1uPgo8L0FQPgo8L0FMUD4K"
+				},
+				"Button1": {
+					"type": "button",
+					"top": 843,
+					"left": 7,
+					"width": 125,
+					"height": 20,
+					"sizingY": "move",
+					"dataSource": "Button1",
+					"shortcutKey": "[F1]",
+					"text": " Ricerca - F1",
+					"class": "Supermedia_Bottoni",
+					"fontWeight": "bold",
+					"focusable": false,
+					"method": "ObjectMethods/Button1.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button2": {
+					"type": "button",
+					"top": 843,
+					"left": 135,
+					"width": 125,
+					"height": 20,
+					"sizingY": "move",
+					"dataSource": "Button2",
+					"shortcutKey": "[F2]",
+					"text": " Nuova Ricerca - F2",
+					"class": "Supermedia_Bottoni",
+					"fontWeight": "bold",
+					"focusable": false,
+					"method": "ObjectMethods/Button2.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button3": {
+					"type": "button",
+					"top": 843,
+					"left": 263,
+					"width": 125,
+					"height": 20,
+					"sizingY": "move",
+					"dataSource": "Button3",
+					"class": "Supermedia_Bottoni",
+					"fontWeight": "bold",
+					"focusable": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Button4": {
+					"type": "button",
+					"top": 843,
+					"left": 391,
+					"width": 125,
+					"height": 20,
+					"sizingY": "move",
+					"dataSource": "Button4",
+					"class": "Supermedia_Bottoni",
+					"fontWeight": "bold",
+					"focusable": false,
+					"method": "ObjectMethods/Button4.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button5": {
+					"type": "button",
+					"top": 843,
+					"left": 519,
+					"width": 125,
+					"height": 20,
+					"sizingY": "move",
+					"dataSource": "Button5",
+					"text": "Stampa",
+					"class": "Supermedia_Bottoni",
+					"fontWeight": "bold",
+					"focusable": false,
+					"method": "ObjectMethods/Button5.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button6": {
+					"type": "button",
+					"top": 843,
+					"left": 647,
+					"width": 125,
+					"height": 20,
+					"sizingY": "move",
+					"dataSource": "Button6",
+					"action": "cancel",
+					"text": "Esci",
+					"class": "Supermedia_Bottoni",
+					"fontWeight": "bold",
+					"focusable": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"srcCodicePromozione": {
+					"type": "input",
+					"top": 34,
+					"left": 565,
+					"width": 78,
+					"height": 14,
+					"dataSource": "srcCodicePromozione",
+					"dataSourceTypeHint": "number",
+					"class": "Supermedia_Campi_12",
+					"contextMenu": "none",
+					"entryFilter": "&9",
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/srcCodicePromozione.4dm",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Group Box5": {
+					"type": "groupBox",
+					"top": 13,
+					"left": 656,
+					"width": 114,
+					"height": 46,
+					"class": "Supermedia_Label",
+					"text": "Barcode"
+				},
+				"srcBarcode": {
+					"type": "input",
+					"top": 34,
+					"left": 664,
+					"width": 98,
+					"height": 14,
+					"dataSource": "srcBarcode",
+					"dataSourceTypeHint": "number",
+					"class": "Supermedia_Campi_12",
+					"contextMenu": "none",
+					"entryFilter": "&9",
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/srcBarcode.4dm",
+					"events": [
+						"onDataChange"
+					]
+				}
+			}
+		}
+	]
+}

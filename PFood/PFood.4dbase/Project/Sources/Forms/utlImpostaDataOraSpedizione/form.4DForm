@@ -1,0 +1,198 @@
+﻿{
+	"destination": "detailScreen",
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 7,
+	"bottomMargin": 7,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "842pt",
+		"paperHeight": "595pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Group Box": {
+					"type": "groupBox",
+					"top": 8,
+					"left": 7,
+					"width": 234,
+					"height": 65
+				},
+				"vDataInvio": {
+					"type": "input",
+					"top": 28,
+					"left": 25,
+					"width": 59,
+					"height": 14,
+					"dataSource": "vDataInvio",
+					"dataSourceTypeHint": "date",
+					"class": "Supermedia_Campi_12",
+					"hideFocusRing": true,
+					"contextMenu": "none",
+					"entryFilter": "!0&9##/##/####",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"vOraInvio": {
+					"type": "input",
+					"top": 28,
+					"left": 179,
+					"width": 30,
+					"height": 14,
+					"dataSource": "vOraInvio",
+					"dataSourceTypeHint": "time",
+					"class": "Supermedia_Campi_12",
+					"hideFocusRing": true,
+					"contextMenu": "none",
+					"timeFormat": "hh_mm",
+					"entryFilter": "!0&9##:##",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Button1": {
+					"type": "button",
+					"top": 78,
+					"left": 7,
+					"width": 115,
+					"height": 20,
+					"sizingY": "move",
+					"dataSource": "Button1",
+					"action": "accept",
+					"text": "Conferma",
+					"class": "Supermedia_Bottoni",
+					"fontWeight": "bold",
+					"focusable": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Button2": {
+					"type": "button",
+					"top": 78,
+					"left": 126,
+					"width": 115,
+					"height": 20,
+					"sizingY": "move",
+					"dataSource": "Button2",
+					"action": "cancel",
+					"text": "Annulla",
+					"class": "Supermedia_Bottoni",
+					"fontWeight": "bold",
+					"focusable": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"PopupDate": {
+					"type": "subform",
+					"top": 27,
+					"left": 107,
+					"width": 19,
+					"height": 16,
+					"dataSource": "vDataInvio",
+					"dataSourceTypeHint": "date",
+					"detailForm": "DateButton",
+					"focusable": false,
+					"deletableInList": false,
+					"doubleClickInRowAction": "editSubrecord",
+					"doubleClickInEmptyAreaAction": "addSubrecord",
+					"selectionMode": "multiple",
+					"printFrame": "variable",
+					"method": "ObjectMethods/PopupDate.4dm",
+					"events": [
+						"onLoad"
+					]
+				},
+				"Ruler": {
+					"type": "stepper",
+					"top": 24,
+					"left": 89,
+					"width": 14,
+					"height": 22,
+					"dataSource": "vDataInvio",
+					"continuousExecution": false,
+					"min": -1,
+					"max": 1,
+					"events": [
+						"onClick",
+						"onDataChange"
+					]
+				},
+				"Text": {
+					"type": "text",
+					"top": 15,
+					"left": 29,
+					"width": 29,
+					"height": 13,
+					"class": "Supermedia_Label",
+					"text": "Data"
+				},
+				"Text1": {
+					"type": "text",
+					"top": 15,
+					"left": 183,
+					"width": 29,
+					"height": 13,
+					"class": "Supermedia_Label",
+					"text": "Ora"
+				},
+				"Ruler1": {
+					"type": "stepper",
+					"top": 24,
+					"left": 214,
+					"width": 14,
+					"height": 22,
+					"dataSource": "vOraInvioStepper",
+					"continuousExecution": false,
+					"max": 1,
+					"method": "ObjectMethods/Ruler1.4dm",
+					"events": [
+						"onClick",
+						"onDataChange"
+					]
+				},
+				"Check Box": {
+					"type": "checkbox",
+					"top": 52,
+					"left": 24,
+					"width": 132,
+					"height": 15,
+					"dataSource": "vInvioImmediato",
+					"text": "Invio Immediato",
+					"class": "Supermedia_Label",
+					"focusable": false,
+					"method": "ObjectMethods/Check Box.4dm",
+					"events": [
+						"onClick"
+					]
+				}
+			},
+			"entryOrder": [
+				"vDataInvio",
+				"vOraInvio",
+				"Button1",
+				"Button2",
+				"PopupDate",
+				"Ruler",
+				"Ruler1",
+				"Check Box"
+			]
+		}
+	]
+}

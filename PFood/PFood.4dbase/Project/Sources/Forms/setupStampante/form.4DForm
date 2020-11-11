@@ -1,0 +1,81 @@
+﻿{
+	"destination": "detailScreen",
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 7,
+	"bottomMargin": 7,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad"
+	],
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "842pt",
+		"paperHeight": "595pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Group Box": {
+					"type": "groupBox",
+					"top": 4,
+					"left": 6,
+					"width": 313,
+					"height": 55,
+					"class": "Supermedia_Campi_12",
+					"fontWeight": "bold",
+					"text": "Stampante Selezionata"
+				},
+				"bConfermaStampa": {
+					"type": "button",
+					"top": 66,
+					"left": 6,
+					"width": 146,
+					"height": 22,
+					"dataSource": "bConfermaStampa",
+					"action": "accept",
+					"text": "Conferma",
+					"class": "Supermedia_Bottoni",
+					"fontWeight": "bold",
+					"focusable": false,
+					"defaultButton": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"arPrinterNames": {
+					"type": "dropdown",
+					"top": 28,
+					"left": 13,
+					"width": 298,
+					"height": 18,
+					"dataSource": "arPrinterNames",
+					"class": "Supermedia_Campi_12",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button1": {
+					"type": "button",
+					"top": 66,
+					"left": 173,
+					"width": 146,
+					"height": 22,
+					"dataSource": "Button",
+					"action": "cancel",
+					"text": "Esci",
+					"class": "Supermedia_Bottoni",
+					"fontWeight": "bold",
+					"focusable": false,
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		}
+	]
+}

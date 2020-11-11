@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document>
+	<template id="Letter">
+		<width>8.5</width>
+		<height>11</height>
+	</template>
+	<template id="A4">
+		<width>8.26</width>
+		<height>11.68</height>
+	</template>
+	<template id="A4-Long">
+		<width>7.76</width>
+		<height>16.54</height>
+	</template>
+	<template id="A5">
+		<width>5.82</width>
+		<height>8.26</height>
+	</template>
+	<template id="A3">
+		<width>11.7</width>
+		<height>16.54</height>
+	</template>
+	<template id="Canon CD Tray">
+		<width>5.42</width>
+		<height>9.4</height>
+	</template>
+	<template id="HP CD Tray">
+		<width>5.12</width>
+		<height>5.12</height>
+	</template>
+	<template id="Primera CD Tray">
+		<width>4.7245</width>
+		<height>4.7245</height>
+	</template>
+	<template id="DYMO DiscPainter CD Tray">
+		<width>4.7245</width>
+		<height>4.7245</height>
+	</template>
+	<template id="CD/DVD Tattoo">
+		<width>5</width>
+		<height>7</height>
+	</template>
+	<template id="Tabloid">
+		<width>11</width>
+		<height>17</height>
+	</template>
+</document>

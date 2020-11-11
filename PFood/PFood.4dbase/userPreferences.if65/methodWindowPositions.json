@@ -1,0 +1,890 @@
+﻿{
+	"Sources/Methods/pfPromozioni.4dm": {
+		"left": 350,
+		"top": 103,
+		"width": 1229,
+		"height": 937
+	},
+	"Sources/Methods/utlOnErrCall.4dm": {
+		"left": 0,
+		"top": 103,
+		"width": 1680,
+		"height": 944
+	},
+	"Sources/Methods/utlGetDiskStruct.4dm": {
+		"left": 234,
+		"top": 402,
+		"width": 1468,
+		"height": 678
+	},
+	"Sources/Methods/utlAlpAreaSetup.4dm": {
+		"left": 274,
+		"top": 325,
+		"width": 1466,
+		"height": 745
+	},
+	"Sources/Methods/utlAlpAreaAddColumn.4dm": {
+		"left": 864,
+		"top": 255,
+		"width": 1003,
+		"height": 597
+	},
+	"Sources/Methods/ssMacroSql.4dm": {
+		"left": 250,
+		"top": 180,
+		"width": 1351,
+		"height": 800
+	},
+	"Sources/Methods/utlTermometro.4dm": {
+		"left": 349,
+		"top": 335,
+		"width": 1440,
+		"height": 794
+	},
+	"Sources/Methods/pfPromozioniInserimento.4dm": {
+		"left": 146,
+		"top": 220,
+		"width": 1275,
+		"height": 813
+	},
+	"Sources/Methods/utlElencoNegozi.4dm": {
+		"left": 439,
+		"top": 285,
+		"width": 1411,
+		"height": 745
+	},
+	"Sources/Methods/pfEntryStart.4dm": {
+		"left": 547,
+		"top": 175,
+		"width": 1215,
+		"height": 827
+	},
+	"Sources/Methods/pfEntryEnd.4dm": {
+		"left": 11,
+		"top": 128,
+		"width": 1497,
+		"height": 898
+	},
+	"Sources/Methods/utlCercaArticoloPerCodice.4dm": {
+		"left": 425,
+		"top": 281,
+		"width": 1341,
+		"height": 739
+	},
+	"Sources/Methods/utlCreaBarcodeCatalina.4dm": {
+		"left": 81,
+		"top": 103,
+		"width": 1277,
+		"height": 954
+	},
+	"Trash/Methods/(utlCaricamentoCatalina).4dm": {
+		"left": 113,
+		"top": 118,
+		"width": 1277,
+		"height": 825
+	},
+	"Sources/Methods/pfCreazioneFile.4dm": {
+		"left": 447,
+		"top": 253,
+		"width": 1365,
+		"height": 815
+	},
+	"Sources/Methods/pfCaricamentoPromozione.4dm": {
+		"left": 418,
+		"top": 103,
+		"width": 1277,
+		"height": 972
+	},
+	"Sources/Methods/utlQuit.4dm": {
+		"left": 176,
+		"top": 160,
+		"width": 1277,
+		"height": 825
+	},
+	"Sources/Methods/utlElencoCategorie.4dm": {
+		"left": 274,
+		"top": 324,
+		"width": 1466,
+		"height": 745
+	},
+	"Sources/Methods/pfSceltaSedi.4dm": {
+		"left": 662,
+		"top": 194,
+		"width": 1196,
+		"height": 819
+	},
+	"Sources/Methods/utlConfrontoArray.4dm": {
+		"left": 418,
+		"top": 103,
+		"width": 1277,
+		"height": 972
+	},
+	"Sources/Methods/pfAderenti.4dm": {
+		"left": 724,
+		"top": 261,
+		"width": 1196,
+		"height": 819
+	},
+	"Sources/Methods/utlElencoAderenti.4dm": {
+		"left": 651,
+		"top": 269,
+		"width": 1183,
+		"height": 775
+	},
+	"Sources/Methods/setupStampante.4dm": {
+		"left": 356,
+		"top": 113,
+		"width": 1277,
+		"height": 972
+	},
+	"Sources/Methods/utlExplode.4dm": {
+		"left": 369,
+		"top": 190,
+		"width": 1239,
+		"height": 750
+	},
+	"Sources/Methods/pfNegozi.4dm": {
+		"left": 82,
+		"top": 244,
+		"width": 1511,
+		"height": 827
+	},
+	"Trash/Methods/(_test).4dm": {
+		"left": 370,
+		"top": 231,
+		"width": 1215,
+		"height": 827
+	},
+	"Trash/Methods/(_test1).4dm": {
+		"left": 558,
+		"top": 173,
+		"width": 1196,
+		"height": 819
+	},
+	"Sources/Methods/pfCreazioneFileLocal.4dm": {
+		"left": 68,
+		"top": 130,
+		"width": 1447,
+		"height": 896
+	},
+	"Sources/Methods/pfEsportazionePromozione.4dm": {
+		"left": 277,
+		"top": 270,
+		"width": 1466,
+		"height": 720
+	},
+	"Sources/Methods/pfIncarichi.4dm": {
+		"left": 321,
+		"top": 172,
+		"width": 1324,
+		"height": 775
+	},
+	"Sources/Methods/utlProgressivoCrea.4dm": {
+		"left": 228,
+		"top": 149,
+		"width": 1466,
+		"height": 745
+	},
+	"Sources/Methods/utlInvioLaboratorio.4dm": {
+		"left": 55,
+		"top": 178,
+		"width": 1692,
+		"height": 805
+	},
+	"Trash/Methods/(_marco).4dm": {
+		"left": 452,
+		"top": 305,
+		"width": 1232,
+		"height": 686
+	},
+	"Trash/Methods/(utlCaricamentoCatalina1).4dm": {
+		"left": 150,
+		"top": 119,
+		"width": 1277,
+		"height": 825
+	},
+	"Trash/Methods/(utlCaricamentoCatalina2).4dm": {
+		"left": 5,
+		"top": 136,
+		"width": 1135,
+		"height": 788
+	},
+	"Trash/Methods/(creaCodiciCatalina).4dm": {
+		"left": 46,
+		"top": 103,
+		"width": 1275,
+		"height": 813
+	},
+	"Sources/Methods/pfCatalina.4dm": {
+		"left": 191,
+		"top": 159,
+		"width": 1326,
+		"height": 818
+	},
+	"Sources/Methods/utlElencoCodiciCatalinaUsati.4dm": {
+		"left": 119,
+		"top": 136,
+		"width": 1680,
+		"height": 944
+	},
+	"Sources/Methods/catalinaCaricamento_0503.4dm": {
+		"left": 803,
+		"top": 119,
+		"width": 1229,
+		"height": 862
+	},
+	"Trash/Methods/(utlNuovaPromovarPI).4dm": {
+		"left": 228,
+		"top": 149,
+		"width": 1466,
+		"height": 745
+	},
+	"Sources/Methods/utlProgressivoVerificaEsistenza.4dm": {
+		"left": 228,
+		"top": 149,
+		"width": 1466,
+		"height": 745
+	},
+	"Trash/Methods/(_test_1).4dm": {
+		"left": 47,
+		"top": 122,
+		"width": 1466,
+		"height": 745
+	},
+	"Sources/Methods/utlProgressivoSalvaCodiceEsiste.4dm": {
+		"left": 228,
+		"top": 149,
+		"width": 1466,
+		"height": 745
+	},
+	"Sources/Methods/catalinaCaricamento_0481.4dm": {
+		"left": 806,
+		"top": 118,
+		"width": 1031,
+		"height": 937
+	},
+	"Sources/Methods/_marco.4dm": {
+		"left": 523,
+		"top": 202,
+		"width": 1455,
+		"height": 869
+	},
+	"Sources/Methods/catalinaCaricamento_ACPT.4dm": {
+		"left": 242,
+		"top": 121,
+		"width": 1147,
+		"height": 825
+	},
+	"Sources/Methods/utlOttieniBarcode8Catalina.4dm": {
+		"left": 123,
+		"top": 103,
+		"width": 1277,
+		"height": 954
+	},
+	"Sources/Methods/utlCreaPmtDaTemplate.4dm": {
+		"left": 140,
+		"top": 113,
+		"width": 1277,
+		"height": 954
+	},
+	"Sources/Methods/catalinaCaricamento_0492.4dm": {
+		"left": 82,
+		"top": 141,
+		"width": 1262,
+		"height": 880
+	},
+	"Sources/Methods/procMostraTermometro.4dm": {
+		"left": 177,
+		"top": 360,
+		"width": 1440,
+		"height": 794
+	},
+	"Sources/Methods/procCreaFinestra.4dm": {
+		"left": 174,
+		"top": 120,
+		"width": 1440,
+		"height": 794
+	},
+	"Sources/Methods/pfTemplate.4dm": {
+		"left": 337,
+		"top": 180,
+		"width": 1680,
+		"height": 944
+	},
+	"Sources/Methods/templateCaricamento_0054.4dm": {
+		"left": 119,
+		"top": 136,
+		"width": 1680,
+		"height": 944
+	},
+	"Sources/Methods/utlEsplosioneBarcode.4dm": {
+		"left": 651,
+		"top": 269,
+		"width": 1183,
+		"height": 775
+	},
+	"Sources/Methods/utlPromozioniIF652Excel.4dm": {
+		"left": 387,
+		"top": 153,
+		"width": 1229,
+		"height": 862
+	},
+	"Sources/Methods/utlElencoPromozioni.4dm": {
+		"left": 581,
+		"top": 330,
+		"width": 1275,
+		"height": 813
+	},
+	"Trash/Methods/(_curriculum).4dm": {
+		"left": 365,
+		"top": 103,
+		"width": 1229,
+		"height": 887
+	},
+	"Sources/Methods/_marco2.4dm": {
+		"left": 206,
+		"top": 103,
+		"width": 1246,
+		"height": 880
+	},
+	"Sources/Methods/_marco3.4dm": {
+		"left": 41,
+		"top": 103,
+		"width": 1229,
+		"height": 937
+	},
+	"Sources/Methods/_marco4.4dm": {
+		"left": 55,
+		"top": 153,
+		"width": 1692,
+		"height": 830
+	},
+	"Sources/Methods/utlCreaPmtLibriDaTemplate.4dm": {
+		"left": 9,
+		"top": 128,
+		"width": 1358,
+		"height": 929
+	},
+	"Sources/Methods/caricamentoPromoLibri.4dm": {
+		"left": 233,
+		"top": 141,
+		"width": 1684,
+		"height": 862
+	},
+	"Sources/Methods/caricamento_0482.4dm": {
+		"left": 339,
+		"top": 103,
+		"width": 1455,
+		"height": 869
+	},
+	"Sources/Methods/_marco5.4dm": {
+		"left": 560,
+		"top": 103,
+		"width": 1229,
+		"height": 937
+	},
+	"Sources/Methods/_marco6.4dm": {
+		"left": 41,
+		"top": 103,
+		"width": 1229,
+		"height": 937
+	},
+	"Sources/DatabaseMethods/onStartup.4dm": {
+		"left": 356,
+		"top": 167,
+		"width": 1520,
+		"height": 665
+	},
+	"Sources/DatabaseMethods/onWebConnection.4dm": {
+		"left": 81,
+		"top": 103,
+		"width": 1277,
+		"height": 954
+	},
+	"Sources/DatabaseMethods/onMobileAppAuthentication.4dm": {
+		"left": 571,
+		"top": 266,
+		"width": 778,
+		"height": 488
+	},
+	"Sources/Forms/pfPromozioni/method.4dm": {
+		"left": 308,
+		"top": 291,
+		"width": 1920,
+		"height": 932
+	},
+	"Sources/Forms/pfPromozioni/ObjectMethods/srcTipoPromozione.4dm": {
+		"left": 208,
+		"top": 127,
+		"width": 1920,
+		"height": 932
+	},
+	"Sources/Forms/pfPromozioni/ObjectMethods/srcDataCorrente.4dm": {
+		"left": 250,
+		"top": 180,
+		"width": 1351,
+		"height": 800
+	},
+	"Sources/Forms/pfPromozioni/ObjectMethods/srcDataCorrente1.4dm": {
+		"left": 208,
+		"top": 127,
+		"width": 1920,
+		"height": 932
+	},
+	"Sources/Forms/pfPromozioni/ObjectMethods/srcDataDa.4dm": {
+		"left": 208,
+		"top": 127,
+		"width": 1920,
+		"height": 932
+	},
+	"Sources/Forms/pfPromozioni/ObjectMethods/srcDataDa1.4dm": {
+		"left": 583,
+		"top": 193,
+		"width": 1215,
+		"height": 827
+	},
+	"Sources/Forms/pfPromozioni/ObjectMethods/srcDataA.4dm": {
+		"left": 274,
+		"top": 325,
+		"width": 1466,
+		"height": 745
+	},
+	"Sources/Forms/pfPromozioni/ObjectMethods/srcDataA1.4dm": {
+		"left": 418,
+		"top": 103,
+		"width": 1277,
+		"height": 972
+	},
+	"Sources/Forms/pfPromozioni/ObjectMethods/alpPromozioni.4dm": {
+		"left": 208,
+		"top": 127,
+		"width": 1920,
+		"height": 932
+	},
+	"Sources/Forms/pfPromozioni/ObjectMethods/Button1.4dm": {
+		"left": 505,
+		"top": 398,
+		"width": 1003,
+		"height": 597
+	},
+	"Sources/Forms/pfPromozioni/ObjectMethods/Button2.4dm": {
+		"left": 563,
+		"top": 304,
+		"width": 1440,
+		"height": 797
+	},
+	"Sources/Forms/pfPromozioni/ObjectMethods/Button3.4dm": {
+		"left": 925,
+		"top": 423,
+		"width": 1003,
+		"height": 597
+	},
+	"Sources/Forms/pfPromozioni/ObjectMethods/Button6.4dm": {
+		"left": 152,
+		"top": 103,
+		"width": 1628,
+		"height": 930
+	},
+	"Sources/Forms/pfPromozioni/ObjectMethods/Button7.4dm": {
+		"left": 274,
+		"top": 325,
+		"width": 1466,
+		"height": 745
+	},
+	"Sources/Forms/pfPromozioni/ObjectMethods/Button8.4dm": {
+		"left": 542,
+		"top": 252,
+		"width": 1329,
+		"height": 822
+	},
+	"Sources/Forms/pfPromozioni/ObjectMethods/Button9.4dm": {
+		"left": 251,
+		"top": 246,
+		"width": 1158,
+		"height": 830
+	},
+	"Sources/Forms/pfPromozioni/ObjectMethods/srcBarcode.4dm": {
+		"left": 274,
+		"top": 325,
+		"width": 1110,
+		"height": 745
+	},
+	"Sources/Forms/pfPromozioni/ObjectMethods/srcDescrizione.4dm": {
+		"left": 208,
+		"top": 127,
+		"width": 1920,
+		"height": 932
+	},
+	"Sources/Forms/pfPromozioniInserimento/method.4dm": {
+		"left": 219,
+		"top": 221,
+		"width": 1920,
+		"height": 932
+	},
+	"Sources/Forms/pfPromozioniInserimento/ObjectMethods/vPR_bozza.4dm": {
+		"left": 840,
+		"top": 266,
+		"width": 1003,
+		"height": 597
+	},
+	"Sources/Forms/pfPromozioniInserimento/ObjectMethods/selTipo.4dm": {
+		"left": 472,
+		"top": 373,
+		"width": 1003,
+		"height": 597
+	},
+	"Sources/Forms/pfPromozioniInserimento/ObjectMethods/vPR_barcode.4dm": {
+		"left": 382,
+		"top": 209,
+		"width": 1003,
+		"height": 597
+	},
+	"Sources/Forms/pfPromozioniInserimento/ObjectMethods/vPR_descrizione.4dm": {
+		"left": 274,
+		"top": 325,
+		"width": 1466,
+		"height": 745
+	},
+	"Sources/Forms/pfPromozioniInserimento/ObjectMethods/vPR_dataInizio.4dm": {
+		"left": 583,
+		"top": 193,
+		"width": 1215,
+		"height": 827
+	},
+	"Sources/Forms/pfPromozioniInserimento/ObjectMethods/vPR_dataInizio1.4dm": {
+		"left": 925,
+		"top": 423,
+		"width": 1003,
+		"height": 597
+	},
+	"Sources/Forms/pfPromozioniInserimento/ObjectMethods/vPR_dataFine1.4dm": {
+		"left": 925,
+		"top": 423,
+		"width": 1003,
+		"height": 597
+	},
+	"Sources/Forms/pfPromozioniInserimento/ObjectMethods/vPR_oraFine.4dm": {
+		"left": 308,
+		"top": 291,
+		"width": 1920,
+		"height": 932
+	},
+	"Sources/Forms/pfPromozioniInserimento/ObjectMethods/selTipoCliente.4dm": {
+		"left": 741,
+		"top": 457,
+		"width": 1003,
+		"height": 597
+	},
+	"Sources/Forms/pfPromozioniInserimento/ObjectMethods/ricompense01.4dm": {
+		"left": 372,
+		"top": 117,
+		"width": 1325,
+		"height": 796
+	},
+	"Sources/Forms/pfPromozioniInserimento/ObjectMethods/articoli01.4dm": {
+		"left": 414,
+		"top": 324,
+		"width": 1003,
+		"height": 597
+	},
+	"Sources/Forms/pfPromozioniInserimento/ObjectMethods/alpSedi.4dm": {
+		"left": 381,
+		"top": 208,
+		"width": 1003,
+		"height": 597
+	},
+	"Sources/Forms/pfPromozioniInserimento/ObjectMethods/bCancel.4dm": {
+		"left": 583,
+		"top": 193,
+		"width": 1215,
+		"height": 827
+	},
+	"Sources/Forms/pfPromozioniInserimento/ObjectMethods/bValidate.4dm": {
+		"left": 583,
+		"top": 193,
+		"width": 1215,
+		"height": 827
+	},
+	"Sources/Forms/pfPromozioniInserimento/ObjectMethods/ricompense02.4dm": {
+		"left": 583,
+		"top": 193,
+		"width": 1215,
+		"height": 827
+	},
+	"Sources/Forms/pfPromozioniInserimento/ObjectMethods/ricompense03.4dm": {
+		"left": 583,
+		"top": 193,
+		"width": 1215,
+		"height": 827
+	},
+	"Sources/Forms/pfPromozioniInserimento/ObjectMethods/articoli02.4dm": {
+		"left": 583,
+		"top": 193,
+		"width": 1215,
+		"height": 827
+	},
+	"Sources/Forms/pfPromozioniInserimento/ObjectMethods/articoli03.4dm": {
+		"left": 583,
+		"top": 193,
+		"width": 1215,
+		"height": 827
+	},
+	"Sources/Forms/pfPromozioniInserimento/ObjectMethods/bReport.4dm": {
+		"left": 239,
+		"top": 184,
+		"width": 1466,
+		"height": 745
+	},
+	"Sources/Forms/pfPromozioniInserimento/ObjectMethods/bReport1.4dm": {
+		"left": 531,
+		"top": 307,
+		"width": 1224,
+		"height": 739
+	},
+	"Sources/Forms/pfSceltaSedi/method.4dm": {
+		"left": 302,
+		"top": 246,
+		"width": 1196,
+		"height": 819
+	},
+	"Sources/Forms/pfSceltaSedi/ObjectMethods/selAderente.4dm": {
+		"left": 772,
+		"top": 334,
+		"width": 973,
+		"height": 706
+	},
+	"Sources/Forms/pfSceltaSedi/ObjectMethods/alpSedi.4dm": {
+		"left": 675,
+		"top": 127,
+		"width": 925,
+		"height": 681
+	},
+	"Sources/Forms/pfSceltaSedi/ObjectMethods/Button1.4dm": {
+		"left": 274,
+		"top": 325,
+		"width": 1466,
+		"height": 745
+	},
+	"Sources/Forms/stampaListaPromozioni/method.4dm": {
+		"left": 418,
+		"top": 103,
+		"width": 1277,
+		"height": 972
+	},
+	"Sources/Forms/pfNegozi/method.4dm": {
+		"left": 583,
+		"top": 193,
+		"width": 1215,
+		"height": 827
+	},
+	"Sources/Forms/pfNegozi/ObjectMethods/srcSocietaDescrizione.4dm": {
+		"left": 583,
+		"top": 193,
+		"width": 1215,
+		"height": 827
+	},
+	"Sources/Forms/pfNegozi/ObjectMethods/srcMarchio.4dm": {
+		"left": 583,
+		"top": 193,
+		"width": 1215,
+		"height": 827
+	},
+	"Sources/Forms/pfNegozi/ObjectMethods/srcNegozioDescrizione.4dm": {
+		"left": 370,
+		"top": 228,
+		"width": 1215,
+		"height": 827
+	},
+	"Sources/Forms/pfNegozi/ObjectMethods/alpNegozi.4dm": {
+		"left": 973,
+		"top": 288,
+		"width": 1118,
+		"height": 792
+	},
+	"Sources/Forms/pfNegozi/ObjectMethods/Button1.4dm": {
+		"left": 370,
+		"top": 228,
+		"width": 1215,
+		"height": 827
+	},
+	"Sources/Forms/pfNegozi/ObjectMethods/Button2.4dm": {
+		"left": 583,
+		"top": 193,
+		"width": 1215,
+		"height": 827
+	},
+	"Sources/Forms/pfAderenti/method.4dm": {
+		"left": 413,
+		"top": 151,
+		"width": 1448,
+		"height": 883
+	},
+	"Sources/Forms/pfAderenti/ObjectMethods/alpAderenti.4dm": {
+		"left": 247,
+		"top": 118,
+		"width": 1448,
+		"height": 883
+	},
+	"Sources/Forms/pfAderenti/ObjectMethods/alpAderentiSedi.4dm": {
+		"left": 662,
+		"top": 194,
+		"width": 1196,
+		"height": 819
+	},
+	"Sources/Forms/pfAderenti/ObjectMethods/Button1.4dm": {
+		"left": 413,
+		"top": 151,
+		"width": 1266,
+		"height": 877
+	},
+	"Sources/Forms/pfIncarichi/method.4dm": {
+		"left": 129,
+		"top": 103,
+		"width": 1557,
+		"height": 793
+	},
+	"Sources/Forms/pfIncarichi/ObjectMethods/srcTipoPromozione.4dm": {
+		"left": 11,
+		"top": 103,
+		"width": 1497,
+		"height": 923
+	},
+	"Sources/Forms/pfIncarichi/ObjectMethods/srcDataCorrente.4dm": {
+		"left": 274,
+		"top": 325,
+		"width": 1466,
+		"height": 745
+	},
+	"Sources/Forms/pfIncarichi/ObjectMethods/srcDataCorrente1.4dm": {
+		"left": 274,
+		"top": 325,
+		"width": 1466,
+		"height": 745
+	},
+	"Sources/Forms/pfIncarichi/ObjectMethods/srcDataDa.4dm": {
+		"left": 418,
+		"top": 128,
+		"width": 1277,
+		"height": 947
+	},
+	"Sources/Forms/pfIncarichi/ObjectMethods/srcDataA1.4dm": {
+		"left": 274,
+		"top": 325,
+		"width": 1466,
+		"height": 745
+	},
+	"Sources/Forms/pfIncarichi/ObjectMethods/alpIncarichi.4dm": {
+		"left": 378,
+		"top": 142,
+		"width": 1557,
+		"height": 793
+	},
+	"Sources/Forms/pfIncarichi/ObjectMethods/Button1.4dm": {
+		"left": 193,
+		"top": 169,
+		"width": 921,
+		"height": 793
+	},
+	"Sources/Forms/pfIncarichi/ObjectMethods/Button2.4dm": {
+		"left": 193,
+		"top": 169,
+		"width": 921,
+		"height": 793
+	},
+	"Sources/Forms/pfIncarichi/ObjectMethods/Button4.4dm": {
+		"left": 378,
+		"top": 142,
+		"width": 1557,
+		"height": 793
+	},
+	"Sources/Forms/utlImpostaDataOraSpedizione/method.4dm": {
+		"left": 234,
+		"top": 402,
+		"width": 1468,
+		"height": 678
+	},
+	"Sources/Forms/utlImpostaDataOraSpedizione/ObjectMethods/Ruler1.4dm": {
+		"left": 234,
+		"top": 402,
+		"width": 1468,
+		"height": 678
+	},
+	"Sources/Forms/utlImpostaDataOraSpedizione/ObjectMethods/Check Box.4dm": {
+		"left": 274,
+		"top": 325,
+		"width": 1466,
+		"height": 745
+	},
+	"Sources/Forms/pfCatalina/method.4dm": {
+		"left": 0,
+		"top": 178,
+		"width": 1920,
+		"height": 650
+	},
+	"Sources/Forms/pfCatalina/ObjectMethods/alpCatalina.4dm": {
+		"left": 82,
+		"top": 141,
+		"width": 1262,
+		"height": 880
+	},
+	"Sources/Forms/pfCatalina/ObjectMethods/Button1.4dm": {
+		"left": 119,
+		"top": 136,
+		"width": 1680,
+		"height": 944
+	},
+	"Sources/Forms/pfCatalina/ObjectMethods/Button4.4dm": {
+		"left": 119,
+		"top": 136,
+		"width": 1680,
+		"height": 938
+	},
+	"Sources/Forms/termometro/method.4dm": {
+		"left": 177,
+		"top": 360,
+		"width": 1440,
+		"height": 794
+	},
+	"Sources/Forms/pfTemplate/method.4dm": {
+		"left": 119,
+		"top": 136,
+		"width": 1680,
+		"height": 944
+	},
+	"Sources/Forms/pfTemplate/ObjectMethods/alpTemplate.4dm": {
+		"left": 119,
+		"top": 136,
+		"width": 1680,
+		"height": 944
+	},
+	"Sources/Forms/pfTemplate/ObjectMethods/Button1.4dm": {
+		"left": 119,
+		"top": 136,
+		"width": 1680,
+		"height": 944
+	},
+	"Sources/Forms/pfTemplate/ObjectMethods/Button4.4dm": {
+		"left": 119,
+		"top": 136,
+		"width": 1680,
+		"height": 944
+	},
+	"Sources/TableForms/2/Input/ObjectMethods/vRecNum.4dm": {
+		"left": 382,
+		"top": 209,
+		"width": 1003,
+		"height": 597
+	},
+	"Sources/Forms/pfPromozioni_original/ObjectMethods/alpPromozioni.4dm": {
+		"left": 116,
+		"top": 196,
+		"width": 1698,
+		"height": 813
+	},
+	"Sources/Forms/pfPromozioni/ObjectMethods/List Box.4dm": {
+		"left": 356,
+		"top": 193,
+		"width": 1520,
+		"height": 639
+	}
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<svg xmlns="http://www.w3.org/2000/svg" height="32" viewBox="0 0 32 32" width="32">
+
+  <defs>
+    <pattern patternUnits="userSpaceOnUse" width="10" height="10" id="pattern_16">
+      <rect fill="orange" stroke="green" width="10" height="10" />
+    	<g stroke="grey" stroke-width="2" stroke-linecap="butt">
+      		<line x1="0" y1="5" x2="2" y2="4" />
+      		<line x1="2" y1="6" x2="6" y2="2" />
+      	</g>
+    </pattern>
+  </defs>
+  
+  <rect x="0" y="0" width="32" height="32" fill="url(#pattern_16)" stroke="none"/>
+
+</svg>

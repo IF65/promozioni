@@ -1,0 +1,1380 @@
+2020-01-02 08:10:30 INF:  =====================================
+2020-01-02 08:10:30 INF:  * RTStartup *
+2020-01-02 08:10:30 INF:  -------------------------------------
+2020-01-02 08:10:30 INF:  QLM 1.2.1 M
+2020-01-02 08:10:30 INF:  appType4thDimension:0x1700, interpreted
+2020-01-02 08:10:30 INF:  -------------------------------------
+2020-01-02 08:10:30 INF:  RTLoadStructKeys
+2020-01-02 08:10:30 INF:  IOLoadStructureKeys
+2020-01-02 08:10:30 ERR:  Get4DRes -192
+2020-01-02 08:10:30 INF:  Struct key count: 0
+2020-01-02 08:10:30 INF:  -------------------------------------
+2020-01-02 08:10:30 INF:  RTLoadExtKeys
+2020-01-02 08:10:30 INF:  IOLoadExternalKey
+2020-01-02 08:10:30 INF:  Checking existense of directory: <CFURL 0x600003d81980 [0x7fff880f38e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-02 08:10:30 INF:  Path exists: <CFURL 0x600003d81980 [0x7fff880f38e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-02 08:10:30 INF:  Directory exists: <CFURL 0x600003d81980 [0x7fff880f38e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-02 08:10:30 INF:  External key file path: /Users/if65/Library/Application Support/4D/Licenses/Escape/PFood.QLC
+2020-01-02 08:10:30 ERR:  ReadFromFile -43
+2020-01-02 08:10:30 INF:  Ext key count: 0
+2020-01-02 09:52:55 INF:  * RTShutdown *
+2020-01-03 10:06:15 INF:  =====================================
+2020-01-03 10:06:15 INF:  * RTStartup *
+2020-01-03 10:06:15 INF:  -------------------------------------
+2020-01-03 10:06:15 INF:  QLM 1.2.1 M
+2020-01-03 10:06:15 INF:  appType4thDimension:0x1700, interpreted
+2020-01-03 10:06:15 INF:  -------------------------------------
+2020-01-03 10:06:15 INF:  RTLoadStructKeys
+2020-01-03 10:06:15 INF:  IOLoadStructureKeys
+2020-01-03 10:06:15 ERR:  Get4DRes -192
+2020-01-03 10:06:15 INF:  Struct key count: 0
+2020-01-03 10:06:15 INF:  -------------------------------------
+2020-01-03 10:06:15 INF:  RTLoadExtKeys
+2020-01-03 10:06:15 INF:  IOLoadExternalKey
+2020-01-03 10:06:15 INF:  Checking existense of directory: <CFURL 0x6000033dc240 [0x7fff880f38e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-03 10:06:15 INF:  Path exists: <CFURL 0x6000033dc240 [0x7fff880f38e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-03 10:06:15 INF:  Directory exists: <CFURL 0x6000033dc240 [0x7fff880f38e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-03 10:06:15 INF:  External key file path: /Users/if65/Library/Application Support/4D/Licenses/Escape/PFood.QLC
+2020-01-03 10:06:15 ERR:  ReadFromFile -43
+2020-01-03 10:06:15 INF:  Ext key count: 0
+2020-01-03 10:18:21 INF:  * RTShutdown *
+2020-01-03 10:18:38 INF:  =====================================
+2020-01-03 10:18:38 INF:  * RTStartup *
+2020-01-03 10:18:38 INF:  -------------------------------------
+2020-01-03 10:18:38 INF:  QLM 1.2.1 M
+2020-01-03 10:18:38 INF:  appType4thDimension:0x1700, interpreted
+2020-01-03 10:18:38 INF:  -------------------------------------
+2020-01-03 10:18:38 INF:  RTLoadStructKeys
+2020-01-03 10:18:38 INF:  IOLoadStructureKeys
+2020-01-03 10:18:38 ERR:  Get4DRes -192
+2020-01-03 10:18:38 INF:  Struct key count: 0
+2020-01-03 10:18:38 INF:  -------------------------------------
+2020-01-03 10:18:38 INF:  RTLoadExtKeys
+2020-01-03 10:18:38 INF:  IOLoadExternalKey
+2020-01-03 10:18:38 INF:  Checking existense of directory: <CFURL 0x600000e622e0 [0x7fff880f38e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-03 10:18:38 INF:  Path exists: <CFURL 0x600000e622e0 [0x7fff880f38e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-03 10:18:38 INF:  Directory exists: <CFURL 0x600000e622e0 [0x7fff880f38e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-03 10:18:38 INF:  External key file path: /Users/if65/Library/Application Support/4D/Licenses/Escape/PFood.QLC
+2020-01-03 10:18:38 ERR:  ReadFromFile -43
+2020-01-03 10:18:38 INF:  Ext key count: 0
+2020-01-03 10:36:13 INF:  * RTShutdown *
+2020-01-03 14:40:55 INF:  =====================================
+2020-01-03 14:40:55 INF:  * RTStartup *
+2020-01-03 14:40:55 INF:  -------------------------------------
+2020-01-03 14:40:55 INF:  QLM 1.2.1 M
+2020-01-03 14:40:55 INF:  appType4thDimension:0x1700, interpreted
+2020-01-03 14:40:55 INF:  -------------------------------------
+2020-01-03 14:40:55 INF:  RTLoadStructKeys
+2020-01-03 14:40:55 INF:  IOLoadStructureKeys
+2020-01-03 14:40:55 ERR:  Get4DRes -192
+2020-01-03 14:40:55 INF:  Struct key count: 0
+2020-01-03 14:40:55 INF:  -------------------------------------
+2020-01-03 14:40:55 INF:  RTLoadExtKeys
+2020-01-03 14:40:55 INF:  IOLoadExternalKey
+2020-01-03 14:40:55 INF:  Checking existense of directory: <CFURL 0x600000bbe280 [0x7fff880f38e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-03 14:40:55 INF:  Path exists: <CFURL 0x600000bbe280 [0x7fff880f38e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-03 14:40:55 INF:  Directory exists: <CFURL 0x600000bbe280 [0x7fff880f38e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-03 14:40:55 INF:  External key file path: /Users/if65/Library/Application Support/4D/Licenses/Escape/PFood.QLC
+2020-01-03 14:40:55 ERR:  ReadFromFile -43
+2020-01-03 14:40:55 INF:  Ext key count: 0
+2020-01-03 14:44:25 INF:  * RTShutdown *
+2020-01-03 14:47:27 INF:  =====================================
+2020-01-03 14:47:27 INF:  * RTStartup *
+2020-01-03 14:47:27 INF:  -------------------------------------
+2020-01-03 14:47:27 INF:  QLM 1.2.1 M
+2020-01-03 14:47:27 INF:  appType4thDimension:0x1700, interpreted
+2020-01-03 14:47:27 INF:  -------------------------------------
+2020-01-03 14:47:27 INF:  RTLoadStructKeys
+2020-01-03 14:47:27 INF:  IOLoadStructureKeys
+2020-01-03 14:47:27 ERR:  Get4DRes -192
+2020-01-03 14:47:27 INF:  Struct key count: 0
+2020-01-03 14:47:27 INF:  -------------------------------------
+2020-01-03 14:47:27 INF:  RTLoadExtKeys
+2020-01-03 14:47:27 INF:  IOLoadExternalKey
+2020-01-03 14:47:27 INF:  Checking existense of directory: <CFURL 0x60000282eca0 [0x7fff880f38e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-03 14:47:27 INF:  Path exists: <CFURL 0x60000282eca0 [0x7fff880f38e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-03 14:47:27 INF:  Directory exists: <CFURL 0x60000282eca0 [0x7fff880f38e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-03 14:47:27 INF:  External key file path: /Users/if65/Library/Application Support/4D/Licenses/Escape/PFood.QLC
+2020-01-03 14:47:27 ERR:  ReadFromFile -43
+2020-01-03 14:47:27 INF:  Ext key count: 0
+2020-01-03 14:58:28 INF:  * RTShutdown *
+2020-01-07 11:27:45 INF:  =====================================
+2020-01-07 11:27:45 INF:  * RTStartup *
+2020-01-07 11:27:45 INF:  -------------------------------------
+2020-01-07 11:27:45 INF:  QLM 1.2.1 M
+2020-01-07 11:27:45 INF:  appType4thDimension:0x1700, interpreted
+2020-01-07 11:27:45 INF:  -------------------------------------
+2020-01-07 11:27:45 INF:  RTLoadStructKeys
+2020-01-07 11:27:45 INF:  IOLoadStructureKeys
+2020-01-07 11:27:45 ERR:  Get4DRes -192
+2020-01-07 11:27:45 INF:  Struct key count: 0
+2020-01-07 11:27:45 INF:  -------------------------------------
+2020-01-07 11:27:45 INF:  RTLoadExtKeys
+2020-01-07 11:27:45 INF:  IOLoadExternalKey
+2020-01-07 11:27:45 INF:  Checking existense of directory: <CFURL 0x60000115d260 [0x7fff880f38e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-07 11:27:45 INF:  Path exists: <CFURL 0x60000115d260 [0x7fff880f38e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-07 11:27:45 INF:  Directory exists: <CFURL 0x60000115d260 [0x7fff880f38e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-07 11:27:45 INF:  External key file path: /Users/if65/Library/Application Support/4D/Licenses/Escape/PFood.QLC
+2020-01-07 11:27:45 ERR:  ReadFromFile -43
+2020-01-07 11:27:45 INF:  Ext key count: 0
+2020-01-07 13:58:47 INF:  * RTShutdown *
+2020-01-07 15:09:27 INF:  =====================================
+2020-01-07 15:09:27 INF:  * RTStartup *
+2020-01-07 15:09:27 INF:  -------------------------------------
+2020-01-07 15:09:27 INF:  QLM 1.2.1 M
+2020-01-07 15:09:27 INF:  appType4thDimension:0x1700, interpreted
+2020-01-07 15:09:27 INF:  -------------------------------------
+2020-01-07 15:09:27 INF:  RTLoadStructKeys
+2020-01-07 15:09:27 INF:  IOLoadStructureKeys
+2020-01-07 15:09:27 ERR:  Get4DRes -192
+2020-01-07 15:09:27 INF:  Struct key count: 0
+2020-01-07 15:09:27 INF:  -------------------------------------
+2020-01-07 15:09:27 INF:  RTLoadExtKeys
+2020-01-07 15:09:27 INF:  IOLoadExternalKey
+2020-01-07 15:09:27 INF:  Checking existense of directory: <CFURL 0x600002144cc0 [0x7fff880f38e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-07 15:09:27 INF:  Path exists: <CFURL 0x600002144cc0 [0x7fff880f38e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-07 15:09:27 INF:  Directory exists: <CFURL 0x600002144cc0 [0x7fff880f38e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-07 15:09:27 INF:  External key file path: /Users/if65/Library/Application Support/4D/Licenses/Escape/PFood.QLC
+2020-01-07 15:09:27 ERR:  ReadFromFile -43
+2020-01-07 15:09:27 INF:  Ext key count: 0
+2020-01-07 15:09:33 INF:  * RTShutdown *
+2020-01-07 15:45:12 INF:  =====================================
+2020-01-07 15:45:12 INF:  * RTStartup *
+2020-01-07 15:45:12 INF:  -------------------------------------
+2020-01-07 15:45:12 INF:  QLM 1.2.1 M
+2020-01-07 15:45:12 INF:  appType4thDimension:0x1700, interpreted
+2020-01-07 15:45:12 INF:  -------------------------------------
+2020-01-07 15:45:12 INF:  RTLoadStructKeys
+2020-01-07 15:45:12 INF:  IOLoadStructureKeys
+2020-01-07 15:45:12 ERR:  Get4DRes -192
+2020-01-07 15:45:12 INF:  Struct key count: 0
+2020-01-07 15:45:12 INF:  -------------------------------------
+2020-01-07 15:45:12 INF:  RTLoadExtKeys
+2020-01-07 15:45:12 INF:  IOLoadExternalKey
+2020-01-07 15:45:12 INF:  Checking existense of directory: <CFURL 0x600000808e40 [0x7fff880f38e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-07 15:45:12 INF:  Path exists: <CFURL 0x600000808e40 [0x7fff880f38e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-07 15:45:12 INF:  Directory exists: <CFURL 0x600000808e40 [0x7fff880f38e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-07 15:45:12 INF:  External key file path: /Users/if65/Library/Application Support/4D/Licenses/Escape/PFood.QLC
+2020-01-07 15:45:12 ERR:  ReadFromFile -43
+2020-01-07 15:45:12 INF:  Ext key count: 0
+2020-01-07 18:05:26 INF:  * RTShutdown *
+2020-01-07 18:31:49 INF:  =====================================
+2020-01-07 18:31:49 INF:  * RTStartup *
+2020-01-07 18:31:49 INF:  -------------------------------------
+2020-01-07 18:31:49 INF:  QLM 1.2.1 M
+2020-01-07 18:31:49 INF:  appType4thDimension:0x1700, interpreted
+2020-01-07 18:31:49 INF:  -------------------------------------
+2020-01-07 18:31:49 INF:  RTLoadStructKeys
+2020-01-07 18:31:49 INF:  IOLoadStructureKeys
+2020-01-07 18:31:49 ERR:  Get4DRes -192
+2020-01-07 18:31:49 INF:  Struct key count: 0
+2020-01-07 18:31:49 INF:  -------------------------------------
+2020-01-07 18:31:49 INF:  RTLoadExtKeys
+2020-01-07 18:31:49 INF:  IOLoadExternalKey
+2020-01-07 18:31:49 INF:  Checking existense of directory: <CFURL 0x600000e64ba0 [0x7fff880f38e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-07 18:31:49 INF:  Path exists: <CFURL 0x600000e64ba0 [0x7fff880f38e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-07 18:31:49 INF:  Directory exists: <CFURL 0x600000e64ba0 [0x7fff880f38e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-07 18:31:49 INF:  External key file path: /Users/if65/Library/Application Support/4D/Licenses/Escape/PFood.QLC
+2020-01-07 18:31:49 ERR:  ReadFromFile -43
+2020-01-07 18:31:49 INF:  Ext key count: 0
+2020-01-07 18:32:59 INF:  * RTShutdown *
+2020-01-07 18:35:40 INF:  =====================================
+2020-01-07 18:35:40 INF:  * RTStartup *
+2020-01-07 18:35:40 INF:  -------------------------------------
+2020-01-07 18:35:40 INF:  QLM 1.2.1 M
+2020-01-07 18:35:40 INF:  appType4thDimension:0x1700, interpreted
+2020-01-07 18:35:40 INF:  -------------------------------------
+2020-01-07 18:35:40 INF:  RTLoadStructKeys
+2020-01-07 18:35:40 INF:  IOLoadStructureKeys
+2020-01-07 18:35:40 ERR:  Get4DRes -192
+2020-01-07 18:35:40 INF:  Struct key count: 0
+2020-01-07 18:35:40 INF:  -------------------------------------
+2020-01-07 18:35:40 INF:  RTLoadExtKeys
+2020-01-07 18:35:40 INF:  IOLoadExternalKey
+2020-01-07 18:35:40 INF:  Checking existense of directory: <CFURL 0x6000003db000 [0x7fff890cf8e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-07 18:35:40 INF:  Path exists: <CFURL 0x6000003db000 [0x7fff890cf8e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-07 18:35:40 INF:  Directory exists: <CFURL 0x6000003db000 [0x7fff890cf8e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-07 18:35:40 INF:  External key file path: /Users/if65/Library/Application Support/4D/Licenses/Escape/PFood.QLC
+2020-01-07 18:35:40 ERR:  ReadFromFile -43
+2020-01-07 18:35:40 INF:  Ext key count: 0
+2020-01-07 18:39:09 INF:  * RTShutdown *
+2020-01-07 18:39:18 INF:  =====================================
+2020-01-07 18:39:18 INF:  * RTStartup *
+2020-01-07 18:39:18 INF:  -------------------------------------
+2020-01-07 18:39:18 INF:  QLM 1.2.1 M
+2020-01-07 18:39:18 INF:  appType4thDimension:0x1700, interpreted
+2020-01-07 18:39:18 INF:  -------------------------------------
+2020-01-07 18:39:18 INF:  RTLoadStructKeys
+2020-01-07 18:39:18 INF:  IOLoadStructureKeys
+2020-01-07 18:39:18 ERR:  Get4DRes -192
+2020-01-07 18:39:18 INF:  Struct key count: 0
+2020-01-07 18:39:18 INF:  -------------------------------------
+2020-01-07 18:39:18 INF:  RTLoadExtKeys
+2020-01-07 18:39:18 INF:  IOLoadExternalKey
+2020-01-07 18:39:18 INF:  Checking existense of directory: <CFURL 0x600003cf6700 [0x7fff890cf8e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-07 18:39:18 INF:  Path exists: <CFURL 0x600003cf6700 [0x7fff890cf8e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-07 18:39:18 INF:  Directory exists: <CFURL 0x600003cf6700 [0x7fff890cf8e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-07 18:39:18 INF:  External key file path: /Users/if65/Library/Application Support/4D/Licenses/Escape/PFood.QLC
+2020-01-07 18:39:18 ERR:  ReadFromFile -43
+2020-01-07 18:39:18 INF:  Ext key count: 0
+2020-01-07 21:25:20 INF:  * RTShutdown *
+2020-01-08 05:24:56 INF:  =====================================
+2020-01-08 05:24:56 INF:  * RTStartup *
+2020-01-08 05:24:56 INF:  -------------------------------------
+2020-01-08 05:24:56 INF:  QLM 1.2.1 M
+2020-01-08 05:24:56 INF:  appType4thDimension:0x1700, interpreted
+2020-01-08 05:24:56 INF:  -------------------------------------
+2020-01-08 05:24:56 INF:  RTLoadStructKeys
+2020-01-08 05:24:56 INF:  IOLoadStructureKeys
+2020-01-08 05:24:56 ERR:  Get4DRes -192
+2020-01-08 05:24:56 INF:  Struct key count: 0
+2020-01-08 05:24:56 INF:  -------------------------------------
+2020-01-08 05:24:56 INF:  RTLoadExtKeys
+2020-01-08 05:24:56 INF:  IOLoadExternalKey
+2020-01-08 05:24:56 INF:  Checking existense of directory: <CFURL 0x600001e7d860 [0x7fff890cf8e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-08 05:24:56 INF:  Path exists: <CFURL 0x600001e7d860 [0x7fff890cf8e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-08 05:24:56 INF:  Directory exists: <CFURL 0x600001e7d860 [0x7fff890cf8e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-08 05:24:56 INF:  External key file path: /Users/if65/Library/Application Support/4D/Licenses/Escape/PFood.QLC
+2020-01-08 05:24:56 ERR:  ReadFromFile -43
+2020-01-08 05:24:56 INF:  Ext key count: 0
+2020-01-08 05:30:17 INF:  * RTShutdown *
+2020-01-08 08:13:28 INF:  =====================================
+2020-01-08 08:13:28 INF:  * RTStartup *
+2020-01-08 08:13:28 INF:  -------------------------------------
+2020-01-08 08:13:28 INF:  QLM 1.2.1 M
+2020-01-08 08:13:28 INF:  appType4thDimension:0x1700, interpreted
+2020-01-08 08:13:28 INF:  -------------------------------------
+2020-01-08 08:13:28 INF:  RTLoadStructKeys
+2020-01-08 08:13:28 INF:  IOLoadStructureKeys
+2020-01-08 08:13:28 ERR:  Get4DRes -192
+2020-01-08 08:13:28 INF:  Struct key count: 0
+2020-01-08 08:13:28 INF:  -------------------------------------
+2020-01-08 08:13:28 INF:  RTLoadExtKeys
+2020-01-08 08:13:28 INF:  IOLoadExternalKey
+2020-01-08 08:13:28 INF:  Checking existense of directory: <CFURL 0x6000005cfb40 [0x7fff890cf8e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-08 08:13:28 INF:  Path exists: <CFURL 0x6000005cfb40 [0x7fff890cf8e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-08 08:13:28 INF:  Directory exists: <CFURL 0x6000005cfb40 [0x7fff890cf8e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-08 08:13:28 INF:  External key file path: /Users/if65/Library/Application Support/4D/Licenses/Escape/PFood.QLC
+2020-01-08 08:13:28 ERR:  ReadFromFile -43
+2020-01-08 08:13:28 INF:  Ext key count: 0
+2020-01-08 09:36:12 INF:  * RTShutdown *
+2020-01-08 10:44:59 INF:  =====================================
+2020-01-08 10:44:59 INF:  * RTStartup *
+2020-01-08 10:44:59 INF:  -------------------------------------
+2020-01-08 10:44:59 INF:  QLM 1.2.1 M
+2020-01-08 10:44:59 INF:  appType4thDimension:0x1700, interpreted
+2020-01-08 10:44:59 INF:  -------------------------------------
+2020-01-08 10:44:59 INF:  RTLoadStructKeys
+2020-01-08 10:44:59 INF:  IOLoadStructureKeys
+2020-01-08 10:44:59 ERR:  Get4DRes -192
+2020-01-08 10:44:59 INF:  Struct key count: 0
+2020-01-08 10:44:59 INF:  -------------------------------------
+2020-01-08 10:44:59 INF:  RTLoadExtKeys
+2020-01-08 10:44:59 INF:  IOLoadExternalKey
+2020-01-08 10:44:59 INF:  Checking existense of directory: <CFURL 0x600000a38360 [0x7fff890cf8e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-08 10:44:59 INF:  Path exists: <CFURL 0x600000a38360 [0x7fff890cf8e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-08 10:44:59 INF:  Directory exists: <CFURL 0x600000a38360 [0x7fff890cf8e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-08 10:44:59 INF:  External key file path: /Users/if65/Library/Application Support/4D/Licenses/Escape/PFood.QLC
+2020-01-08 10:44:59 ERR:  ReadFromFile -43
+2020-01-08 10:44:59 INF:  Ext key count: 0
+2020-01-08 11:18:17 INF:  * RTShutdown *
+2020-01-08 11:23:25 INF:  =====================================
+2020-01-08 11:23:25 INF:  * RTStartup *
+2020-01-08 11:23:25 INF:  -------------------------------------
+2020-01-08 11:23:25 INF:  QLM 1.2.1 M
+2020-01-08 11:23:25 INF:  appType4thDimension:0x1700, interpreted
+2020-01-08 11:23:25 INF:  -------------------------------------
+2020-01-08 11:23:25 INF:  RTLoadStructKeys
+2020-01-08 11:23:25 INF:  IOLoadStructureKeys
+2020-01-08 11:23:25 ERR:  Get4DRes -192
+2020-01-08 11:23:25 INF:  Struct key count: 0
+2020-01-08 11:23:25 INF:  -------------------------------------
+2020-01-08 11:23:25 INF:  RTLoadExtKeys
+2020-01-08 11:23:25 INF:  IOLoadExternalKey
+2020-01-08 11:23:25 INF:  Checking existense of directory: <CFURL 0x6000011f2940 [0x7fff890cf8e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-08 11:23:25 INF:  Path exists: <CFURL 0x6000011f2940 [0x7fff890cf8e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-08 11:23:25 INF:  Directory exists: <CFURL 0x6000011f2940 [0x7fff890cf8e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-08 11:23:25 INF:  External key file path: /Users/if65/Library/Application Support/4D/Licenses/Escape/PFood.QLC
+2020-01-08 11:23:25 ERR:  ReadFromFile -43
+2020-01-08 11:23:25 INF:  Ext key count: 0
+2020-01-08 14:35:34 INF:  * RTShutdown *
+2020-01-09 10:07:04 INF:  =====================================
+2020-01-09 10:07:04 INF:  * RTStartup *
+2020-01-09 10:07:04 INF:  -------------------------------------
+2020-01-09 10:07:04 INF:  QLM 1.2.1 M
+2020-01-09 10:07:04 INF:  appType4thDimension:0x1700, interpreted
+2020-01-09 10:07:04 INF:  -------------------------------------
+2020-01-09 10:07:04 INF:  RTLoadStructKeys
+2020-01-09 10:07:04 INF:  IOLoadStructureKeys
+2020-01-09 10:07:04 ERR:  Get4DRes -192
+2020-01-09 10:07:04 INF:  Struct key count: 0
+2020-01-09 10:07:04 INF:  -------------------------------------
+2020-01-09 10:07:04 INF:  RTLoadExtKeys
+2020-01-09 10:07:04 INF:  IOLoadExternalKey
+2020-01-09 10:07:04 INF:  Checking existense of directory: <CFURL 0x600003be5c80 [0x7fff890cf8e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-09 10:07:04 INF:  Path exists: <CFURL 0x600003be5c80 [0x7fff890cf8e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-09 10:07:04 INF:  Directory exists: <CFURL 0x600003be5c80 [0x7fff890cf8e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-09 10:07:04 INF:  External key file path: /Users/if65/Library/Application Support/4D/Licenses/Escape/PFood.QLC
+2020-01-09 10:07:04 ERR:  ReadFromFile -43
+2020-01-09 10:07:04 INF:  Ext key count: 0
+2020-01-09 10:21:43 INF:  * RTShutdown *
+2020-01-09 10:21:51 INF:  =====================================
+2020-01-09 10:21:51 INF:  * RTStartup *
+2020-01-09 10:21:51 INF:  -------------------------------------
+2020-01-09 10:21:51 INF:  QLM 1.2.1 M
+2020-01-09 10:21:51 INF:  appType4thDimension:0x1700, interpreted
+2020-01-09 10:21:51 INF:  -------------------------------------
+2020-01-09 10:21:51 INF:  RTLoadStructKeys
+2020-01-09 10:21:51 INF:  IOLoadStructureKeys
+2020-01-09 10:21:51 ERR:  Get4DRes -192
+2020-01-09 10:21:51 INF:  Struct key count: 0
+2020-01-09 10:21:51 INF:  -------------------------------------
+2020-01-09 10:21:51 INF:  RTLoadExtKeys
+2020-01-09 10:21:51 INF:  IOLoadExternalKey
+2020-01-09 10:21:51 INF:  Checking existense of directory: <CFURL 0x600000ed0e40 [0x7fff890cf8e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-09 10:21:51 INF:  Path exists: <CFURL 0x600000ed0e40 [0x7fff890cf8e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-09 10:21:51 INF:  Directory exists: <CFURL 0x600000ed0e40 [0x7fff890cf8e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-09 10:21:51 INF:  External key file path: /Users/if65/Library/Application Support/4D/Licenses/Escape/PFood.QLC
+2020-01-09 10:21:51 ERR:  ReadFromFile -43
+2020-01-09 10:21:51 INF:  Ext key count: 0
+2020-01-09 10:42:29 INF:  * RTShutdown *
+2020-01-09 11:26:35 INF:  =====================================
+2020-01-09 11:26:35 INF:  * RTStartup *
+2020-01-09 11:26:35 INF:  -------------------------------------
+2020-01-09 11:26:35 INF:  QLM 1.2.1 M
+2020-01-09 11:26:35 INF:  appType4thDimension:0x1700, interpreted
+2020-01-09 11:26:35 INF:  -------------------------------------
+2020-01-09 11:26:35 INF:  RTLoadStructKeys
+2020-01-09 11:26:35 INF:  IOLoadStructureKeys
+2020-01-09 11:26:35 ERR:  Get4DRes -192
+2020-01-09 11:26:35 INF:  Struct key count: 0
+2020-01-09 11:26:35 INF:  -------------------------------------
+2020-01-09 11:26:35 INF:  RTLoadExtKeys
+2020-01-09 11:26:35 INF:  IOLoadExternalKey
+2020-01-09 11:26:35 INF:  Checking existense of directory: <CFURL 0x600003d2d9e0 [0x7fff890cf8e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-09 11:26:35 INF:  Path exists: <CFURL 0x600003d2d9e0 [0x7fff890cf8e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-09 11:26:35 INF:  Directory exists: <CFURL 0x600003d2d9e0 [0x7fff890cf8e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-09 11:26:35 INF:  External key file path: /Users/if65/Library/Application Support/4D/Licenses/Escape/PFood.QLC
+2020-01-09 11:26:35 ERR:  ReadFromFile -43
+2020-01-09 11:26:35 INF:  Ext key count: 0
+2020-01-09 11:27:14 INF:  * RTShutdown *
+2020-01-13 08:11:38 INF:  =====================================
+2020-01-13 08:11:38 INF:  * RTStartup *
+2020-01-13 08:11:38 INF:  -------------------------------------
+2020-01-13 08:11:38 INF:  QLM 1.2.1 M
+2020-01-13 08:11:38 INF:  appType4thDimension:0x1700, interpreted
+2020-01-13 08:11:38 INF:  -------------------------------------
+2020-01-13 08:11:38 INF:  RTLoadStructKeys
+2020-01-13 08:11:38 INF:  IOLoadStructureKeys
+2020-01-13 08:11:38 ERR:  Get4DRes -192
+2020-01-13 08:11:38 INF:  Struct key count: 0
+2020-01-13 08:11:38 INF:  -------------------------------------
+2020-01-13 08:11:38 INF:  RTLoadExtKeys
+2020-01-13 08:11:38 INF:  IOLoadExternalKey
+2020-01-13 08:11:38 INF:  Checking existense of directory: <CFURL 0x600002a4ba20 [0x7fff8cc348e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-13 08:11:38 INF:  Path exists: <CFURL 0x600002a4ba20 [0x7fff8cc348e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-13 08:11:38 INF:  Directory exists: <CFURL 0x600002a4ba20 [0x7fff8cc348e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-13 08:11:38 INF:  External key file path: /Users/if65/Library/Application Support/4D/Licenses/Escape/PFood.QLC
+2020-01-13 08:11:38 ERR:  ReadFromFile -43
+2020-01-13 08:11:38 INF:  Ext key count: 0
+2020-01-13 08:22:03 INF:  * RTShutdown *
+2020-01-13 08:50:51 INF:  =====================================
+2020-01-13 08:50:51 INF:  * RTStartup *
+2020-01-13 08:50:51 INF:  -------------------------------------
+2020-01-13 08:50:51 INF:  QLM 1.2.1 M
+2020-01-13 08:50:51 INF:  appType4thDimension:0x1700, interpreted
+2020-01-13 08:50:51 INF:  -------------------------------------
+2020-01-13 08:50:51 INF:  RTLoadStructKeys
+2020-01-13 08:50:51 INF:  IOLoadStructureKeys
+2020-01-13 08:50:51 ERR:  Get4DRes -192
+2020-01-13 08:50:51 INF:  Struct key count: 0
+2020-01-13 08:50:51 INF:  -------------------------------------
+2020-01-13 08:50:51 INF:  RTLoadExtKeys
+2020-01-13 08:50:51 INF:  IOLoadExternalKey
+2020-01-13 08:50:51 INF:  Checking existense of directory: <CFURL 0x6000012fc240 [0x7fff8cc348e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-13 08:50:51 INF:  Path exists: <CFURL 0x6000012fc240 [0x7fff8cc348e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-13 08:50:51 INF:  Directory exists: <CFURL 0x6000012fc240 [0x7fff8cc348e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-13 08:50:51 INF:  External key file path: /Users/if65/Library/Application Support/4D/Licenses/Escape/PFood.QLC
+2020-01-13 08:50:51 ERR:  ReadFromFile -43
+2020-01-13 08:50:51 INF:  Ext key count: 0
+2020-01-13 09:00:12 INF:  * RTShutdown *
+2020-01-13 09:01:57 INF:  =====================================
+2020-01-13 09:01:57 INF:  * RTStartup *
+2020-01-13 09:01:57 INF:  -------------------------------------
+2020-01-13 09:01:57 INF:  QLM 1.2.1 M
+2020-01-13 09:01:57 INF:  appType4thDimension:0x1700, interpreted
+2020-01-13 09:01:57 INF:  -------------------------------------
+2020-01-13 09:01:57 INF:  RTLoadStructKeys
+2020-01-13 09:01:57 INF:  IOLoadStructureKeys
+2020-01-13 09:01:57 ERR:  Get4DRes -192
+2020-01-13 09:01:57 INF:  Struct key count: 0
+2020-01-13 09:01:57 INF:  -------------------------------------
+2020-01-13 09:01:57 INF:  RTLoadExtKeys
+2020-01-13 09:01:57 INF:  IOLoadExternalKey
+2020-01-13 09:01:57 INF:  Checking existense of directory: <CFURL 0x600000a7c480 [0x7fff8cc348e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-13 09:01:57 INF:  Path exists: <CFURL 0x600000a7c480 [0x7fff8cc348e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-13 09:01:57 INF:  Directory exists: <CFURL 0x600000a7c480 [0x7fff8cc348e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-13 09:01:57 INF:  External key file path: /Users/if65/Library/Application Support/4D/Licenses/Escape/PFood.QLC
+2020-01-13 09:01:57 ERR:  ReadFromFile -43
+2020-01-13 09:01:57 INF:  Ext key count: 0
+2020-01-13 09:15:57 INF:  * RTShutdown *
+2020-01-13 09:16:47 INF:  =====================================
+2020-01-13 09:16:47 INF:  * RTStartup *
+2020-01-13 09:16:47 INF:  -------------------------------------
+2020-01-13 09:16:47 INF:  QLM 1.2.1 M
+2020-01-13 09:16:47 INF:  appType4thDimension:0x1700, interpreted
+2020-01-13 09:16:47 INF:  -------------------------------------
+2020-01-13 09:16:47 INF:  RTLoadStructKeys
+2020-01-13 09:16:47 INF:  IOLoadStructureKeys
+2020-01-13 09:16:47 ERR:  Get4DRes -192
+2020-01-13 09:16:47 INF:  Struct key count: 0
+2020-01-13 09:16:47 INF:  -------------------------------------
+2020-01-13 09:16:47 INF:  RTLoadExtKeys
+2020-01-13 09:16:47 INF:  IOLoadExternalKey
+2020-01-13 09:16:47 INF:  Checking existense of directory: <CFURL 0x600003c7c9c0 [0x7fff8cc348e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-13 09:16:47 INF:  Path exists: <CFURL 0x600003c7c9c0 [0x7fff8cc348e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-13 09:16:47 INF:  Directory exists: <CFURL 0x600003c7c9c0 [0x7fff8cc348e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-13 09:16:47 INF:  External key file path: /Users/if65/Library/Application Support/4D/Licenses/Escape/PFood.QLC
+2020-01-13 09:16:47 ERR:  ReadFromFile -43
+2020-01-13 09:16:47 INF:  Ext key count: 0
+2020-01-13 11:25:10 INF:  * RTShutdown *
+2020-01-13 14:16:48 INF:  =====================================
+2020-01-13 14:16:48 INF:  * RTStartup *
+2020-01-13 14:16:48 INF:  -------------------------------------
+2020-01-13 14:16:48 INF:  QLM 1.2.1 M
+2020-01-13 14:16:48 INF:  appType4thDimension:0x1700, interpreted
+2020-01-13 14:16:48 INF:  -------------------------------------
+2020-01-13 14:16:48 INF:  RTLoadStructKeys
+2020-01-13 14:16:48 INF:  IOLoadStructureKeys
+2020-01-13 14:16:48 ERR:  Get4DRes -192
+2020-01-13 14:16:48 INF:  Struct key count: 0
+2020-01-13 14:16:48 INF:  -------------------------------------
+2020-01-13 14:16:48 INF:  RTLoadExtKeys
+2020-01-13 14:16:48 INF:  IOLoadExternalKey
+2020-01-13 14:16:48 INF:  Checking existense of directory: <CFURL 0x60000359ba20 [0x7fff8cc348e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-13 14:16:48 INF:  Path exists: <CFURL 0x60000359ba20 [0x7fff8cc348e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-13 14:16:48 INF:  Directory exists: <CFURL 0x60000359ba20 [0x7fff8cc348e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-13 14:16:48 INF:  External key file path: /Users/if65/Library/Application Support/4D/Licenses/Escape/PFood.QLC
+2020-01-13 14:16:48 ERR:  ReadFromFile -43
+2020-01-13 14:16:48 INF:  Ext key count: 0
+2020-01-13 14:20:40 INF:  * RTShutdown *
+2020-01-13 14:33:12 INF:  =====================================
+2020-01-13 14:33:12 INF:  * RTStartup *
+2020-01-13 14:33:12 INF:  -------------------------------------
+2020-01-13 14:33:12 INF:  QLM 1.2.1 M
+2020-01-13 14:33:12 INF:  appType4thDimension:0x1700, interpreted
+2020-01-13 14:33:12 INF:  -------------------------------------
+2020-01-13 14:33:12 INF:  RTLoadStructKeys
+2020-01-13 14:33:12 INF:  IOLoadStructureKeys
+2020-01-13 14:33:12 ERR:  Get4DRes -192
+2020-01-13 14:33:12 INF:  Struct key count: 0
+2020-01-13 14:33:12 INF:  -------------------------------------
+2020-01-13 14:33:12 INF:  RTLoadExtKeys
+2020-01-13 14:33:12 INF:  IOLoadExternalKey
+2020-01-13 14:33:12 INF:  Checking existense of directory: <CFURL 0x600000b36e80 [0x7fff8cc348e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-13 14:33:12 INF:  Path exists: <CFURL 0x600000b36e80 [0x7fff8cc348e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-13 14:33:12 INF:  Directory exists: <CFURL 0x600000b36e80 [0x7fff8cc348e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-13 14:33:12 INF:  External key file path: /Users/if65/Library/Application Support/4D/Licenses/Escape/PFood.QLC
+2020-01-13 14:33:12 ERR:  ReadFromFile -43
+2020-01-13 14:33:12 INF:  Ext key count: 0
+2020-01-13 15:00:30 INF:  * RTShutdown *
+2020-01-15 10:00:28 INF:  =====================================
+2020-01-15 10:00:28 INF:  * RTStartup *
+2020-01-15 10:00:28 INF:  -------------------------------------
+2020-01-15 10:00:28 INF:  QLM 1.2.1 M
+2020-01-15 10:00:28 INF:  appType4thDimension:0x1700, interpreted
+2020-01-15 10:00:28 INF:  -------------------------------------
+2020-01-15 10:00:28 INF:  RTLoadStructKeys
+2020-01-15 10:00:28 INF:  IOLoadStructureKeys
+2020-01-15 10:00:28 ERR:  Get4DRes -192
+2020-01-15 10:00:28 INF:  Struct key count: 0
+2020-01-15 10:00:28 INF:  -------------------------------------
+2020-01-15 10:00:28 INF:  RTLoadExtKeys
+2020-01-15 10:00:28 INF:  IOLoadExternalKey
+2020-01-15 10:00:28 INF:  Checking existense of directory: <CFURL 0x60000199f7e0 [0x7fff8cc348e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-15 10:00:28 INF:  Path exists: <CFURL 0x60000199f7e0 [0x7fff8cc348e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-15 10:00:28 INF:  Directory exists: <CFURL 0x60000199f7e0 [0x7fff8cc348e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-15 10:00:28 INF:  External key file path: /Users/if65/Library/Application Support/4D/Licenses/Escape/PFood.QLC
+2020-01-15 10:00:28 ERR:  ReadFromFile -43
+2020-01-15 10:00:28 INF:  Ext key count: 0
+2020-01-15 10:17:08 INF:  * RTShutdown *
+2020-01-15 10:35:01 INF:  =====================================
+2020-01-15 10:35:01 INF:  * RTStartup *
+2020-01-15 10:35:01 INF:  -------------------------------------
+2020-01-15 10:35:01 INF:  QLM 1.2.1 M
+2020-01-15 10:35:01 INF:  appType4thDimension:0x1700, interpreted
+2020-01-15 10:35:01 INF:  -------------------------------------
+2020-01-15 10:35:01 INF:  RTLoadStructKeys
+2020-01-15 10:35:01 INF:  IOLoadStructureKeys
+2020-01-15 10:35:01 ERR:  Get4DRes -192
+2020-01-15 10:35:01 INF:  Struct key count: 0
+2020-01-15 10:35:01 INF:  -------------------------------------
+2020-01-15 10:35:01 INF:  RTLoadExtKeys
+2020-01-15 10:35:01 INF:  IOLoadExternalKey
+2020-01-15 10:35:01 INF:  Checking existense of directory: <CFURL 0x600002a58540 [0x7fff8cc348e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-15 10:35:01 INF:  Path exists: <CFURL 0x600002a58540 [0x7fff8cc348e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-15 10:35:01 INF:  Directory exists: <CFURL 0x600002a58540 [0x7fff8cc348e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-15 10:35:01 INF:  External key file path: /Users/if65/Library/Application Support/4D/Licenses/Escape/PFood.QLC
+2020-01-15 10:35:01 ERR:  ReadFromFile -43
+2020-01-15 10:35:01 INF:  Ext key count: 0
+2020-01-15 14:32:08 INF:  * RTShutdown *
+2020-01-16 08:45:39 INF:  =====================================
+2020-01-16 08:45:39 INF:  * RTStartup *
+2020-01-16 08:45:39 INF:  -------------------------------------
+2020-01-16 08:45:39 INF:  QLM 1.2.1 M
+2020-01-16 08:45:39 INF:  appType4thDimension:0x1700, interpreted
+2020-01-16 08:45:39 INF:  -------------------------------------
+2020-01-16 08:45:39 INF:  RTLoadStructKeys
+2020-01-16 08:45:39 INF:  IOLoadStructureKeys
+2020-01-16 08:45:39 ERR:  Get4DRes -192
+2020-01-16 08:45:39 INF:  Struct key count: 0
+2020-01-16 08:45:39 INF:  -------------------------------------
+2020-01-16 08:45:39 INF:  RTLoadExtKeys
+2020-01-16 08:45:39 INF:  IOLoadExternalKey
+2020-01-16 08:45:39 INF:  Checking existense of directory: <CFURL 0x600001c8b480 [0x7fff8cc348e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-16 08:45:39 INF:  Path exists: <CFURL 0x600001c8b480 [0x7fff8cc348e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-16 08:45:39 INF:  Directory exists: <CFURL 0x600001c8b480 [0x7fff8cc348e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-16 08:45:39 INF:  External key file path: /Users/if65/Library/Application Support/4D/Licenses/Escape/PFood.QLC
+2020-01-16 08:45:39 ERR:  ReadFromFile -43
+2020-01-16 08:45:39 INF:  Ext key count: 0
+2020-01-16 09:58:25 INF:  * RTShutdown *
+2020-01-16 11:17:02 INF:  =====================================
+2020-01-16 11:17:02 INF:  * RTStartup *
+2020-01-16 11:17:02 INF:  -------------------------------------
+2020-01-16 11:17:02 INF:  QLM 1.2.1 M
+2020-01-16 11:17:02 INF:  appType4thDimension:0x1700, interpreted
+2020-01-16 11:17:02 INF:  -------------------------------------
+2020-01-16 11:17:02 INF:  RTLoadStructKeys
+2020-01-16 11:17:02 INF:  IOLoadStructureKeys
+2020-01-16 11:17:02 ERR:  Get4DRes -192
+2020-01-16 11:17:02 INF:  Struct key count: 0
+2020-01-16 11:17:02 INF:  -------------------------------------
+2020-01-16 11:17:02 INF:  RTLoadExtKeys
+2020-01-16 11:17:02 INF:  IOLoadExternalKey
+2020-01-16 11:17:02 INF:  Checking existense of directory: <CFURL 0x600003310d20 [0x7fff8cc348e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-16 11:17:02 INF:  Path exists: <CFURL 0x600003310d20 [0x7fff8cc348e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-16 11:17:02 INF:  Directory exists: <CFURL 0x600003310d20 [0x7fff8cc348e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-16 11:17:02 INF:  External key file path: /Users/if65/Library/Application Support/4D/Licenses/Escape/PFood.QLC
+2020-01-16 11:17:02 ERR:  ReadFromFile -43
+2020-01-16 11:17:02 INF:  Ext key count: 0
+2020-01-16 11:17:10 INF:  * RTShutdown *
+2020-01-20 07:28:48 INF:  =====================================
+2020-01-20 07:28:48 INF:  * RTStartup *
+2020-01-20 07:28:48 INF:  -------------------------------------
+2020-01-20 07:28:48 INF:  QLM 1.2.1 M
+2020-01-20 07:28:48 INF:  appType4thDimension:0x1700, interpreted
+2020-01-20 07:28:48 INF:  -------------------------------------
+2020-01-20 07:28:48 INF:  RTLoadStructKeys
+2020-01-20 07:28:48 INF:  IOLoadStructureKeys
+2020-01-20 07:28:48 ERR:  Get4DRes -192
+2020-01-20 07:28:48 INF:  Struct key count: 0
+2020-01-20 07:28:48 INF:  -------------------------------------
+2020-01-20 07:28:48 INF:  RTLoadExtKeys
+2020-01-20 07:28:48 INF:  IOLoadExternalKey
+2020-01-20 07:28:48 INF:  Checking existense of directory: <CFURL 0x600003bc6340 [0x7fff95ed38e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-20 07:28:48 INF:  Path exists: <CFURL 0x600003bc6340 [0x7fff95ed38e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-20 07:28:48 INF:  Directory exists: <CFURL 0x600003bc6340 [0x7fff95ed38e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-20 07:28:48 INF:  External key file path: /Users/if65/Library/Application Support/4D/Licenses/Escape/PFood.QLC
+2020-01-20 07:28:48 ERR:  ReadFromFile -43
+2020-01-20 07:28:48 INF:  Ext key count: 0
+2020-01-20 07:31:56 INF:  * RTShutdown *
+2020-01-20 09:18:17 INF:  =====================================
+2020-01-20 09:18:17 INF:  * RTStartup *
+2020-01-20 09:18:17 INF:  -------------------------------------
+2020-01-20 09:18:17 INF:  QLM 1.2.1 M
+2020-01-20 09:18:17 INF:  appType4thDimension:0x1700, interpreted
+2020-01-20 09:18:17 INF:  -------------------------------------
+2020-01-20 09:18:17 INF:  RTLoadStructKeys
+2020-01-20 09:18:17 INF:  IOLoadStructureKeys
+2020-01-20 09:18:17 ERR:  Get4DRes -192
+2020-01-20 09:18:17 INF:  Struct key count: 0
+2020-01-20 09:18:17 INF:  -------------------------------------
+2020-01-20 09:18:17 INF:  RTLoadExtKeys
+2020-01-20 09:18:17 INF:  IOLoadExternalKey
+2020-01-20 09:18:17 INF:  Checking existense of directory: <CFURL 0x600002e721c0 [0x7fff95ed38e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-20 09:18:17 INF:  Path exists: <CFURL 0x600002e721c0 [0x7fff95ed38e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-20 09:18:17 INF:  Directory exists: <CFURL 0x600002e721c0 [0x7fff95ed38e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-20 09:18:17 INF:  External key file path: /Users/if65/Library/Application Support/4D/Licenses/Escape/PFood.QLC
+2020-01-20 09:18:17 ERR:  ReadFromFile -43
+2020-01-20 09:18:17 INF:  Ext key count: 0
+2020-01-20 09:34:23 INF:  * RTShutdown *
+2020-01-20 09:56:35 INF:  =====================================
+2020-01-20 09:56:35 INF:  * RTStartup *
+2020-01-20 09:56:35 INF:  -------------------------------------
+2020-01-20 09:56:35 INF:  QLM 1.2.1 M
+2020-01-20 09:56:35 INF:  appType4thDimension:0x1700, interpreted
+2020-01-20 09:56:35 INF:  -------------------------------------
+2020-01-20 09:56:35 INF:  RTLoadStructKeys
+2020-01-20 09:56:35 INF:  IOLoadStructureKeys
+2020-01-20 09:56:35 ERR:  Get4DRes -192
+2020-01-20 09:56:35 INF:  Struct key count: 0
+2020-01-20 09:56:35 INF:  -------------------------------------
+2020-01-20 09:56:35 INF:  RTLoadExtKeys
+2020-01-20 09:56:35 INF:  IOLoadExternalKey
+2020-01-20 09:56:35 INF:  Checking existense of directory: <CFURL 0x600000594540 [0x7fff95ed38e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-20 09:56:35 INF:  Path exists: <CFURL 0x600000594540 [0x7fff95ed38e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-20 09:56:35 INF:  Directory exists: <CFURL 0x600000594540 [0x7fff95ed38e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-20 09:56:35 INF:  External key file path: /Users/if65/Library/Application Support/4D/Licenses/Escape/PFood.QLC
+2020-01-20 09:56:35 ERR:  ReadFromFile -43
+2020-01-20 09:56:35 INF:  Ext key count: 0
+2020-01-20 10:35:32 INF:  * RTShutdown *
+2020-01-20 10:51:42 INF:  =====================================
+2020-01-20 10:51:42 INF:  * RTStartup *
+2020-01-20 10:51:42 INF:  -------------------------------------
+2020-01-20 10:51:42 INF:  QLM 1.2.1 M
+2020-01-20 10:51:42 INF:  appType4thDimension:0x1700, interpreted
+2020-01-20 10:51:42 INF:  -------------------------------------
+2020-01-20 10:51:42 INF:  RTLoadStructKeys
+2020-01-20 10:51:42 INF:  IOLoadStructureKeys
+2020-01-20 10:51:42 ERR:  Get4DRes -192
+2020-01-20 10:51:42 INF:  Struct key count: 0
+2020-01-20 10:51:42 INF:  -------------------------------------
+2020-01-20 10:51:42 INF:  RTLoadExtKeys
+2020-01-20 10:51:42 INF:  IOLoadExternalKey
+2020-01-20 10:51:42 INF:  Checking existense of directory: <CFURL 0x600001be7720 [0x7fff95ed38e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-20 10:51:42 INF:  Path exists: <CFURL 0x600001be7720 [0x7fff95ed38e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-20 10:51:42 INF:  Directory exists: <CFURL 0x600001be7720 [0x7fff95ed38e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-20 10:51:42 INF:  External key file path: /Users/if65/Library/Application Support/4D/Licenses/Escape/PFood.QLC
+2020-01-20 10:51:42 ERR:  ReadFromFile -43
+2020-01-20 10:51:42 INF:  Ext key count: 0
+2020-01-20 11:05:16 INF:  * RTShutdown *
+2020-01-20 14:49:31 INF:  =====================================
+2020-01-20 14:49:31 INF:  * RTStartup *
+2020-01-20 14:49:31 INF:  -------------------------------------
+2020-01-20 14:49:31 INF:  QLM 1.2.1 M
+2020-01-20 14:49:31 INF:  appType4thDimension:0x1700, interpreted
+2020-01-20 14:49:31 INF:  -------------------------------------
+2020-01-20 14:49:31 INF:  RTLoadStructKeys
+2020-01-20 14:49:31 INF:  IOLoadStructureKeys
+2020-01-20 14:49:31 ERR:  Get4DRes -192
+2020-01-20 14:49:31 INF:  Struct key count: 0
+2020-01-20 14:49:31 INF:  -------------------------------------
+2020-01-20 14:49:31 INF:  RTLoadExtKeys
+2020-01-20 14:49:31 INF:  IOLoadExternalKey
+2020-01-20 14:49:31 INF:  Checking existense of directory: <CFURL 0x600002d843c0 [0x7fff95ed38e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-20 14:49:31 INF:  Path exists: <CFURL 0x600002d843c0 [0x7fff95ed38e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-20 14:49:31 INF:  Directory exists: <CFURL 0x600002d843c0 [0x7fff95ed38e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-20 14:49:31 INF:  External key file path: /Users/if65/Library/Application Support/4D/Licenses/Escape/PFood.QLC
+2020-01-20 14:49:31 ERR:  ReadFromFile -43
+2020-01-20 14:49:31 INF:  Ext key count: 0
+2020-01-20 15:32:52 INF:  * RTShutdown *
+2020-01-20 15:49:08 INF:  =====================================
+2020-01-20 15:49:08 INF:  * RTStartup *
+2020-01-20 15:49:08 INF:  -------------------------------------
+2020-01-20 15:49:08 INF:  QLM 1.2.1 M
+2020-01-20 15:49:08 INF:  appType4thDimension:0x1700, interpreted
+2020-01-20 15:49:08 INF:  -------------------------------------
+2020-01-20 15:49:08 INF:  RTLoadStructKeys
+2020-01-20 15:49:08 INF:  IOLoadStructureKeys
+2020-01-20 15:49:08 ERR:  Get4DRes -192
+2020-01-20 15:49:08 INF:  Struct key count: 0
+2020-01-20 15:49:08 INF:  -------------------------------------
+2020-01-20 15:49:08 INF:  RTLoadExtKeys
+2020-01-20 15:49:08 INF:  IOLoadExternalKey
+2020-01-20 15:49:08 INF:  Checking existense of directory: <CFURL 0x6000014d2460 [0x7fff95ed38e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-20 15:49:08 INF:  Path exists: <CFURL 0x6000014d2460 [0x7fff95ed38e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-20 15:49:08 INF:  Directory exists: <CFURL 0x6000014d2460 [0x7fff95ed38e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-20 15:49:08 INF:  External key file path: /Users/if65/Library/Application Support/4D/Licenses/Escape/PFood.QLC
+2020-01-20 15:49:08 ERR:  ReadFromFile -43
+2020-01-20 15:49:08 INF:  Ext key count: 0
+2020-01-20 15:52:57 INF:  * RTShutdown *
+2020-01-21 07:19:32 INF:  =====================================
+2020-01-21 07:19:32 INF:  * RTStartup *
+2020-01-21 07:19:32 INF:  -------------------------------------
+2020-01-21 07:19:32 INF:  QLM 1.2.1 M
+2020-01-21 07:19:32 INF:  appType4thDimension:0x1700, interpreted
+2020-01-21 07:19:32 INF:  -------------------------------------
+2020-01-21 07:19:32 INF:  RTLoadStructKeys
+2020-01-21 07:19:32 INF:  IOLoadStructureKeys
+2020-01-21 07:19:32 ERR:  Get4DRes -192
+2020-01-21 07:19:32 INF:  Struct key count: 0
+2020-01-21 07:19:32 INF:  -------------------------------------
+2020-01-21 07:19:32 INF:  RTLoadExtKeys
+2020-01-21 07:19:32 INF:  IOLoadExternalKey
+2020-01-21 07:19:32 INF:  Checking existense of directory: <CFURL 0x6000018f6220 [0x7fffacf348e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-21 07:19:32 INF:  Path exists: <CFURL 0x6000018f6220 [0x7fffacf348e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-21 07:19:32 INF:  Directory exists: <CFURL 0x6000018f6220 [0x7fffacf348e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-21 07:19:32 INF:  External key file path: /Users/if65/Library/Application Support/4D/Licenses/Escape/PFood.QLC
+2020-01-21 07:19:32 ERR:  ReadFromFile -43
+2020-01-21 07:19:32 INF:  Ext key count: 0
+2020-01-21 08:19:12 INF:  * RTShutdown *
+2020-01-21 08:50:42 INF:  =====================================
+2020-01-21 08:50:42 INF:  * RTStartup *
+2020-01-21 08:50:42 INF:  -------------------------------------
+2020-01-21 08:50:42 INF:  QLM 1.2.1 M
+2020-01-21 08:50:42 INF:  appType4thDimension:0x1700, interpreted
+2020-01-21 08:50:42 INF:  -------------------------------------
+2020-01-21 08:50:42 INF:  RTLoadStructKeys
+2020-01-21 08:50:42 INF:  IOLoadStructureKeys
+2020-01-21 08:50:42 ERR:  Get4DRes -192
+2020-01-21 08:50:42 INF:  Struct key count: 0
+2020-01-21 08:50:42 INF:  -------------------------------------
+2020-01-21 08:50:42 INF:  RTLoadExtKeys
+2020-01-21 08:50:42 INF:  IOLoadExternalKey
+2020-01-21 08:50:42 INF:  Checking existense of directory: <CFURL 0x6000004c2580 [0x7fffacf348e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-21 08:50:42 INF:  Path exists: <CFURL 0x6000004c2580 [0x7fffacf348e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-21 08:50:42 INF:  Directory exists: <CFURL 0x6000004c2580 [0x7fffacf348e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-21 08:50:42 INF:  External key file path: /Users/if65/Library/Application Support/4D/Licenses/Escape/PFood.QLC
+2020-01-21 08:50:42 ERR:  ReadFromFile -43
+2020-01-21 08:50:42 INF:  Ext key count: 0
+2020-01-21 09:06:15 INF:  * RTShutdown *
+2020-01-21 09:14:09 INF:  =====================================
+2020-01-21 09:14:09 INF:  * RTStartup *
+2020-01-21 09:14:09 INF:  -------------------------------------
+2020-01-21 09:14:09 INF:  QLM 1.2.1 M
+2020-01-21 09:14:09 INF:  appType4thDimension:0x1700, interpreted
+2020-01-21 09:14:09 INF:  -------------------------------------
+2020-01-21 09:14:09 INF:  RTLoadStructKeys
+2020-01-21 09:14:09 INF:  IOLoadStructureKeys
+2020-01-21 09:14:09 ERR:  Get4DRes -192
+2020-01-21 09:14:09 INF:  Struct key count: 0
+2020-01-21 09:14:09 INF:  -------------------------------------
+2020-01-21 09:14:09 INF:  RTLoadExtKeys
+2020-01-21 09:14:09 INF:  IOLoadExternalKey
+2020-01-21 09:14:09 INF:  Checking existense of directory: <CFURL 0x600001afd2c0 [0x7fffacf348e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-21 09:14:09 INF:  Path exists: <CFURL 0x600001afd2c0 [0x7fffacf348e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-21 09:14:09 INF:  Directory exists: <CFURL 0x600001afd2c0 [0x7fffacf348e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-21 09:14:09 INF:  External key file path: /Users/if65/Library/Application Support/4D/Licenses/Escape/PFood.QLC
+2020-01-21 09:14:09 ERR:  ReadFromFile -43
+2020-01-21 09:14:09 INF:  Ext key count: 0
+2020-01-21 09:15:16 INF:  * RTShutdown *
+2020-01-21 11:26:32 INF:  =====================================
+2020-01-21 11:26:32 INF:  * RTStartup *
+2020-01-21 11:26:32 INF:  -------------------------------------
+2020-01-21 11:26:32 INF:  QLM 1.2.1 M
+2020-01-21 11:26:32 INF:  appType4thDimension:0x1700, interpreted
+2020-01-21 11:26:32 INF:  -------------------------------------
+2020-01-21 11:26:32 INF:  RTLoadStructKeys
+2020-01-21 11:26:32 INF:  IOLoadStructureKeys
+2020-01-21 11:26:32 ERR:  Get4DRes -192
+2020-01-21 11:26:32 INF:  Struct key count: 0
+2020-01-21 11:26:32 INF:  -------------------------------------
+2020-01-21 11:26:32 INF:  RTLoadExtKeys
+2020-01-21 11:26:32 INF:  IOLoadExternalKey
+2020-01-21 11:26:32 INF:  Checking existense of directory: <CFURL 0x600003426fa0 [0x7fffacf348e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-21 11:26:32 INF:  Path exists: <CFURL 0x600003426fa0 [0x7fffacf348e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-21 11:26:32 INF:  Directory exists: <CFURL 0x600003426fa0 [0x7fffacf348e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-21 11:26:32 INF:  External key file path: /Users/if65/Library/Application Support/4D/Licenses/Escape/PFood.QLC
+2020-01-21 11:26:32 ERR:  ReadFromFile -43
+2020-01-21 11:26:32 INF:  Ext key count: 0
+2020-01-21 11:28:19 INF:  * RTShutdown *
+2020-01-21 11:31:17 INF:  =====================================
+2020-01-21 11:31:17 INF:  * RTStartup *
+2020-01-21 11:31:17 INF:  -------------------------------------
+2020-01-21 11:31:17 INF:  QLM 1.2.1 M
+2020-01-21 11:31:17 INF:  appType4thDimension:0x1700, interpreted
+2020-01-21 11:31:17 INF:  -------------------------------------
+2020-01-21 11:31:17 INF:  RTLoadStructKeys
+2020-01-21 11:31:17 INF:  IOLoadStructureKeys
+2020-01-21 11:31:17 ERR:  Get4DRes -192
+2020-01-21 11:31:17 INF:  Struct key count: 0
+2020-01-21 11:31:17 INF:  -------------------------------------
+2020-01-21 11:31:17 INF:  RTLoadExtKeys
+2020-01-21 11:31:17 INF:  IOLoadExternalKey
+2020-01-21 11:31:17 INF:  Checking existense of directory: <CFURL 0x600002798de0 [0x7fffacf348e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-21 11:31:17 INF:  Path exists: <CFURL 0x600002798de0 [0x7fffacf348e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-21 11:31:17 INF:  Directory exists: <CFURL 0x600002798de0 [0x7fffacf348e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-21 11:31:17 INF:  External key file path: /Users/if65/Library/Application Support/4D/Licenses/Escape/PFood.QLC
+2020-01-21 11:31:17 ERR:  ReadFromFile -43
+2020-01-21 11:31:17 INF:  Ext key count: 0
+2020-01-21 11:31:29 INF:  * RTShutdown *
+2020-01-21 14:21:28 INF:  =====================================
+2020-01-21 14:21:28 INF:  * RTStartup *
+2020-01-21 14:21:28 INF:  -------------------------------------
+2020-01-21 14:21:28 INF:  QLM 1.2.1 M
+2020-01-21 14:21:28 INF:  appType4thDimension:0x1700, interpreted
+2020-01-21 14:21:28 INF:  -------------------------------------
+2020-01-21 14:21:28 INF:  RTLoadStructKeys
+2020-01-21 14:21:28 INF:  IOLoadStructureKeys
+2020-01-21 14:21:28 ERR:  Get4DRes -192
+2020-01-21 14:21:28 INF:  Struct key count: 0
+2020-01-21 14:21:28 INF:  -------------------------------------
+2020-01-21 14:21:28 INF:  RTLoadExtKeys
+2020-01-21 14:21:28 INF:  IOLoadExternalKey
+2020-01-21 14:21:28 INF:  Checking existense of directory: <CFURL 0x600002dd2880 [0x7fffacf348e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-21 14:21:28 INF:  Path exists: <CFURL 0x600002dd2880 [0x7fffacf348e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-21 14:21:28 INF:  Directory exists: <CFURL 0x600002dd2880 [0x7fffacf348e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-21 14:21:28 INF:  External key file path: /Users/if65/Library/Application Support/4D/Licenses/Escape/PFood.QLC
+2020-01-21 14:21:28 ERR:  ReadFromFile -43
+2020-01-21 14:21:28 INF:  Ext key count: 0
+2020-01-21 14:30:11 INF:  * RTShutdown *
+2020-01-21 15:39:06 INF:  =====================================
+2020-01-21 15:39:06 INF:  * RTStartup *
+2020-01-21 15:39:06 INF:  -------------------------------------
+2020-01-21 15:39:06 INF:  QLM 1.2.1 M
+2020-01-21 15:39:06 INF:  appType4thDimension:0x1700, interpreted
+2020-01-21 15:39:06 INF:  -------------------------------------
+2020-01-21 15:39:06 INF:  RTLoadStructKeys
+2020-01-21 15:39:06 INF:  IOLoadStructureKeys
+2020-01-21 15:39:06 ERR:  Get4DRes -192
+2020-01-21 15:39:06 INF:  Struct key count: 0
+2020-01-21 15:39:06 INF:  -------------------------------------
+2020-01-21 15:39:06 INF:  RTLoadExtKeys
+2020-01-21 15:39:06 INF:  IOLoadExternalKey
+2020-01-21 15:39:06 INF:  Checking existense of directory: <CFURL 0x6000009716e0 [0x7fffacf348e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-21 15:39:06 INF:  Path exists: <CFURL 0x6000009716e0 [0x7fffacf348e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-21 15:39:06 INF:  Directory exists: <CFURL 0x6000009716e0 [0x7fffacf348e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-21 15:39:06 INF:  External key file path: /Users/if65/Library/Application Support/4D/Licenses/Escape/PFood.QLC
+2020-01-21 15:39:06 ERR:  ReadFromFile -43
+2020-01-21 15:39:06 INF:  Ext key count: 0
+2020-01-21 16:08:14 INF:  * RTShutdown *
+2020-01-22 07:55:04 INF:  =====================================
+2020-01-22 07:55:04 INF:  * RTStartup *
+2020-01-22 07:55:04 INF:  -------------------------------------
+2020-01-22 07:55:04 INF:  QLM 1.2.1 M
+2020-01-22 07:55:04 INF:  appType4thDimension:0x1700, interpreted
+2020-01-22 07:55:04 INF:  -------------------------------------
+2020-01-22 07:55:04 INF:  RTLoadStructKeys
+2020-01-22 07:55:04 INF:  IOLoadStructureKeys
+2020-01-22 07:55:04 ERR:  Get4DRes -192
+2020-01-22 07:55:04 INF:  Struct key count: 0
+2020-01-22 07:55:04 INF:  -------------------------------------
+2020-01-22 07:55:04 INF:  RTLoadExtKeys
+2020-01-22 07:55:04 INF:  IOLoadExternalKey
+2020-01-22 07:55:04 INF:  Checking existense of directory: <CFURL 0x600002997540 [0x7fffacf348e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-22 07:55:04 INF:  Path exists: <CFURL 0x600002997540 [0x7fffacf348e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-22 07:55:04 INF:  Directory exists: <CFURL 0x600002997540 [0x7fffacf348e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-22 07:55:04 INF:  External key file path: /Users/if65/Library/Application Support/4D/Licenses/Escape/PFood.QLC
+2020-01-22 07:55:04 ERR:  ReadFromFile -43
+2020-01-22 07:55:04 INF:  Ext key count: 0
+2020-01-22 08:05:54 INF:  * RTShutdown *
+2020-01-22 09:12:21 INF:  =====================================
+2020-01-22 09:12:21 INF:  * RTStartup *
+2020-01-22 09:12:21 INF:  -------------------------------------
+2020-01-22 09:12:21 INF:  QLM 1.2.1 M
+2020-01-22 09:12:21 INF:  appType4thDimension:0x1700, interpreted
+2020-01-22 09:12:21 INF:  -------------------------------------
+2020-01-22 09:12:21 INF:  RTLoadStructKeys
+2020-01-22 09:12:21 INF:  IOLoadStructureKeys
+2020-01-22 09:12:21 ERR:  Get4DRes -192
+2020-01-22 09:12:21 INF:  Struct key count: 0
+2020-01-22 09:12:21 INF:  -------------------------------------
+2020-01-22 09:12:21 INF:  RTLoadExtKeys
+2020-01-22 09:12:21 INF:  IOLoadExternalKey
+2020-01-22 09:12:21 INF:  Checking existense of directory: <CFURL 0x6000030fa1c0 [0x7fffacf348e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-22 09:12:21 INF:  Path exists: <CFURL 0x6000030fa1c0 [0x7fffacf348e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-22 09:12:21 INF:  Directory exists: <CFURL 0x6000030fa1c0 [0x7fffacf348e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-22 09:12:21 INF:  External key file path: /Users/if65/Library/Application Support/4D/Licenses/Escape/PFood.QLC
+2020-01-22 09:12:21 ERR:  ReadFromFile -43
+2020-01-22 09:12:21 INF:  Ext key count: 0
+2020-01-22 09:27:59 INF:  * RTShutdown *
+2020-01-22 09:29:14 INF:  =====================================
+2020-01-22 09:29:14 INF:  * RTStartup *
+2020-01-22 09:29:14 INF:  -------------------------------------
+2020-01-22 09:29:14 INF:  QLM 1.2.1 M
+2020-01-22 09:29:14 INF:  appType4thDimension:0x1700, interpreted
+2020-01-22 09:29:14 INF:  -------------------------------------
+2020-01-22 09:29:14 INF:  RTLoadStructKeys
+2020-01-22 09:29:14 INF:  IOLoadStructureKeys
+2020-01-22 09:29:14 ERR:  Get4DRes -192
+2020-01-22 09:29:14 INF:  Struct key count: 0
+2020-01-22 09:29:14 INF:  -------------------------------------
+2020-01-22 09:29:14 INF:  RTLoadExtKeys
+2020-01-22 09:29:14 INF:  IOLoadExternalKey
+2020-01-22 09:29:14 INF:  Checking existense of directory: <CFURL 0x600001d2df20 [0x7fffacf348e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-22 09:29:14 INF:  Path exists: <CFURL 0x600001d2df20 [0x7fffacf348e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-22 09:29:14 INF:  Directory exists: <CFURL 0x600001d2df20 [0x7fffacf348e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-22 09:29:14 INF:  External key file path: /Users/if65/Library/Application Support/4D/Licenses/Escape/PFood.QLC
+2020-01-22 09:29:14 ERR:  ReadFromFile -43
+2020-01-22 09:29:14 INF:  Ext key count: 0
+2020-01-22 09:33:06 INF:  * RTShutdown *
+2020-01-22 09:56:17 INF:  =====================================
+2020-01-22 09:56:17 INF:  * RTStartup *
+2020-01-22 09:56:17 INF:  -------------------------------------
+2020-01-22 09:56:17 INF:  QLM 1.2.1 M
+2020-01-22 09:56:17 INF:  appType4thDimension:0x1700, interpreted
+2020-01-22 09:56:17 INF:  -------------------------------------
+2020-01-22 09:56:17 INF:  RTLoadStructKeys
+2020-01-22 09:56:17 INF:  IOLoadStructureKeys
+2020-01-22 09:56:17 ERR:  Get4DRes -192
+2020-01-22 09:56:17 INF:  Struct key count: 0
+2020-01-22 09:56:17 INF:  -------------------------------------
+2020-01-22 09:56:17 INF:  RTLoadExtKeys
+2020-01-22 09:56:17 INF:  IOLoadExternalKey
+2020-01-22 09:56:17 INF:  Checking existense of directory: <CFURL 0x600002e2c060 [0x7fffacf348e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-22 09:56:17 INF:  Path exists: <CFURL 0x600002e2c060 [0x7fffacf348e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-22 09:56:17 INF:  Directory exists: <CFURL 0x600002e2c060 [0x7fffacf348e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-22 09:56:17 INF:  External key file path: /Users/if65/Library/Application Support/4D/Licenses/Escape/PFood.QLC
+2020-01-22 09:56:17 ERR:  ReadFromFile -43
+2020-01-22 09:56:17 INF:  Ext key count: 0
+2020-01-22 10:07:30 INF:  * RTShutdown *
+2020-01-22 17:49:09 INF:  =====================================
+2020-01-22 17:49:09 INF:  * RTStartup *
+2020-01-22 17:49:09 INF:  -------------------------------------
+2020-01-22 17:49:09 INF:  QLM 1.2.1 M
+2020-01-22 17:49:09 INF:  appType4thDimension:0x1700, interpreted
+2020-01-22 17:49:09 INF:  -------------------------------------
+2020-01-22 17:49:09 INF:  RTLoadStructKeys
+2020-01-22 17:49:09 INF:  IOLoadStructureKeys
+2020-01-22 17:49:09 ERR:  Get4DRes -192
+2020-01-22 17:49:09 INF:  Struct key count: 0
+2020-01-22 17:49:09 INF:  -------------------------------------
+2020-01-22 17:49:09 INF:  RTLoadExtKeys
+2020-01-22 17:49:09 INF:  IOLoadExternalKey
+2020-01-22 17:49:09 INF:  Checking existense of directory: <CFURL 0x6000021f20a0 [0x7fffacf348e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-22 17:49:09 INF:  Path exists: <CFURL 0x6000021f20a0 [0x7fffacf348e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-22 17:49:09 INF:  Directory exists: <CFURL 0x6000021f20a0 [0x7fffacf348e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-22 17:49:09 INF:  External key file path: /Users/if65/Library/Application Support/4D/Licenses/Escape/PFood.QLC
+2020-01-22 17:49:09 ERR:  ReadFromFile -43
+2020-01-22 17:49:09 INF:  Ext key count: 0
+2020-01-22 18:23:44 INF:  * RTShutdown *
+2020-01-23 11:31:04 INF:  =====================================
+2020-01-23 11:31:04 INF:  * RTStartup *
+2020-01-23 11:31:04 INF:  -------------------------------------
+2020-01-23 11:31:04 INF:  QLM 1.2.1 M
+2020-01-23 11:31:04 INF:  appType4thDimension:0x1700, interpreted
+2020-01-23 11:31:04 INF:  -------------------------------------
+2020-01-23 11:31:04 INF:  RTLoadStructKeys
+2020-01-23 11:31:04 INF:  IOLoadStructureKeys
+2020-01-23 11:31:04 ERR:  Get4DRes -192
+2020-01-23 11:31:04 INF:  Struct key count: 0
+2020-01-23 11:31:04 INF:  -------------------------------------
+2020-01-23 11:31:04 INF:  RTLoadExtKeys
+2020-01-23 11:31:04 INF:  IOLoadExternalKey
+2020-01-23 11:31:04 INF:  Checking existense of directory: <CFURL 0x600003ef8000 [0x7fffacf348e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-23 11:31:04 INF:  Path exists: <CFURL 0x600003ef8000 [0x7fffacf348e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-23 11:31:04 INF:  Directory exists: <CFURL 0x600003ef8000 [0x7fffacf348e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-23 11:31:04 INF:  External key file path: /Users/if65/Library/Application Support/4D/Licenses/Escape/PFood.QLC
+2020-01-23 11:31:04 ERR:  ReadFromFile -43
+2020-01-23 11:31:04 INF:  Ext key count: 0
+2020-01-23 13:52:44 INF:  * RTShutdown *
+2020-01-23 16:32:46 INF:  =====================================
+2020-01-23 16:32:46 INF:  * RTStartup *
+2020-01-23 16:32:46 INF:  -------------------------------------
+2020-01-23 16:32:46 INF:  QLM 1.2.1 M
+2020-01-23 16:32:46 INF:  appType4thDimension:0x1700, interpreted
+2020-01-23 16:32:46 INF:  -------------------------------------
+2020-01-23 16:32:46 INF:  RTLoadStructKeys
+2020-01-23 16:32:46 INF:  IOLoadStructureKeys
+2020-01-23 16:32:46 ERR:  Get4DRes -192
+2020-01-23 16:32:46 INF:  Struct key count: 0
+2020-01-23 16:32:46 INF:  -------------------------------------
+2020-01-23 16:32:46 INF:  RTLoadExtKeys
+2020-01-23 16:32:46 INF:  IOLoadExternalKey
+2020-01-23 16:32:46 INF:  Checking existense of directory: <CFURL 0x600003bd5e60 [0x7fff9dcb48e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-23 16:32:46 INF:  Path exists: <CFURL 0x600003bd5e60 [0x7fff9dcb48e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-23 16:32:46 INF:  Directory exists: <CFURL 0x600003bd5e60 [0x7fff9dcb48e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-23 16:32:46 INF:  External key file path: /Users/if65/Library/Application Support/4D/Licenses/Escape/PFood.QLC
+2020-01-23 16:32:46 ERR:  ReadFromFile -43
+2020-01-23 16:32:46 INF:  Ext key count: 0
+2020-01-23 16:41:52 INF:  * RTShutdown *
+2020-01-24 15:52:06 INF:  =====================================
+2020-01-24 15:52:06 INF:  * RTStartup *
+2020-01-24 15:52:06 INF:  -------------------------------------
+2020-01-24 15:52:06 INF:  QLM 1.2.1 M
+2020-01-24 15:52:06 INF:  appType4thDimension:0x1700, interpreted
+2020-01-24 15:52:06 INF:  -------------------------------------
+2020-01-24 15:52:06 INF:  RTLoadStructKeys
+2020-01-24 15:52:06 INF:  IOLoadStructureKeys
+2020-01-24 15:52:06 ERR:  Get4DRes -192
+2020-01-24 15:52:06 INF:  Struct key count: 0
+2020-01-24 15:52:06 INF:  -------------------------------------
+2020-01-24 15:52:06 INF:  RTLoadExtKeys
+2020-01-24 15:52:06 INF:  IOLoadExternalKey
+2020-01-24 15:52:06 INF:  Checking existense of directory: <CFURL 0x600001e9b840 [0x7fff9dcb48e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-24 15:52:06 INF:  Path exists: <CFURL 0x600001e9b840 [0x7fff9dcb48e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-24 15:52:06 INF:  Directory exists: <CFURL 0x600001e9b840 [0x7fff9dcb48e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-24 15:52:06 INF:  External key file path: /Users/if65/Library/Application Support/4D/Licenses/Escape/PFood.QLC
+2020-01-24 15:52:06 ERR:  ReadFromFile -43
+2020-01-24 15:52:06 INF:  Ext key count: 0
+2020-01-24 16:02:31 INF:  * RTShutdown *
+2020-01-24 17:13:51 INF:  =====================================
+2020-01-24 17:13:51 INF:  * RTStartup *
+2020-01-24 17:13:51 INF:  -------------------------------------
+2020-01-24 17:13:51 INF:  QLM 1.2.1 M
+2020-01-24 17:13:51 INF:  appType4thDimension:0x1700, interpreted
+2020-01-24 17:13:51 INF:  -------------------------------------
+2020-01-24 17:13:51 INF:  RTLoadStructKeys
+2020-01-24 17:13:51 INF:  IOLoadStructureKeys
+2020-01-24 17:13:51 ERR:  Get4DRes -192
+2020-01-24 17:13:51 INF:  Struct key count: 0
+2020-01-24 17:13:51 INF:  -------------------------------------
+2020-01-24 17:13:51 INF:  RTLoadExtKeys
+2020-01-24 17:13:51 INF:  IOLoadExternalKey
+2020-01-24 17:13:51 INF:  Checking existense of directory: <CFURL 0x600001dacea0 [0x7fff9dcb48e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-24 17:13:51 INF:  Path exists: <CFURL 0x600001dacea0 [0x7fff9dcb48e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-24 17:13:51 INF:  Directory exists: <CFURL 0x600001dacea0 [0x7fff9dcb48e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-24 17:13:51 INF:  External key file path: /Users/if65/Library/Application Support/4D/Licenses/Escape/PFood.QLC
+2020-01-24 17:13:51 ERR:  ReadFromFile -43
+2020-01-24 17:13:51 INF:  Ext key count: 0
+2020-01-24 17:19:02 INF:  * RTShutdown *
+2020-01-27 07:42:39 INF:  =====================================
+2020-01-27 07:42:39 INF:  * RTStartup *
+2020-01-27 07:42:39 INF:  -------------------------------------
+2020-01-27 07:42:39 INF:  QLM 1.2.1 M
+2020-01-27 07:42:39 INF:  appType4thDimension:0x1700, interpreted
+2020-01-27 07:42:39 INF:  -------------------------------------
+2020-01-27 07:42:39 INF:  RTLoadStructKeys
+2020-01-27 07:42:39 INF:  IOLoadStructureKeys
+2020-01-27 07:42:39 ERR:  Get4DRes -192
+2020-01-27 07:42:39 INF:  Struct key count: 0
+2020-01-27 07:42:39 INF:  -------------------------------------
+2020-01-27 07:42:39 INF:  RTLoadExtKeys
+2020-01-27 07:42:39 INF:  IOLoadExternalKey
+2020-01-27 07:42:39 INF:  Checking existense of directory: <CFURL 0x6000023d2b80 [0x7fff9dcb48e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-27 07:42:39 INF:  Path exists: <CFURL 0x6000023d2b80 [0x7fff9dcb48e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-27 07:42:39 INF:  Directory exists: <CFURL 0x6000023d2b80 [0x7fff9dcb48e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-27 07:42:39 INF:  External key file path: /Users/if65/Library/Application Support/4D/Licenses/Escape/PFood.QLC
+2020-01-27 07:42:39 ERR:  ReadFromFile -43
+2020-01-27 07:42:39 INF:  Ext key count: 0
+2020-01-27 08:32:16 INF:  * RTShutdown *
+2020-01-27 08:37:34 INF:  =====================================
+2020-01-27 08:37:34 INF:  * RTStartup *
+2020-01-27 08:37:34 INF:  -------------------------------------
+2020-01-27 08:37:34 INF:  QLM 1.2.1 M
+2020-01-27 08:37:34 INF:  appType4thDimension:0x1700, interpreted
+2020-01-27 08:37:34 INF:  -------------------------------------
+2020-01-27 08:37:34 INF:  RTLoadStructKeys
+2020-01-27 08:37:34 INF:  IOLoadStructureKeys
+2020-01-27 08:37:34 ERR:  Get4DRes -192
+2020-01-27 08:37:34 INF:  Struct key count: 0
+2020-01-27 08:37:34 INF:  -------------------------------------
+2020-01-27 08:37:34 INF:  RTLoadExtKeys
+2020-01-27 08:37:34 INF:  IOLoadExternalKey
+2020-01-27 08:37:34 INF:  Checking existense of directory: <CFURL 0x600003c8e5e0 [0x7fff9dcb48e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-27 08:37:34 INF:  Path exists: <CFURL 0x600003c8e5e0 [0x7fff9dcb48e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-27 08:37:34 INF:  Directory exists: <CFURL 0x600003c8e5e0 [0x7fff9dcb48e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-27 08:37:34 INF:  External key file path: /Users/if65/Library/Application Support/4D/Licenses/Escape/PFood.QLC
+2020-01-27 08:37:34 ERR:  ReadFromFile -43
+2020-01-27 08:37:34 INF:  Ext key count: 0
+2020-01-27 08:44:05 INF:  * RTShutdown *
+2020-01-27 08:54:35 INF:  =====================================
+2020-01-27 08:54:35 INF:  * RTStartup *
+2020-01-27 08:54:35 INF:  -------------------------------------
+2020-01-27 08:54:35 INF:  QLM 1.2.1 M
+2020-01-27 08:54:35 INF:  appType4thDimension:0x1700, interpreted
+2020-01-27 08:54:35 INF:  -------------------------------------
+2020-01-27 08:54:35 INF:  RTLoadStructKeys
+2020-01-27 08:54:35 INF:  IOLoadStructureKeys
+2020-01-27 08:54:35 ERR:  Get4DRes -192
+2020-01-27 08:54:35 INF:  Struct key count: 0
+2020-01-27 08:54:35 INF:  -------------------------------------
+2020-01-27 08:54:35 INF:  RTLoadExtKeys
+2020-01-27 08:54:35 INF:  IOLoadExternalKey
+2020-01-27 08:54:35 INF:  Checking existense of directory: <CFURL 0x60000053f900 [0x7fff9dcb48e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-27 08:54:35 INF:  Path exists: <CFURL 0x60000053f900 [0x7fff9dcb48e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-27 08:54:35 INF:  Directory exists: <CFURL 0x60000053f900 [0x7fff9dcb48e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-27 08:54:35 INF:  External key file path: /Users/if65/Library/Application Support/4D/Licenses/Escape/PFood.QLC
+2020-01-27 08:54:35 ERR:  ReadFromFile -43
+2020-01-27 08:54:35 INF:  Ext key count: 0
+2020-01-27 09:04:48 INF:  * RTShutdown *
+2020-01-27 09:04:58 INF:  =====================================
+2020-01-27 09:04:58 INF:  * RTStartup *
+2020-01-27 09:04:58 INF:  -------------------------------------
+2020-01-27 09:04:58 INF:  QLM 1.2.1 M
+2020-01-27 09:04:58 INF:  appType4thDimension:0x1700, interpreted
+2020-01-27 09:04:58 INF:  -------------------------------------
+2020-01-27 09:04:58 INF:  RTLoadStructKeys
+2020-01-27 09:04:58 INF:  IOLoadStructureKeys
+2020-01-27 09:04:58 ERR:  Get4DRes -192
+2020-01-27 09:04:58 INF:  Struct key count: 0
+2020-01-27 09:04:58 INF:  -------------------------------------
+2020-01-27 09:04:58 INF:  RTLoadExtKeys
+2020-01-27 09:04:58 INF:  IOLoadExternalKey
+2020-01-27 09:04:58 INF:  Checking existense of directory: <CFURL 0x600003154b40 [0x7fff9dcb48e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-27 09:04:58 INF:  Path exists: <CFURL 0x600003154b40 [0x7fff9dcb48e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-27 09:04:58 INF:  Directory exists: <CFURL 0x600003154b40 [0x7fff9dcb48e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-27 09:04:58 INF:  External key file path: /Users/if65/Library/Application Support/4D/Licenses/Escape/PFood.QLC
+2020-01-27 09:04:58 ERR:  ReadFromFile -43
+2020-01-27 09:04:58 INF:  Ext key count: 0
+2020-01-27 09:44:11 INF:  * RTShutdown *
+2020-01-27 09:59:27 INF:  =====================================
+2020-01-27 09:59:27 INF:  * RTStartup *
+2020-01-27 09:59:27 INF:  -------------------------------------
+2020-01-27 09:59:27 INF:  QLM 1.2.1 M
+2020-01-27 09:59:27 INF:  appType4thDimension:0x1700, interpreted
+2020-01-27 09:59:27 INF:  -------------------------------------
+2020-01-27 09:59:27 INF:  RTLoadStructKeys
+2020-01-27 09:59:27 INF:  IOLoadStructureKeys
+2020-01-27 09:59:27 ERR:  Get4DRes -192
+2020-01-27 09:59:27 INF:  Struct key count: 0
+2020-01-27 09:59:27 INF:  -------------------------------------
+2020-01-27 09:59:27 INF:  RTLoadExtKeys
+2020-01-27 09:59:27 INF:  IOLoadExternalKey
+2020-01-27 09:59:27 INF:  Checking existense of directory: <CFURL 0x600002db2ca0 [0x7fff9dcb48e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-27 09:59:27 INF:  Path exists: <CFURL 0x600002db2ca0 [0x7fff9dcb48e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-27 09:59:27 INF:  Directory exists: <CFURL 0x600002db2ca0 [0x7fff9dcb48e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-27 09:59:27 INF:  External key file path: /Users/if65/Library/Application Support/4D/Licenses/Escape/PFood.QLC
+2020-01-27 09:59:27 ERR:  ReadFromFile -43
+2020-01-27 09:59:27 INF:  Ext key count: 0
+2020-01-27 10:01:48 INF:  * RTShutdown *
+2020-01-27 10:26:55 INF:  =====================================
+2020-01-27 10:26:55 INF:  * RTStartup *
+2020-01-27 10:26:55 INF:  -------------------------------------
+2020-01-27 10:26:55 INF:  QLM 1.2.1 M
+2020-01-27 10:26:55 INF:  appType4thDimension:0x1700, interpreted
+2020-01-27 10:26:55 INF:  -------------------------------------
+2020-01-27 10:26:55 INF:  RTLoadStructKeys
+2020-01-27 10:26:55 INF:  IOLoadStructureKeys
+2020-01-27 10:26:55 ERR:  Get4DRes -192
+2020-01-27 10:26:55 INF:  Struct key count: 0
+2020-01-27 10:26:55 INF:  -------------------------------------
+2020-01-27 10:26:55 INF:  RTLoadExtKeys
+2020-01-27 10:26:55 INF:  IOLoadExternalKey
+2020-01-27 10:26:55 INF:  Checking existense of directory: <CFURL 0x600002f9dec0 [0x7fff9dcb48e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-27 10:26:55 INF:  Path exists: <CFURL 0x600002f9dec0 [0x7fff9dcb48e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-27 10:26:55 INF:  Directory exists: <CFURL 0x600002f9dec0 [0x7fff9dcb48e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-27 10:26:55 INF:  External key file path: /Users/if65/Library/Application Support/4D/Licenses/Escape/PFood.QLC
+2020-01-27 10:26:55 ERR:  ReadFromFile -43
+2020-01-27 10:26:55 INF:  Ext key count: 0
+2020-01-27 11:00:04 INF:  * RTShutdown *
+2020-01-27 11:22:07 INF:  =====================================
+2020-01-27 11:22:07 INF:  * RTStartup *
+2020-01-27 11:22:07 INF:  -------------------------------------
+2020-01-27 11:22:07 INF:  QLM 1.2.1 M
+2020-01-27 11:22:07 INF:  appType4thDimension:0x1700, interpreted
+2020-01-27 11:22:07 INF:  -------------------------------------
+2020-01-27 11:22:07 INF:  RTLoadStructKeys
+2020-01-27 11:22:07 INF:  IOLoadStructureKeys
+2020-01-27 11:22:07 ERR:  Get4DRes -192
+2020-01-27 11:22:07 INF:  Struct key count: 0
+2020-01-27 11:22:07 INF:  -------------------------------------
+2020-01-27 11:22:07 INF:  RTLoadExtKeys
+2020-01-27 11:22:07 INF:  IOLoadExternalKey
+2020-01-27 11:22:07 INF:  Checking existense of directory: <CFURL 0x6000026c0ba0 [0x7fff9dcb48e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-27 11:22:07 INF:  Path exists: <CFURL 0x6000026c0ba0 [0x7fff9dcb48e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-27 11:22:07 INF:  Directory exists: <CFURL 0x6000026c0ba0 [0x7fff9dcb48e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-27 11:22:07 INF:  External key file path: /Users/if65/Library/Application Support/4D/Licenses/Escape/PFood.QLC
+2020-01-27 11:22:07 ERR:  ReadFromFile -43
+2020-01-27 11:22:07 INF:  Ext key count: 0
+2020-01-27 11:23:24 INF:  * RTShutdown *
+2020-01-27 17:18:09 INF:  =====================================
+2020-01-27 17:18:09 INF:  * RTStartup *
+2020-01-27 17:18:09 INF:  -------------------------------------
+2020-01-27 17:18:09 INF:  QLM 1.2.1 M
+2020-01-27 17:18:09 INF:  appType4thDimension:0x1700, interpreted
+2020-01-27 17:18:09 INF:  -------------------------------------
+2020-01-27 17:18:09 INF:  RTLoadStructKeys
+2020-01-27 17:18:09 INF:  IOLoadStructureKeys
+2020-01-27 17:18:09 ERR:  Get4DRes -192
+2020-01-27 17:18:09 INF:  Struct key count: 0
+2020-01-27 17:18:09 INF:  -------------------------------------
+2020-01-27 17:18:09 INF:  RTLoadExtKeys
+2020-01-27 17:18:09 INF:  IOLoadExternalKey
+2020-01-27 17:18:09 INF:  Checking existense of directory: <CFURL 0x600002960600 [0x7fff9dcb48e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-27 17:18:09 INF:  Path exists: <CFURL 0x600002960600 [0x7fff9dcb48e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-27 17:18:09 INF:  Directory exists: <CFURL 0x600002960600 [0x7fff9dcb48e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-27 17:18:09 INF:  External key file path: /Users/if65/Library/Application Support/4D/Licenses/Escape/PFood.QLC
+2020-01-27 17:18:09 ERR:  ReadFromFile -43
+2020-01-27 17:18:09 INF:  Ext key count: 0
+2020-01-27 20:37:50 INF:  * RTShutdown *
+2020-01-28 09:27:49 INF:  =====================================
+2020-01-28 09:27:49 INF:  * RTStartup *
+2020-01-28 09:27:49 INF:  -------------------------------------
+2020-01-28 09:27:49 INF:  QLM 1.2.1 M
+2020-01-28 09:27:49 INF:  appType4thDimension:0x1700, interpreted
+2020-01-28 09:27:49 INF:  -------------------------------------
+2020-01-28 09:27:49 INF:  RTLoadStructKeys
+2020-01-28 09:27:49 INF:  IOLoadStructureKeys
+2020-01-28 09:27:49 ERR:  Get4DRes -192
+2020-01-28 09:27:49 INF:  Struct key count: 0
+2020-01-28 09:27:49 INF:  -------------------------------------
+2020-01-28 09:27:49 INF:  RTLoadExtKeys
+2020-01-28 09:27:49 INF:  IOLoadExternalKey
+2020-01-28 09:27:49 INF:  Checking existense of directory: <CFURL 0x600000337180 [0x7fff9dcb48e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-28 09:27:49 INF:  Path exists: <CFURL 0x600000337180 [0x7fff9dcb48e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-28 09:27:49 INF:  Directory exists: <CFURL 0x600000337180 [0x7fff9dcb48e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-28 09:27:49 INF:  External key file path: /Users/if65/Library/Application Support/4D/Licenses/Escape/PFood.QLC
+2020-01-28 09:27:49 ERR:  ReadFromFile -43
+2020-01-28 09:27:49 INF:  Ext key count: 0
+2020-01-28 10:25:37 INF:  * RTShutdown *
+2020-01-28 10:29:50 INF:  =====================================
+2020-01-28 10:29:50 INF:  * RTStartup *
+2020-01-28 10:29:50 INF:  -------------------------------------
+2020-01-28 10:29:50 INF:  QLM 1.2.1 M
+2020-01-28 10:29:50 INF:  appType4thDimension:0x1700, interpreted
+2020-01-28 10:29:50 INF:  -------------------------------------
+2020-01-28 10:29:50 INF:  RTLoadStructKeys
+2020-01-28 10:29:50 INF:  IOLoadStructureKeys
+2020-01-28 10:29:50 ERR:  Get4DRes -192
+2020-01-28 10:29:50 INF:  Struct key count: 0
+2020-01-28 10:29:50 INF:  -------------------------------------
+2020-01-28 10:29:50 INF:  RTLoadExtKeys
+2020-01-28 10:29:50 INF:  IOLoadExternalKey
+2020-01-28 10:29:50 INF:  Checking existense of directory: <CFURL 0x600003a08000 [0x7fff9dcb48e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-28 10:29:50 INF:  Path exists: <CFURL 0x600003a08000 [0x7fff9dcb48e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-28 10:29:50 INF:  Directory exists: <CFURL 0x600003a08000 [0x7fff9dcb48e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-28 10:29:50 INF:  External key file path: /Users/if65/Library/Application Support/4D/Licenses/Escape/PFood.QLC
+2020-01-28 10:29:50 ERR:  ReadFromFile -43
+2020-01-28 10:29:50 INF:  Ext key count: 0
+2020-01-28 11:44:30 INF:  * RTShutdown *
+2020-01-28 14:43:20 INF:  =====================================
+2020-01-28 14:43:20 INF:  * RTStartup *
+2020-01-28 14:43:20 INF:  -------------------------------------
+2020-01-28 14:43:20 INF:  QLM 1.2.1 M
+2020-01-28 14:43:20 INF:  appType4thDimension:0x1700, interpreted
+2020-01-28 14:43:20 INF:  -------------------------------------
+2020-01-28 14:43:20 INF:  RTLoadStructKeys
+2020-01-28 14:43:20 INF:  IOLoadStructureKeys
+2020-01-28 14:43:20 ERR:  Get4DRes -192
+2020-01-28 14:43:20 INF:  Struct key count: 0
+2020-01-28 14:43:20 INF:  -------------------------------------
+2020-01-28 14:43:20 INF:  RTLoadExtKeys
+2020-01-28 14:43:20 INF:  IOLoadExternalKey
+2020-01-28 14:43:20 INF:  Checking existense of directory: <CFURL 0x6000011fae80 [0x7fff9dcb48e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-28 14:43:20 INF:  Path exists: <CFURL 0x6000011fae80 [0x7fff9dcb48e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-28 14:43:20 INF:  Directory exists: <CFURL 0x6000011fae80 [0x7fff9dcb48e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-28 14:43:20 INF:  External key file path: /Users/if65/Library/Application Support/4D/Licenses/Escape/PFood.QLC
+2020-01-28 14:43:20 ERR:  ReadFromFile -43
+2020-01-28 14:43:20 INF:  Ext key count: 0
+2020-01-28 15:16:51 INF:  * RTShutdown *
+2020-01-29 10:13:52 INF:  =====================================
+2020-01-29 10:13:52 INF:  * RTStartup *
+2020-01-29 10:13:52 INF:  -------------------------------------
+2020-01-29 10:13:52 INF:  QLM 1.2.1 M
+2020-01-29 10:13:52 INF:  appType4thDimension:0x1700, interpreted
+2020-01-29 10:13:52 INF:  -------------------------------------
+2020-01-29 10:13:52 INF:  RTLoadStructKeys
+2020-01-29 10:13:52 INF:  IOLoadStructureKeys
+2020-01-29 10:13:52 ERR:  Get4DRes -192
+2020-01-29 10:13:52 INF:  Struct key count: 0
+2020-01-29 10:13:52 INF:  -------------------------------------
+2020-01-29 10:13:52 INF:  RTLoadExtKeys
+2020-01-29 10:13:52 INF:  IOLoadExternalKey
+2020-01-29 10:13:52 INF:  Checking existense of directory: <CFURL 0x600000a726a0 [0x7fff9dcb48e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-29 10:13:52 INF:  Path exists: <CFURL 0x600000a726a0 [0x7fff9dcb48e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-29 10:13:52 INF:  Directory exists: <CFURL 0x600000a726a0 [0x7fff9dcb48e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-29 10:13:52 INF:  External key file path: /Users/if65/Library/Application Support/4D/Licenses/Escape/PFood.QLC
+2020-01-29 10:13:52 ERR:  ReadFromFile -43
+2020-01-29 10:13:52 INF:  Ext key count: 0
+2020-01-29 10:19:25 INF:  * RTShutdown *
+2020-01-29 10:36:17 INF:  =====================================
+2020-01-29 10:36:17 INF:  * RTStartup *
+2020-01-29 10:36:17 INF:  -------------------------------------
+2020-01-29 10:36:17 INF:  QLM 1.2.1 M
+2020-01-29 10:36:17 INF:  appType4thDimension:0x1700, interpreted
+2020-01-29 10:36:17 INF:  -------------------------------------
+2020-01-29 10:36:17 INF:  RTLoadStructKeys
+2020-01-29 10:36:17 INF:  IOLoadStructureKeys
+2020-01-29 10:36:17 ERR:  Get4DRes -192
+2020-01-29 10:36:17 INF:  Struct key count: 0
+2020-01-29 10:36:17 INF:  -------------------------------------
+2020-01-29 10:36:17 INF:  RTLoadExtKeys
+2020-01-29 10:36:17 INF:  IOLoadExternalKey
+2020-01-29 10:36:17 INF:  Checking existense of directory: <CFURL 0x600002e11fe0 [0x7fff9dcb48e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-29 10:36:17 INF:  Path exists: <CFURL 0x600002e11fe0 [0x7fff9dcb48e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-29 10:36:17 INF:  Directory exists: <CFURL 0x600002e11fe0 [0x7fff9dcb48e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-29 10:36:17 INF:  External key file path: /Users/if65/Library/Application Support/4D/Licenses/Escape/PFood.QLC
+2020-01-29 10:36:17 ERR:  ReadFromFile -43
+2020-01-29 10:36:17 INF:  Ext key count: 0
+2020-01-29 15:53:03 INF:  * RTShutdown *
+2020-01-29 17:16:29 INF:  =====================================
+2020-01-29 17:16:29 INF:  * RTStartup *
+2020-01-29 17:16:29 INF:  -------------------------------------
+2020-01-29 17:16:29 INF:  QLM 1.2.1 M
+2020-01-29 17:16:29 INF:  appType4thDimension:0x1700, interpreted
+2020-01-29 17:16:29 INF:  -------------------------------------
+2020-01-29 17:16:29 INF:  RTLoadStructKeys
+2020-01-29 17:16:29 INF:  IOLoadStructureKeys
+2020-01-29 17:16:29 ERR:  Get4DRes -192
+2020-01-29 17:16:29 INF:  Struct key count: 0
+2020-01-29 17:16:29 INF:  -------------------------------------
+2020-01-29 17:16:29 INF:  RTLoadExtKeys
+2020-01-29 17:16:29 INF:  IOLoadExternalKey
+2020-01-29 17:16:29 INF:  Checking existense of directory: <CFURL 0x600000604420 [0x7fff9dcb48e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-29 17:16:29 INF:  Path exists: <CFURL 0x600000604420 [0x7fff9dcb48e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-29 17:16:29 INF:  Directory exists: <CFURL 0x600000604420 [0x7fff9dcb48e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-29 17:16:29 INF:  External key file path: /Users/if65/Library/Application Support/4D/Licenses/Escape/PFood.QLC
+2020-01-29 17:16:29 ERR:  ReadFromFile -43
+2020-01-29 17:16:29 INF:  Ext key count: 0
+2020-01-29 17:40:04 INF:  * RTShutdown *
+2020-01-30 07:10:16 INF:  =====================================
+2020-01-30 07:10:16 INF:  * RTStartup *
+2020-01-30 07:10:16 INF:  -------------------------------------
+2020-01-30 07:10:16 INF:  QLM 1.2.1 M
+2020-01-30 07:10:16 INF:  appType4thDimension:0x1700, interpreted
+2020-01-30 07:10:16 INF:  -------------------------------------
+2020-01-30 07:10:16 INF:  RTLoadStructKeys
+2020-01-30 07:10:16 INF:  IOLoadStructureKeys
+2020-01-30 07:10:16 ERR:  Get4DRes -192
+2020-01-30 07:10:16 INF:  Struct key count: 0
+2020-01-30 07:10:16 INF:  -------------------------------------
+2020-01-30 07:10:16 INF:  RTLoadExtKeys
+2020-01-30 07:10:16 INF:  IOLoadExternalKey
+2020-01-30 07:10:16 INF:  Checking existense of directory: <CFURL 0x6000013f3480 [0x7fff9dcb48e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-30 07:10:16 INF:  Path exists: <CFURL 0x6000013f3480 [0x7fff9dcb48e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-30 07:10:16 INF:  Directory exists: <CFURL 0x6000013f3480 [0x7fff9dcb48e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-30 07:10:16 INF:  External key file path: /Users/if65/Library/Application Support/4D/Licenses/Escape/PFood.QLC
+2020-01-30 07:10:16 ERR:  ReadFromFile -43
+2020-01-30 07:10:16 INF:  Ext key count: 0
+2020-01-30 08:21:18 INF:  * RTShutdown *
+2020-01-30 08:41:00 INF:  =====================================
+2020-01-30 08:41:00 INF:  * RTStartup *
+2020-01-30 08:41:00 INF:  -------------------------------------
+2020-01-30 08:41:00 INF:  QLM 1.2.1 M
+2020-01-30 08:41:00 INF:  appType4thDimension:0x1700, interpreted
+2020-01-30 08:41:00 INF:  -------------------------------------
+2020-01-30 08:41:00 INF:  RTLoadStructKeys
+2020-01-30 08:41:00 INF:  IOLoadStructureKeys
+2020-01-30 08:41:00 ERR:  Get4DRes -192
+2020-01-30 08:41:00 INF:  Struct key count: 0
+2020-01-30 08:41:00 INF:  -------------------------------------
+2020-01-30 08:41:00 INF:  RTLoadExtKeys
+2020-01-30 08:41:00 INF:  IOLoadExternalKey
+2020-01-30 08:41:00 INF:  Checking existense of directory: <CFURL 0x600001b76580 [0x7fff9dcb48e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-30 08:41:00 INF:  Path exists: <CFURL 0x600001b76580 [0x7fff9dcb48e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-30 08:41:00 INF:  Directory exists: <CFURL 0x600001b76580 [0x7fff9dcb48e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-30 08:41:00 INF:  External key file path: /Users/if65/Library/Application Support/4D/Licenses/Escape/PFood.QLC
+2020-01-30 08:41:00 ERR:  ReadFromFile -43
+2020-01-30 08:41:00 INF:  Ext key count: 0
+2020-01-30 09:00:31 INF:  * RTShutdown *
+2020-01-30 16:16:27 INF:  =====================================
+2020-01-30 16:16:27 INF:  * RTStartup *
+2020-01-30 16:16:27 INF:  -------------------------------------
+2020-01-30 16:16:27 INF:  QLM 1.2.1 M
+2020-01-30 16:16:27 INF:  appType4thDimension:0x1700, interpreted
+2020-01-30 16:16:27 INF:  -------------------------------------
+2020-01-30 16:16:27 INF:  RTLoadStructKeys
+2020-01-30 16:16:27 INF:  IOLoadStructureKeys
+2020-01-30 16:16:27 ERR:  Get4DRes -192
+2020-01-30 16:16:27 INF:  Struct key count: 0
+2020-01-30 16:16:27 INF:  -------------------------------------
+2020-01-30 16:16:27 INF:  RTLoadExtKeys
+2020-01-30 16:16:27 INF:  IOLoadExternalKey
+2020-01-30 16:16:27 INF:  Checking existense of directory: <CFURL 0x6000007e8cc0 [0x7fff9dcb48e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-30 16:16:27 INF:  Path exists: <CFURL 0x6000007e8cc0 [0x7fff9dcb48e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-30 16:16:27 INF:  Directory exists: <CFURL 0x6000007e8cc0 [0x7fff9dcb48e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-30 16:16:27 INF:  External key file path: /Users/if65/Library/Application Support/4D/Licenses/Escape/PFood.QLC
+2020-01-30 16:16:27 ERR:  ReadFromFile -43
+2020-01-30 16:16:27 INF:  Ext key count: 0
+2020-01-30 17:17:34 INF:  * RTShutdown *
+2020-01-31 08:14:49 INF:  =====================================
+2020-01-31 08:14:49 INF:  * RTStartup *
+2020-01-31 08:14:49 INF:  -------------------------------------
+2020-01-31 08:14:49 INF:  QLM 1.2.1 M
+2020-01-31 08:14:49 INF:  appType4thDimension:0x1700, interpreted
+2020-01-31 08:14:49 INF:  -------------------------------------
+2020-01-31 08:14:49 INF:  RTLoadStructKeys
+2020-01-31 08:14:49 INF:  IOLoadStructureKeys
+2020-01-31 08:14:49 ERR:  Get4DRes -192
+2020-01-31 08:14:49 INF:  Struct key count: 0
+2020-01-31 08:14:49 INF:  -------------------------------------
+2020-01-31 08:14:49 INF:  RTLoadExtKeys
+2020-01-31 08:14:49 INF:  IOLoadExternalKey
+2020-01-31 08:14:49 INF:  Checking existense of directory: <CFURL 0x60000177b4e0 [0x7fffa937f8e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-31 08:14:49 INF:  Path exists: <CFURL 0x60000177b4e0 [0x7fffa937f8e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-31 08:14:49 INF:  Directory exists: <CFURL 0x60000177b4e0 [0x7fffa937f8e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-31 08:14:49 INF:  External key file path: /Users/if65/Library/Application Support/4D/Licenses/Escape/PFood.QLC
+2020-01-31 08:14:49 ERR:  ReadFromFile -43
+2020-01-31 08:14:49 INF:  Ext key count: 0
+2020-01-31 08:32:56 INF:  * RTShutdown *
+2020-01-31 18:28:27 INF:  =====================================
+2020-01-31 18:28:27 INF:  * RTStartup *
+2020-01-31 18:28:27 INF:  -------------------------------------
+2020-01-31 18:28:27 INF:  QLM 1.2.1 M
+2020-01-31 18:28:27 INF:  appType4thDimension:0x1700, interpreted
+2020-01-31 18:28:27 INF:  -------------------------------------
+2020-01-31 18:28:27 INF:  RTLoadStructKeys
+2020-01-31 18:28:27 INF:  IOLoadStructureKeys
+2020-01-31 18:28:27 ERR:  Get4DRes -192
+2020-01-31 18:28:27 INF:  Struct key count: 0
+2020-01-31 18:28:27 INF:  -------------------------------------
+2020-01-31 18:28:27 INF:  RTLoadExtKeys
+2020-01-31 18:28:27 INF:  IOLoadExternalKey
+2020-01-31 18:28:27 INF:  Checking existense of directory: <CFURL 0x60000134c480 [0x7fffa937f8e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-31 18:28:27 INF:  Path exists: <CFURL 0x60000134c480 [0x7fffa937f8e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-31 18:28:27 INF:  Directory exists: <CFURL 0x60000134c480 [0x7fffa937f8e0]>{string = file:///Users/if65/Library/Application%20Support/4D/Licenses/Escape/, encoding = 134217984, base = (null)}
+2020-01-31 18:28:27 INF:  External key file path: /Users/if65/Library/Application Support/4D/Licenses/Escape/PFood.QLC
+2020-01-31 18:28:27 ERR:  ReadFromFile -43
+2020-01-31 18:28:27 INF:  Ext key count: 0
+2020-01-31 18:47:41 INF:  * RTShutdown *

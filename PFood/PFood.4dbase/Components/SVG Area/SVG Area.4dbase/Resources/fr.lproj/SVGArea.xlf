@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+   <!--               
+Translation file.
+This file is distributed under the same license as the product package.-->
+
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+
+<xliff version="1.0">
+   <file datatype="x-STR#" original="undefined" product-version="v11" source-language="en-US" target-language="fr">
+      <header>
+         <prop-group name="Xliff-Editor.4dbase">
+            <prop prop-type="version">1.0</prop>
+         </prop-group>
+      </header>
+      <body>
+         <group resname="menus">
+            <trans-unit id="1" resname="Menuslevel">
+               <source>Level</source>
+               <target>Plan</target>
+            </trans-unit>
+            <trans-unit id="2" resname="Menusalign">
+               <source>Align</source>
+               <target>Aligner</target>
+            </trans-unit>
+            <trans-unit id="3" resname="MenusmoveToFront">
+               <source>Move to front</source>
+               <target>Passer à l&apos;avant plan</target>
+            </trans-unit>
+            <trans-unit id="4" resname="MenusmoveToBack">
+               <source>Move to back</source>
+               <target>Passer à l&apos;arrière plan</target>
+            </trans-unit>
+            <trans-unit id="5" resname="MenusmoveUp">
+               <source>Move up</source>
+               <target>Rapprocher</target>
+            </trans-unit>
+            <trans-unit id="6" resname="MenusmoveDown">
+               <source>Move down</source>
+               <target>Eloigner</target>
+            </trans-unit>
+            <trans-unit id="8" resname="align">
+               <source>Align </source>
+               <target>Aligner </target>
+            </trans-unit>
+            <trans-unit id="9" resname="alignRight">
+               <source>Align right</source>
+               <target>Aligner à droite</target>
+            </trans-unit>
+            <trans-unit id="10" resname="alignTop">
+               <source>Align top</source>
+               <target>Aligner en haut</target>
+            </trans-unit>
+            <trans-unit id="11" resname="alignBottom">
+               <source>Align bottom</source>
+               <target>Aligner en bas</target>
+            </trans-unit>
+            <trans-unit id="12" resname="Left">
+               <source>Left</source>
+               <target>Gauche</target>
+            </trans-unit>
+            <trans-unit id="13" resname="Right">
+               <source>Right</source>
+               <target>Droite</target>
+            </trans-unit>
+            <trans-unit id="14" resname="Top">
+               <source>Top</source>
+               <target>Haut</target>
+            </trans-unit>
+            <trans-unit id="15" resname="Bottom">
+               <source>Bottom</source>
+               <target>Bas</target>
+            </trans-unit>
+            <trans-unit id="43" resname="open">
+               <source>Open</source>
+               <target>Ouvrir</target>
+            </trans-unit>
+            <trans-unit id="44" resname="saveAs">
+               <source>Save as…</source>
+               <target>Enregistrer sous…</target>
+            </trans-unit>
+            <trans-unit id="45" resname="editor">
+               <source>Editor</source>
+               <target>Editeur</target>
+            </trans-unit>
+            <trans-unit id="46" resname="structure">
+               <source>Structure</source>
+               <target>Structure</target>
+            </trans-unit>
+            <trans-unit id="47" resname="quit">
+               <source>Quit</source>
+               <target>Quitter</target>
+            </trans-unit>
+            <trans-unit id="48" resname="copy">
+               <source>Copy</source>
+               <target>Copier</target>
+            </trans-unit>
+            <trans-unit id="49" resname="cut">
+               <source>Cut</source>
+               <target>Couper</target>
+            </trans-unit>
+            <trans-unit id="50" resname="paste">
+               <source>Paste</source>
+               <target>Coller</target>
+            </trans-unit>
+            <trans-unit id="51" resname="delete">
+               <source>Delete</source>
+               <target>Effacer</target>
+            </trans-unit>
+            <trans-unit id="52" resname="selectAll">
+               <source>Select all</source>
+               <target>Tout sélectionner</target>
+            </trans-unit>
+            <trans-unit id="53" resname="showClipboard">
+               <source>Show clipboard</source>
+               <target>Afficher le presse papier</target>
+            </trans-unit>
+            <trans-unit id="54" resname="file">
+               <source>File</source>
+               <target>Fichier</target>
+            </trans-unit>
+            <trans-unit id="55" resname="edition">
+               <source>Edition</source>
+               <target>Edition</target>
+            </trans-unit>
+         </group>
+         <group resname="Property List">
+            <trans-unit id="7" resname="propertyListWindowTitle">
+               <source>SVG attributes</source>
+               <target>Attributs SVG</target>
+            </trans-unit>
+            <trans-unit id="16" resname="titleObject">
+               <source>title</source>
+               <target>nom</target>
+            </trans-unit>
+            <trans-unit id="17" resname="width" translate="no">
+               <source>&quot;width&quot;:</source>
+            </trans-unit>
+            <trans-unit id="18" resname="height" translate="no">
+               <source>&quot;height&quot;:</source>
+            </trans-unit>
+            <trans-unit id="19" resname="fill" translate="no">
+               <source>&quot;fill&quot;:</source>
+            </trans-unit>
+            <trans-unit id="20" resname="stroke" translate="no">
+               <source>&quot;stroke&quot;:</source>
+            </trans-unit>
+            <trans-unit id="21" resname="pattern" translate="no">
+               <source>&quot;pattern&quot;:</source>
+            </trans-unit>
+            <trans-unit id="22" resname="dasharray" translate="no">
+               <source>&quot;dasharray&quot;:</source>
+            </trans-unit>
+            <trans-unit id="23" resname="fillOpacity" translate="no">
+               <source>&quot;fill-opacity&quot;:</source>
+            </trans-unit>
+            <trans-unit id="24" resname="color" translate="no">
+               <source>&quot;color&quot;:</source>
+            </trans-unit>
+            <trans-unit id="25" resname="strokeOpacity" translate="no">
+               <source>&quot;stroke-opacity&quot;:</source>
+            </trans-unit>
+            <trans-unit id="26" resname="strokeWidth" translate="no">
+               <source>&quot;stroke-width&quot;:</source>
+            </trans-unit>
+            <trans-unit id="27" resname="strokeLinecap" translate="no">
+               <source>&quot;stroke-linecap&quot;:</source>
+            </trans-unit>
+            <trans-unit id="28" resname="fontFamilly" translate="no">
+               <source>&quot;font-familly&quot;:</source>
+            </trans-unit>
+            <trans-unit id="30" resname="fontSize" translate="no">
+               <source>&quot;font-size&quot;:</source>
+            </trans-unit>
+            <trans-unit id="31" resname="fontWeight" translate="no">
+               <source>&quot;font-weight&quot;:</source>
+            </trans-unit>
+            <trans-unit id="32" resname="fontStyle" translate="no">
+               <source>&quot;font-style&quot;:</source>
+            </trans-unit>
+            <trans-unit id="33" resname="textDecoration" translate="no">
+               <source>&quot;text-decoration&quot;:</source>
+            </trans-unit>
+            <trans-unit id="34" resname="textAlign" translate="no">
+               <source>&quot;text-align&quot;:</source>
+            </trans-unit>
+            <trans-unit id="35" resname="proportional" translate="no">
+               <source>proportional</source>
+            </trans-unit>
+            <trans-unit id="36" resname="originalSize">
+               <source>Original size</source>
+               <target>Taille d&apos;origine</target>
+            </trans-unit>
+            <trans-unit id="37" resname="meet">
+               <source>meet</source>
+               <target>meet</target>
+            </trans-unit>
+            <trans-unit id="38" resname="slice">
+               <source>slice</source>
+               <target>slice</target>
+            </trans-unit>
+            <trans-unit id="39" resname="embedded">
+               <source>embedded</source>
+               <target>embedded</target>
+            </trans-unit>
+            <trans-unit id="40" resname="preserveAspectRatio" translate="no">
+               <source>&quot;preserveAspectRatio&quot;:</source>
+            </trans-unit>
+            <trans-unit id="41" resname="size">
+               <source>size</source>
+               <target>Taille</target>
+            </trans-unit>
+            <trans-unit id="42" resname="personnal">
+               <source>Personnal</source>
+               <target>Personnel</target>
+            </trans-unit>
+            <trans-unit id="59" resname="GridSpacing">
+               <source>grid:</source>
+               <target>grille:</target>
+            </trans-unit>
+            <trans-unit id="60" resname="x" translate="no">
+               <source>&quot;x&quot;:</source>
+            </trans-unit>
+            <trans-unit id="61" resname="y" translate="no">
+               <source>&quot;y&quot;:</source>
+            </trans-unit>
+            <trans-unit id="62" resname="rx" translate="no">
+               <source>&quot;rx&quot;:</source>
+            </trans-unit>
+            <trans-unit id="63" resname="ry" translate="no">
+               <source>&quot;ry&quot;:</source>
+            </trans-unit>
+            <trans-unit id="64" resname="x1" translate="no">
+               <source>&quot;x1&quot;:</source>
+            </trans-unit>
+            <trans-unit id="65" resname="x2" translate="no">
+               <source>&quot;x2&quot;:</source>
+            </trans-unit>
+            <trans-unit id="66" resname="y1" translate="no">
+               <source>&quot;y1&quot;:</source>
+            </trans-unit>
+            <trans-unit id="67" resname="y2" translate="no">
+               <source>&quot;y2&quot;:</source>
+            </trans-unit>
+            <trans-unit id="68" resname="cx" translate="no">
+               <source>&quot;cx&quot;:</source>
+            </trans-unit>
+            <trans-unit id="69" resname="cy" translate="no">
+               <source>&quot;cy&quot;:</source>
+            </trans-unit>
+            <trans-unit id="70" resname="rx" translate="no">
+               <source>&quot;rx&quot;:</source>
+            </trans-unit>
+            <trans-unit id="71" resname="ry" translate="no">
+               <source>&quot;ry&quot;:</source>
+            </trans-unit>
+            <trans-unit id="72" resname="id" translate="no">
+               <source>&quot;id&quot;:</source>
+            </trans-unit>
+         </group>
+         <group resname="area">
+            <trans-unit id="42" resname="showGrid">
+               <source>Show Grid</source>
+               <target>Montrer la grille</target>
+            </trans-unit>
+         </group>
+         <group resname="Assert">
+            <trans-unit id="57" resname="propertiesFolder">
+               <source>The Properties folder must be present with the file : Documents.xml.</source>
+               <target>Le dossier Properties doit être présnt dans vos ressources avec le fichier : Documents.xml.</target>
+            </trans-unit>
+            <trans-unit id="58" resname="patternsFolder">
+               <source>The patterns folder must be present.</source>
+               <target>Le dossier Patterns doit être présent dans vos ressources.</target>
+            </trans-unit>
+            <trans-unit id="59" resname="imagesFolder">
+               <source>The images&apos;s folder must be present.</source>
+               <target>Le dossier Images doit être présent.</target>
+            </trans-unit>
+         </group>
+         <group resname="Messages and alerts">
+            <trans-unit id="73" resname="SelectAnSVGfile">
+               <source>Select an SVG file…</source>
+               <target>Sélectionnez un fichier SVG…</target>
+            </trans-unit>
+            <trans-unit id="74" resname="DoYouWantToSave">
+               <source>Do you want to save the image ?</source>
+               <target>Voulez-vous enregistrer l&apos;image ?</target>
+            </trans-unit>
+            <trans-unit id="75" resname="SaveEllipse">
+               <source>Save…</source>
+               <target>Enregistrer…</target>
+            </trans-unit>
+            <trans-unit id="76" resname="DontSave">
+               <source>Do not save</source>
+               <target>Ne pas enregistrer</target>
+            </trans-unit>
+         </group>
+      </body>
+   </file>
+</xliff>

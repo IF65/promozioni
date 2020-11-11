@@ -1,0 +1,2 @@
+pfPromozioni ("caricaArray")
+pfPromozioni ("aggiornaDisplay")

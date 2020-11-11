@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE base SYSTEM "http://www.4d.com/dtd/2007/base.dtd" >
+<base name="" uuid="FF8F49DB7D71431CAEC8B37AADBD8E82" collation_locale="it">
+	<schema name="DEFAULT_SCHEMA"/>
+	<table name="__DeletedRecords" uuid="8767ECD6ADDD4E0589E2166CA6F3568E" id="4" leave_tag_on_delete="true" prevent_journaling="true">
+		<field name="ID" uuid="2C568E51C27E49079422701AA21691B7" type="5" unique="true" autosequence="true" id="1"/>
+		<field name="__Stamp" uuid="FED8430A7C3B480CBE4C496E0A573D1E" type="5" id="2"/>
+		<field name="__TableNumber" uuid="B3720DC9C7E545E4B45F871200708693" type="4" id="3"/>
+		<field name="__TableName" uuid="07BB7981E96744B5B6BA140893372BEF" type="10" limiting_length="255" id="4"/>
+		<field name="__PrimaryKey" uuid="D5D6866318E34C218793DB18449FF5A3" type="10" limiting_length="255" id="5"/>
+		<primary_key field_name="ID" field_uuid="2C568E51C27E49079422701AA21691B7"/>
+		<table_extra>
+			<editor_table_info fields_ordering="1" displayable_fields_count="5">
+				<color red="255" green="255" blue="255" alpha="0"/>
+				<coordinates left="0" top="0" width="189.703125" height="161.16796875"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<index kind="regular" unique_keys="true" name="__DeletedRecordsID" uuid="16018E83515544518CB6F1D936ECD693" type="7">
+		<field_ref uuid="2C568E51C27E49079422701AA21691B7" name="ID">
+			<table_ref uuid="8767ECD6ADDD4E0589E2166CA6F3568E" name="__DeletedRecords"/>
+		</field_ref>
+	</index>
+	<index kind="regular" name="__DeletedRecords__Stamp" uuid="2697F4D4369C4D7283CFD09029AF51E2" type="7">
+		<field_ref uuid="FED8430A7C3B480CBE4C496E0A573D1E" name="__Stamp">
+			<table_ref uuid="8767ECD6ADDD4E0589E2166CA6F3568E" name="__DeletedRecords"/>
+		</field_ref>
+	</index>
+	<base_extra __stringCompHash="icu:63.1.0" __keywordBuildingHash="icu:63.1.0" package_name="PFood_v18" structure_file_name="PFood" data_file_path=":PFood.4DD"/>
+</base>

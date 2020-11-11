@@ -1,0 +1,969 @@
+﻿{
+	"destination": "detailScreen",
+	"windowTitle": "Inserimento/Modifica Promozione",
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"menuBar": "Menu Bar #1",
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onClick",
+		"onDataChange",
+		"onResize"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Group Box8": {
+					"type": "groupBox",
+					"top": 64,
+					"left": 597,
+					"width": 84,
+					"height": 80
+				},
+				"Group Box7": {
+					"type": "groupBox",
+					"top": 64,
+					"left": 876,
+					"width": 182,
+					"height": 80
+				},
+				"Group Box6": {
+					"type": "groupBox",
+					"top": 416,
+					"left": 9,
+					"width": 829,
+					"height": 140
+				},
+				"Group Box5": {
+					"type": "groupBox",
+					"top": 110,
+					"left": 294,
+					"width": 298,
+					"height": 34
+				},
+				"Group Box4": {
+					"type": "groupBox",
+					"top": 64,
+					"left": 95,
+					"width": 195,
+					"height": 80
+				},
+				"Group Box3": {
+					"type": "groupBox",
+					"top": 64,
+					"left": 801,
+					"width": 71,
+					"height": 80
+				},
+				"Group Box2": {
+					"type": "groupBox",
+					"top": 64,
+					"left": 294,
+					"width": 298,
+					"height": 42
+				},
+				"Group Box1": {
+					"type": "groupBox",
+					"top": 64,
+					"left": 9,
+					"width": 82,
+					"height": 80
+				},
+				"Group Box": {
+					"type": "groupBox",
+					"top": 64,
+					"left": 686,
+					"width": 111,
+					"height": 80
+				},
+				"Rectangle": {
+					"type": "rectangle",
+					"top": 59,
+					"left": 1061,
+					"width": 1,
+					"height": 1,
+					"fill": "transparent"
+				},
+				"Text": {
+					"type": "text",
+					"top": 70,
+					"left": 700,
+					"width": 65,
+					"height": 13,
+					"class": "Supermedia_Label",
+					"text": "Data Inizio"
+				},
+				"Text1": {
+					"type": "text",
+					"top": 108,
+					"left": 700,
+					"width": 54,
+					"height": 13,
+					"class": "Supermedia_Label",
+					"text": "Data Fine"
+				},
+				"vPR_bozza": {
+					"type": "checkbox",
+					"top": 76,
+					"left": 14,
+					"width": 56,
+					"height": 26,
+					"dataSource": "vPR_bozza",
+					"text": "Bozza",
+					"class": "Supermedia_Label",
+					"focusable": false,
+					"method": "ObjectMethods/vPR_bozza.4dm",
+					"events": [
+						"onLoad",
+						"onClick"
+					]
+				},
+				"vPR_codice": {
+					"type": "input",
+					"top": 120,
+					"left": 18,
+					"width": 64,
+					"height": 14,
+					"dataSource": "vPR_codice",
+					"dataSourceTypeHint": "number",
+					"class": "Supermedia_Campi_12",
+					"textAlign": "right",
+					"focusable": false,
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onLoad",
+						"onDataChange"
+					]
+				},
+				"selTipo": {
+					"type": "dropdown",
+					"top": 80,
+					"left": 105,
+					"width": 177,
+					"height": 19,
+					"dataSource": "selTipo",
+					"focusable": false,
+					"class": "Supermedia_Bottoni",
+					"method": "ObjectMethods/selTipo.4dm",
+					"events": [
+						"onClick",
+						"onDataChange"
+					]
+				},
+				"vPR_codiceCatalina": {
+					"type": "input",
+					"top": 120,
+					"left": 109,
+					"width": 64,
+					"height": 14,
+					"dataSource": "vPR_codiceCatalina",
+					"dataSourceTypeHint": "number",
+					"class": "Supermedia_Campi_12",
+					"textAlign": "right",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onLoad",
+						"onDataChange"
+					]
+				},
+				"vPR_barcode": {
+					"type": "input",
+					"top": 120,
+					"left": 182,
+					"width": 99,
+					"height": 14,
+					"dataSource": "vPR_barcode",
+					"class": "Supermedia_Campi_12",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/vPR_barcode.4dm",
+					"events": [
+						"onBeforeKeystroke",
+						"onDataChange"
+					]
+				},
+				"vPR_descrizione": {
+					"type": "input",
+					"top": 82,
+					"left": 302,
+					"width": 281,
+					"height": 14,
+					"dataSource": "vPR_descrizione",
+					"class": "Supermedia_Campi_12",
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/vPR_descrizione.4dm",
+					"events": [
+						"onBeforeKeystroke",
+						"onDataChange"
+					]
+				},
+				"vPR_Do": {
+					"type": "checkbox",
+					"top": 114,
+					"left": 299,
+					"width": 36,
+					"height": 26,
+					"dataSource": "vPR_Do",
+					"text": "D",
+					"class": "Supermedia_Label",
+					"focusable": false,
+					"events": [
+						"onLoad",
+						"onClick"
+					]
+				},
+				"vPR_Lu": {
+					"type": "checkbox",
+					"top": 114,
+					"left": 341,
+					"width": 36,
+					"height": 26,
+					"dataSource": "vPR_Lu",
+					"text": "L",
+					"class": "Supermedia_Label",
+					"focusable": false,
+					"events": [
+						"onLoad",
+						"onClick"
+					]
+				},
+				"vPR_Ma": {
+					"type": "checkbox",
+					"top": 114,
+					"left": 384,
+					"width": 36,
+					"height": 26,
+					"dataSource": "vPR_Ma",
+					"text": "Ma",
+					"class": "Supermedia_Label",
+					"focusable": false,
+					"events": [
+						"onLoad",
+						"onClick"
+					]
+				},
+				"vPR_Me": {
+					"type": "checkbox",
+					"top": 114,
+					"left": 427,
+					"width": 36,
+					"height": 26,
+					"dataSource": "vPR_Me",
+					"text": "Me",
+					"class": "Supermedia_Label",
+					"focusable": false,
+					"events": [
+						"onLoad",
+						"onClick"
+					]
+				},
+				"vPR_Gi": {
+					"type": "checkbox",
+					"top": 114,
+					"left": 470,
+					"width": 36,
+					"height": 26,
+					"dataSource": "vPR_Gi",
+					"text": "G",
+					"class": "Supermedia_Label",
+					"focusable": false,
+					"events": [
+						"onLoad",
+						"onClick"
+					]
+				},
+				"vPR_Ve": {
+					"type": "checkbox",
+					"top": 114,
+					"left": 513,
+					"width": 36,
+					"height": 26,
+					"dataSource": "vPR_Ve",
+					"text": "V",
+					"class": "Supermedia_Label",
+					"focusable": false,
+					"events": [
+						"onLoad",
+						"onClick"
+					]
+				},
+				"vPR_Sa": {
+					"type": "checkbox",
+					"top": 114,
+					"left": 556,
+					"width": 36,
+					"height": 26,
+					"dataSource": "vPR_Sa",
+					"text": "S",
+					"class": "Supermedia_Label",
+					"focusable": false,
+					"events": [
+						"onLoad",
+						"onClick"
+					]
+				},
+				"vPR_ripetibilita": {
+					"type": "input",
+					"top": 82,
+					"left": 607,
+					"width": 64,
+					"height": 14,
+					"dataSource": "vPR_ripetibilita",
+					"dataSourceTypeHint": "number",
+					"class": "Supermedia_Campi_12",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/vPR_ripetibilita.4dm",
+					"events": [
+						"onBeforeKeystroke",
+						"onDataChange"
+					]
+				},
+				"vPR_pmt": {
+					"type": "checkbox",
+					"top": 114,
+					"left": 604,
+					"width": 71,
+					"height": 26,
+					"dataSource": "vPR_pmt",
+					"text": "PMT Forz.",
+					"class": "Supermedia_Label",
+					"focusable": false,
+					"events": [
+						"onLoad",
+						"onClick"
+					]
+				},
+				"vPR_dataInizio": {
+					"type": "input",
+					"top": 82,
+					"left": 696,
+					"width": 65,
+					"height": 14,
+					"dataSource": "vPR_dataInizio",
+					"dataSourceTypeHint": "date",
+					"class": "Supermedia_Campi_12",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/vPR_dataInizio.4dm",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"vPR_dataFine": {
+					"type": "input",
+					"top": 120,
+					"left": 696,
+					"width": 65,
+					"height": 14,
+					"dataSource": "vPR_dataFine",
+					"dataSourceTypeHint": "date",
+					"class": "Supermedia_Campi_12",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"vPR_dataInizio1": {
+					"type": "subform",
+					"top": 81,
+					"left": 768,
+					"width": 19,
+					"height": 16,
+					"dataSource": "vPR_dataInizio",
+					"dataSourceTypeHint": "date",
+					"detailForm": "DateButton",
+					"focusable": false,
+					"deletableInList": false,
+					"doubleClickInRowAction": "editSubrecord",
+					"doubleClickInEmptyAreaAction": "addSubrecord",
+					"selectionMode": "multiple",
+					"printFrame": "variable",
+					"method": "ObjectMethods/vPR_dataInizio1.4dm",
+					"events": [
+						"onLoad",
+						"onDataChange"
+					]
+				},
+				"vPR_dataFine1": {
+					"type": "subform",
+					"top": 119,
+					"left": 768,
+					"width": 19,
+					"height": 16,
+					"dataSource": "vPR_dataFine",
+					"dataSourceTypeHint": "date",
+					"detailForm": "DateButton",
+					"focusable": false,
+					"deletableInList": false,
+					"doubleClickInRowAction": "editSubrecord",
+					"doubleClickInEmptyAreaAction": "addSubrecord",
+					"selectionMode": "multiple",
+					"printFrame": "variable",
+					"method": "ObjectMethods/vPR_dataFine1.4dm",
+					"events": [
+						"onLoad",
+						"onDataChange"
+					]
+				},
+				"vPR_oraInizio": {
+					"type": "input",
+					"top": 82,
+					"left": 811,
+					"width": 51,
+					"height": 14,
+					"dataSource": "vPR_oraInizio",
+					"dataSourceTypeHint": "number",
+					"class": "Supermedia_Campi_12",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/vPR_oraInizio.4dm",
+					"events": [
+						"onBeforeKeystroke",
+						"onDataChange"
+					]
+				},
+				"vPR_oraFine": {
+					"type": "input",
+					"top": 120,
+					"left": 811,
+					"width": 49,
+					"height": 14,
+					"dataSource": "vPR_oraFine",
+					"dataSourceTypeHint": "number",
+					"class": "Supermedia_Campi_12",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/vPR_oraFine.4dm",
+					"events": [
+						"onBeforeKeystroke",
+						"onDataChange"
+					]
+				},
+				"selTipoCliente": {
+					"type": "dropdown",
+					"top": 79,
+					"left": 888,
+					"width": 160,
+					"height": 19,
+					"sizingX": "grow",
+					"dataSource": "selTipoCliente",
+					"focusable": false,
+					"class": "Supermedia_Bottoni",
+					"method": "ObjectMethods/selTipoCliente.4dm",
+					"events": [
+						"onClick",
+						"onDataChange"
+					]
+				},
+				"vPR_categoria": {
+					"type": "input",
+					"top": 120,
+					"left": 891,
+					"width": 69,
+					"height": 14,
+					"dataSource": "vPR_categoria",
+					"dataSourceTypeHint": "number",
+					"class": "Supermedia_Campi_12",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/vPR_categoria.4dm",
+					"events": [
+						"onBeforeKeystroke",
+						"onDataChange"
+					]
+				},
+				"ricompense01": {
+					"type": "plugin",
+					"top": 168,
+					"left": 10,
+					"width": 454,
+					"height": 228,
+					"sizingY": "grow",
+					"dataSource": "alpRicompense",
+					"pluginAreaKind": "%AreaListPro",
+					"borderStyle": "sunken",
+					"method": "ObjectMethods/ricompense01.4dm",
+					"events": [
+						"onLoad",
+						"onPluginArea"
+					],
+					"customProperties": "PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiIHN0YW5kYWxvbmU9InllcyIgPz4KPEFMUCB2ZXJzaW9uPSIweDA5MDkwMzAwIiBjYWNoZVNpemU9IjEwMjQiPgo8Q29sdW1ucyAvPgo8RHJhdyByb3dJbmRlbnQ9IjMuMDA7MS4wMCIgaGVhZGVySW5kZW50PSIzLjAwOzIuMDAiIGZvb3RlckluZGVudD0iMy4wMDsyLjAwIiBjb2xEaXZpZGVyQ29sb3I9IiNmZjgwODA4MCIgcm93RGl2aWRlckNvbG9yPSIjZmY4MDgwODAiIG1pc2NDb2xvcjE9IiNmZmVlZWVlZSIgbWlzY0NvbG9yMj0iI2ZmZmZmZmZmIiBtaXNjQ29sb3IzPSIjZmZlZWVlZWUiIG1pc2NDb2xvcjQ9IiNmZmVlZWVlZSIgbWlzY0NvbG9yNT0iIzAwZmZmZmZmIiBhbHRSb3dDb2xvcj0iI2ZmZWVlZWVlIiAvPgo8RHJhZyAvPgo8U2VsZWN0IC8+CjxTb3J0IC8+CjxFZGl0IGNsaWNrSG9sZERlbGF5PSIzMCIgY29weUZpZWxkRGVsaW1pdGVyPSImI3gwOTsiIGNvcHlSZWNvcmREZWxpbWl0ZXI9IiYjeDBEOyYjeDBBOyIgLz4KPEFQPgo8Q29sdW1uIGRhdGFUeXBlPSI1IiB3aWR0aD0iMCIgdXNlcldpZHRoPSIwIiBoZWFkZXJUZXh0PSJEZWZhdWx0Ij4KPGhlYWRlclN0eWxlIGZvbnQ9Ikx1Y2lkYSBHcmFuZGUiIHNpemU9IjEzIiB0ZXh0Q29sb3I9IiNmZjAwMDAwMCIgYmFja0NvbG9yPSIjMDBmZmZmZmYiIC8+CjxsaXN0U3R5bGUgZm9udD0iTHVjaWRhIEdyYW5kZSIgc2l6ZT0iMTMiIHRleHRDb2xvcj0iI2ZmMDAwMDAwIiBiYWNrQ29sb3I9IiMwMGZmZmZmZiIgLz4KPGZvb3RlclN0eWxlIGZvbnQ9Ikx1Y2lkYSBHcmFuZGUiIHNpemU9IjEzIiB0ZXh0Q29sb3I9IiNmZjAwMDAwMCIgYmFja0NvbG9yPSIjMDBmZmZmZmYiIC8+CjwvQ29sdW1uPgo8L0FQPgo8L0FMUD4K"
+				},
+				"articoli01": {
+					"type": "plugin",
+					"top": 168,
+					"left": 509,
+					"width": 327,
+					"height": 228,
+					"sizingY": "grow",
+					"dataSource": "alpArticoli",
+					"pluginAreaKind": "%AreaListPro",
+					"borderStyle": "sunken",
+					"method": "ObjectMethods/articoli01.4dm",
+					"events": [
+						"onLoad",
+						"onPluginArea"
+					],
+					"customProperties": "PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiIHN0YW5kYWxvbmU9InllcyIgPz4KPEFMUCB2ZXJzaW9uPSIweDA5MDkwMzAwIiBjYWNoZVNpemU9IjEwMjQiPgo8Q29sdW1ucyAvPgo8RHJhdyByb3dJbmRlbnQ9IjMuMDA7MS4wMCIgaGVhZGVySW5kZW50PSIzLjAwOzIuMDAiIGZvb3RlckluZGVudD0iMy4wMDsyLjAwIiBjb2xEaXZpZGVyQ29sb3I9IiNmZjgwODA4MCIgcm93RGl2aWRlckNvbG9yPSIjZmY4MDgwODAiIG1pc2NDb2xvcjE9IiNmZmVlZWVlZSIgbWlzY0NvbG9yMj0iI2ZmZmZmZmZmIiBtaXNjQ29sb3IzPSIjZmZlZWVlZWUiIG1pc2NDb2xvcjQ9IiNmZmVlZWVlZSIgbWlzY0NvbG9yNT0iIzAwZmZmZmZmIiBhbHRSb3dDb2xvcj0iI2ZmZWVlZWVlIiAvPgo8RHJhZyAvPgo8U2VsZWN0IC8+CjxTb3J0IC8+CjxFZGl0IGNsaWNrSG9sZERlbGF5PSIzMCIgY29weUZpZWxkRGVsaW1pdGVyPSImI3gwOTsiIGNvcHlSZWNvcmREZWxpbWl0ZXI9IiYjeDBEOyYjeDBBOyIgLz4KPEFQPgo8Q29sdW1uIGRhdGFUeXBlPSI1IiB3aWR0aD0iMCIgdXNlcldpZHRoPSIwIiBoZWFkZXJUZXh0PSJEZWZhdWx0Ij4KPGhlYWRlclN0eWxlIGZvbnQ9Ikx1Y2lkYSBHcmFuZGUiIHNpemU9IjEzIiB0ZXh0Q29sb3I9IiNmZjAwMDAwMCIgYmFja0NvbG9yPSIjMDBmZmZmZmYiIC8+CjxsaXN0U3R5bGUgZm9udD0iTHVjaWRhIEdyYW5kZSIgc2l6ZT0iMTMiIHRleHRDb2xvcj0iI2ZmMDAwMDAwIiBiYWNrQ29sb3I9IiMwMGZmZmZmZiIgLz4KPGZvb3RlclN0eWxlIGZvbnQ9Ikx1Y2lkYSBHcmFuZGUiIHNpemU9IjEzIiB0ZXh0Q29sb3I9IiNmZjAwMDAwMCIgYmFja0NvbG9yPSIjMDBmZmZmZmYiIC8+CjwvQ29sdW1uPgo8L0FQPgo8L0FMUD4K"
+				},
+				"alpSedi": {
+					"type": "plugin",
+					"top": 168,
+					"left": 879,
+					"width": 155,
+					"height": 385,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "alpSedi",
+					"pluginAreaKind": "%AreaListPro",
+					"borderStyle": "sunken",
+					"method": "ObjectMethods/alpSedi.4dm",
+					"events": [
+						"onLoad",
+						"onPluginArea"
+					],
+					"customProperties": "PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiIHN0YW5kYWxvbmU9InllcyIgPz4KPEFMUCB2ZXJzaW9uPSIweDA5MDkwMzAwIiBjYWNoZVNpemU9IjEwMjQiPgo8Q29sdW1ucyAvPgo8RHJhdyByb3dJbmRlbnQ9IjMuMDA7MS4wMCIgaGVhZGVySW5kZW50PSIzLjAwOzIuMDAiIGZvb3RlckluZGVudD0iMy4wMDsyLjAwIiBjb2xEaXZpZGVyQ29sb3I9IiNmZjgwODA4MCIgcm93RGl2aWRlckNvbG9yPSIjZmY4MDgwODAiIG1pc2NDb2xvcjE9IiNmZmVlZWVlZSIgbWlzY0NvbG9yMj0iI2ZmZmZmZmZmIiBtaXNjQ29sb3IzPSIjZmZlZWVlZWUiIG1pc2NDb2xvcjQ9IiNmZmVlZWVlZSIgbWlzY0NvbG9yNT0iIzAwZmZmZmZmIiBhbHRSb3dDb2xvcj0iI2ZmZWVlZWVlIiAvPgo8RHJhZyAvPgo8U2VsZWN0IC8+CjxTb3J0IC8+CjxFZGl0IGNsaWNrSG9sZERlbGF5PSIzMCIgY29weUZpZWxkRGVsaW1pdGVyPSImI3gwOTsiIGNvcHlSZWNvcmREZWxpbWl0ZXI9IiYjeDBEOyYjeDBBOyIgLz4KPEFQPgo8Q29sdW1uIGRhdGFUeXBlPSI1IiB3aWR0aD0iMCIgdXNlcldpZHRoPSIwIiBoZWFkZXJUZXh0PSJEZWZhdWx0Ij4KPGhlYWRlclN0eWxlIGZvbnQ9Ikx1Y2lkYSBHcmFuZGUiIHNpemU9IjEzIiB0ZXh0Q29sb3I9IiNmZjAwMDAwMCIgYmFja0NvbG9yPSIjMDBmZmZmZmYiIC8+CjxsaXN0U3R5bGUgZm9udD0iTHVjaWRhIEdyYW5kZSIgc2l6ZT0iMTMiIHRleHRDb2xvcj0iI2ZmMDAwMDAwIiBiYWNrQ29sb3I9IiMwMGZmZmZmZiIgLz4KPGZvb3RlclN0eWxlIGZvbnQ9Ikx1Y2lkYSBHcmFuZGUiIHNpemU9IjEzIiB0ZXh0Q29sb3I9IiNmZjAwMDAwMCIgYmFja0NvbG9yPSIjMDBmZmZmZmYiIC8+CjwvQ29sdW1uPgo8L0FQPgo8L0FMUD4K"
+				},
+				"Line": {
+					"type": "line",
+					"top": 52,
+					"left": 0,
+					"width": 1070,
+					"sizingX": "grow",
+					"stroke": "#DDDDDD",
+					"strokeWidth": 0.1
+				},
+				"Text4": {
+					"type": "text",
+					"top": 70,
+					"left": 306,
+					"width": 85,
+					"height": 13,
+					"class": "Supermedia_Label",
+					"text": "Descrizione"
+				},
+				"Text5": {
+					"type": "text",
+					"top": 70,
+					"left": 815,
+					"width": 50,
+					"height": 13,
+					"class": "Supermedia_Label",
+					"text": "Ora Inizio"
+				},
+				"Text6": {
+					"type": "text",
+					"top": 108,
+					"left": 815,
+					"width": 50,
+					"height": 13,
+					"class": "Supermedia_Label",
+					"text": "Ora Fine"
+				},
+				"Text8": {
+					"type": "text",
+					"top": 68,
+					"left": 894,
+					"width": 85,
+					"height": 13,
+					"sizingX": "move",
+					"class": "Supermedia_Label",
+					"text": "Tipo Cliente"
+				},
+				"Text9": {
+					"type": "text",
+					"top": 70,
+					"left": 111,
+					"width": 59,
+					"height": 13,
+					"class": "Supermedia_Label",
+					"text": "Tipo"
+				},
+				"ricompense04": {
+					"type": "text",
+					"top": 155,
+					"left": 14,
+					"width": 85,
+					"height": 13,
+					"class": "Supermedia_Label",
+					"text": "Ricompense - 01"
+				},
+				"articoli04": {
+					"type": "text",
+					"top": 155,
+					"left": 520,
+					"width": 85,
+					"height": 13,
+					"class": "Supermedia_Label",
+					"text": "Articoli - 02"
+				},
+				"Text3": {
+					"type": "text",
+					"top": 108,
+					"left": 186,
+					"width": 45,
+					"height": 13,
+					"class": "Supermedia_Label",
+					"text": "Barcode"
+				},
+				"Text10": {
+					"type": "text",
+					"top": 108,
+					"left": 112,
+					"width": 58,
+					"height": 13,
+					"class": "Supermedia_Label",
+					"text": "Codice Cat."
+				},
+				"Text2": {
+					"type": "text",
+					"top": 108,
+					"left": 21,
+					"width": 58,
+					"height": 13,
+					"class": "Supermedia_Label",
+					"text": "Progressivo"
+				},
+				"lblSediSelezionate": {
+					"type": "text",
+					"top": 155,
+					"left": 890,
+					"width": 85,
+					"height": 13,
+					"class": "Supermedia_Label",
+					"text": "Sedi Selezionate"
+				},
+				"bFirst": {
+					"type": "pictureButton",
+					"top": 3,
+					"left": 1,
+					"width": 48,
+					"height": 48,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/First Record"
+					},
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/FirstRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bPrevious": {
+					"type": "pictureButton",
+					"top": 3,
+					"left": 64,
+					"width": 48,
+					"height": 48,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Previous Record"
+					},
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/PreviousRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bNext": {
+					"type": "pictureButton",
+					"top": 3,
+					"left": 127,
+					"width": 48,
+					"height": 48,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Next Record"
+					},
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/NextRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bLast": {
+					"type": "pictureButton",
+					"top": 3,
+					"left": 190,
+					"width": 48,
+					"height": 48,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Last Record"
+					},
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/LastRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bDelete": {
+					"type": "pictureButton",
+					"top": 3,
+					"left": 894,
+					"width": 48,
+					"height": 48,
+					"sizingX": "move",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Delete Record"
+					},
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/DeleteRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bCancel": {
+					"type": "pictureButton",
+					"top": 3,
+					"left": 957,
+					"width": 48,
+					"height": 48,
+					"sizingX": "move",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Cancel"
+					},
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/Cancel.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"method": "ObjectMethods/bCancel.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"bValidate": {
+					"type": "pictureButton",
+					"top": 3,
+					"left": 1020,
+					"width": 48,
+					"height": 48,
+					"sizingX": "move",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/OK"
+					},
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/Validate.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"method": "ObjectMethods/bValidate.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Line1": {
+					"type": "line",
+					"top": 573,
+					"left": 40,
+					"width": 1030,
+					"sizingX": "grow",
+					"sizingY": "move",
+					"stroke": "#DDDDDD",
+					"strokeWidth": 0.1
+				},
+				"ricompense02": {
+					"type": "pictureButton",
+					"top": 160,
+					"left": 463,
+					"width": 36,
+					"height": 36,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Add Record"
+					},
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/NewRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"method": "ObjectMethods/ricompense02.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"ricompense03": {
+					"type": "pictureButton",
+					"top": 201,
+					"left": 463,
+					"width": 36,
+					"height": 36,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Delete Selectio"
+					},
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/DeleteSelection.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"method": "ObjectMethods/ricompense03.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"articoli02": {
+					"type": "pictureButton",
+					"top": 160,
+					"left": 835,
+					"width": 36,
+					"height": 36,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Add Record"
+					},
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/NewRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"method": "ObjectMethods/articoli02.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"articoli03": {
+					"type": "pictureButton",
+					"top": 201,
+					"left": 835,
+					"width": 36,
+					"height": 36,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Delete Selectio"
+					},
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/DeleteSelection.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"method": "ObjectMethods/articoli03.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"bReport": {
+					"type": "pictureButton",
+					"top": 160,
+					"left": 1034,
+					"width": 36,
+					"height": 36,
+					"sizingX": "move",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Report"
+					},
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/Report.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"method": "ObjectMethods/bReport.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Variable": {
+					"type": "input",
+					"top": 424,
+					"left": 17,
+					"width": 813,
+					"height": 122,
+					"dataSource": "vPR_testo",
+					"class": "Supermedia_Campi_12",
+					"fill": "#FFFFFF",
+					"hideFocusRing": true,
+					"multiline": "yes",
+					"wordwrap": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"lblTesto": {
+					"type": "text",
+					"top": 404,
+					"left": 14,
+					"width": 85,
+					"height": 13,
+					"class": "Supermedia_Label",
+					"text": "Testo - 03"
+				},
+				"Text7": {
+					"type": "text",
+					"top": 108,
+					"left": 895,
+					"width": 50,
+					"height": 13,
+					"class": "Supermedia_Label",
+					"text": "Categoria"
+				},
+				"bReport1": {
+					"type": "pictureButton",
+					"top": 413,
+					"left": 835,
+					"width": 36,
+					"height": 36,
+					"sizingX": "move",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Report"
+					},
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/Report.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"method": "ObjectMethods/bReport1.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Text11": {
+					"type": "text",
+					"top": 70,
+					"left": 611,
+					"width": 58,
+					"height": 13,
+					"class": "Supermedia_Label",
+					"text": "Ripetibilità"
+				}
+			}
+		}
+	]
+}
