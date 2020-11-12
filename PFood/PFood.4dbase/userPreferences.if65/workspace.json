@@ -10,12 +10,12 @@
 		},
 		{
 			"type": "method",
-			"id": 2147483566,
+			"id": 2147483567,
 			"codeDescriptor": {
 				"type": 2,
 				"formName": "pfPromozioni",
-				"objectName": "Button1",
-				"methodPath": "/SOURCES/Forms/pfPromozioni/ObjectMethods/Button1.4dm"
+				"objectName": "alpPromozioni",
+				"methodPath": "/SOURCES/Forms/pfPromozioni/ObjectMethods/alpPromozioni.4dm"
 			}
 		},
 		{

@@ -9,19 +9,10 @@
 		}
 	},
 	{
-		"line": 117,
-		"method": {
-			"type": 2,
-			"formName": "pfPromozioni",
-			"objectName": "alpPromozioni",
-			"methodPath": "/SOURCES/Forms/pfPromozioni/ObjectMethods/alpPromozioni.4dm"
-		}
-	},
-	{
-		"line": 132,
+		"line": 159,
 		"method": {
 			"type": 1,
-			"methodName": "pfPromozioni"
+			"methodName": "utlInvioLaboratorio"
 		}
 	}
 ]

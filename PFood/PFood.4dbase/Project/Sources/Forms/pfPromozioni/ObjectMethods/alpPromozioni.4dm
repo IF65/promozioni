@@ -158,7 +158,6 @@ Case of
 				promozioneSelezionata:=AL_GetAreaLongProperty (alpPromozioni;ALP_Area_SelRow)
 				pfPromozioni ("modificaPromozione")
 			: ($event=AL Empty Area Double click)
-				ordineSelezionato:=0
-				pfPromozioni ("modificaOrdine")
+				
 		End case 
 End case 

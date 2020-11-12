@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?><preferences stamp="348">
+﻿<?xml version="1.0" encoding="UTF-8"?><preferences stamp="368">
 	<com.4d>
 		<database>
 			<data_storage data_path="Data/PFood.4DD"/>
@@ -10,7 +10,7 @@
 	</com.4d>
 	<internal_prefs_4d>
 		<windows>
-			<window name="main" left="0" top="103" width="1920" height="977"/>
+			<window name="main" left="3" top="103" width="1920" height="977"/>
 		</windows>
 	</internal_prefs_4d>
 </preferences>

@@ -29,18 +29,16 @@ class TIncarichi extends TTable {
     public function creaRecord(array $incarico): string {
         try {
             $sql = "insert into `" . $this->schema . "`.`" . $this->tableName . "` 
-                            (`id`,`idPadre`,`codicePromozione`,`lavoroCodice`,`negozioCodice`,`negozioDescrizione`,`stato`,`tsPianificazione`,`tsEsecuzione`)
+                            (`id`,`idPadre`,`codicePromozione`,`lavoroCodice`,`negozioCodice`,`stato`,`tsPianificazione`,`tsEsecuzione`)
                     values
-                            (:id,:idPadre,:codicePromozione,:lavoroCodice,:lavoroDescrizione,:negozioCodice,:negozioDescrizione,:stato,:tsPianificazione,:tsEsecuzione);";
+                            (:id,:idPadre,:codicePromozione,:lavoroCodice,:negozioCodice,:stato,:tsPianificazione,:tsEsecuzione);";
             $stmt = $this->pdo->prepare( $sql );
             $stmt->execute( [
                 'id' => $incarico['id'],
                 'idPadre' => $incarico['idPadre'],
                 'codicePromozione' => $incarico['codicePromozione'],
                 'lavoroCodice' => $incarico['lavoroCodice'],
-                'lavoroDescrizione' => $incarico['lavoroDescrizione'],
                 'negozioCodice' => $incarico['negozioCodice'],
-                'negozioDescrizione' => $incarico['negozioDescrizione'],
                 'stato' => key_exists( 'stato', $incarico ) ? $incarico['stato'] : 0,
                 'tsPianificazione' => key_exists( 'tsPianificazione', $incarico ) ? $incarico['tsPianificazione'] : null,
                 'tsEsecuzione' => key_exists( 'tsEsecuzione', $incarico ) ? $incarico['tsEsecuzione'] : null
@@ -60,9 +58,7 @@ class TIncarichi extends TTable {
                     `idPadre`=:idPadre,
                     `codicePromozione`=:codicePromozione,
                     `lavoroCodice`=:lavoroCodice,
-                    `lavoroDescrizione`=:lavoroDescrizione,
                     `negozioCodice`=:negozioCodice,
-                    `negozioDescrizione`=:negozioDescrizione,
                     `stato`=:stato,
                     `tsPianificazione`=:tsPianificazione,
                     `tsEsecuzione`=:tsEsecuzione
@@ -73,9 +69,7 @@ class TIncarichi extends TTable {
                 'idPadre' => $incarico['idPadre'],
                 'codicePromozione' => $incarico['codicePromozione'],
                 'lavoroCodice' => $incarico['lavoroCodice'],
-                'lavoroDescrizione' => $incarico['lavoroDescrizione'],
                 'negozioCodice' => $incarico['negozioCodice'],
-                'negozioDescrizione' => $incarico['negozioDescrizione'],
                 'stato' => $incarico['stato'],
                 'tsPianificazione' => $incarico['tsPianificazione'],
                 'tsEsecuzione' => $incarico['tsEsecuzione']

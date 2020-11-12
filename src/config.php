@@ -17,7 +17,7 @@ if ($debug) {
 	$sqlDetails = array(
 		"user" => "root",
 		"password" => "mela",
-		"host" => "127.0.0.1",
+		"host" => "10.11.14.78",//"127.0.0.1",
 		"port" => "",
 		"db" => ['archivi' =>'archivi','promozioni'=>'promozioni'],
 		"dsn" => "",

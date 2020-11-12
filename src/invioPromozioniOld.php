@@ -1,5 +1,12 @@
 <?php
 
+$debug = False;
+
+$fileName = realpath(__DIR__ . '/..').'/debug.php';
+if (file_exists($fileName)) {
+    $debug = true;
+}
+
 $indirizzi = [
     '0101' => '192.168.201.11',
     '0102' => '192.168.202.11',
@@ -96,8 +103,11 @@ $indirizzi = [
     '3694' => '192.168.169.11'
 ];
 
-$posizioneDati = '/Users/if65/Desktop/promozioni_invio'; // Debug
-//$posizioneDati = '/promozioni_invio';
+if ($debug) {
+    $posizioneDati = '/Users/if65/Desktop/promozioni_invio';
+} else {
+    $posizioneDati = '/promozioni_invio';
+}
 
 $negozi = scandir($posizioneDati, SCANDIR_SORT_ASCENDING);
 foreach ($negozi as $negozio) {

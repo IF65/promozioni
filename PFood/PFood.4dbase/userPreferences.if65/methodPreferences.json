@@ -1,9 +1,9 @@
 ﻿{
 	"Sources/Methods/pfPromozioni.4dm": {
-		"startSelection": 18,
-		"endSelection": 18,
-		"firstSelectedLine": 44,
-		"lastSelectedLine": 44,
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 19,
+		"lastSelectedLine": 19,
 		"folding": [
 			15,
 			20,
@@ -12,6 +12,7 @@
 			28,
 			32,
 			46,
+			78,
 			87,
 			90,
 			93,
@@ -23,6 +24,7 @@
 			107,
 			111,
 			114,
+			130,
 			135,
 			171,
 			174,
@@ -95,11 +97,50 @@
 		"stamp": "2020-09-29T19:23:06.206Z"
 	},
 	"Sources/Methods/pfPromozioniInserimento.4dm": {
-		"startSelection": 32,
-		"endSelection": 32,
-		"firstSelectedLine": 391,
-		"lastSelectedLine": 391,
-		"folding": [],
+		"startSelection": 16,
+		"endSelection": 27,
+		"firstSelectedLine": 121,
+		"lastSelectedLine": 121,
+		"folding": [
+			14,
+			19,
+			21,
+			23,
+			34,
+			49,
+			64,
+			65,
+			81,
+			82,
+			83,
+			87,
+			118,
+			122,
+			138,
+			141,
+			172,
+			182,
+			200,
+			201,
+			218,
+			280,
+			281,
+			358,
+			369,
+			388,
+			419,
+			420,
+			422,
+			449,
+			455,
+			477,
+			493,
+			524,
+			525,
+			556,
+			586,
+			595
+		],
 		"bookmarks": [],
 		"stamp": "2020-11-07T09:05:03.001Z"
 	},
@@ -309,13 +350,13 @@
 		"stamp": "2020-09-29T19:23:06.230Z"
 	},
 	"Sources/Methods/utlInvioLaboratorio.4dm": {
-		"startSelection": 97,
-		"endSelection": 97,
-		"firstSelectedLine": 87,
-		"lastSelectedLine": 87,
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
 		"folding": [],
 		"bookmarks": [],
-		"stamp": "2020-10-29T11:17:37.512Z"
+		"stamp": "2020-10-29T11:17:37.000Z"
 	},
 	"Sources/Methods/pfCatalina.4dm": {
 		"startSelection": 39,
@@ -603,18 +644,22 @@
 	},
 	"Sources/Forms/pfPromozioni/ObjectMethods/alpPromozioni.4dm": {
 		"startSelection": 0,
-		"endSelection": 0,
-		"firstSelectedLine": 113,
-		"lastSelectedLine": 114,
-		"folding": [],
+		"endSelection": 12,
+		"firstSelectedLine": 81,
+		"lastSelectedLine": 81,
+		"folding": [
+			76,
+			152,
+			154
+		],
 		"bookmarks": [],
-		"stamp": "2020-09-29T19:23:06.000Z"
+		"stamp": "2020-11-11T11:32:39.670Z"
 	},
 	"Sources/Forms/pfPromozioni/ObjectMethods/Button1.4dm": {
-		"startSelection": 0,
-		"endSelection": 12,
-		"firstSelectedLine": 0,
-		"lastSelectedLine": 0,
+		"startSelection": 2,
+		"endSelection": 2,
+		"firstSelectedLine": 1,
+		"lastSelectedLine": 1,
 		"folding": [],
 		"bookmarks": [],
 		"stamp": "2020-09-29T19:23:06.000Z"
@@ -684,16 +729,16 @@
 	},
 	"Sources/Forms/pfPromozioniInserimento/method.4dm": {
 		"startSelection": 0,
-		"endSelection": 23,
-		"firstSelectedLine": 3,
-		"lastSelectedLine": 3,
+		"endSelection": 0,
+		"firstSelectedLine": 7,
+		"lastSelectedLine": 7,
 		"folding": [
 			5,
 			42,
 			54
 		],
 		"bookmarks": [],
-		"stamp": "2020-09-29T19:23:06.506Z"
+		"stamp": "2020-09-29T19:23:06.000Z"
 	},
 	"Sources/Forms/pfPromozioniInserimento/ObjectMethods/vPR_bozza.4dm": {
 		"startSelection": 0,
@@ -796,12 +841,12 @@
 	},
 	"Sources/Forms/pfPromozioniInserimento/ObjectMethods/alpSedi.4dm": {
 		"startSelection": 30,
-		"endSelection": 37,
-		"firstSelectedLine": 2,
-		"lastSelectedLine": 2,
+		"endSelection": 41,
+		"firstSelectedLine": 4,
+		"lastSelectedLine": 4,
 		"folding": [],
 		"bookmarks": [],
-		"stamp": "2020-09-29T19:23:06.515Z"
+		"stamp": "2020-09-29T19:23:06.000Z"
 	},
 	"Sources/Forms/pfPromozioniInserimento/ObjectMethods/bCancel.4dm": {
 		"startSelection": 0,

@@ -249,9 +249,7 @@
                         'idPadre' => '',
                         'codicePromozione' => $incarico['codicePromozione'],
                         'lavoroCodice' => $incarico['lavoroCodice'],
-                        'lavoroDescrizione' => $this->lavori[$incarico['lavoroCodice']],
                         'negozioCodice' => key_exists( 'negozioCodice', $incarico ) ? $incarico['negozioCodice'] : '',
-                        'negozioDescrizione' => key_exists( 'negozioCodice', $incarico ) ? $incarico['negozioCodice'] : '',
                         'tsPianificazione' => $incarico['data'] . ' ' . $incarico['ora'] . ':00'
                     ]
                 );
