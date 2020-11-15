@@ -23,7 +23,7 @@
 
         //$input = file_get_contents('/Users/if65/Desktop/request.json');
         //$input ="{\"function\":\"promozione2text\",\"id\":\"34291C60F67549B888FB49A8A24DBED7\",\"cancellazione\":false}";
-        $input ="{\"function\":\"elencoSediUsate\",\"codiciPromozione\":[\"5001223\",\"5001224\",\"5001225\"]}";
+        //$input ="{\"function\":\"elencoSediUsate\",\"codiciPromozione\":[\"5001223\",\"5001224\",\"5001225\"]}";
         //$input ="{\"function\":\"creaIncarichi\",\"promozioniDaInviare\":[{\"codicePromozione\":5000063,\"lavoroCodice\":10,\"data\":\"2020-11-11\",\"ora\":\"15:59\"}]}";
 
         $request = json_decode($input, true);

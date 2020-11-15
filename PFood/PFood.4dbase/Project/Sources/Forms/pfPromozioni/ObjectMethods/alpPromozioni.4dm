@@ -130,8 +130,8 @@ Case of
 									For ($j;1;Size of array:C274($codiciSediUsate))
 										$incarico:=New object:C1471(\
 											"codicePromozione";arPR_codice{$selezione{$i}};\
-											"sedeCodice";$codiciSediUsate{$j};\
-											"lavoroCodice";10\
+											"codiceSede";$codiciSediUsate{$j};\
+											"codiceLavoro";10\
 											)
 										APPEND TO ARRAY:C911(incarichi;$incarico)
 									End for 

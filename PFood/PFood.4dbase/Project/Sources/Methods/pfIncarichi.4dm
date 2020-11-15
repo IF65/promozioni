@@ -1,15 +1,15 @@
 //%attributes = {}
 
-  // ----------------------------------------------------
-  // User name (OS): if65
-  // Date and time: 05/07/19, 11:14:04
-  // ----------------------------------------------------
-  // Method: pfIncarichi
-  // Description
-  // 
-  //
-  // Parameters
-  // ----------------------------------------------------
+// ----------------------------------------------------
+// User name (OS): if65
+// Date and time: 05/07/19, 11:14:04
+// ----------------------------------------------------
+// Method: pfIncarichi
+// Description
+// 
+//
+// Parameters
+// ----------------------------------------------------
 
 C_TEXT:C284($1)
 
@@ -66,11 +66,11 @@ Case of
 		APPEND TO ARRAY:C911($arHeaderNames;"Content-Type")
 		APPEND TO ARRAY:C911($arHeaderValues;"application/json")
 		
-		  //parametri
+		//parametri
 		C_OBJECT:C1216($request)
 		OB SET:C1220($request;"function";"elencoIncarichi")
 		$body:=JSON Stringify:C1217($request)
-		  //SET TEXT TO PASTEBOARD($body)
+		//SET TEXT TO PASTEBOARD($body)
 		$sql:="/promozioni/src/promozioni.php"
 		C_TEXT:C284($response)
 		
@@ -80,7 +80,7 @@ Case of
 		$httpResponse:=HTTP Request:C1158(HTTP POST method:K71:2;<>itmServer+$sql;$body;$response;$arHeaderNames;$arHeaderValues)
 		ON ERR CALL:C155("")
 		If ($httpResponse=200) & (<>error=0)
-			pfIncarichi ("inizializzaArray")
+			pfIncarichi("inizializzaArray")
 			ARRAY OBJECT:C1221($elencoIncarichi;0)
 			JSON PARSE ARRAY:C1219($response;$elencoIncarichi)
 			For ($i;1;Size of array:C274($elencoIncarichi))
@@ -115,16 +115,16 @@ Case of
 		APPEND TO ARRAY:C911($arHeaderNames;"Content-Type")
 		APPEND TO ARRAY:C911($arHeaderValues;"application/json")
 		
-		  //parametri
+		//parametri
 		C_OBJECT:C1216($request)
 		OB SET:C1220($request;"function";"creaIncarichi")
 		OB SET ARRAY:C1227($request;"promozioniDaInviare";incarichi)
 		
 		$body:=JSON Stringify:C1217($request)
-		  //SET TEXT TO PASTEBOARD($body)
+		//SET TEXT TO PASTEBOARD($body)
 		$sql:="/promozioni/src/promozioni.php"
 		C_TEXT:C284($response)
-		
+		SET TEXT TO PASTEBOARD:C523($body)
 		<>error:=0
 		HTTP SET OPTION:C1160(HTTP timeout:K71:10;30)
 		ON ERR CALL:C155("utlOnErrCall")
@@ -140,7 +140,7 @@ Case of
 		APPEND TO ARRAY:C911($arHeaderNames;"Content-Type")
 		APPEND TO ARRAY:C911($arHeaderValues;"application/json")
 		
-		  //parametri
+		//parametri
 		C_OBJECT:C1216($request)
 		OB SET:C1220($request;"function";"cancellaIncarichi")
 		OB SET ARRAY:C1227($request;"incarichiDaCancellare";incarichiDaCancellare)
@@ -160,12 +160,12 @@ Case of
 		End if 
 		
 	: ($azione="aggiornaDisplay")
-		pfIncarichi ("updateDisplay")
-		AL_SetAreaLongProperty (alpIncarichi;ALP_Area_ScrollTop;0)
-		AL_SetAreaLongProperty (alpIncarichi;ALP_Area_SelRow;0)
+		pfIncarichi("updateDisplay")
+		AL_SetAreaLongProperty(alpIncarichi;ALP_Area_ScrollTop;0)
+		AL_SetAreaLongProperty(alpIncarichi;ALP_Area_SelRow;0)
 		
 	: ($azione="updateDisplay")
-		AL_SetAreaLongProperty (alpIncarichi;ALP_Area_UpdateData;0)
+		AL_SetAreaLongProperty(alpIncarichi;ALP_Area_UpdateData;0)
 		
 	: ($azione="stampa")
 		

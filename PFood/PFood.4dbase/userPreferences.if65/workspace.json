@@ -1,3 +1,48 @@
 ﻿{
-	"editors": []
+	"editors": [
+		{
+			"type": "method",
+			"id": 2147483602,
+			"codeDescriptor": {
+				"type": 1,
+				"methodName": "pfIncarichi"
+			}
+		},
+		{
+			"type": "method",
+			"id": 2147483572,
+			"codeDescriptor": {
+				"type": 2,
+				"formName": "pfPromozioni",
+				"objectName": "alpPromozioni",
+				"methodPath": "/SOURCES/Forms/pfPromozioni/ObjectMethods/alpPromozioni.4dm"
+			}
+		},
+		{
+			"type": "form",
+			"id": 212,
+			"formName": "pfPromozioni"
+		},
+		{
+			"type": "method",
+			"id": 2147483573,
+			"codeDescriptor": {
+				"type": 2,
+				"formName": "pfPromozioni",
+				"objectName": "Button6",
+				"methodPath": "/SOURCES/Forms/pfPromozioni/ObjectMethods/Button6.4dm"
+			}
+		},
+		{
+			"type": "method",
+			"id": 2147483619,
+			"codeDescriptor": {
+				"type": 1,
+				"methodName": "pfCreazioneFile"
+			}
+		},
+		{
+			"type": "explorer"
+		}
+	]
 }

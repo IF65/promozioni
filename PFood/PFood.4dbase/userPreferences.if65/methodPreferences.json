@@ -324,10 +324,10 @@
 		"stamp": "2020-09-29T19:23:06.228Z"
 	},
 	"Sources/Methods/pfIncarichi.4dm": {
-		"startSelection": 0,
-		"endSelection": 0,
-		"firstSelectedLine": 24,
-		"lastSelectedLine": 24,
+		"startSelection": 29,
+		"endSelection": 29,
+		"firstSelectedLine": 39,
+		"lastSelectedLine": 39,
 		"folding": [
 			15,
 			20,
@@ -340,7 +340,6 @@
 			80,
 			84,
 			108,
-			110,
 			135,
 			156,
 			160,
@@ -348,7 +347,7 @@
 			168
 		],
 		"bookmarks": [],
-		"stamp": "2020-09-29T19:23:06.000Z"
+		"stamp": "2020-11-15T21:02:32.462Z"
 	},
 	"Sources/Methods/utlProgressivoCrea.4dm": {
 		"startSelection": 7,
@@ -653,16 +652,16 @@
 		"stamp": "2020-09-29T19:23:06.490Z"
 	},
 	"Sources/Forms/pfPromozioni/ObjectMethods/alpPromozioni.4dm": {
-		"startSelection": 18,
-		"endSelection": 18,
-		"firstSelectedLine": 133,
-		"lastSelectedLine": 133,
+		"startSelection": 0,
+		"endSelection": 11,
+		"firstSelectedLine": 139,
+		"lastSelectedLine": 139,
 		"folding": [
 			165,
 			167
 		],
 		"bookmarks": [],
-		"stamp": "2020-11-15T15:20:44.901Z"
+		"stamp": "2020-11-15T21:01:41.098Z"
 	},
 	"Sources/Forms/pfPromozioni/ObjectMethods/Button1.4dm": {
 		"startSelection": 2,
@@ -692,10 +691,10 @@
 		"stamp": "2020-09-29T19:23:06.496Z"
 	},
 	"Sources/Forms/pfPromozioni/ObjectMethods/Button6.4dm": {
-		"startSelection": 0,
-		"endSelection": 15,
-		"firstSelectedLine": 25,
-		"lastSelectedLine": 25,
+		"startSelection": 22,
+		"endSelection": 22,
+		"firstSelectedLine": 15,
+		"lastSelectedLine": 15,
 		"folding": [],
 		"bookmarks": [],
 		"stamp": "2020-10-01T12:40:19.000Z"

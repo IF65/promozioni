@@ -248,8 +248,8 @@
                         'id' => Uuid::uuid4()->toString(),
                         'idPadre' => '',
                         'codicePromozione' => $incarico['codicePromozione'],
-                        'lavoroCodice' => $incarico['lavoroCodice'],
-                        'sedeCodice' => key_exists( 'sedeCodice', $incarico ) ? $incarico['sedeCodice'] : '',
+                        'codiceLavoro' => $incarico['codiceLavoro'],
+                        'codiceSede' => key_exists( 'codiceSede', $incarico ) ? $incarico['codiceSede'] : '',
                         'pianificazione' => key_exists( 'pianificazione', $incarico ) ? $incarico['tsPianificazione'] : null
                     ]
                 );
