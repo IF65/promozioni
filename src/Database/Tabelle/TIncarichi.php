@@ -29,9 +29,9 @@ class TIncarichi extends TTable {
     public function creaRecord(array $incarico): string {
         try {
             $sql = "insert into `" . $this->schema . "`.`" . $this->tableName . "` 
-                            (`id`,`idPadre`,`codicePromozione`,`lavoroCodice`,`sedeCodice`,`stato`,`tsPianificazione`,`tsEsecuzione`)
+                            (`id`,`idPadre`,`codicePromozione`,`lavoroCodice`,`sedeCodice`,`stato`,`tsPianificazione`)
                     values
-                            (:id,:idPadre,:codicePromozione,:lavoroCodice,:sedeCodice,:stato,:tsPianificazione,:tsEsecuzione);";
+                            (:id,:idPadre,:codicePromozione,:lavoroCodice,:sedeCodice,:stato,:tsPianificazione);";
             $stmt = $this->pdo->prepare( $sql );
             $stmt->execute( [
                 'id' => $incarico['id'],
@@ -40,8 +40,7 @@ class TIncarichi extends TTable {
                 'lavoroCodice' => $incarico['lavoroCodice'],
                 'sedeCodice' => $incarico['sedeCodice'],
                 'stato' => key_exists( 'stato', $incarico ) ? $incarico['stato'] : 0,
-                'tsPianificazione' => key_exists( 'tsPianificazione', $incarico ) ? $incarico['tsPianificazione'] : null,
-                'tsEsecuzione' => key_exists( 'tsEsecuzione', $incarico ) ? $incarico['tsEsecuzione'] : null
+                'tsPianificazione' => key_exists( 'pianificazione', $incarico ) ? $incarico['pianificazione'] : null
             ] );
             $id = $this->pdo->lastInsertId();
             return $id;

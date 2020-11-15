@@ -250,7 +250,7 @@
                         'codicePromozione' => $incarico['codicePromozione'],
                         'lavoroCodice' => $incarico['lavoroCodice'],
                         'sedeCodice' => key_exists( 'sedeCodice', $incarico ) ? $incarico['sedeCodice'] : '',
-                        'tsPianificazione' => $incarico['data'] . ' ' . $incarico['ora'] . ':00'
+                        'pianificazione' => key_exists( 'pianificazione', $incarico ) ? $incarico['tsPianificazione'] : null
                     ]
                 );
             }

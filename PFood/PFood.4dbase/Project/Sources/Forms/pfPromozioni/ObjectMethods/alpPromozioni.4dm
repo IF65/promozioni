@@ -114,7 +114,7 @@ Case of
 						ARRAY LONGINT:C221($selezione;0)
 						$err:=AL_GetObjects(alpPromozioni;ALP_Object_Selection;$selezione)
 						If (Size of array:C274($selezione)>0)
-							//recupero le sedi usate
+							
 							ARRAY LONGINT:C221($promozioni;0)
 							For ($i;1;Size of array:C274($selezione))
 								APPEND TO ARRAY:C911($promozioni;arPR_codice{$selezione{$i}})
@@ -131,9 +131,7 @@ Case of
 										$incarico:=New object:C1471(\
 											"codicePromozione";arPR_codice{$selezione{$i}};\
 											"sedeCodice";$codiciSediUsate{$j};\
-											"lavoroCodice";10;\
-											"data";Current date:C33;\
-											"ora";String:C10(Current time:C178;HH MM:K7:2)\
+											"lavoroCodice";10\
 											)
 										APPEND TO ARRAY:C911(incarichi;$incarico)
 									End for 

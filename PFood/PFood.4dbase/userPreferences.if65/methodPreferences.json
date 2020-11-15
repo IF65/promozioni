@@ -190,13 +190,13 @@
 		"stamp": "2020-09-29T19:23:06.213Z"
 	},
 	"Sources/Methods/pfCreazioneFile.4dm": {
-		"startSelection": 2,
-		"endSelection": 2,
-		"firstSelectedLine": 30,
-		"lastSelectedLine": 30,
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
 		"folding": [],
 		"bookmarks": [],
-		"stamp": "2020-09-29T19:23:06.216Z"
+		"stamp": "2020-09-29T19:23:06.000Z"
 	},
 	"Sources/Methods/pfCaricamentoPromozione.4dm": {
 		"startSelection": 7,
@@ -326,8 +326,8 @@
 	"Sources/Methods/pfIncarichi.4dm": {
 		"startSelection": 0,
 		"endSelection": 0,
-		"firstSelectedLine": 45,
-		"lastSelectedLine": 45,
+		"firstSelectedLine": 24,
+		"lastSelectedLine": 24,
 		"folding": [
 			15,
 			20,
@@ -340,6 +340,7 @@
 			80,
 			84,
 			108,
+			110,
 			135,
 			156,
 			160,
@@ -652,16 +653,16 @@
 		"stamp": "2020-09-29T19:23:06.490Z"
 	},
 	"Sources/Forms/pfPromozioni/ObjectMethods/alpPromozioni.4dm": {
-		"startSelection": 0,
-		"endSelection": 11,
-		"firstSelectedLine": 141,
-		"lastSelectedLine": 141,
+		"startSelection": 18,
+		"endSelection": 18,
+		"firstSelectedLine": 133,
+		"lastSelectedLine": 133,
 		"folding": [
-			167,
-			169
+			165,
+			167
 		],
 		"bookmarks": [],
-		"stamp": "2020-11-15T09:19:56.964Z"
+		"stamp": "2020-11-15T15:20:44.901Z"
 	},
 	"Sources/Forms/pfPromozioni/ObjectMethods/Button1.4dm": {
 		"startSelection": 2,
@@ -692,12 +693,12 @@
 	},
 	"Sources/Forms/pfPromozioni/ObjectMethods/Button6.4dm": {
 		"startSelection": 0,
-		"endSelection": 0,
-		"firstSelectedLine": 20,
-		"lastSelectedLine": 20,
+		"endSelection": 15,
+		"firstSelectedLine": 25,
+		"lastSelectedLine": 25,
 		"folding": [],
 		"bookmarks": [],
-		"stamp": "2020-10-01T12:40:19.443Z"
+		"stamp": "2020-10-01T12:40:19.000Z"
 	},
 	"Sources/Forms/pfPromozioni/ObjectMethods/Button7.4dm": {
 		"startSelection": 95,

@@ -14,14 +14,5 @@
 			"type": 1,
 			"methodName": "utlInvioLaboratorio"
 		}
-	},
-	{
-		"line": 131,
-		"method": {
-			"type": 2,
-			"formName": "pfPromozioni",
-			"objectName": "alpPromozioni",
-			"methodPath": "/SOURCES/Forms/pfPromozioni/ObjectMethods/alpPromozioni.4dm"
-		}
 	}
 ]
