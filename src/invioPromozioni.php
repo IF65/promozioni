@@ -17,7 +17,7 @@ $posizioneDati = $sqlDetails['exportDir'];
 
 
 
-foreach ($negozi as $negozio) {
+foreach ($elencoNegozi as $negozio) {
     if (preg_match( '/^\d{4}$/', $negozio )) {
         if (array_key_exists( $negozio, $indirizzi )) {
             $connesso = false;

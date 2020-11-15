@@ -1,9 +1,9 @@
 ﻿{
 	"Sources/Methods/pfPromozioni.4dm": {
 		"startSelection": 0,
-		"endSelection": 0,
-		"firstSelectedLine": 19,
-		"lastSelectedLine": 19,
+		"endSelection": 23,
+		"firstSelectedLine": 24,
+		"lastSelectedLine": 24,
 		"folding": [
 			15,
 			20,
@@ -29,7 +29,6 @@
 			171,
 			174,
 			182,
-			195,
 			199,
 			203,
 			208,
@@ -97,10 +96,10 @@
 		"stamp": "2020-09-29T19:23:06.206Z"
 	},
 	"Sources/Methods/pfPromozioniInserimento.4dm": {
-		"startSelection": 16,
-		"endSelection": 27,
-		"firstSelectedLine": 121,
-		"lastSelectedLine": 121,
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 32,
+		"lastSelectedLine": 32,
 		"folding": [
 			14,
 			19,
@@ -122,6 +121,7 @@
 			182,
 			200,
 			201,
+			212,
 			218,
 			280,
 			281,
@@ -501,11 +501,11 @@
 	"Sources/Methods/utlElencoPromozioni.4dm": {
 		"startSelection": 0,
 		"endSelection": 0,
-		"firstSelectedLine": 27,
-		"lastSelectedLine": 27,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
 		"folding": [],
 		"bookmarks": [],
-		"stamp": "2020-09-29T19:23:06.272Z"
+		"stamp": "2020-09-29T19:23:06.000Z"
 	},
 	"Sources/Methods/_marco2.4dm": {
 		"startSelection": 0,
@@ -742,12 +742,12 @@
 	},
 	"Sources/Forms/pfPromozioniInserimento/ObjectMethods/vPR_bozza.4dm": {
 		"startSelection": 0,
-		"endSelection": 23,
-		"firstSelectedLine": 2,
-		"lastSelectedLine": 2,
+		"endSelection": 0,
+		"firstSelectedLine": 5,
+		"lastSelectedLine": 5,
 		"folding": [],
 		"bookmarks": [],
-		"stamp": "2020-09-29T19:23:06.507Z"
+		"stamp": "2020-09-29T19:23:06.000Z"
 	},
 	"Sources/Forms/pfPromozioniInserimento/ObjectMethods/selTipo.4dm": {
 		"startSelection": 0,

@@ -33,18 +33,14 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PFood/PFood.4dbase/Data/PFood.4DD" beforeDir="false" afterPath="$PROJECT_DIR$/PFood/PFood.4dbase/Data/PFood.4DD" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PFood/PFood.4dbase/Data/PFood.4DIndx" beforeDir="false" afterPath="$PROJECT_DIR$/PFood/PFood.4dbase/Data/PFood.4DIndx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PFood/PFood.4dbase/Project/DerivedData/methodAttributes.json" beforeDir="false" afterPath="$PROJECT_DIR$/PFood/PFood.4dbase/Project/DerivedData/methodAttributes.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PFood/PFood.4dbase/Project/Sources/Forms/pfPromozioni/ObjectMethods/alpPromozioni.4dm" beforeDir="false" afterPath="$PROJECT_DIR$/PFood/PFood.4dbase/Project/Sources/Forms/pfPromozioni/ObjectMethods/alpPromozioni.4dm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PFood/PFood.4dbase/userPreferences.if65/breakpoints.json" beforeDir="false" afterPath="$PROJECT_DIR$/PFood/PFood.4dbase/userPreferences.if65/breakpoints.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PFood/PFood.4dbase/userPreferences.if65/formWindowPositions.json" beforeDir="false" afterPath="$PROJECT_DIR$/PFood/PFood.4dbase/userPreferences.if65/formWindowPositions.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PFood/PFood.4dbase/userPreferences.if65/methodPreferences.json" beforeDir="false" afterPath="$PROJECT_DIR$/PFood/PFood.4dbase/userPreferences.if65/methodPreferences.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PFood/PFood.4dbase/userPreferences.if65/methodWindowPositions.json" beforeDir="false" afterPath="$PROJECT_DIR$/PFood/PFood.4dbase/userPreferences.if65/methodWindowPositions.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PFood/PFood.4dbase/userPreferences.if65/preferences.4DPreferences" beforeDir="false" afterPath="$PROJECT_DIR$/PFood/PFood.4dbase/userPreferences.if65/preferences.4DPreferences" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PFood/PFood.4dbase/userPreferences.if65/workspace.json" beforeDir="false" afterPath="$PROJECT_DIR$/PFood/PFood.4dbase/userPreferences.if65/workspace.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Database/Database.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Database/Database.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Database/Tabelle/TIncarichi.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Database/Tabelle/TIncarichi.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/invioPromozioniOld.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/invioPromozioniOld.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Database/Tabelle/TPromozioni.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Database/Tabelle/TPromozioni.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/invioPromozioni.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/invioPromozioni.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/promozioni.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/promozioni.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -800,6 +796,9 @@
       <workItem from="1604935674758" duration="2876000" />
       <workItem from="1605019999662" duration="2355000" />
       <workItem from="1605083758635" duration="2855000" />
+      <workItem from="1605190698854" duration="517000" />
+      <workItem from="1605199961349" duration="1108000" />
+      <workItem from="1605389294377" duration="1495000" />
     </task>
     <task id="LOCAL-00001" summary="Aggiunto elenco aderenti">
       <created>1571815756940</created>
@@ -843,53 +842,53 @@
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="428" height="466" key="DebuggerActiveHint/0.23.1920.1057@0.23.1920.1057" timestamp="1601105005232" />
-    <state width="1770" height="275" key="GridCell.Tab.0.bottom" timestamp="1605111557599">
+    <state width="1770" height="260" key="GridCell.Tab.0.bottom" timestamp="1605423733723">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1833" height="224" key="GridCell.Tab.0.bottom/0.23.1920.1018@0.23.1920.1018" timestamp="1601557317342" />
-    <state width="1770" height="275" key="GridCell.Tab.0.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1605111557599" />
+    <state width="1770" height="260" key="GridCell.Tab.0.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1605423733723" />
     <state width="1770" height="260" key="GridCell.Tab.0.bottom/0.23.1920.1177@0.23.1920.1177" timestamp="1604071736157" />
     <state width="1296" height="224" key="GridCell.Tab.0.bottom/1920.23.1440.877/0.23.1920.1057@0.23.1920.1057" timestamp="1600409930598" />
-    <state width="1770" height="275" key="GridCell.Tab.0.center" timestamp="1605111557598">
+    <state width="1770" height="260" key="GridCell.Tab.0.center" timestamp="1605423733723">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1833" height="224" key="GridCell.Tab.0.center/0.23.1920.1018@0.23.1920.1018" timestamp="1601557317341" />
-    <state width="1770" height="275" key="GridCell.Tab.0.center/0.23.1920.1057@0.23.1920.1057" timestamp="1605111557598" />
+    <state width="1770" height="260" key="GridCell.Tab.0.center/0.23.1920.1057@0.23.1920.1057" timestamp="1605423733723" />
     <state width="1770" height="260" key="GridCell.Tab.0.center/0.23.1920.1177@0.23.1920.1177" timestamp="1604071736156" />
     <state width="1296" height="224" key="GridCell.Tab.0.center/1920.23.1440.877/0.23.1920.1057@0.23.1920.1057" timestamp="1600409930596" />
-    <state width="1770" height="275" key="GridCell.Tab.0.left" timestamp="1605111557598">
+    <state width="1770" height="260" key="GridCell.Tab.0.left" timestamp="1605423733722">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1833" height="224" key="GridCell.Tab.0.left/0.23.1920.1018@0.23.1920.1018" timestamp="1601557317340" />
-    <state width="1770" height="275" key="GridCell.Tab.0.left/0.23.1920.1057@0.23.1920.1057" timestamp="1605111557598" />
+    <state width="1770" height="260" key="GridCell.Tab.0.left/0.23.1920.1057@0.23.1920.1057" timestamp="1605423733722" />
     <state width="1770" height="260" key="GridCell.Tab.0.left/0.23.1920.1177@0.23.1920.1177" timestamp="1604071736156" />
     <state width="1296" height="224" key="GridCell.Tab.0.left/1920.23.1440.877/0.23.1920.1057@0.23.1920.1057" timestamp="1600409930596" />
-    <state width="1770" height="275" key="GridCell.Tab.0.right" timestamp="1605111557598">
+    <state width="1770" height="260" key="GridCell.Tab.0.right" timestamp="1605423733723">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1833" height="224" key="GridCell.Tab.0.right/0.23.1920.1018@0.23.1920.1018" timestamp="1601557317341" />
-    <state width="1770" height="275" key="GridCell.Tab.0.right/0.23.1920.1057@0.23.1920.1057" timestamp="1605111557598" />
+    <state width="1770" height="260" key="GridCell.Tab.0.right/0.23.1920.1057@0.23.1920.1057" timestamp="1605423733723" />
     <state width="1770" height="260" key="GridCell.Tab.0.right/0.23.1920.1177@0.23.1920.1177" timestamp="1604071736157" />
     <state width="1296" height="224" key="GridCell.Tab.0.right/1920.23.1440.877/0.23.1920.1057@0.23.1920.1057" timestamp="1600409930597" />
-    <state width="1770" height="260" key="GridCell.Tab.1.bottom" timestamp="1605111557593">
+    <state width="1770" height="260" key="GridCell.Tab.1.bottom" timestamp="1605423733724">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1770" height="260" key="GridCell.Tab.1.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1605111557593" />
+    <state width="1770" height="260" key="GridCell.Tab.1.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1605423733724" />
     <state width="1770" height="260" key="GridCell.Tab.1.bottom/0.23.1920.1177@0.23.1920.1177" timestamp="1604071736160" />
-    <state width="1770" height="260" key="GridCell.Tab.1.center" timestamp="1605111557593">
+    <state width="1770" height="260" key="GridCell.Tab.1.center" timestamp="1605423733724">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1770" height="260" key="GridCell.Tab.1.center/0.23.1920.1057@0.23.1920.1057" timestamp="1605111557593" />
+    <state width="1770" height="260" key="GridCell.Tab.1.center/0.23.1920.1057@0.23.1920.1057" timestamp="1605423733724" />
     <state width="1770" height="260" key="GridCell.Tab.1.center/0.23.1920.1177@0.23.1920.1177" timestamp="1604071736159" />
-    <state width="1770" height="260" key="GridCell.Tab.1.left" timestamp="1605111557592">
+    <state width="1770" height="260" key="GridCell.Tab.1.left" timestamp="1605423733724">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1770" height="260" key="GridCell.Tab.1.left/0.23.1920.1057@0.23.1920.1057" timestamp="1605111557592" />
+    <state width="1770" height="260" key="GridCell.Tab.1.left/0.23.1920.1057@0.23.1920.1057" timestamp="1605423733724" />
     <state width="1770" height="260" key="GridCell.Tab.1.left/0.23.1920.1177@0.23.1920.1177" timestamp="1604071736158" />
-    <state width="1770" height="260" key="GridCell.Tab.1.right" timestamp="1605111557593">
+    <state width="1770" height="260" key="GridCell.Tab.1.right" timestamp="1605423733724">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1770" height="260" key="GridCell.Tab.1.right/0.23.1920.1057@0.23.1920.1057" timestamp="1605111557593" />
+    <state width="1770" height="260" key="GridCell.Tab.1.right/0.23.1920.1057@0.23.1920.1057" timestamp="1605423733724" />
     <state width="1770" height="260" key="GridCell.Tab.1.right/0.23.1920.1177@0.23.1920.1177" timestamp="1604071736159" />
     <state x="494" y="452" key="NewPhpFileDialog" timestamp="1603879965243">
       <screen x="0" y="23" width="1920" height="1177" />
@@ -940,23 +939,23 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/src/invioPromozioniOld.php</url>
-          <line>135</line>
-          <option name="timeStamp" value="171" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/src/invioPromozioniOld.php</url>
           <line>140</line>
           <option name="timeStamp" value="172" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/src/promozioni.php</url>
-          <line>37</line>
-          <option name="timeStamp" value="175" />
+          <line>57</line>
+          <option name="timeStamp" value="176" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/src/promozioni.php</url>
-          <line>56</line>
-          <option name="timeStamp" value="176" />
+          <url>file://$PROJECT_DIR$/src/Database/Tabelle/TPromozioni.php</url>
+          <line>132</line>
+          <option name="timeStamp" value="177" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/Database/Tabelle/TPromozioni.php</url>
+          <line>150</line>
+          <option name="timeStamp" value="179" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

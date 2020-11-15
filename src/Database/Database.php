@@ -685,7 +685,13 @@
 
             return $elenco;
         }
-        
+
+        public function elencoSediUsate(array $request) {
+            $elenco = $this->t_promozioni->elencoSediUsate($request);
+
+            return $elenco;
+        }
+
         public function __destruct() {
             $this->pdo = null;
         }

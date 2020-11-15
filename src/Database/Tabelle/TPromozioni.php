@@ -127,6 +127,30 @@
             return $result;
         }
 
+        public function elencoSediUsate(array $request) {
+            $result = [];
+
+            if ( key_exists('codiciPromozione', $request) && count($request['codiciPromozione']) > 0 ) {
+                $elencoCodiciPromozione = implode(',', $request['codiciPromozione']);
+                $sql = "select p.`codice` codicePromozione, s.`codiceSede` 
+                        from promozioni.promozioni as p join promozioni.promozioniSedi as s on p.`id` = s.`idPromozioni` 
+                        where p.`codice` in ($elencoCodiciPromozione)
+                        order by 1,2";
+
+                $stmt = $this->pdo->prepare( $sql );
+                $stmt->execute();
+                $queryResult = $stmt->fetchAll( \PDO::FETCH_ASSOC);
+
+                $result = [];
+                foreach( $queryResult as $row ) {
+                    $codicePromozione = $row['codicePromozione'];
+                    $codiceSede = $row['codiceSede'];
+                    $result[$codicePromozione][] = $codiceSede;
+                }
+            }
+            return $result;
+        }
+
         public function elenco(array $request) {
             $table = "`$this->schema`.`".self::$tableName."`";
             $sql = "select * from $table where\n";
