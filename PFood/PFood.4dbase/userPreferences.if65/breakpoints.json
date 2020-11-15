@@ -16,17 +16,12 @@
 		}
 	},
 	{
-		"line": 30,
+		"line": 131,
 		"method": {
-			"type": 1,
-			"methodName": "_marco3"
-		}
-	},
-	{
-		"line": 34,
-		"method": {
-			"type": 1,
-			"methodName": "utlElencoSediUsate"
+			"type": 2,
+			"formName": "pfPromozioni",
+			"objectName": "alpPromozioni",
+			"methodPath": "/SOURCES/Forms/pfPromozioni/ObjectMethods/alpPromozioni.4dm"
 		}
 	}
 ]

@@ -15,13 +15,13 @@ class TIncarichi extends TTable {
                         `idPadre` varchar(36) NOT NULL DEFAULT '',
                         `codicePromozione` int(10) unsigned NOT NULL DEFAULT '0',
                         `lavoroCodice` smallint(5) unsigned NOT NULL,
-                        `negozioCodice` varchar(4) NOT NULL DEFAULT '',
+                        `sedeCodice` varchar(4) NOT NULL DEFAULT '',
                         `stato` tinyint(3) unsigned NOT NULL DEFAULT '0',
                         `tsCreazione` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
                         `tsPianificazione` timestamp NULL DEFAULT NULL,
                         `tsEsecuzione` timestamp NULL DEFAULT NULL,
                       PRIMARY KEY (`id`),
-                      KEY `esecuzione` (`lavoroCodice`,`negozioCodice`)
+                      KEY `esecuzione` (`lavoroCodice`,`sedeCodice`)
                     ) ENGINE=InnoDB DEFAULT CHARSET=latin1;"
         );
     }
@@ -29,16 +29,16 @@ class TIncarichi extends TTable {
     public function creaRecord(array $incarico): string {
         try {
             $sql = "insert into `" . $this->schema . "`.`" . $this->tableName . "` 
-                            (`id`,`idPadre`,`codicePromozione`,`lavoroCodice`,`negozioCodice`,`stato`,`tsPianificazione`,`tsEsecuzione`)
+                            (`id`,`idPadre`,`codicePromozione`,`lavoroCodice`,`sedeCodice`,`stato`,`tsPianificazione`,`tsEsecuzione`)
                     values
-                            (:id,:idPadre,:codicePromozione,:lavoroCodice,:negozioCodice,:stato,:tsPianificazione,:tsEsecuzione);";
+                            (:id,:idPadre,:codicePromozione,:lavoroCodice,:sedeCodice,:stato,:tsPianificazione,:tsEsecuzione);";
             $stmt = $this->pdo->prepare( $sql );
             $stmt->execute( [
                 'id' => $incarico['id'],
                 'idPadre' => $incarico['idPadre'],
                 'codicePromozione' => $incarico['codicePromozione'],
                 'lavoroCodice' => $incarico['lavoroCodice'],
-                'negozioCodice' => $incarico['negozioCodice'],
+                'sedeCodice' => $incarico['sedeCodice'],
                 'stato' => key_exists( 'stato', $incarico ) ? $incarico['stato'] : 0,
                 'tsPianificazione' => key_exists( 'tsPianificazione', $incarico ) ? $incarico['tsPianificazione'] : null,
                 'tsEsecuzione' => key_exists( 'tsEsecuzione', $incarico ) ? $incarico['tsEsecuzione'] : null
@@ -58,7 +58,7 @@ class TIncarichi extends TTable {
                     `idPadre`=:idPadre,
                     `codicePromozione`=:codicePromozione,
                     `lavoroCodice`=:lavoroCodice,
-                    `negozioCodice`=:negozioCodice,
+                    `sedeCodice`=:sedeCodice,
                     `stato`=:stato,
                     `tsPianificazione`=:tsPianificazione,
                     `tsEsecuzione`=:tsEsecuzione
@@ -69,7 +69,7 @@ class TIncarichi extends TTable {
                 'idPadre' => $incarico['idPadre'],
                 'codicePromozione' => $incarico['codicePromozione'],
                 'lavoroCodice' => $incarico['lavoroCodice'],
-                'negozioCodice' => $incarico['negozioCodice'],
+                'sedeCodice' => $incarico['sedeCodice'],
                 'stato' => $incarico['stato'],
                 'tsPianificazione' => $incarico['tsPianificazione'],
                 'tsEsecuzione' => $incarico['tsEsecuzione']
@@ -115,8 +115,8 @@ class TIncarichi extends TTable {
             if (key_exists( 'lavoroCodice', $daCercare )) {
                 $stmt .= "lavoroCodice = " . $daCercare['lavoroCodice'] . " and\n";
             }
-            if (key_exists( 'negozioCodice', $daCercare )) {
-                $stmt .= "negozioCodice = '" . $daCercare['negozioCodice'] . "' and\n";
+            if (key_exists( 'sedeCodice', $daCercare )) {
+                $stmt .= "sedeCodice = '" . $daCercare['sedeCodice'] . "' and\n";
             }
             if (key_exists( 'data', $daCercare )) {
                 $stmt .= "data = '" . $daCercare['data'] . "' and\n";

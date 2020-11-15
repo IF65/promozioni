@@ -31,12 +31,19 @@
       <change beforePath="$PROJECT_DIR$/../nike/examples/~$Nike_Order__FILE.xlsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../p7m/extract.php" beforeDir="false" afterPath="$PROJECT_DIR$/../p7m/extract.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PFood/PFood.4dbase/Data/PFood.4DD" beforeDir="false" afterPath="$PROJECT_DIR$/PFood/PFood.4dbase/Data/PFood.4DD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PFood/PFood.4dbase/Data/PFood.4DIndx" beforeDir="false" afterPath="$PROJECT_DIR$/PFood/PFood.4dbase/Data/PFood.4DIndx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PFood/PFood.4dbase/Data/PFood.Match" beforeDir="false" afterPath="$PROJECT_DIR$/PFood/PFood.4dbase/Data/PFood.Match" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PFood/PFood.4dbase/Project/DerivedData/methodAttributes.json" beforeDir="false" afterPath="$PROJECT_DIR$/PFood/PFood.4dbase/Project/DerivedData/methodAttributes.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PFood/PFood.4dbase/Project/Sources/Forms/pfPromozioni/ObjectMethods/alpPromozioni.4dm" beforeDir="false" afterPath="$PROJECT_DIR$/PFood/PFood.4dbase/Project/Sources/Forms/pfPromozioni/ObjectMethods/alpPromozioni.4dm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PFood/PFood.4dbase/Project/Sources/Methods/_marco3.4dm" beforeDir="false" afterPath="$PROJECT_DIR$/PFood/PFood.4dbase/Project/Sources/Methods/_marco3.4dm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PFood/PFood.4dbase/Project/Sources/catalog.4DCatalog" beforeDir="false" afterPath="$PROJECT_DIR$/PFood/PFood.4dbase/Project/Sources/catalog.4DCatalog" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PFood/PFood.4dbase/userPreferences.if65/breakpoints.json" beforeDir="false" afterPath="$PROJECT_DIR$/PFood/PFood.4dbase/userPreferences.if65/breakpoints.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PFood/PFood.4dbase/userPreferences.if65/methodPreferences.json" beforeDir="false" afterPath="$PROJECT_DIR$/PFood/PFood.4dbase/userPreferences.if65/methodPreferences.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PFood/PFood.4dbase/userPreferences.if65/preferences.4DPreferences" beforeDir="false" afterPath="$PROJECT_DIR$/PFood/PFood.4dbase/userPreferences.if65/preferences.4DPreferences" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PFood/PFood.4dbase/userPreferences.if65/workspace.json" beforeDir="false" afterPath="$PROJECT_DIR$/PFood/PFood.4dbase/userPreferences.if65/workspace.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Database/Tabelle/TPromozioni.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Database/Tabelle/TPromozioni.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/promozioni.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/promozioni.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Database/Database.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Database/Database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Database/Tabelle/TIncarichi.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Database/Tabelle/TIncarichi.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -793,7 +800,7 @@
       <workItem from="1605083758635" duration="2855000" />
       <workItem from="1605190698854" duration="517000" />
       <workItem from="1605199961349" duration="1108000" />
-      <workItem from="1605389294377" duration="2235000" />
+      <workItem from="1605389294377" duration="2700000" />
     </task>
     <task id="LOCAL-00001" summary="Aggiunto elenco aderenti">
       <created>1571815756940</created>

@@ -249,7 +249,7 @@
                         'idPadre' => '',
                         'codicePromozione' => $incarico['codicePromozione'],
                         'lavoroCodice' => $incarico['lavoroCodice'],
-                        'negozioCodice' => key_exists( 'negozioCodice', $incarico ) ? $incarico['negozioCodice'] : '',
+                        'sedeCodice' => key_exists( 'sedeCodice', $incarico ) ? $incarico['sedeCodice'] : '',
                         'tsPianificazione' => $incarico['data'] . ' ' . $incarico['ora'] . ':00'
                     ]
                 );

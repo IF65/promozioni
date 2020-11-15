@@ -1,0 +1,14 @@
+﻿[
+	{
+		"type": 66,
+		"formula": "incarichi"
+	},
+	{
+		"type": 66,
+		"formula": "$codiciSediUsate"
+	},
+	{
+		"type": 66,
+		"formula": "$sediUsate"
+	}
+]
