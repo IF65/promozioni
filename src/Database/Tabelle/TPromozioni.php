@@ -136,7 +136,7 @@
                         from promozioni.promozioni as p join promozioni.promozioniSedi as s on p.`id` = s.`idPromozioni` 
                         where p.`codice` in ($elencoCodiciPromozione)
                         order by 1,2";
-                echo $sql;
+
                 $stmt = $this->pdo->prepare( $sql );
                 $stmt->execute();
                 $queryResult = $stmt->fetchAll( \PDO::FETCH_ASSOC);

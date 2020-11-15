@@ -110,7 +110,7 @@
         echo  $db->esplosioneBarcode($request['barcode']);
 
     } else if ($request['function'] == 'elencoSediUsate') {
-        echo  $db->elencoSediUsate($request);
+        echo  json_encode($db->elencoSediUsate($request));
 
     }
 ?>

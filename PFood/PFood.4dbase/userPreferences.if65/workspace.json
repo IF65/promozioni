@@ -9,15 +9,15 @@
 			}
 		},
 		{
-			"type": "explorer"
-		},
-		{
 			"type": "method",
 			"id": 2147483575,
 			"codeDescriptor": {
 				"type": 1,
 				"methodName": "utlElencoSediUsate"
 			}
+		},
+		{
+			"type": "explorer"
 		}
 	]
 }
