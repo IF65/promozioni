@@ -292,84 +292,6 @@
             return $elenco;
         }
 
-        public function promozione2file(string $promozioneJson) {
-            try {
-                $negozi = $this->t_negozi->elencoPerCodice([]);
-
-                $promozione = json_decode($promozioneJson, true);
-
-                // creazione cartelle
-                // Attenzione: la cartella base potrebbe non essere creabile per la configurazione di sicurezza di apache.
-                // In questo caso basta crearla manualmente. Le altre cartelle non hanno problemi.
-                if (!file_exists( $this->sqlDetails['exportDir'] )) {
-                    mkdir( $this->sqlDetails['exportDir'] ); // default 0777
-                }
-                foreach($promozione['sedi'] as $sede) {
-                    if (!file_exists( $this->sqlDetails['exportDir'] . $sede['codiceSede'] )) {
-                        mkdir( $this->sqlDetails['exportDir'] . $sede['codiceSede'] ); // default 0777
-
-                        if (!file_exists( $this->sqlDetails['exportDir'] . $sede['codiceSede'] . '/gmrec' )) {
-                            mkdir( $this->sqlDetails['exportDir'] . $sede['codiceSede'] . '/gmrec'); // default 0777
-                        }
-                    }
-                }
-
-                foreach($promozione['sedi'] as $sede) {
-                    $nomeFile = "TIPO_0000_" . $promozione['codice'];
-                    if (key_exists($promozione['tipo'], $this->labelFile)) {
-                        $nomeFile = $this->labelFile[$promozione['tipo']] . $promozione['codice'];
-                    }
-
-                    $gmrec = 0;
-                    $filePath = $this->sqlDetails['exportDir'] . $sede['codiceSede'] . '/';
-                    if (in_array($promozione['tipo'], ['REGN','ACPT','EMBU','REBU','COUP']) or ($promozione['pmt'] == 1)) {
-                        $gmrec = 1;
-                        $filePath .= '/gmrec/';
-                        $filePromo = $nomeFile . '.PMT';
-                        $fileControllo = $nomeFile . '.CTL';
-
-                    } else {
-                        $filePromo = $nomeFile . '.DAT';
-                        $fileControllo = $nomeFile . '.CTL';
-
-                    }
-
-                    file_put_contents($filePath . $filePromo, utf8_encode($promozione['testo']));
-                    file_put_contents($filePath . $fileControllo, utf8_encode(''));
-
-                    $elenco = $this->t_incarichi->elenco(
-                        [
-                            'codicePromozione' => $promozione['codice'],
-                            'negozioCodice' => $sede['codiceSede'],
-                            'annullato' => 0,
-                            'eseguito' => 0,
-                        ]);
-
-                    if (! count($elenco)) {
-                        $incarico = [
-                            'id' => Uuid::uuid4()->toString(),
-                            'idPadre' => '',
-                            'codicePromozione' => $promozione['codice'],
-                            'lavoroCodice' => 10,
-                            'lavoroDescrizione' => 'invio promozione',
-                            'negozioCodice' => $sede['codiceSede'],
-                            'negozioDescrizione' => $negozi[$sede['codiceSede']]['negozio_descrizione'],
-                            'data' => '2019-11-12',
-                            'ora' => '00:00:00',
-                            'eseguito' => 0,
-                            'annullato' => 0,
-                            'gmrec' => $gmrec,
-                            'nomeFile' => $filePromo
-                        ];
-                        $this->t_incarichi->creaModifica( $incarico );
-                    }
-                }
-
-            } catch (PDOException $e) {
-                die( $e->getMessage() );
-            }
-        }
-
         public function promozione2text(array $request):string {
             $promozioni = $this->elencoPromozioni($request);
 
@@ -690,6 +612,64 @@
             $elenco = $this->t_promozioni->elencoSediUsate($request);
 
             return $elenco;
+        }
+
+        public function incaricoCreaFilePerInvio(array $incarico) {
+            try {
+                // creazione cartelle
+                // Attenzione: la cartella base potrebbe non essere creabile per la configurazione di sicurezza di apache.
+                // In questo caso basta crearla manualmente. Le altre cartelle non hanno problemi.
+                if (!file_exists( $this->sqlDetails['exportDir'] )) {
+                    mkdir( $this->sqlDetails['exportDir'] ); // default 0777
+                }
+
+                if (!file_exists( $this->sqlDetails['exportDir'] . $incarico['codiceSede'] )) {
+                    mkdir( $this->sqlDetails['exportDir'] . $incarico['codiceSede'] ); // default 0777
+
+                    if (!file_exists( $this->sqlDetails['exportDir'] . $incarico['codiceSede'] . '/gmrec' )) {
+                        mkdir( $this->sqlDetails['exportDir'] . $incarico['codiceSede'] . '/gmrec' ); // default 0777
+                    }
+                }
+
+                $nomeFile = "TIPO_0000_" . $incarico['tipoPromozione'];
+                if (key_exists( $incarico['tipoPromozione'], $this->labelFile )) {
+                    $nomeFile = $this->labelFile[$incarico['tipoPromozione']] . $incarico['codicePromozione'];
+                }
+
+
+                $dataObj = $this->promozione2text(['codice' => $incarico['codicePromozione']]);
+                $data = json_decode($dataObj, true);
+
+                $gmrec = 0;
+                $filePath = $this->sqlDetails['exportDir'] . $incarico['codiceSede'] . '/';
+                if (in_array( $incarico['tipoPromozione'], ['REGN', 'ACPT', 'EMBU', 'REBU', 'COUP'] ) or ($incarico['pmt'] == 1)) {
+                    $gmrec = 1;
+                    $filePath .= '/gmrec/';
+                    $filePromo = $nomeFile . '.PMT';
+                    $fileControllo = $nomeFile . '.CTL';
+
+                } else {
+                    $filePromo = $nomeFile . '.DAT';
+                    $fileControllo = $nomeFile . '.CTL';
+
+                }
+
+                file_put_contents( $filePath . $filePromo, utf8_encode( $data['testo'] ) );
+                file_put_contents( $filePath . $fileControllo, utf8_encode( '' ) );
+
+                $this->t_incarichi->incaricoEseguito($incarico['id'], (new \DateTime())->format('Y-m-d H:i:s'));
+
+                $this->t_incarichi->creaRecord([
+                        'id' => Uuid::uuid4()->toString(),
+                        'idPadre' => $incarico['id'],
+                        'codicePromozione' => $incarico['codicePromozione'],
+                        'codiceLavoro' => 20,
+                        'codiceSede' => $incarico['codiceSede']
+                    ]);
+
+            } catch (PDOException $e) {
+                die( $e->getMessage() );
+            }
         }
 
         public function __destruct() {

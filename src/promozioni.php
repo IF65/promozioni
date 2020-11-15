@@ -80,11 +80,6 @@
         $elenco = $db->elencoArticoliX2($request);
         echo  json_encode($elenco);
 
-    } else if ($request['function'] == 'promozione2file') {
-        $promozioneJson = $db->promozione2text($request);
-        $db->promozione2file($promozioneJson);
-        echo $sqlDetails['exportDir']."\n";
-
     } else if ($request['function'] == 'promozione2text') {
         echo  $db->promozione2text($request);
 
