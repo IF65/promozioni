@@ -146,9 +146,9 @@
 	},
 	"Sources/Methods/utlElencoNegozi.4dm": {
 		"startSelection": 0,
-		"endSelection": 0,
+		"endSelection": 7,
 		"firstSelectedLine": 0,
-		"lastSelectedLine": 0,
+		"lastSelectedLine": 44,
 		"folding": [],
 		"bookmarks": [],
 		"stamp": "2020-09-29T19:23:06.000Z"
@@ -519,11 +519,11 @@
 	"Sources/Methods/_marco3.4dm": {
 		"startSelection": 0,
 		"endSelection": 0,
-		"firstSelectedLine": 0,
-		"lastSelectedLine": 52,
+		"firstSelectedLine": 31,
+		"lastSelectedLine": 31,
 		"folding": [],
 		"bookmarks": [],
-		"stamp": "2020-09-29T19:23:06.276Z"
+		"stamp": "2020-11-15T07:13:52.149Z"
 	},
 	"Sources/Methods/_marco4.4dm": {
 		"startSelection": 0,
@@ -1236,5 +1236,14 @@
 		"folding": [],
 		"bookmarks": [],
 		"stamp": "2020-10-04T09:36:42.789Z"
+	},
+	"Sources/Methods/utlElencoSediUsate.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 26,
+		"lastSelectedLine": 26,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-11-15T07:11:19.328Z"
 	}
 }

@@ -48,8 +48,8 @@
 		"height": 813
 	},
 	"Sources/Methods/utlElencoNegozi.4dm": {
-		"left": 439,
-		"top": 285,
+		"left": 272,
+		"top": 170,
 		"width": 1411,
 		"height": 745
 	},
@@ -886,5 +886,11 @@
 		"top": 193,
 		"width": 1520,
 		"height": 639
+	},
+	"Sources/Methods/utlElencoSediUsate.4dm": {
+		"left": 272,
+		"top": 170,
+		"width": 1411,
+		"height": 745
 	}
 }
