@@ -369,11 +369,7 @@
                                 $text .= '01';
                                 $text .= sprintf( '%09d', $promozioni[0]['codice'] );
 
-                                if ($tipoPromozione == '0070') {
-                                    $text .= sprintf( '%02d', $ricompensa['progressivo'] );
-                                } else {
-                                    $text .= sprintf( '%02d', $recNum + 1 );
-                                }
+                                $text .= sprintf( '%02d', $recNum + 1 );
 
                                 switch ($tipoPromozione) {
                                     case "0034":
