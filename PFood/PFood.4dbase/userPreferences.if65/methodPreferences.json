@@ -324,8 +324,8 @@
 		"stamp": "2020-09-29T19:23:06.228Z"
 	},
 	"Sources/Methods/pfIncarichi.4dm": {
-		"startSelection": 29,
-		"endSelection": 29,
+		"startSelection": 0,
+		"endSelection": 0,
 		"firstSelectedLine": 39,
 		"lastSelectedLine": 39,
 		"folding": [
@@ -347,7 +347,7 @@
 			168
 		],
 		"bookmarks": [],
-		"stamp": "2020-11-15T21:02:32.462Z"
+		"stamp": "2020-11-15T21:08:52.907Z"
 	},
 	"Sources/Methods/utlProgressivoCrea.4dm": {
 		"startSelection": 7,

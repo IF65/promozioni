@@ -124,7 +124,7 @@ Case of
 		//SET TEXT TO PASTEBOARD($body)
 		$sql:="/promozioni/src/promozioni.php"
 		C_TEXT:C284($response)
-		SET TEXT TO PASTEBOARD:C523($body)
+		
 		<>error:=0
 		HTTP SET OPTION:C1160(HTTP timeout:K71:10;30)
 		ON ERR CALL:C155("utlOnErrCall")

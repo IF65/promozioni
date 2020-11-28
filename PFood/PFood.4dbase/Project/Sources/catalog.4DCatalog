@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE base SYSTEM "http://www.4d.com/dtd/2007/base.dtd" >
-<base name="PFood" uuid="FF8F49DB7D71431CAEC8B37AADBD8E82" collation_locale="it">
+<base name="" uuid="FF8F49DB7D71431CAEC8B37AADBD8E82" collation_locale="it">
 	<schema name="DEFAULT_SCHEMA"/>
 	<table name="__DeletedRecords" uuid="8767ECD6ADDD4E0589E2166CA6F3568E" id="4" leave_tag_on_delete="true" prevent_journaling="true">
 		<field name="ID" uuid="2C568E51C27E49079422701AA21691B7" type="5" unique="true" autosequence="true" id="1"/>

@@ -7,19 +7,5 @@
 			"objectName": "Button4",
 			"methodPath": "/SOURCES/Forms/pfCatalina/ObjectMethods/Button4.4dm"
 		}
-	},
-	{
-		"line": 159,
-		"method": {
-			"type": 1,
-			"methodName": "utlInvioLaboratorio"
-		}
-	},
-	{
-		"line": 125,
-		"method": {
-			"type": 1,
-			"methodName": "pfIncarichi"
-		}
 	}
 ]

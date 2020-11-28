@@ -368,7 +368,12 @@
                             foreach ($promozioni[0]['ricompense'] as $recNum => $ricompensa) {
                                 $text .= '01';
                                 $text .= sprintf( '%09d', $promozioni[0]['codice'] );
-                                $text .= sprintf( '%02d', $recNum + 1 );
+
+                                if ($tipoPromozione == '0070') {
+                                    $text .= sprintf( '%02d', $ricompensa['progressivo'] );
+                                } else {
+                                    $text .= sprintf( '%02d', $recNum + 1 );
+                                }
 
                                 switch ($tipoPromozione) {
                                     case "0034":
