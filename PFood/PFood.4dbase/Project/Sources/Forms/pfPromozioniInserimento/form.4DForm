@@ -14,6 +14,7 @@
 		"onLoad",
 		"onClick",
 		"onDataChange",
+		"onUnload",
 		"onResize"
 	],
 	"method": "method.4dm",
@@ -99,20 +100,20 @@
 				},
 				"Text": {
 					"type": "text",
-					"top": 70,
+					"top": 68,
 					"left": 700,
 					"width": 65,
 					"height": 13,
-					"class": "Supermedia_Label",
+					"class": "",
 					"text": "Data Inizio"
 				},
 				"Text1": {
 					"type": "text",
-					"top": 108,
+					"top": 106,
 					"left": 700,
 					"width": 54,
 					"height": 13,
-					"class": "Supermedia_Label",
+					"class": "",
 					"text": "Data Fine"
 				},
 				"vPR_bozza": {
@@ -121,9 +122,9 @@
 					"left": 14,
 					"width": 56,
 					"height": 26,
-					"dataSource": "vPR_bozza",
+					"dataSource": "promozioneCorrente.bozza",
 					"text": "Bozza",
-					"class": "Supermedia_Label",
+					"class": "",
 					"focusable": false,
 					"method": "ObjectMethods/vPR_bozza.4dm",
 					"events": [
@@ -137,7 +138,7 @@
 					"left": 18,
 					"width": 64,
 					"height": 14,
-					"dataSource": "vPR_codice",
+					"dataSource": "promozioneCorrente.codice",
 					"dataSourceTypeHint": "number",
 					"class": "Supermedia_Campi_12",
 					"textAlign": "right",
@@ -149,7 +150,8 @@
 					"events": [
 						"onLoad",
 						"onDataChange"
-					]
+					],
+					"method": "ObjectMethods/vPR_codice.4dm"
 				},
 				"selTipo": {
 					"type": "dropdown",
@@ -159,9 +161,10 @@
 					"height": 19,
 					"dataSource": "selTipo",
 					"focusable": false,
-					"class": "Supermedia_Bottoni",
+					"class": "",
 					"method": "ObjectMethods/selTipo.4dm",
 					"events": [
+						"onLoad",
 						"onClick",
 						"onDataChange"
 					]
@@ -172,7 +175,7 @@
 					"left": 109,
 					"width": 64,
 					"height": 14,
-					"dataSource": "vPR_codiceCatalina",
+					"dataSource": "promozioneCorrente.codiceCatalina",
 					"dataSourceTypeHint": "number",
 					"class": "Supermedia_Campi_12",
 					"textAlign": "right",
@@ -190,7 +193,7 @@
 					"left": 182,
 					"width": 99,
 					"height": 14,
-					"dataSource": "vPR_barcode",
+					"dataSource": "promozioneCorrente.barcode",
 					"class": "Supermedia_Campi_12",
 					"contextMenu": "none",
 					"dragging": "none",
@@ -207,7 +210,7 @@
 					"left": 302,
 					"width": 281,
 					"height": 14,
-					"dataSource": "vPR_descrizione",
+					"dataSource": "promozioneCorrente.descrizione",
 					"class": "Supermedia_Campi_12",
 					"dragging": "none",
 					"dropping": "custom",
@@ -223,14 +226,15 @@
 					"left": 299,
 					"width": 36,
 					"height": 26,
-					"dataSource": "vPR_Do",
+					"dataSource": "promozioneCorrente.do",
 					"text": "D",
-					"class": "Supermedia_Label",
+					"class": "",
 					"focusable": false,
 					"events": [
 						"onLoad",
 						"onClick"
-					]
+					],
+					"dataSourceTypeHint": "boolean"
 				},
 				"vPR_Lu": {
 					"type": "checkbox",
@@ -238,14 +242,15 @@
 					"left": 341,
 					"width": 36,
 					"height": 26,
-					"dataSource": "vPR_Lu",
+					"dataSource": "promozioneCorrente.lu",
 					"text": "L",
-					"class": "Supermedia_Label",
+					"class": "",
 					"focusable": false,
 					"events": [
 						"onLoad",
 						"onClick"
-					]
+					],
+					"dataSourceTypeHint": "boolean"
 				},
 				"vPR_Ma": {
 					"type": "checkbox",
@@ -253,14 +258,15 @@
 					"left": 384,
 					"width": 36,
 					"height": 26,
-					"dataSource": "vPR_Ma",
+					"dataSource": "promozioneCorrente.ma",
 					"text": "Ma",
-					"class": "Supermedia_Label",
+					"class": "",
 					"focusable": false,
 					"events": [
 						"onLoad",
 						"onClick"
-					]
+					],
+					"dataSourceTypeHint": "boolean"
 				},
 				"vPR_Me": {
 					"type": "checkbox",
@@ -268,14 +274,15 @@
 					"left": 427,
 					"width": 36,
 					"height": 26,
-					"dataSource": "vPR_Me",
+					"dataSource": "promozioneCorrente.me",
 					"text": "Me",
-					"class": "Supermedia_Label",
+					"class": "",
 					"focusable": false,
 					"events": [
 						"onLoad",
 						"onClick"
-					]
+					],
+					"dataSourceTypeHint": "boolean"
 				},
 				"vPR_Gi": {
 					"type": "checkbox",
@@ -283,14 +290,15 @@
 					"left": 470,
 					"width": 36,
 					"height": 26,
-					"dataSource": "vPR_Gi",
+					"dataSource": "promozioneCorrente.gi",
 					"text": "G",
-					"class": "Supermedia_Label",
+					"class": "",
 					"focusable": false,
 					"events": [
 						"onLoad",
 						"onClick"
-					]
+					],
+					"dataSourceTypeHint": "boolean"
 				},
 				"vPR_Ve": {
 					"type": "checkbox",
@@ -298,14 +306,15 @@
 					"left": 513,
 					"width": 36,
 					"height": 26,
-					"dataSource": "vPR_Ve",
+					"dataSource": "promozioneCorrente.ve",
 					"text": "V",
-					"class": "Supermedia_Label",
+					"class": "",
 					"focusable": false,
 					"events": [
 						"onLoad",
 						"onClick"
-					]
+					],
+					"dataSourceTypeHint": "boolean"
 				},
 				"vPR_Sa": {
 					"type": "checkbox",
@@ -313,14 +322,15 @@
 					"left": 556,
 					"width": 36,
 					"height": 26,
-					"dataSource": "vPR_Sa",
+					"dataSource": "promozioneCorrente.sa",
 					"text": "S",
-					"class": "Supermedia_Label",
+					"class": "",
 					"focusable": false,
 					"events": [
 						"onLoad",
 						"onClick"
-					]
+					],
+					"dataSourceTypeHint": "boolean"
 				},
 				"vPR_ripetibilita": {
 					"type": "input",
@@ -328,7 +338,7 @@
 					"left": 607,
 					"width": 64,
 					"height": 14,
-					"dataSource": "vPR_ripetibilita",
+					"dataSource": "promozioneCorrente.ripetibilita",
 					"dataSourceTypeHint": "number",
 					"class": "Supermedia_Campi_12",
 					"contextMenu": "none",
@@ -346,9 +356,9 @@
 					"left": 604,
 					"width": 71,
 					"height": 26,
-					"dataSource": "vPR_pmt",
+					"dataSource": "promozioneCorrente.pmt",
 					"text": "PMT Forz.",
-					"class": "Supermedia_Label",
+					"class": "",
 					"focusable": false,
 					"events": [
 						"onLoad",
@@ -361,7 +371,7 @@
 					"left": 696,
 					"width": 65,
 					"height": 14,
-					"dataSource": "vPR_dataInizio",
+					"dataSource": "promozioneCorrente.dataInizio",
 					"dataSourceTypeHint": "date",
 					"class": "Supermedia_Campi_12",
 					"contextMenu": "none",
@@ -378,7 +388,7 @@
 					"left": 696,
 					"width": 65,
 					"height": 14,
-					"dataSource": "vPR_dataFine",
+					"dataSource": "promozioneCorrente.dataFine",
 					"dataSourceTypeHint": "date",
 					"class": "Supermedia_Campi_12",
 					"contextMenu": "none",
@@ -386,15 +396,16 @@
 					"dropping": "custom",
 					"events": [
 						"onDataChange"
-					]
+					],
+					"method": "ObjectMethods/vPR_dataFine.4dm"
 				},
-				"vPR_dataInizio1": {
+				"vDataInizio": {
 					"type": "subform",
 					"top": 81,
 					"left": 768,
 					"width": 19,
 					"height": 16,
-					"dataSource": "vPR_dataInizio",
+					"dataSource": "vDataInizio",
 					"dataSourceTypeHint": "date",
 					"detailForm": "DateButton",
 					"focusable": false,
@@ -403,19 +414,19 @@
 					"doubleClickInEmptyAreaAction": "addSubrecord",
 					"selectionMode": "multiple",
 					"printFrame": "variable",
-					"method": "ObjectMethods/vPR_dataInizio1.4dm",
+					"method": "ObjectMethods/vDataInizio.4dm",
 					"events": [
 						"onLoad",
 						"onDataChange"
 					]
 				},
-				"vPR_dataFine1": {
+				"vDataFine": {
 					"type": "subform",
 					"top": 119,
 					"left": 768,
 					"width": 19,
 					"height": 16,
-					"dataSource": "vPR_dataFine",
+					"dataSource": "vDataFine",
 					"dataSourceTypeHint": "date",
 					"detailForm": "DateButton",
 					"focusable": false,
@@ -424,7 +435,7 @@
 					"doubleClickInEmptyAreaAction": "addSubrecord",
 					"selectionMode": "multiple",
 					"printFrame": "variable",
-					"method": "ObjectMethods/vPR_dataFine1.4dm",
+					"method": "ObjectMethods/vDataFine.4dm",
 					"events": [
 						"onLoad",
 						"onDataChange"
@@ -436,7 +447,7 @@
 					"left": 811,
 					"width": 51,
 					"height": 14,
-					"dataSource": "vPR_oraInizio",
+					"dataSource": "promozioneCorrente.oraInizio",
 					"dataSourceTypeHint": "number",
 					"class": "Supermedia_Campi_12",
 					"contextMenu": "none",
@@ -454,7 +465,7 @@
 					"left": 811,
 					"width": 49,
 					"height": 14,
-					"dataSource": "vPR_oraFine",
+					"dataSource": "promozioneCorrente.oraFine",
 					"dataSourceTypeHint": "number",
 					"class": "Supermedia_Campi_12",
 					"contextMenu": "none",
@@ -475,9 +486,10 @@
 					"sizingX": "grow",
 					"dataSource": "selTipoCliente",
 					"focusable": false,
-					"class": "Supermedia_Bottoni",
+					"class": "",
 					"method": "ObjectMethods/selTipoCliente.4dm",
 					"events": [
+						"onLoad",
 						"onClick",
 						"onDataChange"
 					]
@@ -488,7 +500,7 @@
 					"left": 891,
 					"width": 69,
 					"height": 14,
-					"dataSource": "vPR_categoria",
+					"dataSource": "promozioneCorrente.categoria",
 					"dataSourceTypeHint": "number",
 					"class": "Supermedia_Campi_12",
 					"contextMenu": "none",
@@ -499,58 +511,6 @@
 						"onBeforeKeystroke",
 						"onDataChange"
 					]
-				},
-				"ricompense01": {
-					"type": "plugin",
-					"top": 168,
-					"left": 10,
-					"width": 454,
-					"height": 228,
-					"sizingY": "grow",
-					"dataSource": "alpRicompense",
-					"pluginAreaKind": "%AreaListPro",
-					"borderStyle": "sunken",
-					"method": "ObjectMethods/ricompense01.4dm",
-					"events": [
-						"onLoad",
-						"onPluginArea"
-					],
-					"customProperties": "PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiIHN0YW5kYWxvbmU9InllcyIgPz4KPEFMUCB2ZXJzaW9uPSIweDA5MDkwMzAwIiBjYWNoZVNpemU9IjEwMjQiPgo8Q29sdW1ucyAvPgo8RHJhdyByb3dJbmRlbnQ9IjMuMDA7MS4wMCIgaGVhZGVySW5kZW50PSIzLjAwOzIuMDAiIGZvb3RlckluZGVudD0iMy4wMDsyLjAwIiBjb2xEaXZpZGVyQ29sb3I9IiNmZjgwODA4MCIgcm93RGl2aWRlckNvbG9yPSIjZmY4MDgwODAiIG1pc2NDb2xvcjE9IiNmZmVlZWVlZSIgbWlzY0NvbG9yMj0iI2ZmZmZmZmZmIiBtaXNjQ29sb3IzPSIjZmZlZWVlZWUiIG1pc2NDb2xvcjQ9IiNmZmVlZWVlZSIgbWlzY0NvbG9yNT0iIzAwZmZmZmZmIiBhbHRSb3dDb2xvcj0iI2ZmZWVlZWVlIiAvPgo8RHJhZyAvPgo8U2VsZWN0IC8+CjxTb3J0IC8+CjxFZGl0IGNsaWNrSG9sZERlbGF5PSIzMCIgY29weUZpZWxkRGVsaW1pdGVyPSImI3gwOTsiIGNvcHlSZWNvcmREZWxpbWl0ZXI9IiYjeDBEOyYjeDBBOyIgLz4KPEFQPgo8Q29sdW1uIGRhdGFUeXBlPSI1IiB3aWR0aD0iMCIgdXNlcldpZHRoPSIwIiBoZWFkZXJUZXh0PSJEZWZhdWx0Ij4KPGhlYWRlclN0eWxlIGZvbnQ9Ikx1Y2lkYSBHcmFuZGUiIHNpemU9IjEzIiB0ZXh0Q29sb3I9IiNmZjAwMDAwMCIgYmFja0NvbG9yPSIjMDBmZmZmZmYiIC8+CjxsaXN0U3R5bGUgZm9udD0iTHVjaWRhIEdyYW5kZSIgc2l6ZT0iMTMiIHRleHRDb2xvcj0iI2ZmMDAwMDAwIiBiYWNrQ29sb3I9IiMwMGZmZmZmZiIgLz4KPGZvb3RlclN0eWxlIGZvbnQ9Ikx1Y2lkYSBHcmFuZGUiIHNpemU9IjEzIiB0ZXh0Q29sb3I9IiNmZjAwMDAwMCIgYmFja0NvbG9yPSIjMDBmZmZmZmYiIC8+CjwvQ29sdW1uPgo8L0FQPgo8L0FMUD4K"
-				},
-				"articoli01": {
-					"type": "plugin",
-					"top": 168,
-					"left": 509,
-					"width": 327,
-					"height": 228,
-					"sizingY": "grow",
-					"dataSource": "alpArticoli",
-					"pluginAreaKind": "%AreaListPro",
-					"borderStyle": "sunken",
-					"method": "ObjectMethods/articoli01.4dm",
-					"events": [
-						"onLoad",
-						"onPluginArea"
-					],
-					"customProperties": "PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiIHN0YW5kYWxvbmU9InllcyIgPz4KPEFMUCB2ZXJzaW9uPSIweDA5MDkwMzAwIiBjYWNoZVNpemU9IjEwMjQiPgo8Q29sdW1ucyAvPgo8RHJhdyByb3dJbmRlbnQ9IjMuMDA7MS4wMCIgaGVhZGVySW5kZW50PSIzLjAwOzIuMDAiIGZvb3RlckluZGVudD0iMy4wMDsyLjAwIiBjb2xEaXZpZGVyQ29sb3I9IiNmZjgwODA4MCIgcm93RGl2aWRlckNvbG9yPSIjZmY4MDgwODAiIG1pc2NDb2xvcjE9IiNmZmVlZWVlZSIgbWlzY0NvbG9yMj0iI2ZmZmZmZmZmIiBtaXNjQ29sb3IzPSIjZmZlZWVlZWUiIG1pc2NDb2xvcjQ9IiNmZmVlZWVlZSIgbWlzY0NvbG9yNT0iIzAwZmZmZmZmIiBhbHRSb3dDb2xvcj0iI2ZmZWVlZWVlIiAvPgo8RHJhZyAvPgo8U2VsZWN0IC8+CjxTb3J0IC8+CjxFZGl0IGNsaWNrSG9sZERlbGF5PSIzMCIgY29weUZpZWxkRGVsaW1pdGVyPSImI3gwOTsiIGNvcHlSZWNvcmREZWxpbWl0ZXI9IiYjeDBEOyYjeDBBOyIgLz4KPEFQPgo8Q29sdW1uIGRhdGFUeXBlPSI1IiB3aWR0aD0iMCIgdXNlcldpZHRoPSIwIiBoZWFkZXJUZXh0PSJEZWZhdWx0Ij4KPGhlYWRlclN0eWxlIGZvbnQ9Ikx1Y2lkYSBHcmFuZGUiIHNpemU9IjEzIiB0ZXh0Q29sb3I9IiNmZjAwMDAwMCIgYmFja0NvbG9yPSIjMDBmZmZmZmYiIC8+CjxsaXN0U3R5bGUgZm9udD0iTHVjaWRhIEdyYW5kZSIgc2l6ZT0iMTMiIHRleHRDb2xvcj0iI2ZmMDAwMDAwIiBiYWNrQ29sb3I9IiMwMGZmZmZmZiIgLz4KPGZvb3RlclN0eWxlIGZvbnQ9Ikx1Y2lkYSBHcmFuZGUiIHNpemU9IjEzIiB0ZXh0Q29sb3I9IiNmZjAwMDAwMCIgYmFja0NvbG9yPSIjMDBmZmZmZmYiIC8+CjwvQ29sdW1uPgo8L0FQPgo8L0FMUD4K"
-				},
-				"alpSedi": {
-					"type": "plugin",
-					"top": 168,
-					"left": 879,
-					"width": 155,
-					"height": 385,
-					"sizingX": "grow",
-					"sizingY": "grow",
-					"dataSource": "alpSedi",
-					"pluginAreaKind": "%AreaListPro",
-					"borderStyle": "sunken",
-					"method": "ObjectMethods/alpSedi.4dm",
-					"events": [
-						"onLoad",
-						"onPluginArea"
-					],
-					"customProperties": "PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiIHN0YW5kYWxvbmU9InllcyIgPz4KPEFMUCB2ZXJzaW9uPSIweDA5MDkwMzAwIiBjYWNoZVNpemU9IjEwMjQiPgo8Q29sdW1ucyAvPgo8RHJhdyByb3dJbmRlbnQ9IjMuMDA7MS4wMCIgaGVhZGVySW5kZW50PSIzLjAwOzIuMDAiIGZvb3RlckluZGVudD0iMy4wMDsyLjAwIiBjb2xEaXZpZGVyQ29sb3I9IiNmZjgwODA4MCIgcm93RGl2aWRlckNvbG9yPSIjZmY4MDgwODAiIG1pc2NDb2xvcjE9IiNmZmVlZWVlZSIgbWlzY0NvbG9yMj0iI2ZmZmZmZmZmIiBtaXNjQ29sb3IzPSIjZmZlZWVlZWUiIG1pc2NDb2xvcjQ9IiNmZmVlZWVlZSIgbWlzY0NvbG9yNT0iIzAwZmZmZmZmIiBhbHRSb3dDb2xvcj0iI2ZmZWVlZWVlIiAvPgo8RHJhZyAvPgo8U2VsZWN0IC8+CjxTb3J0IC8+CjxFZGl0IGNsaWNrSG9sZERlbGF5PSIzMCIgY29weUZpZWxkRGVsaW1pdGVyPSImI3gwOTsiIGNvcHlSZWNvcmREZWxpbWl0ZXI9IiYjeDBEOyYjeDBBOyIgLz4KPEFQPgo8Q29sdW1uIGRhdGFUeXBlPSI1IiB3aWR0aD0iMCIgdXNlcldpZHRoPSIwIiBoZWFkZXJUZXh0PSJEZWZhdWx0Ij4KPGhlYWRlclN0eWxlIGZvbnQ9Ikx1Y2lkYSBHcmFuZGUiIHNpemU9IjEzIiB0ZXh0Q29sb3I9IiNmZjAwMDAwMCIgYmFja0NvbG9yPSIjMDBmZmZmZmYiIC8+CjxsaXN0U3R5bGUgZm9udD0iTHVjaWRhIEdyYW5kZSIgc2l6ZT0iMTMiIHRleHRDb2xvcj0iI2ZmMDAwMDAwIiBiYWNrQ29sb3I9IiMwMGZmZmZmZiIgLz4KPGZvb3RlclN0eWxlIGZvbnQ9Ikx1Y2lkYSBHcmFuZGUiIHNpemU9IjEzIiB0ZXh0Q29sb3I9IiNmZjAwMDAwMCIgYmFja0NvbG9yPSIjMDBmZmZmZmYiIC8+CjwvQ29sdW1uPgo8L0FQPgo8L0FMUD4K"
 				},
 				"Line": {
 					"type": "line",
@@ -563,48 +523,48 @@
 				},
 				"Text4": {
 					"type": "text",
-					"top": 70,
+					"top": 68,
 					"left": 306,
 					"width": 85,
 					"height": 13,
-					"class": "Supermedia_Label",
+					"class": "",
 					"text": "Descrizione"
 				},
 				"Text5": {
 					"type": "text",
-					"top": 70,
+					"top": 68,
 					"left": 815,
 					"width": 50,
 					"height": 13,
-					"class": "Supermedia_Label",
+					"class": "",
 					"text": "Ora Inizio"
 				},
 				"Text6": {
 					"type": "text",
-					"top": 108,
+					"top": 106,
 					"left": 815,
 					"width": 50,
 					"height": 13,
-					"class": "Supermedia_Label",
+					"class": "",
 					"text": "Ora Fine"
 				},
 				"Text8": {
 					"type": "text",
-					"top": 68,
+					"top": 66,
 					"left": 894,
 					"width": 85,
 					"height": 13,
 					"sizingX": "move",
-					"class": "Supermedia_Label",
+					"class": "",
 					"text": "Tipo Cliente"
 				},
 				"Text9": {
 					"type": "text",
-					"top": 70,
+					"top": 68,
 					"left": 111,
 					"width": 59,
 					"height": 13,
-					"class": "Supermedia_Label",
+					"class": "",
 					"text": "Tipo"
 				},
 				"ricompense04": {
@@ -613,7 +573,7 @@
 					"left": 14,
 					"width": 85,
 					"height": 13,
-					"class": "Supermedia_Label",
+					"class": "",
 					"text": "Ricompense - 01"
 				},
 				"articoli04": {
@@ -622,34 +582,34 @@
 					"left": 520,
 					"width": 85,
 					"height": 13,
-					"class": "Supermedia_Label",
+					"class": "",
 					"text": "Articoli - 02"
 				},
 				"Text3": {
 					"type": "text",
-					"top": 108,
+					"top": 106,
 					"left": 186,
 					"width": 45,
 					"height": 13,
-					"class": "Supermedia_Label",
+					"class": "",
 					"text": "Barcode"
 				},
 				"Text10": {
 					"type": "text",
-					"top": 108,
+					"top": 106,
 					"left": 112,
 					"width": 58,
 					"height": 13,
-					"class": "Supermedia_Label",
+					"class": "",
 					"text": "Codice Cat."
 				},
 				"Text2": {
 					"type": "text",
-					"top": 108,
+					"top": 106,
 					"left": 21,
 					"width": 58,
 					"height": 13,
-					"class": "Supermedia_Label",
+					"class": "",
 					"text": "Progressivo"
 				},
 				"lblSediSelezionate": {
@@ -658,7 +618,7 @@
 					"left": 890,
 					"width": 85,
 					"height": 13,
-					"class": "Supermedia_Label",
+					"class": "",
 					"text": "Sedi Selezionate"
 				},
 				"bFirst": {
@@ -904,17 +864,18 @@
 					"left": 17,
 					"width": 813,
 					"height": 122,
-					"dataSource": "vPR_testo",
+					"dataSource": "promozioneCorrente.testo",
 					"class": "Supermedia_Campi_12",
 					"fill": "#FFFFFF",
-					"hideFocusRing": true,
+					"hideFocusRing": false,
 					"multiline": "yes",
 					"wordwrap": "none",
 					"dragging": "none",
 					"dropping": "custom",
 					"events": [
 						"onDataChange"
-					]
+					],
+					"method": "ObjectMethods/Variable.4dm"
 				},
 				"lblTesto": {
 					"type": "text",
@@ -922,16 +883,16 @@
 					"left": 14,
 					"width": 85,
 					"height": 13,
-					"class": "Supermedia_Label",
+					"class": "",
 					"text": "Testo - 03"
 				},
 				"Text7": {
 					"type": "text",
-					"top": 108,
+					"top": 106,
 					"left": 895,
 					"width": 50,
 					"height": 13,
-					"class": "Supermedia_Label",
+					"class": "",
 					"text": "Categoria"
 				},
 				"bReport1": {
@@ -956,14 +917,399 @@
 				},
 				"Text11": {
 					"type": "text",
-					"top": 70,
+					"top": 68,
 					"left": 611,
 					"width": 58,
 					"height": 13,
-					"class": "Supermedia_Label",
+					"class": "",
 					"text": "Ripetibilità"
+				},
+				"ricompense01": {
+					"type": "listbox",
+					"left": 10,
+					"top": 168,
+					"width": 454,
+					"height": 228,
+					"events": [
+						"onClick",
+						"onBeforeKeystroke",
+						"onDataChange",
+						"onSelectionChange",
+						"onHeaderClick"
+					],
+					"listboxType": "collection",
+					"scrollbarHorizontal": "hidden",
+					"dataSource": "promozioneCorrente.ricompense",
+					"alternateFill": "#F0F0F0",
+					"rowHeight": "1em",
+					"headerHeight": "1em",
+					"verticalLineStroke": "#D4D4D4",
+					"horizontalLineStroke": "#F0F0F0",
+					"method": "ObjectMethods/ricompense01.4dm",
+					"currentItemSource": "ricompenseCurrentItem",
+					"currentItemPositionSource": "ricompenseCurrentItemPosition",
+					"selectedItemsSource": "ricompenseSelectedItems",
+					"singleClickEdit": false,
+					"columns": [
+						{
+							"header": {
+								"text": "#",
+								"name": "Header17",
+								"class": "listboxHeader"
+							},
+							"name": "Column15",
+							"footer": {
+								"name": "Footer17"
+							},
+							"dataSource": "This:C1470.progressivo",
+							"width": 20,
+							"dataSourceTypeHint": "number",
+							"numberFormat": "###,##0",
+							"textAlign": "right",
+							"visibility": "hidden"
+						},
+						{
+							"header": {
+								"text": "Descrizione",
+								"name": "Header14",
+								"class": "listboxHeader"
+							},
+							"name": "colRicompenseDescrizione",
+							"footer": {
+								"name": "Footer14"
+							},
+							"dataSource": "This:C1470.descrizione",
+							"width": 140
+						},
+						{
+							"header": {
+								"text": "Sogl.",
+								"name": "Header11",
+								"class": "listboxHeader"
+							},
+							"name": "Column11",
+							"footer": {
+								"name": "Footer11"
+							},
+							"dataSource": "This:C1470.soglia",
+							"width": 40,
+							"dataSourceTypeHint": "number",
+							"numberFormat": "###,##0.00",
+							"textAlign": "right"
+						},
+						{
+							"header": {
+								"text": "Imp.",
+								"name": "Header12",
+								"class": "listboxHeader"
+							},
+							"name": "Column12",
+							"footer": {
+								"name": "Footer12"
+							},
+							"dataSource": "This:C1470.ammontare",
+							"width": 40,
+							"dataSourceTypeHint": "number",
+							"numberFormat": "###,##0.00",
+							"textAlign": "right"
+						},
+						{
+							"header": {
+								"text": "Lim.",
+								"name": "Header15",
+								"class": "listboxHeader"
+							},
+							"name": "Column4",
+							"footer": {
+								"name": "Footer15"
+							},
+							"dataSource": "This:C1470.limiteSconto",
+							"width": 40,
+							"dataSourceTypeHint": "number",
+							"numberFormat": "###,##0.00",
+							"textAlign": "right"
+						},
+						{
+							"header": {
+								"text": "Taglio",
+								"name": "Header13",
+								"class": "listboxHeader"
+							},
+							"name": "Column13",
+							"footer": {
+								"name": "Footer13"
+							},
+							"dataSource": "This:C1470.taglio",
+							"width": 40,
+							"dataSourceTypeHint": "number",
+							"numberFormat": "###,##0.00",
+							"textAlign": "right"
+						},
+						{
+							"header": {
+								"text": "Rec. M",
+								"name": "Header16",
+								"class": "listboxHeader"
+							},
+							"name": "Column14",
+							"footer": {
+								"name": "Footer16"
+							},
+							"dataSource": "This:C1470.recordM",
+							"width": 100
+						},
+						{
+							"header": {
+								"text": "Accum.",
+								"name": "Header10",
+								"class": "listboxHeader"
+							},
+							"name": "Column10",
+							"footer": {
+								"name": "Footer10"
+							},
+							"dataSource": "This:C1470.accumulatore",
+							"width": 50,
+							"textAlign": "center",
+							"visibility": "hidden"
+						},
+						{
+							"header": {
+								"text": "Tipo Area",
+								"name": "Header18",
+								"class": "listboxHeader"
+							},
+							"name": "Column16",
+							"footer": {
+								"name": "Footer18"
+							},
+							"dataSource": "This:C1470.tipoArea",
+							"width": 200,
+							"dataSourceTypeHint": "number",
+							"numberFormat": "###,##0",
+							"textAlign": "right",
+							"visibility": "hidden"
+						},
+						{
+							"header": {
+								"text": "Ord.",
+								"name": "Header9",
+								"class": "listboxHeader"
+							},
+							"name": "Column9",
+							"footer": {
+								"name": "Footer9"
+							},
+							"dataSource": "This:C1470.ordinamentoInArea",
+							"width": 30,
+							"dataSourceTypeHint": "number",
+							"numberFormat": "###,##0",
+							"textAlign": "right",
+							"visibility": "hidden"
+						},
+						{
+							"header": {
+								"text": "PVar",
+								"name": "Header1",
+								"class": "listboxHeader"
+							},
+							"name": "Column1",
+							"footer": {
+								"name": "Footer1"
+							},
+							"dataSource": "This:C1470.promovar",
+							"width": 39,
+							"textAlign": "right"
+						}
+					]
+				},
+				"articoli01": {
+					"type": "listbox",
+					"left": 509,
+					"top": 168,
+					"width": 327,
+					"height": 228,
+					"events": [
+						"onClick",
+						"onHeaderClick",
+						"onDataChange",
+						"onSelectionChange"
+					],
+					"listboxType": "collection",
+					"scrollbarHorizontal": "hidden",
+					"dataSource": "promozioneCorrente.articoli",
+					"alternateFill": "#F0F0F0",
+					"rowHeight": "1em",
+					"headerHeight": "1em",
+					"verticalLineStroke": "#D4D4D4",
+					"horizontalLineStroke": "transparent",
+					"currentItemSource": "articoliCurrentItem",
+					"currentItemPositionSource": "articoliCurrentItemPosition",
+					"selectedItemsSource": "articoliSelectedItems",
+					"columns": [
+						{
+							"header": {
+								"text": "Rep.",
+								"name": "Header4",
+								"class": "listboxHeader"
+							},
+							"name": "colArticoliCodiceReparto",
+							"footer": {
+								"name": "Footer4"
+							},
+							"dataSource": "This:C1470.codiceReparto",
+							"width": 40,
+							"textAlign": "center"
+						},
+						{
+							"header": {
+								"text": "Articolo",
+								"name": "Header6",
+								"class": "listboxHeader"
+							},
+							"name": "Column6",
+							"footer": {
+								"name": "Footer6"
+							},
+							"dataSource": "This:C1470.codiceArticolo",
+							"width": 70,
+							"visibility": "hidden"
+						},
+						{
+							"header": {
+								"text": "Barcode",
+								"name": "Header5",
+								"class": "listboxHeader"
+							},
+							"name": "Column5",
+							"footer": {
+								"name": "Footer5"
+							},
+							"dataSource": "This:C1470.barcode",
+							"width": 88
+						},
+						{
+							"header": {
+								"text": "Descrizione",
+								"name": "Header7",
+								"class": "listboxHeader"
+							},
+							"name": "Column7",
+							"footer": {
+								"name": "Footer7"
+							},
+							"dataSource": "This:C1470.descrizione",
+							"width": 140
+						},
+						{
+							"header": {
+								"text": "M",
+								"name": "Header8",
+								"class": "listboxHeader"
+							},
+							"name": "Column8",
+							"footer": {
+								"name": "Footer8"
+							},
+							"dataSource": "This:C1470.molteplicita",
+							"dataSourceTypeHint": "number",
+							"width": 22,
+							"textAlign": "center"
+						},
+						{
+							"header": {
+								"text": "Gr",
+								"name": "Header2",
+								"class": "listboxHeader"
+							},
+							"name": "Column2",
+							"footer": {
+								"name": "Footer2"
+							},
+							"dataSource": "This:C1470.gruppo",
+							"dataSourceTypeHint": "number",
+							"width": 22,
+							"textAlign": "center"
+						}
+					]
+				},
+				"lbSedi": {
+					"type": "listbox",
+					"left": 879,
+					"top": 168,
+					"width": 155,
+					"height": 385,
+					"events": [
+						"onClick",
+						"onHeaderClick",
+						"onDataChange",
+						"onSelectionChange"
+					],
+					"listboxType": "collection",
+					"scrollbarHorizontal": "hidden",
+					"dataSource": "promozioneCorrente.sedi",
+					"horizontalLineStroke": "transparent",
+					"alternateFill": "#F0F0F0",
+					"headerHeight": "1em",
+					"rowHeight": "1em",
+					"columns": [
+						{
+							"header": {
+								"text": "Sede",
+								"name": "Header3",
+								"class": "listboxHeader"
+							},
+							"name": "Column3",
+							"footer": {
+								"name": "Footer3"
+							},
+							"dataSource": "This:C1470.descrizione",
+							"width": 140
+						}
+					]
 				}
-			}
+			},
+			"entryOrder": [
+				"vPR_bozza",
+				"vPR_codice",
+				"selTipo",
+				"vPR_codiceCatalina",
+				"vPR_barcode",
+				"vPR_descrizione",
+				"vPR_Do",
+				"vPR_Lu",
+				"vPR_Ma",
+				"vPR_Me",
+				"vPR_Gi",
+				"vPR_Ve",
+				"vPR_Sa",
+				"vPR_ripetibilita",
+				"vPR_pmt",
+				"vPR_dataInizio",
+				"vPR_dataFine",
+				"vDataInizio",
+				"vDataFine",
+				"vPR_oraInizio",
+				"vPR_oraFine",
+				"selTipoCliente",
+				"vPR_categoria",
+				"ricompense01",
+				"articoli01",
+				"Variable",
+				"lbSedi"
+			]
 		}
-	]
+	],
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"geometryStamp": 106,
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {}
+		}
+	}
 }

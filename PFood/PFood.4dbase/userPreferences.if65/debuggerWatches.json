@@ -1,14 +1,14 @@
 ﻿[
 	{
 		"type": 66,
-		"formula": "incarichi"
+		"formula": "$result"
 	},
 	{
 		"type": 66,
-		"formula": "$codiciSediUsate"
+		"formula": "$sede"
 	},
 	{
 		"type": 66,
-		"formula": "$sediUsate"
+		"formula": "$sediSelezionate"
 	}
 ]

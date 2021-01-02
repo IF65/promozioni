@@ -1,8 +1,8 @@
 ﻿{
-	"Sources/Forms/pfPromozioni/form.4DForm": {
-		"left": 5,
-		"top": 110,
-		"width": 1638,
-		"height": 931
+	"Sources/Forms/pfPromozioniInserimento/form.4DForm": {
+		"left": 627,
+		"top": 295,
+		"width": 1240,
+		"height": 726
 	}
 }

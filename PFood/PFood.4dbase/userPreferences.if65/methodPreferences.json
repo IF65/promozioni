@@ -1,46 +1,4 @@
 ﻿{
-	"Sources/Methods/pfPromozioni.4dm": {
-		"startSelection": 0,
-		"endSelection": 23,
-		"firstSelectedLine": 24,
-		"lastSelectedLine": 24,
-		"folding": [
-			15,
-			20,
-			22,
-			24,
-			28,
-			32,
-			46,
-			78,
-			87,
-			90,
-			93,
-			96,
-			99,
-			100,
-			103,
-			104,
-			107,
-			111,
-			114,
-			130,
-			135,
-			171,
-			174,
-			182,
-			199,
-			203,
-			208,
-			211,
-			213,
-			246,
-			257,
-			291
-		],
-		"bookmarks": [],
-		"stamp": "2020-11-11T10:21:31.832Z"
-	},
 	"Sources/Methods/utlOnErrCall.4dm": {
 		"startSelection": 0,
 		"endSelection": 7,
@@ -95,60 +53,11 @@
 		"bookmarks": [],
 		"stamp": "2020-09-29T19:23:06.206Z"
 	},
-	"Sources/Methods/pfPromozioniInserimento.4dm": {
-		"startSelection": 0,
-		"endSelection": 0,
-		"firstSelectedLine": 32,
-		"lastSelectedLine": 32,
-		"folding": [
-			14,
-			19,
-			21,
-			23,
-			34,
-			49,
-			64,
-			65,
-			81,
-			82,
-			83,
-			87,
-			118,
-			122,
-			138,
-			141,
-			172,
-			182,
-			200,
-			201,
-			212,
-			218,
-			280,
-			281,
-			358,
-			369,
-			388,
-			419,
-			420,
-			422,
-			449,
-			455,
-			477,
-			493,
-			524,
-			525,
-			556,
-			586,
-			595
-		],
-		"bookmarks": [],
-		"stamp": "2020-11-07T09:05:03.001Z"
-	},
 	"Sources/Methods/utlElencoNegozi.4dm": {
-		"startSelection": 0,
-		"endSelection": 7,
-		"firstSelectedLine": 0,
-		"lastSelectedLine": 44,
+		"startSelection": 18,
+		"endSelection": 18,
+		"firstSelectedLine": 21,
+		"lastSelectedLine": 21,
 		"folding": [],
 		"bookmarks": [],
 		"stamp": "2020-09-29T19:23:06.000Z"
@@ -199,13 +108,13 @@
 		"stamp": "2020-09-29T19:23:06.000Z"
 	},
 	"Sources/Methods/pfCaricamentoPromozione.4dm": {
-		"startSelection": 7,
+		"startSelection": 0,
 		"endSelection": 0,
-		"firstSelectedLine": 38,
-		"lastSelectedLine": 16,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
 		"folding": [],
 		"bookmarks": [],
-		"stamp": "2020-09-29T19:23:06.216Z"
+		"stamp": "2020-09-29T19:23:06.000Z"
 	},
 	"Sources/Methods/utlQuit.4dm": {
 		"startSelection": 7,
@@ -226,13 +135,13 @@
 		"stamp": "2020-09-29T19:23:06.218Z"
 	},
 	"Sources/Methods/pfSceltaSedi.4dm": {
-		"startSelection": 8,
-		"endSelection": 8,
-		"firstSelectedLine": 52,
-		"lastSelectedLine": 52,
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 33,
+		"lastSelectedLine": 33,
 		"folding": [],
 		"bookmarks": [],
-		"stamp": "2020-09-29T19:23:06.218Z"
+		"stamp": "2020-12-27T23:12:01.073Z"
 	},
 	"Sources/Methods/utlConfrontoArray.4dm": {
 		"startSelection": 6,
@@ -359,10 +268,10 @@
 		"stamp": "2020-09-29T19:23:06.230Z"
 	},
 	"Sources/Methods/utlInvioLaboratorio.4dm": {
-		"startSelection": 0,
-		"endSelection": 0,
-		"firstSelectedLine": 0,
-		"lastSelectedLine": 0,
+		"startSelection": 16,
+		"endSelection": 16,
+		"firstSelectedLine": 128,
+		"lastSelectedLine": 128,
 		"folding": [],
 		"bookmarks": [],
 		"stamp": "2020-10-29T11:17:37.000Z"
@@ -386,15 +295,13 @@
 		"stamp": "2020-09-29T19:23:06.248Z"
 	},
 	"Sources/Methods/catalinaCaricamento_0503.4dm": {
-		"startSelection": 48,
+		"startSelection": 0,
 		"endSelection": 0,
-		"firstSelectedLine": 62,
-		"lastSelectedLine": 62,
-		"folding": [
-			43
-		],
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
 		"bookmarks": [],
-		"stamp": "2020-09-29T19:23:06.250Z"
+		"stamp": "2020-09-29T19:23:06.000Z"
 	},
 	"Sources/Methods/utlProgressivoVerificaEsistenza.4dm": {
 		"startSelection": 0,
@@ -424,31 +331,31 @@
 		"stamp": "2020-09-29T19:23:06.256Z"
 	},
 	"Sources/Methods/_marco.4dm": {
-		"startSelection": 0,
-		"endSelection": 0,
-		"firstSelectedLine": 5,
-		"lastSelectedLine": 5,
+		"startSelection": 8,
+		"endSelection": 8,
+		"firstSelectedLine": 3,
+		"lastSelectedLine": 3,
 		"folding": [],
 		"bookmarks": [],
-		"stamp": "2020-11-08T19:06:10.010Z"
+		"stamp": "2020-12-25T20:14:40.638Z"
 	},
 	"Sources/Methods/catalinaCaricamento_ACPT.4dm": {
-		"startSelection": 18,
-		"endSelection": 18,
-		"firstSelectedLine": 57,
-		"lastSelectedLine": 57,
+		"startSelection": 75,
+		"endSelection": 81,
+		"firstSelectedLine": 56,
+		"lastSelectedLine": 56,
 		"folding": [],
 		"bookmarks": [],
-		"stamp": "2020-09-29T19:23:06.259Z"
+		"stamp": "2020-09-29T19:23:06.000Z"
 	},
 	"Sources/Methods/utlOttieniBarcode8Catalina.4dm": {
-		"startSelection": 7,
-		"endSelection": 37,
-		"firstSelectedLine": 24,
-		"lastSelectedLine": 24,
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
 		"folding": [],
 		"bookmarks": [],
-		"stamp": "2020-09-29T19:23:06.260Z"
+		"stamp": "2020-09-29T19:23:06.000Z"
 	},
 	"Sources/Methods/utlCreaPmtDaTemplate.4dm": {
 		"startSelection": 21,
@@ -481,13 +388,13 @@
 		"stamp": "2020-09-29T19:23:06.267Z"
 	},
 	"Sources/Methods/templateCaricamento_0054.4dm": {
-		"startSelection": 18,
-		"endSelection": 18,
-		"firstSelectedLine": 26,
-		"lastSelectedLine": 26,
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
 		"folding": [],
 		"bookmarks": [],
-		"stamp": "2020-09-29T19:23:06.269Z"
+		"stamp": "2020-09-29T19:23:06.000Z"
 	},
 	"Sources/Methods/utlEsplosioneBarcode.4dm": {
 		"startSelection": 0,
@@ -535,13 +442,13 @@
 		"stamp": "2020-11-15T07:26:49.210Z"
 	},
 	"Sources/Methods/_marco4.4dm": {
-		"startSelection": 0,
-		"endSelection": 0,
-		"firstSelectedLine": 3,
-		"lastSelectedLine": 3,
+		"startSelection": 10,
+		"endSelection": 36,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
 		"folding": [],
 		"bookmarks": [],
-		"stamp": "2020-11-02T14:52:13.890Z"
+		"stamp": "2020-11-02T14:52:13.000Z"
 	},
 	"Sources/Methods/utlCreaPmtLibriDaTemplate.4dm": {
 		"startSelection": 4,
@@ -589,13 +496,13 @@
 		"stamp": "2020-09-29T19:23:06.282Z"
 	},
 	"Sources/DatabaseMethods/onStartup.4dm": {
-		"startSelection": 11,
-		"endSelection": 26,
-		"firstSelectedLine": 211,
-		"lastSelectedLine": 211,
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 232,
+		"lastSelectedLine": 232,
 		"folding": [],
 		"bookmarks": [],
-		"stamp": "2020-10-05T18:43:42.000Z"
+		"stamp": "2020-12-27T23:13:36.204Z"
 	},
 	"Sources/DatabaseMethods/onWebConnection.4dm": {
 		"startSelection": 0,
@@ -627,11 +534,11 @@
 	"Sources/Forms/pfPromozioni/ObjectMethods/srcTipoPromozione.4dm": {
 		"startSelection": 0,
 		"endSelection": 0,
-		"firstSelectedLine": 3,
-		"lastSelectedLine": 3,
+		"firstSelectedLine": 1,
+		"lastSelectedLine": 1,
 		"folding": [],
 		"bookmarks": [],
-		"stamp": "2020-09-29T19:23:06.489Z"
+		"stamp": "2020-12-25T15:52:40.359Z"
 	},
 	"Sources/Forms/pfPromozioni/ObjectMethods/srcDataCorrente.4dm": {
 		"startSelection": 13,
@@ -652,16 +559,13 @@
 		"stamp": "2020-09-29T19:23:06.490Z"
 	},
 	"Sources/Forms/pfPromozioni/ObjectMethods/alpPromozioni.4dm": {
-		"startSelection": 0,
-		"endSelection": 11,
-		"firstSelectedLine": 139,
-		"lastSelectedLine": 139,
-		"folding": [
-			165,
-			167
-		],
+		"startSelection": 26,
+		"endSelection": 37,
+		"firstSelectedLine": 7,
+		"lastSelectedLine": 7,
+		"folding": [],
 		"bookmarks": [],
-		"stamp": "2020-11-15T21:01:41.098Z"
+		"stamp": "2020-11-15T21:01:41.000Z"
 	},
 	"Sources/Forms/pfPromozioni/ObjectMethods/Button1.4dm": {
 		"startSelection": 2,
@@ -736,35 +640,31 @@
 		"stamp": "2020-09-29T19:23:06.503Z"
 	},
 	"Sources/Forms/pfPromozioniInserimento/method.4dm": {
-		"startSelection": 0,
-		"endSelection": 0,
-		"firstSelectedLine": 7,
-		"lastSelectedLine": 7,
-		"folding": [
-			5,
-			42,
-			54
-		],
-		"bookmarks": [],
-		"stamp": "2020-09-29T19:23:06.000Z"
-	},
-	"Sources/Forms/pfPromozioniInserimento/ObjectMethods/vPR_bozza.4dm": {
-		"startSelection": 0,
-		"endSelection": 0,
-		"firstSelectedLine": 5,
-		"lastSelectedLine": 5,
+		"startSelection": 36,
+		"endSelection": 36,
+		"firstSelectedLine": 3,
+		"lastSelectedLine": 3,
 		"folding": [],
 		"bookmarks": [],
-		"stamp": "2020-09-29T19:23:06.000Z"
+		"stamp": "2020-12-29T20:00:03.844Z"
+	},
+	"Sources/Forms/pfPromozioniInserimento/ObjectMethods/vPR_bozza.4dm": {
+		"startSelection": 2,
+		"endSelection": 25,
+		"firstSelectedLine": 3,
+		"lastSelectedLine": 3,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-12-26T06:35:58.782Z"
 	},
 	"Sources/Forms/pfPromozioniInserimento/ObjectMethods/selTipo.4dm": {
 		"startSelection": 0,
-		"endSelection": 23,
-		"firstSelectedLine": 4,
-		"lastSelectedLine": 4,
+		"endSelection": 0,
+		"firstSelectedLine": 20,
+		"lastSelectedLine": 21,
 		"folding": [],
 		"bookmarks": [],
-		"stamp": "2020-09-29T19:23:06.507Z"
+		"stamp": "2020-12-29T19:59:46.185Z"
 	},
 	"Sources/Forms/pfPromozioniInserimento/ObjectMethods/vPR_barcode.4dm": {
 		"startSelection": 0,
@@ -830,13 +730,13 @@
 		"stamp": "2020-09-29T19:23:06.513Z"
 	},
 	"Sources/Forms/pfPromozioniInserimento/ObjectMethods/ricompense01.4dm": {
-		"startSelection": 59,
-		"endSelection": 59,
-		"firstSelectedLine": 52,
-		"lastSelectedLine": 52,
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
 		"folding": [],
 		"bookmarks": [],
-		"stamp": "2020-09-29T19:23:06.514Z"
+		"stamp": "2020-12-26T16:31:34.843Z"
 	},
 	"Sources/Forms/pfPromozioniInserimento/ObjectMethods/articoli01.4dm": {
 		"startSelection": 53,
@@ -881,16 +781,16 @@
 		"lastSelectedLine": 10,
 		"folding": [],
 		"bookmarks": [],
-		"stamp": "2020-09-29T19:23:06.517Z"
+		"stamp": "2020-12-27T18:47:45.992Z"
 	},
 	"Sources/Forms/pfPromozioniInserimento/ObjectMethods/ricompense03.4dm": {
-		"startSelection": 7,
-		"endSelection": 7,
-		"firstSelectedLine": 8,
-		"lastSelectedLine": 8,
+		"startSelection": 69,
+		"endSelection": 0,
+		"firstSelectedLine": 3,
+		"lastSelectedLine": 3,
 		"folding": [],
 		"bookmarks": [],
-		"stamp": "2020-09-29T19:23:06.517Z"
+		"stamp": "2020-12-27T18:41:20.841Z"
 	},
 	"Sources/Forms/pfPromozioniInserimento/ObjectMethods/articoli02.4dm": {
 		"startSelection": 13,
@@ -912,12 +812,12 @@
 	},
 	"Sources/Forms/pfPromozioniInserimento/ObjectMethods/bReport.4dm": {
 		"startSelection": 0,
-		"endSelection": 12,
-		"firstSelectedLine": 8,
-		"lastSelectedLine": 8,
+		"endSelection": 0,
+		"firstSelectedLine": 33,
+		"lastSelectedLine": 32,
 		"folding": [],
 		"bookmarks": [],
-		"stamp": "2020-09-29T19:23:06.519Z"
+		"stamp": "2020-12-28T09:29:32.425Z"
 	},
 	"Sources/Forms/pfPromozioniInserimento/ObjectMethods/bReport1.4dm": {
 		"startSelection": 11,
@@ -933,29 +833,29 @@
 	"Sources/Forms/pfSceltaSedi/method.4dm": {
 		"startSelection": 0,
 		"endSelection": 0,
-		"firstSelectedLine": 3,
-		"lastSelectedLine": 3,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
 		"folding": [],
 		"bookmarks": [],
-		"stamp": "2020-09-29T19:23:06.521Z"
+		"stamp": "2020-09-29T19:23:06.000Z"
 	},
 	"Sources/Forms/pfSceltaSedi/ObjectMethods/selAderente.4dm": {
-		"startSelection": 31,
-		"endSelection": 31,
-		"firstSelectedLine": 35,
-		"lastSelectedLine": 35,
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 19,
+		"lastSelectedLine": 19,
 		"folding": [],
 		"bookmarks": [],
-		"stamp": "2020-09-29T19:23:06.522Z"
+		"stamp": "2020-12-27T23:22:16.443Z"
 	},
 	"Sources/Forms/pfSceltaSedi/ObjectMethods/alpSedi.4dm": {
-		"startSelection": 22,
-		"endSelection": 22,
-		"firstSelectedLine": 1,
-		"lastSelectedLine": 1,
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
 		"folding": [],
 		"bookmarks": [],
-		"stamp": "2020-09-29T19:23:06.523Z"
+		"stamp": "2020-09-29T19:23:06.000Z"
 	},
 	"Sources/Forms/pfSceltaSedi/ObjectMethods/Button1.4dm": {
 		"startSelection": 0,
@@ -1253,5 +1153,402 @@
 		"folding": [],
 		"bookmarks": [],
 		"stamp": "2020-11-15T07:11:19.328Z"
+	},
+	"Sources/Methods/_marcoCreaCatalina.4dm": {
+		"startSelection": 39,
+		"endSelection": 39,
+		"firstSelectedLine": 35,
+		"lastSelectedLine": 35,
+		"folding": [
+			51
+		],
+		"bookmarks": [],
+		"stamp": "2020-12-23T11:18:54.046Z"
+	},
+	"Sources/Classes/Promozione.4dm": {
+		"startSelection": 44,
+		"endSelection": 44,
+		"firstSelectedLine": 152,
+		"lastSelectedLine": 152,
+		"folding": [
+			0,
+			39,
+			76
+		],
+		"bookmarks": [],
+		"stamp": "2020-12-27T19:09:33.997Z"
+	},
+	"Sources/Classes/Rectangle.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 17,
+		"lastSelectedLine": 17,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-12-25T10:01:51.393Z"
+	},
+	"Sources/Methods/_caricaPromozioni.4dm": {
+		"startSelection": 8,
+		"endSelection": 8,
+		"firstSelectedLine": 29,
+		"lastSelectedLine": 29,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-12-25T11:10:22.190Z"
+	},
+	"Sources/Forms/pfPromozioni2/ObjectMethods/srcTipoPromozione.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 2,
+		"lastSelectedLine": 2,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-12-26T06:37:59.348Z"
+	},
+	"Sources/Forms/pfPromozioni2/ObjectMethods/Button1.4dm": {
+		"startSelection": 23,
+		"endSelection": 22,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-12-25T15:54:54.414Z"
+	},
+	"Sources/Classes/Ricompensa.4dm": {
+		"startSelection": 13,
+		"endSelection": 13,
+		"firstSelectedLine": 26,
+		"lastSelectedLine": 26,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-12-27T19:03:26.098Z"
+	},
+	"Sources/Classes/Sedi.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-12-25T22:27:51.669Z"
+	},
+	"Sources/Classes/Sede.4dm": {
+		"startSelection": 16,
+		"endSelection": 16,
+		"firstSelectedLine": 6,
+		"lastSelectedLine": 6,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-12-25T22:30:36.419Z"
+	},
+	"Sources/Classes/PromozioneSede.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 14,
+		"lastSelectedLine": 14,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-12-27T23:39:02.146Z"
+	},
+	"Sources/Classes/Articolo.4dm": {
+		"startSelection": 20,
+		"endSelection": 20,
+		"firstSelectedLine": 20,
+		"lastSelectedLine": 20,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-12-25T23:42:21.588Z"
+	},
+	"Sources/Forms/pfPromozioni2/ObjectMethods/List Box.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 3,
+		"lastSelectedLine": 3,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-12-26T00:01:56.124Z"
+	},
+	"Sources/Forms/pfPromozioni2/ObjectMethods/lbPromozioni.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 6,
+		"lastSelectedLine": 6,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-12-27T18:14:45.601Z"
+	},
+	"Sources/Forms/pfPromozioni2/method.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-09-29T19:23:06.000Z"
+	},
+	"Sources/Forms/pfPromozioniInserimento2/ObjectMethods/ricompense01.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 62,
+		"lastSelectedLine": 62,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-12-26T06:38:22.704Z"
+	},
+	"Sources/Forms/pfPromozioniInserimento2/ObjectMethods/articoli01.4dm": {
+		"startSelection": 11,
+		"endSelection": 11,
+		"firstSelectedLine": 27,
+		"lastSelectedLine": 27,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-12-26T06:38:30.566Z"
+	},
+	"Sources/Forms/pfPromozioniInserimento2/ObjectMethods/alpSedi.4dm": {
+		"startSelection": 11,
+		"endSelection": 11,
+		"firstSelectedLine": 20,
+		"lastSelectedLine": 20,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-12-26T06:38:37.374Z"
+	},
+	"Sources/Forms/pfPromozioniInserimento2/ObjectMethods/Variable.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-12-26T06:38:38.661Z"
+	},
+	"Sources/Forms/pfPromozioniInserimento2/ObjectMethods/vPR_bozza.4dm": {
+		"startSelection": 40,
+		"endSelection": 40,
+		"firstSelectedLine": 3,
+		"lastSelectedLine": 3,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-12-26T06:38:52.549Z"
+	},
+	"Sources/Forms/pfPromozioniInserimento2/ObjectMethods/selTipo.4dm": {
+		"startSelection": 52,
+		"endSelection": 52,
+		"firstSelectedLine": 19,
+		"lastSelectedLine": 19,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-12-27T17:51:43.280Z"
+	},
+	"Sources/Forms/pfPromozioniInserimento2/ObjectMethods/vPR_descrizione.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-09-29T19:23:06.000Z"
+	},
+	"Sources/Forms/pfPromozioniInserimento2/ObjectMethods/vPR_barcode.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-09-29T19:23:06.000Z"
+	},
+	"Sources/Forms/pfPromozioniInserimento2/ObjectMethods/selTipoCliente.4dm": {
+		"startSelection": 16,
+		"endSelection": 16,
+		"firstSelectedLine": 11,
+		"lastSelectedLine": 11,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-12-27T17:52:11.496Z"
+	},
+	"Sources/Forms/pfPromozioniInserimento2/ObjectMethods/bReport.4dm": {
+		"startSelection": 50,
+		"endSelection": 50,
+		"firstSelectedLine": 19,
+		"lastSelectedLine": 19,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-12-27T21:37:42.336Z"
+	},
+	"Sources/Forms/pfPromozioniInserimento2/method.4dm": {
+		"startSelection": 9,
+		"endSelection": 9,
+		"firstSelectedLine": 24,
+		"lastSelectedLine": 24,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-12-27T16:39:44.530Z"
+	},
+	"Sources/Forms/pfPromozioniInserimento2/ObjectMethods/vPR_codice.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-12-26T07:20:53.484Z"
+	},
+	"Sources/Forms/pfPromozioniInserimento2/ObjectMethods/vDataInizio.4dm": {
+		"startSelection": 29,
+		"endSelection": 29,
+		"firstSelectedLine": 43,
+		"lastSelectedLine": 43,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-12-27T17:29:58.044Z"
+	},
+	"Sources/Forms/pfPromozioniInserimento2/ObjectMethods/vPR_dataInizio.4dm": {
+		"startSelection": 29,
+		"endSelection": 29,
+		"firstSelectedLine": 5,
+		"lastSelectedLine": 5,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-12-27T17:29:36.544Z"
+	},
+	"Sources/Forms/pfPromozioniInserimento2/ObjectMethods/vPR_dataFine.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 5,
+		"lastSelectedLine": 5,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-12-27T17:30:13.122Z"
+	},
+	"Sources/Forms/pfPromozioniInserimento2/ObjectMethods/vDataFine.4dm": {
+		"startSelection": 31,
+		"endSelection": 31,
+		"firstSelectedLine": 43,
+		"lastSelectedLine": 43,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-12-27T17:30:07.889Z"
+	},
+	"Sources/Forms/pfPromozioniInserimento2/ObjectMethods/lbRicompense.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 4,
+		"lastSelectedLine": 4,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-12-26T16:31:34.843Z"
+	},
+	"Sources/Forms/pfPromozioniInserimento2/ObjectMethods/ricompense02.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 10,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-12-27T18:47:45.992Z"
+	},
+	"Sources/Forms/pfPromozioniInserimento2/ObjectMethods/bValidate.4dm": {
+		"startSelection": 4,
+		"endSelection": 4,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-12-27T17:52:36.853Z"
+	},
+	"Sources/Forms/pfPromozioniInserimento2/ObjectMethods/ricompense03.4dm": {
+		"startSelection": 7,
+		"endSelection": 0,
+		"firstSelectedLine": 8,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-12-27T18:41:20.841Z"
+	},
+	"Sources/Forms/pfPromozioniInserimento2/ObjectMethods/articoli02.4dm": {
+		"startSelection": 38,
+		"endSelection": 38,
+		"firstSelectedLine": 5,
+		"lastSelectedLine": 5,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-12-27T19:34:08.605Z"
+	},
+	"Sources/Forms/pfPromozioniInserimento2/ObjectMethods/articoli03.4dm": {
+		"startSelection": 7,
+		"endSelection": 7,
+		"firstSelectedLine": 8,
+		"lastSelectedLine": 8,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-12-27T19:16:24.325Z"
+	},
+	"Sources/Forms/pfPromozioniInserimento2/ObjectMethods/bReport1.4dm": {
+		"startSelection": 30,
+		"endSelection": 30,
+		"firstSelectedLine": 43,
+		"lastSelectedLine": 43,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-12-27T19:34:49.054Z"
+	},
+	"Sources/Methods/pfPromozioni.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 60,
+		"lastSelectedLine": 60,
+		"folding": [
+			15,
+			20,
+			22,
+			24,
+			28,
+			32,
+			46,
+			59,
+			62,
+			65,
+			68,
+			71,
+			72,
+			75,
+			76,
+			79,
+			83,
+			86,
+			125,
+			127,
+			154
+		],
+		"bookmarks": [],
+		"stamp": "2020-12-29T19:58:39.367Z"
+	},
+	"Sources/Methods/pfExcelReport.4dm": {
+		"startSelection": 28,
+		"endSelection": 28,
+		"firstSelectedLine": 26,
+		"lastSelectedLine": 26,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-12-28T10:17:08.624Z"
+	},
+	"Sources/Forms/pfReport/ObjectMethods/excelReport.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-12-28T10:13:44.771Z"
+	},
+	"Sources/Forms/pfExcelReport/method.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 4,
+		"lastSelectedLine": 4,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-12-28T10:17:56.412Z"
 	}
 }

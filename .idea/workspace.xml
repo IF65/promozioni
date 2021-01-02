@@ -20,18 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="892de775-726b-454a-9d4f-9ec41bbbbd7d" name="Default Changelist" comment="Aggiunto elenco aderenti">
-      <change beforePath="$PROJECT_DIR$/../checkDC/checkDC.php" beforeDir="false" afterPath="$PROJECT_DIR$/../checkDC/checkDC.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nike/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../nike/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nike/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../nike/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nike/examples/Nike_Order_NIKE_FA20_NBA_031219.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nike/examples/Nike_Order__FILE.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../nike/examples/Nike_Order__FILE.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nike/examples/ordineNormalizzato.json" beforeDir="false" afterPath="$PROJECT_DIR$/../nike/examples/ordineNormalizzato.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nike/examples/~$Nike_Order_NIKE_FA20_NBA_031219.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nike/examples/~$Nike_Order__FILE 1.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nike/examples/~$Nike_Order__FILE.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../p7m/extract.php" beforeDir="false" afterPath="$PROJECT_DIR$/../p7m/extract.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PFood/PFood.4dbase/userPreferences.if65/preferences.4DPreferences" beforeDir="false" afterPath="$PROJECT_DIR$/PFood/PFood.4dbase/userPreferences.if65/preferences.4DPreferences" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Database/Database.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Database/Database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -796,6 +786,7 @@
       <workItem from="1605717285804" duration="209000" />
       <workItem from="1605773895179" duration="300000" />
       <workItem from="1606558172525" duration="368000" />
+      <workItem from="1609609073687" duration="61000" />
     </task>
     <task id="LOCAL-00001" summary="Aggiunto elenco aderenti">
       <created>1571815756940</created>
@@ -823,83 +814,11 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
     <MESSAGE value="Aggiunto elenco aderenti" />
     <option name="LAST_COMMIT_MESSAGE" value="Aggiunto elenco aderenti" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="617" y="218" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1601357681597">
-      <screen x="0" y="23" width="1920" height="1057" />
-    </state>
-    <state x="617" y="218" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1920.1057@0.23.1920.1057" timestamp="1601357681597" />
-    <state x="549" y="53" key="CommitChangelistDialog2" timestamp="1602741732047">
-      <screen x="0" y="23" width="1920" height="1057" />
-    </state>
-    <state x="549" y="53" key="CommitChangelistDialog2/0.23.1920.1057@0.23.1920.1057" timestamp="1602741732047" />
-    <state width="428" height="466" key="DebuggerActiveHint" timestamp="1601105005232">
-      <screen x="0" y="23" width="1920" height="1057" />
-    </state>
-    <state width="428" height="466" key="DebuggerActiveHint/0.23.1920.1057@0.23.1920.1057" timestamp="1601105005232" />
-    <state width="1245" height="275" key="GridCell.Tab.0.bottom" timestamp="1605703254362">
-      <screen x="0" y="23" width="1920" height="1057" />
-    </state>
-    <state width="1833" height="224" key="GridCell.Tab.0.bottom/0.23.1920.1018@0.23.1920.1018" timestamp="1601557317342" />
-    <state width="1245" height="275" key="GridCell.Tab.0.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1605703254362" />
-    <state width="1770" height="260" key="GridCell.Tab.0.bottom/0.23.1920.1177@0.23.1920.1177" timestamp="1604071736157" />
-    <state width="1296" height="224" key="GridCell.Tab.0.bottom/1920.23.1440.877/0.23.1920.1057@0.23.1920.1057" timestamp="1600409930598" />
-    <state width="1245" height="275" key="GridCell.Tab.0.center" timestamp="1605703254362">
-      <screen x="0" y="23" width="1920" height="1057" />
-    </state>
-    <state width="1833" height="224" key="GridCell.Tab.0.center/0.23.1920.1018@0.23.1920.1018" timestamp="1601557317341" />
-    <state width="1245" height="275" key="GridCell.Tab.0.center/0.23.1920.1057@0.23.1920.1057" timestamp="1605703254362" />
-    <state width="1770" height="260" key="GridCell.Tab.0.center/0.23.1920.1177@0.23.1920.1177" timestamp="1604071736156" />
-    <state width="1296" height="224" key="GridCell.Tab.0.center/1920.23.1440.877/0.23.1920.1057@0.23.1920.1057" timestamp="1600409930596" />
-    <state width="1245" height="275" key="GridCell.Tab.0.left" timestamp="1605703254361">
-      <screen x="0" y="23" width="1920" height="1057" />
-    </state>
-    <state width="1833" height="224" key="GridCell.Tab.0.left/0.23.1920.1018@0.23.1920.1018" timestamp="1601557317340" />
-    <state width="1245" height="275" key="GridCell.Tab.0.left/0.23.1920.1057@0.23.1920.1057" timestamp="1605703254361" />
-    <state width="1770" height="260" key="GridCell.Tab.0.left/0.23.1920.1177@0.23.1920.1177" timestamp="1604071736156" />
-    <state width="1296" height="224" key="GridCell.Tab.0.left/1920.23.1440.877/0.23.1920.1057@0.23.1920.1057" timestamp="1600409930596" />
-    <state width="1245" height="275" key="GridCell.Tab.0.right" timestamp="1605703254362">
-      <screen x="0" y="23" width="1920" height="1057" />
-    </state>
-    <state width="1833" height="224" key="GridCell.Tab.0.right/0.23.1920.1018@0.23.1920.1018" timestamp="1601557317341" />
-    <state width="1245" height="275" key="GridCell.Tab.0.right/0.23.1920.1057@0.23.1920.1057" timestamp="1605703254362" />
-    <state width="1770" height="260" key="GridCell.Tab.0.right/0.23.1920.1177@0.23.1920.1177" timestamp="1604071736157" />
-    <state width="1296" height="224" key="GridCell.Tab.0.right/1920.23.1440.877/0.23.1920.1057@0.23.1920.1057" timestamp="1600409930597" />
-    <state width="1487" height="260" key="GridCell.Tab.1.bottom" timestamp="1605478256127">
-      <screen x="0" y="23" width="1920" height="1057" />
-    </state>
-    <state width="1487" height="260" key="GridCell.Tab.1.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1605478256127" />
-    <state width="1770" height="260" key="GridCell.Tab.1.bottom/0.23.1920.1177@0.23.1920.1177" timestamp="1604071736160" />
-    <state width="1487" height="260" key="GridCell.Tab.1.center" timestamp="1605478256127">
-      <screen x="0" y="23" width="1920" height="1057" />
-    </state>
-    <state width="1487" height="260" key="GridCell.Tab.1.center/0.23.1920.1057@0.23.1920.1057" timestamp="1605478256127" />
-    <state width="1770" height="260" key="GridCell.Tab.1.center/0.23.1920.1177@0.23.1920.1177" timestamp="1604071736159" />
-    <state width="1487" height="260" key="GridCell.Tab.1.left" timestamp="1605478256126">
-      <screen x="0" y="23" width="1920" height="1057" />
-    </state>
-    <state width="1487" height="260" key="GridCell.Tab.1.left/0.23.1920.1057@0.23.1920.1057" timestamp="1605478256126" />
-    <state width="1770" height="260" key="GridCell.Tab.1.left/0.23.1920.1177@0.23.1920.1177" timestamp="1604071736158" />
-    <state width="1487" height="260" key="GridCell.Tab.1.right" timestamp="1605478256127">
-      <screen x="0" y="23" width="1920" height="1057" />
-    </state>
-    <state width="1487" height="260" key="GridCell.Tab.1.right/0.23.1920.1057@0.23.1920.1057" timestamp="1605478256127" />
-    <state width="1770" height="260" key="GridCell.Tab.1.right/0.23.1920.1177@0.23.1920.1177" timestamp="1604071736159" />
-    <state x="494" y="408" key="NewPhpFileDialog" timestamp="1605459315501">
-      <screen x="0" y="23" width="1920" height="1057" />
-    </state>
-    <state x="494" y="408" key="NewPhpFileDialog/0.23.1920.1057@0.23.1920.1057" timestamp="1605459315501" />
-    <state x="494" y="452" key="NewPhpFileDialog/0.23.1920.1177@0.23.1920.1177" timestamp="1603879965243" />
-    <state x="414" y="244" key="SettingsEditor" timestamp="1603893233459">
-      <screen x="0" y="23" width="1920" height="1177" />
-    </state>
-    <state x="414" y="244" key="SettingsEditor/0.23.1920.1177@0.23.1920.1177" timestamp="1603893233459" />
-    <state width="937" height="449" key="XDebugger.FullValuePopup" timestamp="1601105264031">
-      <screen x="0" y="23" width="1920" height="1057" />
-    </state>
-    <state width="937" height="449" key="XDebugger.FullValuePopup/0.23.1920.1057@0.23.1920.1057" timestamp="1601105264031" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -30,7 +30,7 @@
 					"left": 656,
 					"width": 114,
 					"height": 46,
-					"class": "Supermedia_Label",
+					"class": "",
 					"text": "Barcode"
 				},
 				"Group Box7": {
@@ -39,7 +39,7 @@
 					"left": 775,
 					"width": 235,
 					"height": 46,
-					"class": "Supermedia_Label",
+					"class": "",
 					"text": "Descrizione"
 				},
 				"Group Box4": {
@@ -48,7 +48,7 @@
 					"left": 557,
 					"width": 94,
 					"height": 46,
-					"class": "Supermedia_Label",
+					"class": "",
 					"text": "Codice"
 				},
 				"Group Box1": {
@@ -57,7 +57,7 @@
 					"left": 225,
 					"width": 109,
 					"height": 46,
-					"class": "Supermedia_Label",
+					"class": "",
 					"text": "Data Corrente"
 				},
 				"Group Box3": {
@@ -66,7 +66,7 @@
 					"left": 339,
 					"width": 213,
 					"height": 46,
-					"class": "Supermedia_Label",
+					"class": "",
 					"text": "Intervallo Date"
 				},
 				"Group Box2": {
@@ -75,7 +75,7 @@
 					"left": 1015,
 					"width": 267,
 					"height": 46,
-					"class": "Supermedia_Label",
+					"class": "",
 					"text": "Opzioni"
 				},
 				"Line": {
@@ -99,7 +99,7 @@
 					"sizingX": "grow",
 					"sizingY": "move",
 					"dataSource": "notePiePagina",
-					"class": "Supermedia_Bottoni",
+					"class": "notePiePagina",
 					"focusable": false,
 					"fill": "transparent",
 					"borderStyle": "none",
@@ -130,7 +130,7 @@
 					"left": 7,
 					"width": 213,
 					"height": 46,
-					"class": "Supermedia_Label",
+					"class": "",
 					"text": "Tipo"
 				},
 				"srcTipoPromozione": {
@@ -140,7 +140,7 @@
 					"width": 197,
 					"height": 20,
 					"dataSource": "srcTipoPromozione",
-					"class": "Supermedia_Bottoni",
+					"class": "",
 					"method": "ObjectMethods/srcTipoPromozione.4dm",
 					"events": [
 						"onLoad",
@@ -156,7 +156,7 @@
 					"height": 14,
 					"dataSource": "srcDataCorrente",
 					"dataSourceTypeHint": "date",
-					"class": "Supermedia_Campi_12",
+					"class": "",
 					"contextMenu": "none",
 					"dateFormat": "short",
 					"entryFilter": "!0&9##/##/####",
@@ -196,7 +196,7 @@
 					"height": 14,
 					"dataSource": "srcDataDa",
 					"dataSourceTypeHint": "date",
-					"class": "Supermedia_Campi_12",
+					"class": "",
 					"contextMenu": "none",
 					"dateFormat": "short",
 					"entryFilter": "!0&9##/##/####",
@@ -236,7 +236,7 @@
 					"height": 14,
 					"dataSource": "srcDataA",
 					"dataSourceTypeHint": "date",
-					"class": "Supermedia_Campi_12",
+					"class": "",
 					"contextMenu": "none",
 					"dateFormat": "short",
 					"entryFilter": "!0&9##/##/####",
@@ -276,41 +276,23 @@
 					"height": 19,
 					"dataSource": "srcUsaDataCorrente",
 					"text": "Usa Data Corrente",
-					"class": "Supermedia_Bottoni",
+					"class": "",
 					"focusable": false,
 					"events": [
 						"onClick"
 					]
 				},
-				"alpPromozioni": {
-					"type": "plugin",
-					"top": 71,
-					"left": 8,
-					"width": 1274,
-					"height": 665,
-					"sizingX": "grow",
-					"sizingY": "grow",
-					"dataSource": "alpPromozioni",
-					"pluginAreaKind": "%AreaListPro",
-					"borderStyle": "sunken",
-					"method": "ObjectMethods/alpPromozioni.4dm",
-					"events": [
-						"onLoad",
-						"onPluginArea"
-					],
-					"customProperties": "PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiIHN0YW5kYWxvbmU9InllcyIgPz4KPEFMUCB2ZXJzaW9uPSIweDA5MDkwMzAwIiBjYWNoZVNpemU9IjEwMjQiPgo8Q29sdW1ucyAvPgo8RHJhdyByb3dJbmRlbnQ9IjMuMDA7MS4wMCIgaGVhZGVySW5kZW50PSIzLjAwOzIuMDAiIGZvb3RlckluZGVudD0iMy4wMDsyLjAwIiBjb2xEaXZpZGVyQ29sb3I9IiNmZjgwODA4MCIgcm93RGl2aWRlckNvbG9yPSIjZmY4MDgwODAiIG1pc2NDb2xvcjE9IiNmZmVlZWVlZSIgbWlzY0NvbG9yMj0iI2ZmZmZmZmZmIiBtaXNjQ29sb3IzPSIjZmZlZWVlZWUiIG1pc2NDb2xvcjQ9IiNmZmVlZWVlZSIgbWlzY0NvbG9yNT0iIzAwZmZmZmZmIiBhbHRSb3dDb2xvcj0iI2ZmZWVlZWVlIiAvPgo8RHJhZyAvPgo8U2VsZWN0IC8+CjxTb3J0IC8+CjxFZGl0IGNsaWNrSG9sZERlbGF5PSIzMCIgY29weUZpZWxkRGVsaW1pdGVyPSImI3gwOTsiIGNvcHlSZWNvcmREZWxpbWl0ZXI9IiYjeDBEOyYjeDBBOyIgLz4KPEFQPgo8Q29sdW1uIGRhdGFUeXBlPSI1IiB3aWR0aD0iMCIgdXNlcldpZHRoPSIwIiBoZWFkZXJUZXh0PSJEZWZhdWx0Ij4KPGhlYWRlclN0eWxlIGZvbnQ9Ikx1Y2lkYSBHcmFuZGUiIHNpemU9IjEzIiB0ZXh0Q29sb3I9IiNmZjAwMDAwMCIgYmFja0NvbG9yPSIjMDBmZmZmZmYiIC8+CjxsaXN0U3R5bGUgZm9udD0iTHVjaWRhIEdyYW5kZSIgc2l6ZT0iMTMiIHRleHRDb2xvcj0iI2ZmMDAwMDAwIiBiYWNrQ29sb3I9IiMwMGZmZmZmZiIgLz4KPGZvb3RlclN0eWxlIGZvbnQ9Ikx1Y2lkYSBHcmFuZGUiIHNpemU9IjEzIiB0ZXh0Q29sb3I9IiNmZjAwMDAwMCIgYmFja0NvbG9yPSIjMDBmZmZmZmYiIC8+CjwvQ29sdW1uPgo8L0FQPgo8L0FMUD4K"
-				},
 				"Button1": {
 					"type": "button",
 					"top": 743,
 					"left": 7,
-					"width": 125,
+					"width": 140,
 					"height": 20,
 					"sizingY": "move",
 					"dataSource": "Button1",
 					"shortcutKey": "[F1]",
 					"text": " Ricerca - F1",
-					"class": "Supermedia_Bottoni",
+					"class": "",
 					"fontWeight": "bold",
 					"focusable": false,
 					"method": "ObjectMethods/Button1.4dm",
@@ -322,14 +304,14 @@
 				"Button2": {
 					"type": "button",
 					"top": 743,
-					"left": 135,
-					"width": 125,
+					"left": 149,
+					"width": 140,
 					"height": 20,
 					"sizingY": "move",
 					"dataSource": "Button2",
 					"shortcutKey": "[F2]",
 					"text": " Nuova Ricerca - F2",
-					"class": "Supermedia_Bottoni",
+					"class": "",
 					"fontWeight": "bold",
 					"focusable": false,
 					"method": "ObjectMethods/Button2.4dm",
@@ -340,13 +322,13 @@
 				"Button3": {
 					"type": "button",
 					"top": 743,
-					"left": 263,
-					"width": 125,
+					"left": 291,
+					"width": 140,
 					"height": 20,
 					"sizingY": "move",
 					"dataSource": "Button3",
 					"text": "Nuova Promozione",
-					"class": "Supermedia_Bottoni",
+					"class": "",
 					"fontWeight": "bold",
 					"focusable": false,
 					"method": "ObjectMethods/Button3.4dm",
@@ -357,13 +339,13 @@
 				"Button4": {
 					"type": "button",
 					"top": 743,
-					"left": 391,
-					"width": 125,
+					"left": 433,
+					"width": 140,
 					"height": 20,
 					"sizingY": "move",
 					"dataSource": "Button4",
 					"text": "Elimina Promozione",
-					"class": "Supermedia_Bottoni",
+					"class": "",
 					"fontWeight": "bold",
 					"focusable": false,
 					"events": [
@@ -373,28 +355,29 @@
 				"Button5": {
 					"type": "button",
 					"top": 743,
-					"left": 519,
-					"width": 125,
+					"left": 575,
+					"width": 140,
 					"height": 20,
 					"sizingY": "move",
 					"dataSource": "Button5",
-					"class": "Supermedia_Bottoni",
+					"class": "",
 					"fontWeight": "bold",
 					"focusable": false,
 					"events": [
 						"onClick"
-					]
+					],
+					"text": ""
 				},
 				"Button6": {
 					"type": "button",
 					"top": 743,
-					"left": 647,
-					"width": 125,
+					"left": 717,
+					"width": 140,
 					"height": 20,
 					"sizingY": "move",
 					"dataSource": "Button6",
 					"text": "Esportazione",
-					"class": "Supermedia_Bottoni",
+					"class": "",
 					"fontWeight": "bold",
 					"focusable": false,
 					"method": "ObjectMethods/Button6.4dm",
@@ -405,12 +388,12 @@
 				"Button7": {
 					"type": "button",
 					"top": 743,
-					"left": 775,
-					"width": 125,
+					"left": 859,
+					"width": 140,
 					"height": 20,
 					"sizingY": "move",
 					"dataSource": "Button7",
-					"class": "Supermedia_Bottoni",
+					"class": "",
 					"fontWeight": "bold",
 					"focusable": false,
 					"method": "ObjectMethods/Button7.4dm",
@@ -418,32 +401,16 @@
 						"onClick"
 					]
 				},
-				"Button8": {
-					"type": "button",
-					"top": 743,
-					"left": 903,
-					"width": 125,
-					"height": 20,
-					"sizingY": "move",
-					"dataSource": "Button8",
-					"class": "Supermedia_Bottoni",
-					"fontWeight": "bold",
-					"focusable": false,
-					"method": "ObjectMethods/Button8.4dm",
-					"events": [
-						"onClick"
-					]
-				},
 				"Button9": {
 					"type": "button",
 					"top": 743,
-					"left": 1031,
-					"width": 125,
+					"left": 1001,
+					"width": 140,
 					"height": 20,
 					"sizingY": "move",
 					"dataSource": "Button9",
 					"text": "Stampa",
-					"class": "Supermedia_Bottoni",
+					"class": "",
 					"fontWeight": "bold",
 					"focusable": false,
 					"method": "ObjectMethods/Button9.4dm",
@@ -454,14 +421,14 @@
 				"Button10": {
 					"type": "button",
 					"top": 743,
-					"left": 1159,
-					"width": 125,
+					"left": 1144,
+					"width": 140,
 					"height": 20,
 					"sizingY": "move",
 					"dataSource": "Button10",
 					"action": "cancel",
 					"text": "Esci",
-					"class": "Supermedia_Bottoni",
+					"class": "",
 					"fontWeight": "bold",
 					"focusable": false,
 					"events": [
@@ -476,7 +443,7 @@
 					"height": 14,
 					"dataSource": "srcCodicePromozione",
 					"dataSourceTypeHint": "number",
-					"class": "Supermedia_Campi_12",
+					"class": "",
 					"contextMenu": "none",
 					"entryFilter": "&9",
 					"dragging": "none",
@@ -494,7 +461,7 @@
 					"height": 14,
 					"dataSource": "srcBarcode",
 					"dataSourceTypeHint": "number",
-					"class": "Supermedia_Campi_12",
+					"class": "",
 					"contextMenu": "none",
 					"entryFilter": "&9",
 					"dragging": "none",
@@ -511,7 +478,7 @@
 					"width": 219,
 					"height": 14,
 					"dataSource": "srcDescrizione",
-					"class": "Supermedia_Campi_12",
+					"class": "",
 					"contextMenu": "none",
 					"dragging": "none",
 					"dropping": "custom",
@@ -529,19 +496,552 @@
 					"height": 19,
 					"dataSource": "srcBozza",
 					"text": "Bozza",
-					"class": "Supermedia_Bottoni",
+					"class": "",
 					"focusable": false,
 					"threeState": true,
 					"events": [
 						"onClick"
 					]
+				},
+				"lbPromozioni": {
+					"type": "listbox",
+					"left": 8,
+					"top": 71,
+					"width": 1274,
+					"height": 665,
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onDataChange",
+						"onSelectionChange",
+						"onHeaderClick"
+					],
+					"right": 1282,
+					"bottom": 736,
+					"listboxType": "collection",
+					"dataSource": "promozioni",
+					"rowHeight": "30px",
+					"headerHeight": "2em",
+					"hideFocusRing": true,
+					"scrollbarHorizontal": "hidden",
+					"alternateFill": "#F0F0F0",
+					"hideExtraBlankRows": false,
+					"method": "ObjectMethods/lbPromozioni.4dm",
+					"currentItemSource": "promozioneCorrente",
+					"currentItemPositionSource": "promozioneCorrentePosizione",
+					"selectedItemsSource": "promozioniSelezionate",
+					"verticalLineStroke": "#D4D4D4",
+					"horizontalLineStroke": "transparent",
+					"columns": [
+						{
+							"header": {
+								"text": "B.",
+								"name": "Header15",
+								"class": "listboxHeader",
+								"textAlign": "center"
+							},
+							"name": "bozza14",
+							"footer": {
+								"name": "Footer15"
+							},
+							"dataSource": "This:C1470.bozza",
+							"dataSourceTypeHint": "boolean",
+							"minWidth": 25,
+							"width": 25,
+							"maxWidth": 25,
+							"class": "",
+							"textAlign": "center",
+							"enterable": false
+						},
+						{
+							"header": {
+								"text": "Codice",
+								"name": "Header3",
+								"class": "listboxHeader",
+								"textAlign": "center"
+							},
+							"name": "bozza2",
+							"footer": {
+								"name": "Footer3"
+							},
+							"dataSource": "This:C1470.codice",
+							"dataSourceTypeHint": "number",
+							"minWidth": 70,
+							"width": 70,
+							"maxWidth": 70,
+							"enterable": false,
+							"resizable": true,
+							"numberFormat": "###,###,###,##0",
+							"class": "",
+							"textAlign": "center"
+						},
+						{
+							"header": {
+								"text": "Catalina",
+								"name": "Header8",
+								"class": "listboxHeader",
+								"textAlign": "center"
+							},
+							"name": "bozza7",
+							"footer": {
+								"name": "Footer8"
+							},
+							"dataSource": "This:C1470.codiceCatalina",
+							"dataSourceTypeHint": "number",
+							"minWidth": 60,
+							"width": 60,
+							"maxWidth": 60,
+							"enterable": false,
+							"resizable": true,
+							"numberFormat": "###,###,###,##0",
+							"class": "",
+							"textAlign": "center"
+						},
+						{
+							"header": {
+								"text": "Tipo",
+								"name": "Header10",
+								"class": "listboxHeader",
+								"textAlign": "center"
+							},
+							"name": "bozza9",
+							"footer": {
+								"name": "Footer10"
+							},
+							"dataSource": "This:C1470.tipoDescrizione",
+							"dataSourceTypeHint": "text",
+							"minWidth": 150,
+							"width": 150,
+							"maxWidth": 250,
+							"enterable": false,
+							"resizable": true,
+							"numberFormat": "",
+							"class": "",
+							"textAlign": "automatic"
+						},
+						{
+							"header": {
+								"text": "Descrizione",
+								"name": "Header1",
+								"class": "listboxHeader",
+								"textAlign": "center"
+							},
+							"name": "bozza",
+							"footer": {
+								"name": "Footer1"
+							},
+							"dataSource": "This:C1470.descrizione",
+							"dataSourceTypeHint": "text",
+							"minWidth": 220,
+							"width": 220,
+							"maxWidth": 300,
+							"enterable": false,
+							"resizable": true,
+							"numberFormat": "",
+							"class": "",
+							"textAlign": "automatic"
+						},
+						{
+							"header": {
+								"text": "Soglia",
+								"name": "Header7",
+								"class": "listboxHeader",
+								"textAlign": "center"
+							},
+							"name": "bozza6",
+							"footer": {
+								"name": "Footer7"
+							},
+							"dataSource": "This:C1470.soglia",
+							"dataSourceTypeHint": "number",
+							"minWidth": 60,
+							"width": 60,
+							"maxWidth": 60,
+							"enterable": false,
+							"resizable": true,
+							"numberFormat": "###,##0.00;;",
+							"class": "",
+							"textAlign": "right"
+						},
+						{
+							"header": {
+								"text": "€/%",
+								"name": "Header4",
+								"class": "listboxHeader",
+								"textAlign": "center"
+							},
+							"name": "bozza3",
+							"footer": {
+								"name": "Footer4"
+							},
+							"dataSource": "This:C1470.importo",
+							"dataSourceTypeHint": "number",
+							"minWidth": 50,
+							"width": 50,
+							"maxWidth": 50,
+							"enterable": false,
+							"resizable": true,
+							"numberFormat": "###,##0.00;;",
+							"class": "",
+							"textAlign": "right"
+						},
+						{
+							"header": {
+								"text": "Cl.",
+								"name": "Header22",
+								"class": "listboxHeader",
+								"textAlign": "center"
+							},
+							"name": "bozza21",
+							"footer": {
+								"name": "Footer22"
+							},
+							"dataSource": "This:C1470.tipoCliente",
+							"dataSourceTypeHint": "number",
+							"minWidth": 30,
+							"width": 30,
+							"maxWidth": 30,
+							"enterable": false,
+							"resizable": true,
+							"numberFormat": "###,###,###,##0",
+							"class": "",
+							"textAlign": "center"
+						},
+						{
+							"header": {
+								"text": "Cat.",
+								"name": "Header6",
+								"class": "listboxHeader",
+								"textAlign": "center"
+							},
+							"name": "bozza5",
+							"footer": {
+								"name": "Footer6"
+							},
+							"dataSource": "This:C1470.categoria",
+							"dataSourceTypeHint": "number",
+							"minWidth": 30,
+							"width": 30,
+							"maxWidth": 30,
+							"enterable": false,
+							"resizable": true,
+							"numberFormat": "###,###,###,##0",
+							"class": "",
+							"textAlign": "center"
+						},
+						{
+							"header": {
+								"text": "Barcode",
+								"name": "Header11",
+								"class": "listboxHeader",
+								"textAlign": "center"
+							},
+							"name": "bozza10",
+							"footer": {
+								"name": "Footer11"
+							},
+							"dataSource": "This:C1470.barcode",
+							"dataSourceTypeHint": "text",
+							"minWidth": 90,
+							"width": 90,
+							"maxWidth": 90,
+							"enterable": false,
+							"resizable": true,
+							"numberFormat": "",
+							"class": "",
+							"textAlign": "automatic"
+						},
+						{
+							"header": {
+								"text": "Inizio",
+								"name": "Header13",
+								"class": "listboxHeader",
+								"textAlign": "center"
+							},
+							"name": "bozza12",
+							"footer": {
+								"name": "Footer13"
+							},
+							"dataSource": "This:C1470.dataInizio",
+							"dataSourceTypeHint": "date",
+							"minWidth": 70,
+							"width": 70,
+							"maxWidth": 70,
+							"enterable": false,
+							"resizable": true,
+							"numberFormat": "",
+							"class": "",
+							"textAlign": "center"
+						},
+						{
+							"header": {
+								"text": "Fine",
+								"name": "Header5",
+								"class": "listboxHeader",
+								"textAlign": "center"
+							},
+							"name": "bozza4",
+							"footer": {
+								"name": "Footer5"
+							},
+							"dataSource": "This:C1470.dataFine",
+							"dataSourceTypeHint": "date",
+							"minWidth": 70,
+							"width": 70,
+							"maxWidth": 70,
+							"enterable": false,
+							"resizable": true,
+							"numberFormat": "",
+							"class": "",
+							"textAlign": "center"
+						},
+						{
+							"header": {
+								"text": "Ora Inizio",
+								"name": "Header14",
+								"class": "listboxHeader",
+								"textAlign": "center"
+							},
+							"name": "bozza13",
+							"footer": {
+								"name": "Footer14"
+							},
+							"dataSource": "This:C1470.oraInizio",
+							"dataSourceTypeHint": "text",
+							"minWidth": 60,
+							"width": 60,
+							"maxWidth": 60,
+							"enterable": false,
+							"resizable": true,
+							"numberFormat": "",
+							"class": "",
+							"textAlign": "center"
+						},
+						{
+							"header": {
+								"text": "Ora Fine",
+								"name": "Header12",
+								"class": "listboxHeader",
+								"textAlign": "center"
+							},
+							"name": "bozza11",
+							"footer": {
+								"name": "Footer12"
+							},
+							"dataSource": "This:C1470.oraInizio",
+							"dataSourceTypeHint": "text",
+							"minWidth": 60,
+							"width": 60,
+							"maxWidth": 60,
+							"enterable": false,
+							"resizable": true,
+							"numberFormat": "",
+							"class": "",
+							"textAlign": "center"
+						},
+						{
+							"header": {
+								"text": "Do",
+								"name": "Header21",
+								"class": "listboxHeader",
+								"textAlign": "center"
+							},
+							"name": "bozza20",
+							"footer": {
+								"name": "Footer21"
+							},
+							"dataSource": "This:C1470.do",
+							"dataSourceTypeHint": "boolean",
+							"minWidth": 25,
+							"width": 25,
+							"maxWidth": 25,
+							"class": "",
+							"textAlign": "center",
+							"enterable": false
+						},
+						{
+							"header": {
+								"text": "Lu",
+								"name": "Header20",
+								"class": "listboxHeader",
+								"textAlign": "center"
+							},
+							"name": "bozza19",
+							"footer": {
+								"name": "Footer20"
+							},
+							"dataSource": "This:C1470.lu",
+							"dataSourceTypeHint": "boolean",
+							"minWidth": 25,
+							"width": 25,
+							"maxWidth": 25,
+							"class": "",
+							"textAlign": "center",
+							"enterable": false
+						},
+						{
+							"header": {
+								"text": "Ma",
+								"name": "Header19",
+								"class": "listboxHeader",
+								"textAlign": "center"
+							},
+							"name": "bozza18",
+							"footer": {
+								"name": "Footer19"
+							},
+							"dataSource": "This:C1470.ma",
+							"dataSourceTypeHint": "boolean",
+							"minWidth": 25,
+							"width": 25,
+							"maxWidth": 25,
+							"class": "",
+							"textAlign": "center",
+							"enterable": false
+						},
+						{
+							"header": {
+								"text": "Me",
+								"name": "Header18",
+								"class": "listboxHeader",
+								"textAlign": "center"
+							},
+							"name": "bozza17",
+							"footer": {
+								"name": "Footer18"
+							},
+							"dataSource": "This:C1470.me",
+							"dataSourceTypeHint": "boolean",
+							"minWidth": 25,
+							"width": 25,
+							"maxWidth": 25,
+							"class": "",
+							"textAlign": "center",
+							"enterable": false
+						},
+						{
+							"header": {
+								"text": "Gi",
+								"name": "Header17",
+								"class": "listboxHeader",
+								"textAlign": "center"
+							},
+							"name": "bozza16",
+							"footer": {
+								"name": "Footer17"
+							},
+							"dataSource": "This:C1470.gi",
+							"dataSourceTypeHint": "boolean",
+							"minWidth": 25,
+							"width": 25,
+							"maxWidth": 25,
+							"class": "",
+							"textAlign": "center",
+							"enterable": false
+						},
+						{
+							"header": {
+								"text": "Ve",
+								"name": "Header16",
+								"class": "listboxHeader",
+								"textAlign": "center"
+							},
+							"name": "bozza15",
+							"footer": {
+								"name": "Footer16"
+							},
+							"dataSource": "This:C1470.ve",
+							"dataSourceTypeHint": "boolean",
+							"minWidth": 25,
+							"width": 25,
+							"maxWidth": 25,
+							"class": "",
+							"textAlign": "center",
+							"enterable": false
+						},
+						{
+							"header": {
+								"text": "Sa",
+								"name": "Header2",
+								"class": "listboxHeader",
+								"textAlign": "center"
+							},
+							"name": "bozza1",
+							"footer": {
+								"name": "Footer2"
+							},
+							"dataSource": "This:C1470.sa",
+							"dataSourceTypeHint": "boolean",
+							"minWidth": 25,
+							"width": 25,
+							"maxWidth": 25,
+							"class": "",
+							"textAlign": "center",
+							"enterable": false
+						},
+						{
+							"header": {
+								"text": "Sedi",
+								"name": "Header9",
+								"class": "listboxHeader",
+								"textAlign": "center"
+							},
+							"name": "bozza8",
+							"footer": {
+								"name": "Footer9"
+							},
+							"dataSource": "This:C1470.numeroSedi",
+							"dataSourceTypeHint": "number",
+							"minWidth": 40,
+							"width": 40,
+							"maxWidth": 40,
+							"enterable": false,
+							"resizable": true,
+							"numberFormat": "###,###,###,##0",
+							"class": "",
+							"textAlign": "center"
+						}
+					]
 				}
-			}
+			},
+			"entryOrder": [
+				"srcTipoPromozione",
+				"srcDataCorrente",
+				"srcDataCorrente1",
+				"srcDataDa",
+				"srcDataDa1",
+				"srcDataA",
+				"srcDataA1",
+				"srcCodicePromozione",
+				"srcBarcode",
+				"srcDescrizione",
+				"srcBozza",
+				"srcUsaDataCorrente",
+				"lbPromozioni",
+				"Button1",
+				"Button2",
+				"Button3",
+				"Button4",
+				"Button5",
+				"Button6",
+				"Button7",
+				"Button9",
+				"Button10",
+				"notePiePagina",
+				"Invisible Button1"
+			]
 		}
 	],
 	"$4d": {
 		"version": "1",
 		"kind": "form"
 	},
-	"geometryStamp": 13
+	"geometryStamp": 146,
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {}
+		}
+	}
 }

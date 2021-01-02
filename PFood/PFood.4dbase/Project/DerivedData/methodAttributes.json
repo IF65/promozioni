@@ -48,6 +48,9 @@
 		"utlQuit": {
 			"timeStamp": "2020-09-29T19:23:06.000Z"
 		},
+		"pfExcelReport": {
+			"timeStamp": "2020-12-28T10:17:08.624Z"
+		},
 		"utlPromozioniIF652Excel": {
 			"timeStamp": "2020-09-30T13:10:45.000Z"
 		},
@@ -64,7 +67,7 @@
 			"timeStamp": "2020-09-29T19:23:06.000Z"
 		},
 		"_marco": {
-			"timeStamp": "2020-11-08T19:06:10.010Z"
+			"timeStamp": "2020-12-25T20:14:40.638Z"
 		},
 		"_marco4": {
 			"timeStamp": "2020-11-02T14:52:13.000Z"
@@ -76,7 +79,7 @@
 			"timeStamp": "2020-09-29T19:23:06.000Z"
 		},
 		"_marco3": {
-			"timeStamp": "2020-11-15T07:26:49.210Z"
+			"timeStamp": "2020-11-15T07:26:49.000Z"
 		},
 		"utlProgressivoCrea": {
 			"timeStamp": "2020-09-29T19:23:06.000Z"
@@ -97,7 +100,7 @@
 			"timeStamp": "2020-09-29T19:23:06.000Z"
 		},
 		"pfPromozioni": {
-			"timeStamp": "2020-11-11T10:21:31.832Z"
+			"timeStamp": "2020-12-29T19:58:39.367Z"
 		},
 		"setupStampante": {
 			"timeStamp": "2020-09-29T19:23:06.000Z"
@@ -106,16 +109,13 @@
 			"timeStamp": "2020-09-29T19:23:06.000Z"
 		},
 		"utlElencoSediUsate": {
-			"timeStamp": "2020-11-15T07:11:19.328Z"
+			"timeStamp": "2020-11-15T07:11:19.000Z"
 		},
 		"utlEsplosioneBarcode": {
 			"timeStamp": "2020-09-29T19:23:06.000Z"
 		},
 		"utlElencoCodiciCatalinaUsati": {
 			"timeStamp": "2020-09-29T19:23:06.000Z"
-		},
-		"pfPromozioniInserimento": {
-			"timeStamp": "2020-11-07T09:05:03.001Z"
 		},
 		"utlAlpAreaFormatColumn": {
 			"timeStamp": "2020-09-29T19:23:06.000Z"
@@ -139,10 +139,13 @@
 			"timeStamp": "2020-09-29T19:23:06.000Z"
 		},
 		"pfIncarichi": {
-			"timeStamp": "2020-11-15T21:08:52.907Z"
+			"timeStamp": "2020-11-15T21:08:52.000Z"
 		},
 		"pfSceltaSedi": {
-			"timeStamp": "2020-09-29T19:23:06.000Z"
+			"timeStamp": "2020-12-27T23:12:01.073Z"
+		},
+		"_caricaPromozioni": {
+			"timeStamp": "2020-12-25T11:10:22.190Z"
 		},
 		"ssMacroSql": {
 			"timeStamp": "2020-09-29T19:23:06.000Z"
@@ -152,6 +155,9 @@
 		},
 		"pfAderenti": {
 			"timeStamp": "2020-09-29T19:23:06.000Z"
+		},
+		"_marcoCreaCatalina": {
+			"timeStamp": "2020-12-23T11:18:54.046Z"
 		},
 		"utlMatchRegex": {
 			"timeStamp": "2020-09-29T19:23:06.000Z"
@@ -185,66 +191,6 @@
 		},
 		"pfCaricamentoPromozione": {
 			"timeStamp": "2020-09-29T19:23:06.000Z"
-		},
-		"(utlNuovaPromovarPI)": {
-			"timeStamp": "2020-09-29T19:23:06.000Z",
-			"attributes": {
-				"invisible": true
-			}
-		},
-		"(utlCaricamentoCatalina2)": {
-			"timeStamp": "2020-09-29T19:23:06.000Z",
-			"attributes": {
-				"invisible": true
-			}
-		},
-		"(creaCodiciCatalina)": {
-			"timeStamp": "2020-09-29T19:23:06.000Z",
-			"attributes": {
-				"invisible": true
-			}
-		},
-		"(_test1)": {
-			"timeStamp": "2020-09-29T19:23:06.000Z",
-			"attributes": {
-				"invisible": true
-			}
-		},
-		"(_test_1)": {
-			"timeStamp": "2020-09-29T19:23:06.000Z",
-			"attributes": {
-				"invisible": true
-			}
-		},
-		"(_marco)": {
-			"timeStamp": "2020-09-29T19:23:06.000Z",
-			"attributes": {
-				"invisible": true
-			}
-		},
-		"(_test)": {
-			"timeStamp": "2020-09-29T19:23:06.000Z",
-			"attributes": {
-				"invisible": true
-			}
-		},
-		"(_curriculum)": {
-			"timeStamp": "2020-09-29T19:23:06.000Z",
-			"attributes": {
-				"invisible": true
-			}
-		},
-		"(utlCaricamentoCatalina)": {
-			"timeStamp": "2020-09-29T19:23:06.000Z",
-			"attributes": {
-				"invisible": true
-			}
-		},
-		"(utlCaricamentoCatalina1)": {
-			"timeStamp": "2020-09-29T19:23:06.000Z",
-			"attributes": {
-				"invisible": true
-			}
 		}
 	}
 }

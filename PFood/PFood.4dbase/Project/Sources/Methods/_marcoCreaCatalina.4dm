@@ -1,0 +1,136 @@
+//%attributes = {}
+// tipo ACPT Totale spesa
+If (True:C214)
+	ARRAY LONGINT:C221($idCatalina;0)
+	ARRAY TEXT:C222($tipo;0)
+	ARRAY DATE:C224($dataInizio;0)
+	ARRAY DATE:C224($dataFine;0)
+	ARRAY LONGINT:C221($punti;0)
+	
+	APPEND TO ARRAY:C911($idCatalina;3)
+	APPEND TO ARRAY:C911($tipo;"ACPT")
+	APPEND TO ARRAY:C911($dataInizio;!2021-01-04!)
+	APPEND TO ARRAY:C911($dataFine;!2021-03-03!)
+	APPEND TO ARRAY:C911($punti;300)
+	
+	APPEND TO ARRAY:C911($idCatalina;7)
+	APPEND TO ARRAY:C911($tipo;"ACPT")
+	APPEND TO ARRAY:C911($dataInizio;!2021-01-04!)
+	APPEND TO ARRAY:C911($dataFine;!2021-03-03!)
+	APPEND TO ARRAY:C911($punti;300)
+	
+	APPEND TO ARRAY:C911($idCatalina;11)
+	APPEND TO ARRAY:C911($tipo;"ACPT")
+	APPEND TO ARRAY:C911($dataInizio;!2021-01-04!)
+	APPEND TO ARRAY:C911($dataFine;!2021-03-03!)
+	APPEND TO ARRAY:C911($punti;300)
+	
+	APPEND TO ARRAY:C911($idCatalina;15)
+	APPEND TO ARRAY:C911($tipo;"ACPT")
+	APPEND TO ARRAY:C911($dataInizio;!2021-01-04!)
+	APPEND TO ARRAY:C911($dataFine;!2021-03-03!)
+	APPEND TO ARRAY:C911($punti;300)
+	
+	APPEND TO ARRAY:C911($idCatalina;19)
+	APPEND TO ARRAY:C911($tipo;"ACPT")
+	APPEND TO ARRAY:C911($dataInizio;!2021-01-04!)
+	APPEND TO ARRAY:C911($dataFine;!2021-03-06!)
+	APPEND TO ARRAY:C911($punti;300)
+	
+	APPEND TO ARRAY:C911($idCatalina;23)
+	APPEND TO ARRAY:C911($tipo;"ACPT")
+	APPEND TO ARRAY:C911($dataInizio;!2021-01-04!)
+	APPEND TO ARRAY:C911($dataFine;!2021-03-06!)
+	APPEND TO ARRAY:C911($punti;300)
+	
+	For ($i;1;Size of array:C274($idCatalina))
+		catalinaCaricamento_ACPT($idCatalina{$i};"TOTALE SPESA";30;$punti{$i};$dataInizio{$i};$dataFine{$i};"")
+	End for 
+End if 
+
+
+// tipo 0503
+If (False:C215)
+	ARRAY LONGINT:C221($idCatalina;0)
+	ARRAY TEXT:C222($tipo;0)
+	ARRAY DATE:C224($dataInizio;0)
+	ARRAY DATE:C224($dataFine;0)
+	ARRAY REAL:C219($importo;0)
+	ARRAY REAL:C219($soglia;0)
+	
+	APPEND TO ARRAY:C911($idCatalina;1)
+	APPEND TO ARRAY:C911($tipo;"0503")
+	APPEND TO ARRAY:C911($dataInizio;!2021-01-04!)
+	APPEND TO ARRAY:C911($dataFine;!2021-03-03!)
+	APPEND TO ARRAY:C911($importo;3)
+	APPEND TO ARRAY:C911($soglia;30)
+	
+	APPEND TO ARRAY:C911($idCatalina;5)
+	APPEND TO ARRAY:C911($tipo;"0503")
+	APPEND TO ARRAY:C911($dataInizio;!2021-01-04!)
+	APPEND TO ARRAY:C911($dataFine;!2021-03-03!)
+	APPEND TO ARRAY:C911($importo;3)
+	APPEND TO ARRAY:C911($soglia;30)
+	
+	APPEND TO ARRAY:C911($idCatalina;9)
+	APPEND TO ARRAY:C911($tipo;"0503")
+	APPEND TO ARRAY:C911($dataInizio;!2021-01-04!)
+	APPEND TO ARRAY:C911($dataFine;!2021-03-03!)
+	APPEND TO ARRAY:C911($importo;3)
+	APPEND TO ARRAY:C911($soglia;30)
+	
+	APPEND TO ARRAY:C911($idCatalina;13)
+	APPEND TO ARRAY:C911($tipo;"0503")
+	APPEND TO ARRAY:C911($dataInizio;!2021-01-04!)
+	APPEND TO ARRAY:C911($dataFine;!2021-03-03!)
+	APPEND TO ARRAY:C911($importo;3)
+	APPEND TO ARRAY:C911($soglia;30)
+	
+	APPEND TO ARRAY:C911($idCatalina;17)
+	APPEND TO ARRAY:C911($tipo;"0503")
+	APPEND TO ARRAY:C911($dataInizio;!2021-01-04!)
+	APPEND TO ARRAY:C911($dataFine;!2021-03-06!)
+	APPEND TO ARRAY:C911($importo;3)
+	APPEND TO ARRAY:C911($soglia;30)
+	
+	APPEND TO ARRAY:C911($idCatalina;21)
+	APPEND TO ARRAY:C911($tipo;"0503")
+	APPEND TO ARRAY:C911($dataInizio;!2021-01-04!)
+	APPEND TO ARRAY:C911($dataFine;!2021-03-06!)
+	APPEND TO ARRAY:C911($importo;3)
+	APPEND TO ARRAY:C911($soglia;30)
+	
+	APPEND TO ARRAY:C911($idCatalina;25)
+	APPEND TO ARRAY:C911($tipo;"0503")
+	APPEND TO ARRAY:C911($dataInizio;!2021-01-04!)
+	APPEND TO ARRAY:C911($dataFine;!2021-03-09!)
+	APPEND TO ARRAY:C911($importo;3)
+	APPEND TO ARRAY:C911($soglia;30)
+	
+	APPEND TO ARRAY:C911($idCatalina;29)
+	APPEND TO ARRAY:C911($tipo;"0503")
+	APPEND TO ARRAY:C911($dataInizio;!2021-01-04!)
+	APPEND TO ARRAY:C911($dataFine;!2021-03-09!)
+	APPEND TO ARRAY:C911($importo;3)
+	APPEND TO ARRAY:C911($soglia;30)
+	
+	APPEND TO ARRAY:C911($idCatalina;33)
+	APPEND TO ARRAY:C911($tipo;"0503")
+	APPEND TO ARRAY:C911($dataInizio;!2021-01-18!)
+	APPEND TO ARRAY:C911($dataFine;!2021-02-03!)
+	APPEND TO ARRAY:C911($importo;3)
+	APPEND TO ARRAY:C911($soglia;30)
+	
+	APPEND TO ARRAY:C911($idCatalina;34)
+	APPEND TO ARRAY:C911($tipo;"0503")
+	APPEND TO ARRAY:C911($dataInizio;!2021-02-15!)
+	APPEND TO ARRAY:C911($dataFine;!2021-03-02!)
+	APPEND TO ARRAY:C911($importo;3)
+	APPEND TO ARRAY:C911($soglia;30)
+	
+	For ($i;1;Size of array:C274($idCatalina))
+		catalinaCaricamento_0503($idCatalina{$i};$soglia{$i};$importo{$i};$dataInizio{$i};$dataFine{$i};"")
+	End for 
+End if 
+
+

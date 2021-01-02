@@ -108,6 +108,14 @@
 					"isSeparator": true
 				},
 				{
+					"title": "Report",
+					"method": "pfExcelReport"
+				},
+				{
+					"title": "Item 3",
+					"isSeparator": true
+				},
+				{
 					"title": "Esci",
 					"method": "utlQuit",
 					"shortcutAccel": true,

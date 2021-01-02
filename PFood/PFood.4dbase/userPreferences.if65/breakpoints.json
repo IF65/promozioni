@@ -7,5 +7,19 @@
 			"objectName": "Button4",
 			"methodPath": "/SOURCES/Forms/pfCatalina/ObjectMethods/Button4.4dm"
 		}
+	},
+	{
+		"line": 136,
+		"method": {
+			"type": 1,
+			"methodName": "_marcoCreaCatalina"
+		}
+	},
+	{
+		"line": 5,
+		"method": {
+			"type": 1,
+			"methodName": "_marco"
+		}
 	}
 ]

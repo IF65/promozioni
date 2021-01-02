@@ -1,10 +1,10 @@
 If (selTipo>=3)
-	GOTO OBJECT:C206(alpArticoli)
-	pfPromozioniInserimento ("aggiungiRigaArticoli")
-	AL_SetAreaLongProperty (alpArticoli;ALP_Area_UpdateData;1)
-	AL_SetAreaLongProperty (alpArticoli;ALP_Area_EntryGotoRow;1)
-	AL_SetAreaLongProperty (alpArticoli;ALP_Area_EntryGotoColumn;4)
+	$articolo:=cs:C1710.Articolo.new()
+	$articolo.idPromozioni:=promozioneCorrente.id
+	promozioneCorrente.articoli:=promozioneCorrente.articoli.push($articolo)
+	$position:=promozioneCorrente.articoli.lastIndexOf($articolo)
+	EDIT ITEM:C870(*; "colArticoliCodiceReparto"; $position+1)
 Else 
 	BEEP:C151
-	ALERT:C41("Tipo promozione non specificato!";"Continua")
+	ALERT:C41("Tipo promozione non specificato!"; "Continua")
 End if 

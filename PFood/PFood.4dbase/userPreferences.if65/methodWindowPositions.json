@@ -1,10 +1,4 @@
 ﻿{
-	"Sources/Methods/pfPromozioni.4dm": {
-		"left": 350,
-		"top": 103,
-		"width": 1229,
-		"height": 937
-	},
 	"Sources/Methods/utlOnErrCall.4dm": {
 		"left": 0,
 		"top": 103,
@@ -40,12 +34,6 @@
 		"top": 335,
 		"width": 1440,
 		"height": 794
-	},
-	"Sources/Methods/pfPromozioniInserimento.4dm": {
-		"left": 347,
-		"top": 234,
-		"width": 1275,
-		"height": 813
 	},
 	"Sources/Methods/utlElencoNegozi.4dm": {
 		"left": 272,
@@ -228,10 +216,10 @@
 		"height": 944
 	},
 	"Sources/Methods/catalinaCaricamento_0503.4dm": {
-		"left": 803,
+		"left": 833,
 		"top": 119,
-		"width": 1229,
-		"height": 862
+		"width": 1046,
+		"height": 676
 	},
 	"Trash/Methods/(utlNuovaPromovarPI).4dm": {
 		"left": 228,
@@ -264,10 +252,10 @@
 		"height": 937
 	},
 	"Sources/Methods/_marco.4dm": {
-		"left": 523,
-		"top": 202,
-		"width": 1455,
-		"height": 869
+		"left": 885,
+		"top": 360,
+		"width": 893,
+		"height": 598
 	},
 	"Sources/Methods/catalinaCaricamento_ACPT.4dm": {
 		"left": 242,
@@ -630,8 +618,8 @@
 		"height": 827
 	},
 	"Sources/Forms/pfPromozioniInserimento/ObjectMethods/bReport.4dm": {
-		"left": 239,
-		"top": 184,
+		"left": 378,
+		"top": 183,
 		"width": 1466,
 		"height": 745
 	},
@@ -648,8 +636,8 @@
 		"height": 819
 	},
 	"Sources/Forms/pfSceltaSedi/ObjectMethods/selAderente.4dm": {
-		"left": 772,
-		"top": 334,
+		"left": 813,
+		"top": 184,
 		"width": 973,
 		"height": 706
 	},
@@ -892,5 +880,269 @@
 		"top": 170,
 		"width": 1411,
 		"height": 745
+	},
+	"Sources/Methods/_marcoCreaCatalina.4dm": {
+		"left": 885,
+		"top": 206,
+		"width": 1080,
+		"height": 674
+	},
+	"Sources/Classes/Promozione.4dm": {
+		"left": 60,
+		"top": 137,
+		"width": 1353,
+		"height": 881
+	},
+	"Sources/Classes/Rectangle.4dm": {
+		"left": 399,
+		"top": 247,
+		"width": 1032,
+		"height": 611
+	},
+	"Sources/Methods/_caricaPromozioni.4dm": {
+		"left": 350,
+		"top": 103,
+		"width": 1229,
+		"height": 937
+	},
+	"Sources/Forms/pfPromozioni2/ObjectMethods/srcTipoPromozione.4dm": {
+		"left": 208,
+		"top": 127,
+		"width": 1920,
+		"height": 932
+	},
+	"Sources/Forms/pfPromozioni2/ObjectMethods/Button1.4dm": {
+		"left": 208,
+		"top": 127,
+		"width": 1920,
+		"height": 932
+	},
+	"Sources/Classes/Ricompensa.4dm": {
+		"left": 575,
+		"top": 330,
+		"width": 1277,
+		"height": 676
+	},
+	"Sources/Classes/Sedi.4dm": {
+		"left": 418,
+		"top": 103,
+		"width": 1277,
+		"height": 972
+	},
+	"Sources/Classes/Sede.4dm": {
+		"left": 418,
+		"top": 103,
+		"width": 1277,
+		"height": 972
+	},
+	"Sources/Classes/PromozioneSede.4dm": {
+		"left": 907,
+		"top": 204,
+		"width": 1277,
+		"height": 972
+	},
+	"Sources/Classes/Articolo.4dm": {
+		"left": 347,
+		"top": 234,
+		"width": 1275,
+		"height": 813
+	},
+	"Sources/Forms/pfPromozioni2/ObjectMethods/List Box.4dm": {
+		"left": 348,
+		"top": 103,
+		"width": 1229,
+		"height": 937
+	},
+	"Sources/Forms/pfPromozioni2/ObjectMethods/lbPromozioni.4dm": {
+		"left": 542,
+		"top": 103,
+		"width": 1229,
+		"height": 937
+	},
+	"Sources/Forms/pfPromozioni2/method.4dm": {
+		"left": 348,
+		"top": 103,
+		"width": 1229,
+		"height": 937
+	},
+	"Sources/Forms/pfPromozioniInserimento2/ObjectMethods/ricompense01.4dm": {
+		"left": 208,
+		"top": 127,
+		"width": 1920,
+		"height": 932
+	},
+	"Sources/Forms/pfPromozioniInserimento2/ObjectMethods/articoli01.4dm": {
+		"left": 208,
+		"top": 127,
+		"width": 1920,
+		"height": 932
+	},
+	"Sources/Forms/pfPromozioniInserimento2/ObjectMethods/alpSedi.4dm": {
+		"left": 208,
+		"top": 127,
+		"width": 1920,
+		"height": 932
+	},
+	"Sources/Forms/pfPromozioniInserimento2/ObjectMethods/Variable.4dm": {
+		"left": 208,
+		"top": 127,
+		"width": 1920,
+		"height": 932
+	},
+	"Sources/Forms/pfPromozioniInserimento2/ObjectMethods/vPR_bozza.4dm": {
+		"left": 208,
+		"top": 127,
+		"width": 1920,
+		"height": 932
+	},
+	"Sources/Forms/pfPromozioniInserimento2/ObjectMethods/selTipo.4dm": {
+		"left": 101,
+		"top": 264,
+		"width": 1920,
+		"height": 932
+	},
+	"Sources/Forms/pfPromozioniInserimento2/ObjectMethods/vPR_descrizione.4dm": {
+		"left": 208,
+		"top": 127,
+		"width": 1920,
+		"height": 932
+	},
+	"Sources/Forms/pfPromozioniInserimento2/ObjectMethods/vPR_barcode.4dm": {
+		"left": 208,
+		"top": 127,
+		"width": 1920,
+		"height": 932
+	},
+	"Sources/Forms/pfPromozioniInserimento2/ObjectMethods/selTipoCliente.4dm": {
+		"left": 702,
+		"top": 416,
+		"width": 1129,
+		"height": 639
+	},
+	"Sources/Forms/pfPromozioniInserimento2/ObjectMethods/bReport.4dm": {
+		"left": 208,
+		"top": 127,
+		"width": 1920,
+		"height": 932
+	},
+	"Sources/Forms/pfPromozioniInserimento2/method.4dm": {
+		"left": 347,
+		"top": 234,
+		"width": 1275,
+		"height": 813
+	},
+	"Sources/Forms/pfPromozioniInserimento2/ObjectMethods/vPR_codice.4dm": {
+		"left": 347,
+		"top": 234,
+		"width": 1275,
+		"height": 813
+	},
+	"Sources/Forms/pfPromozioniInserimento2/ObjectMethods/vDataInizio.4dm": {
+		"left": 692,
+		"top": 273,
+		"width": 1129,
+		"height": 639
+	},
+	"Sources/Forms/pfPromozioniInserimento2/ObjectMethods/vPR_dataInizio.4dm": {
+		"left": 871,
+		"top": 540,
+		"width": 1129,
+		"height": 639
+	},
+	"Sources/Forms/pfPromozioniInserimento2/ObjectMethods/vPR_dataFine.4dm": {
+		"left": 871,
+		"top": 540,
+		"width": 1129,
+		"height": 639
+	},
+	"Sources/Forms/pfPromozioniInserimento2/ObjectMethods/vDataFine.4dm": {
+		"left": 692,
+		"top": 273,
+		"width": 1129,
+		"height": 639
+	},
+	"Sources/Forms/pfPromozioniInserimento2/ObjectMethods/lbRicompense.4dm": {
+		"left": 1444,
+		"top": 143,
+		"width": 1229,
+		"height": 937
+	},
+	"Sources/Forms/pfPromozioniInserimento2/ObjectMethods/ricompense02.4dm": {
+		"left": 833,
+		"top": 128,
+		"width": 1229,
+		"height": 937
+	},
+	"Sources/Forms/pfPromozioniInserimento2/ObjectMethods/bValidate.4dm": {
+		"left": 833,
+		"top": 128,
+		"width": 1229,
+		"height": 937
+	},
+	"Sources/Forms/pfPromozioniInserimento2/ObjectMethods/ricompense03.4dm": {
+		"left": 833,
+		"top": 128,
+		"width": 1229,
+		"height": 937
+	},
+	"Sources/Forms/pfPromozioniInserimento2/ObjectMethods/articoli02.4dm": {
+		"left": 833,
+		"top": 128,
+		"width": 1229,
+		"height": 937
+	},
+	"Sources/Forms/pfPromozioniInserimento2/ObjectMethods/articoli03.4dm": {
+		"left": 833,
+		"top": 128,
+		"width": 1229,
+		"height": 937
+	},
+	"Sources/Forms/pfPromozioniInserimento2/ObjectMethods/bReport1.4dm": {
+		"left": 833,
+		"top": 128,
+		"width": 1229,
+		"height": 937
+	},
+	"Trash/Methods/(pfPromozioni).4dm": {
+		"left": 350,
+		"top": 103,
+		"width": 1229,
+		"height": 937
+	},
+	"Trash/Methods/(pfPromozioniInserimento).4dm": {
+		"left": 347,
+		"top": 234,
+		"width": 1275,
+		"height": 813
+	},
+	"Trash/Methods/(pfPromozioniInserimento2).4dm": {
+		"left": 523,
+		"top": 133,
+		"width": 1229,
+		"height": 937
+	},
+	"Sources/Methods/pfPromozioni.4dm": {
+		"left": 547,
+		"top": 103,
+		"width": 1134,
+		"height": 977
+	},
+	"Sources/Methods/pfExcelReport.4dm": {
+		"left": 547,
+		"top": 103,
+		"width": 1134,
+		"height": 977
+	},
+	"Sources/Forms/pfReport/ObjectMethods/excelReport.4dm": {
+		"left": 547,
+		"top": 103,
+		"width": 1134,
+		"height": 977
+	},
+	"Sources/Forms/pfExcelReport/method.4dm": {
+		"left": 547,
+		"top": 103,
+		"width": 1134,
+		"height": 977
 	}
 }
