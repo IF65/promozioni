@@ -6,6 +6,7 @@ $fileName = realpath(__DIR__ . '/..').'/debug.php';
 if (file_exists($fileName)) {
     $debug = true;
 }
+//Cioa
 
 $indirizzi = [
     '0101' => '192.168.201.11',
