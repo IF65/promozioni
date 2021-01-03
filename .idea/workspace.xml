@@ -153,12 +153,12 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="PHP Script.promozioni.php" />
-      <item itemvalue="PHP Script.test.php" />
       <item itemvalue="PHP Script.config.php" />
       <item itemvalue="PHP Script.invioBO.php" />
       <item itemvalue="PHP Script.invioFTP.php" />
       <item itemvalue="PHP Script.invioPromozioniOld.php" />
+      <item itemvalue="PHP Script.promozioni.php" />
+      <item itemvalue="PHP Script.test.php" />
       <item itemvalue="PHP Script.verificaIncarichi.php" />
     </list>
     <recent_temporary>
