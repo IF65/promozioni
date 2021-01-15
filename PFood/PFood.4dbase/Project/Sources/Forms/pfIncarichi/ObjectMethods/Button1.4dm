@@ -1,2 +1,0 @@
-pfIncarichi ("caricaArray")
-pfIncarichi ("aggiornaDisplay")

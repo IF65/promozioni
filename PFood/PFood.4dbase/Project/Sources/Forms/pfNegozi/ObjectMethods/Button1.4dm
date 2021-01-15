@@ -1,2 +1,0 @@
-pfNegozi ("ricerca")
-pfNegozi ("aggiornaDisplay")
