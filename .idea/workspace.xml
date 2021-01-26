@@ -20,7 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="892de775-726b-454a-9d4f-9ec41bbbbd7d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Default_Changelist.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/invioPromozioniOld.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/invioPromozioniOld.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -790,6 +791,9 @@
       <workItem from="1609609073687" duration="61000" />
       <workItem from="1609609233862" duration="95000" />
       <workItem from="1610698368887" duration="8000" />
+      <workItem from="1610698633018" duration="4000" />
+      <workItem from="1610830996409" duration="5000" />
+      <workItem from="1611669345513" duration="46000" />
     </task>
     <task id="LOCAL-00001" summary="Aggiunto elenco aderenti">
       <created>1571815756940</created>
@@ -855,7 +859,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/src/invioPromozioniOld.php</url>
-          <line>141</line>
+          <line>142</line>
           <option name="timeStamp" value="172" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
