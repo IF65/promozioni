@@ -53,6 +53,8 @@
                 "0070" => "PROMO_0070_",
                 "0481" => "PROMO_0481_",
                 "0482" => "PROMO_0482_",
+                "0486" => "PROMO_0486_",
+                "0487" => "PROMO_0487_",
                 "0492" => "PROMO_0492_",
                 "0493" => "PROMO_0493_",
                 "0501" => "PROMO_0501_",
@@ -444,6 +446,18 @@
                                         $text .= sprintf( '%-15s', $ricompensa['recordM'] );
                                         $text .= sprintf( '%-038s', '0111' . sprintf( '%04d', $ricompensa['promovar'] ));
                                         break;
+                                    case "0487":
+                                        $text .= sprintf( '%08d', 0 );
+                                        $text .= sprintf( '%08d', 0 );
+                                        $text .= '0000'; // reparto contabile
+                                        $text .= '00000000';
+                                        $text .= '0';
+                                        $text .= sprintf( '%-40s', $ricompensa['descrizione']  );
+                                        $text .= sprintf( '%-15s', '' );
+                                        $text .= sprintf( '%-8s', '' );
+                                        $text .= sprintf( '%-8s', '' );
+                                        $text .= sprintf( '%-022s', 0 );
+                                        break;
                                     case "0492":
                                         $text .= sprintf( '%08d', round( $ricompensa['taglio'] * 100, 0 ) );
                                         $text .= sprintf( '%08d', round( $ricompensa['ammontare'] , 0 ) ); //sconto bollone
@@ -558,6 +572,9 @@
 
                                     switch ($tipoPromozione) {
                                         case "0501":
+                                            $text .= sprintf( '%-122s', $riga );
+                                            break;
+                                        case "0487":
                                             $text .= sprintf( '%-122s', $riga );
                                             break;
                                         case "0492":
