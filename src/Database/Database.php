@@ -447,8 +447,8 @@
                                         $text .= sprintf( '%-038s', '0111' . sprintf( '%04d', $ricompensa['promovar'] ));
                                         break;
                                     case "0487":
-                                        $text .= sprintf( '%08d', 0 );
-                                        $text .= sprintf( '%08d', 0 );
+                                        $text .= sprintf( '%08d', round( $ricompensa['soglia'], 0 ) );
+                                        $text .= sprintf( '%08d', round( $ricompensa['ammontare'], 0 ) );
                                         $text .= '0000'; // reparto contabile
                                         $text .= '00000000';
                                         $text .= '0';
