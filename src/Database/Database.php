@@ -288,6 +288,12 @@
             return $elenco;
         }
 
+        public function elencoBarartX2(array $request) {
+            $elenco = $this->t_barartx2->elenco($request);
+
+            return $elenco;
+        }
+
         public function elencoArticoliX2(array $request) {
             $elenco = $this->t_articox2->elenco($request);
 

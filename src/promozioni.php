@@ -76,6 +76,10 @@
         $elenco = $db->elencoCategorX2($request);
         echo  json_encode($elenco);
 
+    } else if ($request['function'] == 'cercaBarcodeDaCodiceArticolo') {
+        $elenco = $db->elencoBarartX2($request);
+        echo  json_encode($elenco);
+
     } else if ($request['function'] == 'cercaArticolo') {
         $elenco = $db->elencoArticoliX2($request);
         echo  json_encode($elenco);

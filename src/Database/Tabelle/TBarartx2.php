@@ -65,6 +65,16 @@
             }
         }
 
+        public function elenco(array $request) {
+            $table = "`$this->schema`.`".self::$tableName."`";
+            $sql = "select b.`BAR13-BAR2` barcode from $table as b where b.`CODCIN-BAR2` = :codice order by 1";
+            $stmt = $this->pdo->prepare($sql);
+            $stmt->execute(['codice' => $request['codice']]);
+            $result = $stmt->fetchAll(\PDO::FETCH_ASSOC);
+
+            return $result;
+        }
+
         public function __destruct() {
 			unset($this->pdo);
         }

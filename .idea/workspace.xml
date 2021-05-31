@@ -19,16 +19,20 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="892de775-726b-454a-9d4f-9ec41bbbbd7d" name="Default Changelist" comment="">
+    <list default="true" id="892de775-726b-454a-9d4f-9ec41bbbbd7d" name="Default Changelist" comment="Aggiunto elenco aderenti">
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Database/Database.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Database/Database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Database/Tabelle/TBarartx2.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Database/Tabelle/TBarartx2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/promozioni.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/promozioni.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" notifyAboutMissingVendor="false" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -800,7 +804,19 @@
       <workItem from="1613728197667" duration="3000" />
       <workItem from="1614180778034" duration="269000" />
       <workItem from="1614188373295" duration="78000" />
-      <workItem from="1618473884835" duration="1918000" />
+      <workItem from="1618473884835" duration="2286000" />
+      <workItem from="1618597314407" duration="224000" />
+      <workItem from="1618597557078" duration="8000" />
+      <workItem from="1620392866720" duration="5000" />
+      <workItem from="1620919401291" duration="508000" />
+      <workItem from="1620923944959" duration="1000" />
+      <workItem from="1621948746807" duration="419000" />
+      <workItem from="1621950251318" duration="4000" />
+      <workItem from="1621954245023" duration="193000" />
+      <workItem from="1622011651250" duration="38000" />
+      <workItem from="1622445388907" duration="79000" />
+      <workItem from="1622445472358" duration="1283000" />
+      <workItem from="1622473762184" duration="456000" />
     </task>
     <task id="LOCAL-00001" summary="Aggiunto elenco aderenti">
       <created>1571815756940</created>
