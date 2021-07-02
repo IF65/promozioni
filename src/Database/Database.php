@@ -65,6 +65,9 @@
                 "REBU" => "PROMO_REBU_",
                 "REGN" => "PROMO_REGN_",
                 "COUP" => "COUPON_",
+                "DELC" => "PROMO_DELC_",
+                "DELV" => "PROMO_DELV_",
+                "DELP" => "PROMO_DELP_"
             ];
 
         private $lavori =
@@ -315,7 +318,7 @@
                     $cancellazione = $request['cancellazione'];
                 }
 
-                if (in_array($tipoPromozione, ['REGN','ACPT','EMBU','REBU','COUP']) or $pmtForzato) {
+                if (in_array($tipoPromozione, ['REGN','ACPT','EMBU','REBU','COUP','DELC','DELV','DELP']) or $pmtForzato) {
                     $text = $promozioni[0]['testo'];
                 } else {
                     // calcolo il numero di righe del record miscellaneo
@@ -666,7 +669,7 @@
 
                 $gmrec = 0;
                 $filePath = $this->sqlDetails['exportDir'] . $incarico['codiceSede'] . '/';
-                if (in_array( $incarico['tipoPromozione'], ['REGN', 'ACPT', 'EMBU', 'REBU', 'COUP'] ) or ($incarico['pmt'] == 1)) {
+                if (in_array( $incarico['tipoPromozione'], ['REGN', 'ACPT', 'EMBU', 'REBU', 'COUP','DELC','DELV','DELP'] ) or ($incarico['pmt'] == 1)) {
                     $gmrec = 1;
                     $filePath .= '/gmrec/';
                     $filePromo = $nomeFile . '.PMT';
