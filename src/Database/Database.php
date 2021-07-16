@@ -15,6 +15,7 @@
     use Database\Tabelle\TAderentisedi;
     use Database\Tabelle\TAderenti;
     use Database\Tabelle\TIncarichi;
+    use Database\Tabelle\TEod;
     use Database\Tabelle\VArticoli;
     use Ramsey\Uuid\Uuid;
     use Picqer\Barcode\BarcodeGeneratorJPG;
@@ -42,10 +43,10 @@
         public $t_aderenti = null;
         public $t_aderentiSedi = null;
         public $t_incarichi = null;
+        public $t_eod = null;
         public $v_articoli = null;
 
         private $sqlDetails = null;
-
 
         private $labelFile =
             [
@@ -84,10 +85,14 @@
         public function __construct(array $sqlDetails, $loadDb = True) {
             $this->sqlDetails = $sqlDetails;
             $this->loadDb = $loadDb;
-            $conStr = sprintf("mysql:host=%s", $sqlDetails['promozioni']['host']);
             try {
+                $conStr = sprintf("mysql:host=%s", $sqlDetails['promozioni']['host']);
                 $this->pdo = new PDO($conStr, $sqlDetails['promozioni']['user'], $sqlDetails['promozioni']['password'], [PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION]);
                 $this->db = $sqlDetails['promozioni']['db'];
+
+                $conStr = sprintf("mysql:host=%s", $sqlDetails['quadrature']['host']);
+                $this->qPdo = new PDO($conStr, $sqlDetails['quadrature']['user'], $sqlDetails['quadrature']['password'], [PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION]);
+                $this->qDb = $sqlDetails['quadrature']['db'];
 
                 self::createDatabase();
 
@@ -140,6 +145,10 @@
                     $stmt = $this->pdo->prepare("create database if not exists $value;");
                     $stmt->execute();
                 }
+                foreach($this->qDb as $key => $value) {
+                    $stmt = $this->qPdo->prepare("create database if not exists $value;");
+                    $stmt->execute();
+                }
 
                 // creazione tabelle
                 // ----------------------------------------------------------
@@ -155,6 +164,7 @@
                 $this->t_aderentiSedi = New TAderentisedi($this->pdo, $this->db['promozioni']);
                 $this->t_aderenti = New TAderenti($this->pdo, $this->db['promozioni']);
                 $this->t_incarichi = New TIncarichi($this->pdo, $this->db['promozioni'], 'incarichi');
+                $this->t_eod = New TEod($this->qPdo, $this->qDb['mtx']);
 
                 // creazione viste
                 // ----------------------------------------------------------
@@ -641,6 +651,12 @@
 
         public function elencoSediUsate(array $request) {
             $elenco = $this->t_promozioni->elencoSediUsate($request);
+
+            return $elenco;
+        }
+
+        public function statoCaricamentoQuadrature(array $request) {
+            $elenco = $this->t_eod->elenco($request);
 
             return $elenco;
         }
