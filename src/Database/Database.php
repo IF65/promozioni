@@ -84,10 +84,10 @@
         public function __construct(array $sqlDetails, $loadDb = True) {
             $this->sqlDetails = $sqlDetails;
             $this->loadDb = $loadDb;
-            $conStr = sprintf("mysql:host=%s", $sqlDetails['host']);
+            $conStr = sprintf("mysql:host=%s", $sqlDetails['promozioni']['host']);
             try {
-                $this->pdo = new PDO($conStr, $sqlDetails['promozioni']['user'], $sqlDetails['promozioni']['password'], [PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION]);
-                $this->db = $sqlDetails['promozioni']['db'];
+                $this->pdo = new PDO($conStr, $sqlDetails['promozioni']['promozioni']['user'], $sqlDetails['promozioni']['password'], [PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION]);
+                $this->db = $sqlDetails['promozioni']['promozioni']['db'];
 
                 self::createDatabase();
 
@@ -113,8 +113,8 @@
 
         public function creaNuovoCodice(int $tipo):string {
             $codiceIniziale = 0;
-            if (key_exists($tipo, $this->sqlDetails['progressivi'])) {
-                $codiceIniziale = $this->sqlDetails['progressivi'][$tipo]['codice'];
+            if (key_exists($tipo, $this->sqlDetails['promozioni']['progressivi'])) {
+                $codiceIniziale = $this->sqlDetails['promozioni']['progressivi'][$tipo]['codice'];
             }
 
             $codice = $this->t_progressivi->creaNuovoCodice($tipo, $codiceIniziale);
@@ -280,7 +280,7 @@
 
             foreach (scandir($this->sqlDetails['exportDir']) as $cartella) {
                 if (preg_match('/^\d{4}$/', $cartella)) {
-                    foreach (scandir($this->sqlDetails['exportDir'] . '/' . $cartella) as $file) {
+                    foreach (scandir($this->sqlDetails['promozioni']['exportDir'] . '/' . $cartella) as $file) {
                         if (preg_match( '/\_([^_]*)\.DAT$/', $file, $matches )) {
                             echo $matches[1] . "\n";
                         }
@@ -650,15 +650,15 @@
                 // creazione cartelle
                 // Attenzione: la cartella base potrebbe non essere creabile per la configurazione di sicurezza di apache.
                 // In questo caso basta crearla manualmente. Le altre cartelle non hanno problemi.
-                if (!file_exists( $this->sqlDetails['exportDir'] )) {
-                    mkdir( $this->sqlDetails['exportDir'] ); // default 0777
+                if (!file_exists( $this->sqlDetails['promozioni']['exportDir'] )) {
+                    mkdir( $this->sqlDetails['promozioni']['exportDir'] ); // default 0777
                 }
 
-                if (!file_exists( $this->sqlDetails['exportDir'] . $incarico['codiceSede'] )) {
-                    mkdir( $this->sqlDetails['exportDir'] . $incarico['codiceSede'] ); // default 0777
+                if (!file_exists( $this->sqlDetails['promozioni']['exportDir'] . $incarico['codiceSede'] )) {
+                    mkdir( $this->sqlDetails['promozioni']['exportDir'] . $incarico['codiceSede'] ); // default 0777
 
-                    if (!file_exists( $this->sqlDetails['exportDir'] . $incarico['codiceSede'] . '/gmrec' )) {
-                        mkdir( $this->sqlDetails['exportDir'] . $incarico['codiceSede'] . '/gmrec' ); // default 0777
+                    if (!file_exists( $this->sqlDetails['promozioni']['exportDir'] . $incarico['codiceSede'] . '/gmrec' )) {
+                        mkdir( $this->sqlDetails['promozioni']['exportDir'] . $incarico['codiceSede'] . '/gmrec' ); // default 0777
                     }
                 }
 
@@ -672,7 +672,7 @@
                 $data = json_decode($dataObj, true);
 
                 $gmrec = 0;
-                $filePath = $this->sqlDetails['exportDir'] . $incarico['codiceSede'] . '/';
+                $filePath = $this->sqlDetails['promozioni']['promozioni']['exportDir'] . $incarico['codiceSede'] . '/';
                 if (in_array( $incarico['tipoPromozione'], ['REGN', 'ACPT', 'EMBU', 'REBU', 'COUP','DELC','DELV','DELP'] ) or ($incarico['pmt'] == 1)) {
                     $gmrec = 1;
                     $filePath .= '/gmrec/';
