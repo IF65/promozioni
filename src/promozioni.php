@@ -26,7 +26,7 @@
         //$input ="{\"function\":\"elencoSediUsate\",\"codiciPromozione\":[\"5001223\",\"5001224\",\"5001225\"]}";
         //$input ="{\"function\":\"creaIncarichi\",\"promozioniDaInviare\":[{\"codicePromozione\":5000063,\"lavoroCodice\":10,\"data\":\"2020-11-11\",\"ora\":\"15:59\"}]}";
         //$input ="{\"function\":\"elencoNegozi\"}";
-        $input ="{\"function\":\"statoCaricamentoQuadrature\"}";
+        $input ="{\"function\":\"statoCaricamentoQuadrature\",\"sede\":\"0104\",\"dataInizio\":\"2021-07-16\",\"dataFine\":\"2021-07-16\"}";
 
         $request = json_decode($input, true);
     } else {

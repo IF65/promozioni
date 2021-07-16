@@ -42,10 +42,14 @@ class TEod {
 
 	public function elenco(array $request) {
 		$table = "`$this->schema`.`".self::$tableName."`";
-		$sql = "select * from $table where ddate = current_date()";
+		$sql = "select * from $table where ddate >= :dataInizio and ddate <= :dataFine and store like :sede";
 
 		$stmt = $this->pdo->prepare($sql);
-		$stmt->execute();
+		$stmt->execute([
+			':dataInizio' => $request['dataInizio'],
+			':dataFine' => $request['dataFine'],
+			':sede' => $request['sede'] . '%'
+		]);
 		$result = $stmt->fetchAll(\PDO::FETCH_ASSOC);
 
 		return $result;
