@@ -22,7 +22,6 @@
     <list default="true" id="892de775-726b-454a-9d4f-9ec41bbbbd7d" name="Default Changelist" comment="Aggiunto elenco aderenti">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Database/Database.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Database/Database.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/promozioni.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/promozioni.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -813,7 +812,7 @@
       <workItem from="1623747542646" duration="30000" />
       <workItem from="1625229842161" duration="1087000" />
       <workItem from="1625292201682" duration="6000" />
-      <workItem from="1626426120797" duration="1851000" />
+      <workItem from="1626426120797" duration="2324000" />
     </task>
     <task id="LOCAL-00001" summary="Aggiunto elenco aderenti">
       <created>1571815756940</created>
@@ -884,13 +883,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/src/promozioni.php</url>
-          <line>27</line>
-          <option name="timeStamp" value="192" />
+          <line>72</line>
+          <option name="timeStamp" value="194" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/src/promozioni.php</url>
-          <line>3</line>
-          <option name="timeStamp" value="193" />
+          <url>file://$PROJECT_DIR$/src/Database/Tabelle/TNegozi.php</url>
+          <line>59</line>
+          <option name="timeStamp" value="196" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/Database/Database.php</url>
+          <line>88</line>
+          <option name="timeStamp" value="197" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
