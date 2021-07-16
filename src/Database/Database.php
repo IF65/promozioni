@@ -87,7 +87,7 @@
             $conStr = sprintf("mysql:host=%s", $sqlDetails['promozioni']['host']);
             try {
                 $this->pdo = new PDO($conStr, $sqlDetails['promozioni']['user'], $sqlDetails['promozioni']['password'], [PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION]);
-                $this->db = $sqlDetails['promozioni']['promozioni']['db'];
+                $this->db = $sqlDetails['promozioni']['db'];
 
                 self::createDatabase();
 
