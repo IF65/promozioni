@@ -24,6 +24,10 @@
 
         protected $pdo = null;
         private $db = [];
+
+        protected $qPdo = null;
+        private $qDb = [];
+
         private $negozi = [];
         
         public $t_articoli = null;
@@ -82,8 +86,8 @@
             $this->loadDb = $loadDb;
             $conStr = sprintf("mysql:host=%s", $sqlDetails['host']);
             try {
-                $this->pdo = new PDO($conStr, $sqlDetails['user'], $sqlDetails['password'], [PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION]);
-                $this->db = $sqlDetails['db'];
+                $this->pdo = new PDO($conStr, $sqlDetails['promozioni']['user'], $sqlDetails['promozioni']['password'], [PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION]);
+                $this->db = $sqlDetails['promozioni']['db'];
 
                 self::createDatabase();
 
