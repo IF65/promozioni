@@ -21,7 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="892de775-726b-454a-9d4f-9ec41bbbbd7d" name="Default Changelist" comment="Aggiunto elenco aderenti">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Database/Tabelle/TEod.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Database/Tabelle/TEod.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Database/Database.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Database/Database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Database/Tabelle/VArticoli.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Database/Tabelle/VArticoli.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/promozioni.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/promozioni.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -814,7 +815,11 @@
       <workItem from="1625229842161" duration="1087000" />
       <workItem from="1625292201682" duration="6000" />
       <workItem from="1626426120797" duration="6705000" />
-      <workItem from="1626447381806" duration="425000" />
+      <workItem from="1626447381806" duration="715000" />
+      <workItem from="1626656727910" duration="2000" />
+      <workItem from="1626715682151" duration="557000" />
+      <workItem from="1626719499994" duration="26000" />
+      <workItem from="1631273337293" duration="96000" />
     </task>
     <task id="LOCAL-00001" summary="Aggiunto elenco aderenti">
       <created>1571815756940</created>

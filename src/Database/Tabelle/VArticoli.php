@@ -77,7 +77,7 @@ class VArticoli {
                             (
                                 select distinct p.`barcode` 
                                 from promozioni.promozioni as p 
-                                where (p.`tipo`='ACPT' or p.`tipo`='0054') and p.`dataFine` > '2020-01-01' 
+                                where (p.`tipo`='ACPT' or p.`tipo`='0054') and p.`dataFine` > '2021-06-01' 
                                 order by 1
                             ) order by 1 
                         limit 1";

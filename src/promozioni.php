@@ -116,6 +116,9 @@
     } else if ($request['function'] == 'statoCaricamentoQuadrature') {
         echo  json_encode($db->statoCaricamentoQuadrature($request));
 
+    } else if ($request['function'] == 'dettaglioQuadratura') {
+        echo  json_encode($db->dettaglioQuadratura($request));
+
     }
 ?>
 

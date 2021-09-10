@@ -661,6 +661,12 @@
             return $elenco;
         }
 
+        public function dettaglioQuadratura(array $request) {
+            $dettaglio = $this->t_eod->dettaglioQuadratura($request);
+
+            return $dettaglio;
+        }
+
         public function incaricoCreaFilePerInvio(array $incarico) {
             try {
                 // creazione cartelle
