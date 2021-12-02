@@ -336,10 +336,22 @@
                 if (in_array($tipoPromozione, ['REGN','ACPT','EMBU','REBU','COUP','DELC','DELV','DELP']) or $pmtForzato) {
                     $text = $promozioni[0]['testo'];
                 } elseif ($tipoPromozione == 'PANI') {
+                    $totale = 0;
+                    foreach ($promozioni[0]['articoli'] as  $articoli) {
+                        $totale += round($articoli['importo'] * 1, 2);
+                    }
                     $text .= sprintf( '%-26s', 'TOTALE' );
                     $text .= '*';
-                    $text .= sprintf( '%09d', 0 );
+                    $text .= sprintf( '%09d', $totale * 100 );
                     $text .= "\r\n";
+
+                    foreach ($promozioni[0]['articoli'] as $recNum => $articoli) {
+                        $text .= sprintf( '%4s:', '' );
+                        $text .= sprintf( '%16s:', $articoli['barcode'] );
+                        $text .= sprintf( '%05d*', $articoli['molteplicita'] );
+                        $text .= sprintf( '%08d', $articoli['importo'] * 100 );
+                        $text .= "\r\n";
+                    }
                 } else {
                     // calcolo il numero di righe del record miscellaneo
                     $numeroRigheMiscellaneo = 0;

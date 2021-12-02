@@ -26,7 +26,7 @@
                           `descrizione` varchar(100) NOT NULL DEFAULT '',
                           `molteplicita` smallint(5) unsigned NOT NULL DEFAULT '0',
                           `gruppo` smallint(5) unsigned NOT NULL DEFAULT '1',
-                          `importo` decimal(11,2) unsigned NOT NULL DEFAULT '0.00',
+                          `importo` float NOT NULL DEFAULT '0',
                           PRIMARY KEY (`id`)
                         ) ENGINE=InnoDB DEFAULT CHARSET=latin1";
                 $this->pdo->prepare($sql)->execute();
