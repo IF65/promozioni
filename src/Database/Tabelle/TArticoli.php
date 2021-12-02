@@ -62,7 +62,7 @@
                 'descrizione'=> $articolo['descrizione'],
                 'molteplicita'=> $articolo['molteplicita'],
                 'gruppo'=> $articolo['gruppo'],
-                'importo'=> $articolo['importo']
+                'importo'=> $articolo['importo'] * 1
             ]);
         }
 
