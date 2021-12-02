@@ -23,11 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="892de775-726b-454a-9d4f-9ec41bbbbd7d" name="Default Changelist" comment="Aggiunto elenco aderenti">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Database/Database.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Database/Database.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Database/Tabelle/TArticoli.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Database/Tabelle/TArticoli.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Database/Tabelle/VArticoli.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Database/Tabelle/VArticoli.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/promozioni.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/promozioni.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -827,7 +825,7 @@
       <workItem from="1636438522464" duration="111000" />
       <workItem from="1636452828396" duration="211000" />
       <workItem from="1636730411785" duration="197000" />
-      <workItem from="1638454213644" duration="754000" />
+      <workItem from="1638454213644" duration="2067000" />
     </task>
     <task id="LOCAL-00001" summary="Aggiunto elenco aderenti">
       <created>1571815756940</created>
@@ -895,6 +893,21 @@
           <url>file://$PROJECT_DIR$/src/Database/Tabelle/TIncarichi.php</url>
           <line>102</line>
           <option name="timeStamp" value="191" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/Database/Tabelle/TArticoli.php</url>
+          <line>40</line>
+          <option name="timeStamp" value="195" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/promozioni.php</url>
+          <line>31</line>
+          <option name="timeStamp" value="196" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/Database/Tabelle/TArticoli.php</url>
+          <line>55</line>
+          <option name="timeStamp" value="197" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

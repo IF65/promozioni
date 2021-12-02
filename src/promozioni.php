@@ -1,7 +1,7 @@
 <?php
     @ini_set('memory_limit','8192M');
 
-    $debug = False;
+    $debug = false;
 
     $fileName = realpath(__DIR__ . '/..').'/debug.php';
     if (file_exists($fileName)) {
@@ -18,7 +18,7 @@
     use Database\Database;
 
     $timeZone = new \DateTimeZone('Europe/Rome');
-
+$debug = true;
     if ($debug) {
 
         //$input = file_get_contents('/Users/if65/Desktop/request.json');
@@ -26,8 +26,9 @@
         //$input ="{\"function\":\"elencoSediUsate\",\"codiciPromozione\":[\"5001223\",\"5001224\",\"5001225\"]}";
         //$input ="{\"function\":\"creaIncarichi\",\"promozioniDaInviare\":[{\"codicePromozione\":5000063,\"lavoroCodice\":10,\"data\":\"2020-11-11\",\"ora\":\"15:59\"}]}";
         //$input ="{\"function\":\"elencoNegozi\"}";
-        $input ="{\"function\":\"statoCaricamentoQuadrature\",\"sede\":\"0104\",\"dataInizio\":\"2021-07-16\",\"dataFine\":\"2021-07-16\"}";
+        //$input ="{\"function\":\"statoCaricamentoQuadrature\",\"sede\":\"0104\",\"dataInizio\":\"2021-07-16\",\"dataFine\":\"2021-07-16\"}";
 
+        $input = file_get_contents('/Users/if65/Desktop/test.json');
         $request = json_decode($input, true);
     } else {
         $input = file_get_contents('php://input');

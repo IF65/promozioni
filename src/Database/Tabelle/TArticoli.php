@@ -42,7 +42,7 @@
             $sql = "insert into $table 
                         (`id`,`idPromozioni`,`codiceArticolo`,`codiceReparto`,`barcode`,`descrizione`,`molteplicita`,`gruppo`,`importo`)
                     values
-                        (:id,:idPromozioni,:codiceArticolo,:codiceReparto,:barcode,:descrizione,:molteplicita,:gruppo, :importo)
+                        (:id,:idPromozioni,:codiceArticolo,:codiceReparto,:barcode,:descrizione,:molteplicita,:gruppo,:importo)
                     on duplicate key update 
                         idPromozioni = :idPromozioni,
                         codiceArticolo = :codiceArticolo,
@@ -51,7 +51,7 @@
                         descrizione = :descrizione,
                         molteplicita = :molteplicita,
                         gruppo = :gruppo,
-                        importo =:importo;";
+                        importo = :importo;";
             $stmt = $this->pdo->prepare($sql);
             $stmt->execute([
                 'id'=> $articolo['id'],
