@@ -338,7 +338,7 @@
                 } elseif ($tipoPromozione == 'PANI') {
                     $text .= sprintf( '%-26s', 'TOTALE' );
                     $text .= '*';
-                    $text .= sprintf( '%-9d', 0 );
+                    $text .= sprintf( '%09d', 0 );
                     $text .= "\r\n";
                 } else {
                     // calcolo il numero di righe del record miscellaneo
