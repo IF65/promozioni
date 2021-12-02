@@ -347,9 +347,9 @@
 
                     foreach ($promozioni[0]['articoli'] as $recNum => $articoli) {
                         $text .= sprintf( '%4s:', '' );
-                        $text .= sprintf( '%16s:', $articoli['barcode'] );
+                        $text .= sprintf( '%16s:', sprintf( '%013d', $articoli['barcode'] ) );
                         $text .= sprintf( '%05d*', $articoli['molteplicita'] );
-                        $text .= sprintf( '%08d', $articoli['importo'] * 100 );
+                        $text .= sprintf( '%08d', round($articoli['importo'] * 100, 0) );
                         $text .= "\r\n";
                     }
                 } else {
