@@ -69,6 +69,7 @@
                 "EMBU" => "PROMO_EMBU_",
                 "REBU" => "PROMO_REBU_",
                 "REGN" => "PROMO_REGN_",
+                "PANI" => "PANIERE_",
                 "COUP" => "COUPON_",
                 "DELC" => "PROMO_DELC_",
                 "DELV" => "PROMO_DELV_",
@@ -334,6 +335,8 @@
 
                 if (in_array($tipoPromozione, ['REGN','ACPT','EMBU','REBU','COUP','DELC','DELV','DELP']) or $pmtForzato) {
                     $text = $promozioni[0]['testo'];
+                } elseif ($tipoPromozione == 'PANI') {
+                    $text = 'Ciao';
                 } else {
                     // calcolo il numero di righe del record miscellaneo
                     $numeroRigheMiscellaneo = 0;

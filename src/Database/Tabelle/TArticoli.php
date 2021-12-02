@@ -26,6 +26,7 @@
                           `descrizione` varchar(100) NOT NULL DEFAULT '',
                           `molteplicita` smallint(5) unsigned NOT NULL DEFAULT '0',
                           `gruppo` smallint(5) unsigned NOT NULL DEFAULT '1',
+                          `importo` decimal(11,2) unsigned NOT NULL DEFAULT '0.00',
                           PRIMARY KEY (`id`)
                         ) ENGINE=InnoDB DEFAULT CHARSET=latin1";
                 $this->pdo->prepare($sql)->execute();
@@ -39,9 +40,9 @@
         public function creaModifica(array $articolo) {
             $table = "`$this->schema`.`".self::$tableName."`";
             $sql = "insert into $table 
-                        (`id`,`idPromozioni`,`codiceArticolo`,`codiceReparto`,`barcode`,`descrizione`,`molteplicita`,`gruppo`)
+                        (`id`,`idPromozioni`,`codiceArticolo`,`codiceReparto`,`barcode`,`descrizione`,`molteplicita`,`gruppo`,`importo`)
                     values
-                        (:id,:idPromozioni,:codiceArticolo,:codiceReparto,:barcode,:descrizione,:molteplicita,:gruppo)
+                        (:id,:idPromozioni,:codiceArticolo,:codiceReparto,:barcode,:descrizione,:molteplicita,:gruppo, :importo)
                     on duplicate key update 
                         idPromozioni = :idPromozioni,
                         codiceArticolo = :codiceArticolo,
@@ -49,7 +50,8 @@
                         barcode = :barcode,
                         descrizione = :descrizione,
                         molteplicita = :molteplicita,
-                        gruppo = :gruppo;";
+                        gruppo = :gruppo,
+                        importo =:importo;";
             $stmt = $this->pdo->prepare($sql);
             $stmt->execute([
                 'id'=> $articolo['id'],
@@ -59,7 +61,8 @@
                 'barcode'=> $articolo['barcode'],
                 'descrizione'=> $articolo['descrizione'],
                 'molteplicita'=> $articolo['molteplicita'],
-                'gruppo'=> $articolo['gruppo']
+                'gruppo'=> $articolo['gruppo'],
+                'importo'=> $articolo['importo']
             ]);
         }
 
