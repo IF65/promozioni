@@ -23,8 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="892de775-726b-454a-9d4f-9ec41bbbbd7d" name="Default Changelist" comment="Aggiunto elenco aderenti">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Database/Tabelle/TArticoli.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Database/Tabelle/TArticoli.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/promozioni.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/promozioni.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -824,7 +823,7 @@
       <workItem from="1636438522464" duration="111000" />
       <workItem from="1636452828396" duration="211000" />
       <workItem from="1636730411785" duration="197000" />
-      <workItem from="1638454213644" duration="2595000" />
+      <workItem from="1638454213644" duration="2829000" />
     </task>
     <task id="LOCAL-00001" summary="Aggiunto elenco aderenti">
       <created>1571815756940</created>

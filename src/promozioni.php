@@ -18,7 +18,7 @@
     use Database\Database;
 
     $timeZone = new \DateTimeZone('Europe/Rome');
-$debug = true;
+//$debug = true;
     if ($debug) {
 
         //$input = file_get_contents('/Users/if65/Desktop/request.json');
