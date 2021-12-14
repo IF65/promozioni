@@ -23,8 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="892de775-726b-454a-9d4f-9ec41bbbbd7d" name="Default Changelist" comment="Aggiunto elenco aderenti">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Database/Database.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Database/Database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Database/Tabelle/VArticoli.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Database/Tabelle/VArticoli.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +57,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.3">
     <include_path>
@@ -824,7 +828,13 @@
       <workItem from="1636438522464" duration="111000" />
       <workItem from="1636452828396" duration="211000" />
       <workItem from="1636730411785" duration="197000" />
-      <workItem from="1638454213644" duration="6130000" />
+      <workItem from="1638454213644" duration="6274000" />
+      <workItem from="1638544497571" duration="2000" />
+      <workItem from="1638601890297" duration="233000" />
+      <workItem from="1638602165327" duration="3000" />
+      <workItem from="1638778912045" duration="21000" />
+      <workItem from="1638784393799" duration="6000" />
+      <workItem from="1639475118408" duration="148000" />
     </task>
     <task id="LOCAL-00001" summary="Aggiunto elenco aderenti">
       <created>1571815756940</created>
@@ -856,7 +866,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
