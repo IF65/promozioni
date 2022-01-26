@@ -23,12 +23,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="892de775-726b-454a-9d4f-9ec41bbbbd7d" name="Default Changelist" comment="Aggiunto elenco aderenti">
+      <change afterPath="$PROJECT_DIR$/src/Database/Tabelle/TModelli.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Database/Tabelle/TVariabili.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Database/Database.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Database/Database.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Database/Tabelle/TPromozioni.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Database/Tabelle/TPromozioni.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/recuperoP_regpar.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/recuperoP_regpar.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -845,7 +844,7 @@
       <workItem from="1642585476220" duration="12000" />
       <workItem from="1642758894032" duration="634000" />
       <workItem from="1642760601088" duration="279000" />
-      <workItem from="1643210266888" duration="907000" />
+      <workItem from="1643210266888" duration="2746000" />
     </task>
     <task id="LOCAL-00001" summary="Aggiunto elenco aderenti">
       <created>1571815756940</created>

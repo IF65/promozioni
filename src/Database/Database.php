@@ -1,7 +1,9 @@
 <?php
     namespace Database;
 
-    use \PDO;
+    use Database\Tabelle\TModelli;
+use Database\Tabelle\TVariabili;
+use \PDO;
     use Database\Tabelle\TArticoli;
     use Database\Tabelle\TArticox2;
     use Database\Tabelle\TBarartx2;
@@ -44,6 +46,8 @@
         public $t_aderentiSedi = null;
         public $t_incarichi = null;
         public $t_eod = null;
+        public $t_modelli = null;
+        public $t_variabili = null;
         public $v_articoli = null;
 
         private $sqlDetails = null;
@@ -167,6 +171,8 @@
                 $this->t_aderenti = New TAderenti($this->pdo, $this->db['promozioni']);
                 $this->t_incarichi = New TIncarichi($this->pdo, $this->db['promozioni'], 'incarichi');
                 $this->t_eod = New TEod($this->qPdo, $this->qDb['mtx']);
+                $this->t_modelli = New TModelli($this->pdo, $this->db['promozioni']);
+                $this->t_variabili = New TVariabili($this->pdo, $this->db['promozioni']);
 
                 // creazione viste
                 // ----------------------------------------------------------
