@@ -73,7 +73,8 @@
                 "COUP" => "COUPON_",
                 "DELC" => "PROMO_DELC_",
                 "DELV" => "PROMO_DELV_",
-                "DELP" => "PROMO_DELP_"
+                "DELP" => "PROMO_DELP_",
+                "PMTT" => "PROMO_PMTT_"
             ];
 
         private $lavori =
@@ -333,7 +334,7 @@
                     $cancellazione = $request['cancellazione'];
                 }
 
-                if (in_array($tipoPromozione, ['REGN','ACPT','EMBU','REBU','COUP','DELC','DELV','DELP']) or $pmtForzato) {
+                if (in_array($tipoPromozione, ['REGN','ACPT','EMBU','REBU','COUP','DELC','DELV','DELP','PMTT']) or $pmtForzato) {
                     $text = $promozioni[0]['testo'];
                 } elseif ($tipoPromozione == 'PANI') {
                     $totale = 0;

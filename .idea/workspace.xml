@@ -23,9 +23,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="892de775-726b-454a-9d4f-9ec41bbbbd7d" name="Default Changelist" comment="Aggiunto elenco aderenti">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Database/Tabelle/VArticoli.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Database/Tabelle/VArticoli.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Database/Database.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Database/Database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Database/Tabelle/TPromozioni.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Database/Tabelle/TPromozioni.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/recuperoP_regpar.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/recuperoP_regpar.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +64,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.3">
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 8.1.1">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
       <path value="$PROJECT_DIR$/vendor/composer" />
@@ -133,7 +136,7 @@
       <recent name="$PROJECT_DIR$/src/Database" />
     </key>
   </component>
-  <component name="RunManager" selected="PHP Script.promozioni.php">
+  <component name="RunManager" selected="PHP Script.recuperoP_regpar.php">
     <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/src/invioPromozioni.php">
       <method v="2" />
     </configuration>
@@ -143,13 +146,13 @@
     <configuration name="invioBO.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/src/invioBO.php">
       <method v="2" />
     </configuration>
-    <configuration name="invioFTP.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/src/invioFTP.php">
-      <method v="2" />
-    </configuration>
     <configuration name="invioPromozioniOld.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/src/invioPromozioniOld.php">
       <method v="2" />
     </configuration>
     <configuration name="promozioni.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/src/promozioni.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="recuperoP_regpar.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/src/recuperoP_regpar.php">
       <method v="2" />
     </configuration>
     <configuration name="test.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/src/test.php">
@@ -163,17 +166,17 @@
       <item itemvalue="PHP Script.test.php" />
       <item itemvalue="PHP Script.config.php" />
       <item itemvalue="PHP Script.invioBO.php" />
-      <item itemvalue="PHP Script.invioFTP.php" />
       <item itemvalue="PHP Script.invioPromozioniOld.php" />
       <item itemvalue="PHP Script.verificaIncarichi.php" />
+      <item itemvalue="PHP Script.recuperoP_regpar.php" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="PHP Script.recuperoP_regpar.php" />
         <item itemvalue="PHP Script.verificaIncarichi.php" />
         <item itemvalue="PHP Script.config.php" />
         <item itemvalue="PHP Script.invioPromozioniOld.php" />
         <item itemvalue="PHP Script.invioBO.php" />
-        <item itemvalue="PHP Script.invioFTP.php" />
       </list>
     </recent_temporary>
   </component>
@@ -834,7 +837,15 @@
       <workItem from="1638602165327" duration="3000" />
       <workItem from="1638778912045" duration="21000" />
       <workItem from="1638784393799" duration="6000" />
-      <workItem from="1639475118408" duration="148000" />
+      <workItem from="1639475118408" duration="361000" />
+      <workItem from="1641366866986" duration="887000" />
+      <workItem from="1641369554909" duration="295000" />
+      <workItem from="1642576735332" duration="747000" />
+      <workItem from="1642583296650" duration="791000" />
+      <workItem from="1642585476220" duration="12000" />
+      <workItem from="1642758894032" duration="634000" />
+      <workItem from="1642760601088" duration="279000" />
+      <workItem from="1643210266888" duration="907000" />
     </task>
     <task id="LOCAL-00001" summary="Aggiunto elenco aderenti">
       <created>1571815756940</created>
@@ -909,10 +920,5 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="PhpLocalRunConfigurationType">
-        <watch expression="$articoli['importo']" />
-      </configuration>
-    </watches-manager>
   </component>
 </project>
