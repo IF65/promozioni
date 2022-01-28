@@ -23,9 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="892de775-726b-454a-9d4f-9ec41bbbbd7d" name="Default Changelist" comment="Aggiunto elenco aderenti">
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/promozioni.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/promozioni.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Database/Tabelle/TModelliVariabili.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Database/Tabelle/TModellivariabili.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/promozioni.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/promozioni.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -858,7 +857,7 @@
       <workItem from="1643303487572" duration="5000" />
       <workItem from="1643376271354" duration="654000" />
       <workItem from="1643377948838" duration="279000" />
-      <workItem from="1643380116624" duration="1165000" />
+      <workItem from="1643380116624" duration="1520000" />
     </task>
     <task id="LOCAL-00001" summary="Aggiunto elenco aderenti">
       <created>1571815756940</created>
@@ -942,7 +941,7 @@
           <option name="timeStamp" value="205" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/src/Database/Tabelle/TModelliVariabili.php</url>
+          <url>file://$PROJECT_DIR$/src/Database/Tabelle/TModellivariabili.php</url>
           <line>22</line>
           <option name="timeStamp" value="206" />
         </line-breakpoint>
