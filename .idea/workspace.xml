@@ -23,11 +23,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="892de775-726b-454a-9d4f-9ec41bbbbd7d" name="Default Changelist" comment="Aggiunto elenco aderenti">
-      <change afterPath="$PROJECT_DIR$/src/Database/Tabelle/TModelli.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/Tabelle/TVariabili.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Database/Tabelle/TModelliVariabili.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Database/Database.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Database/Database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Database/Tabelle/TPromozioni.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Database/Tabelle/TPromozioni.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/promozioni.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/promozioni.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +117,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Database/Tabelle" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -132,10 +132,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Database/Tabelle" />
       <recent name="$PROJECT_DIR$/src/Database" />
     </key>
   </component>
-  <component name="RunManager" selected="PHP Script.recuperoP_regpar.php">
+  <component name="RunManager" selected="PHP Script.promozioni.php">
     <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/src/invioPromozioni.php">
       <method v="2" />
     </configuration>
@@ -844,7 +845,12 @@
       <workItem from="1642585476220" duration="12000" />
       <workItem from="1642758894032" duration="634000" />
       <workItem from="1642760601088" duration="279000" />
-      <workItem from="1643210266888" duration="2746000" />
+      <workItem from="1643210266888" duration="3243000" />
+      <workItem from="1643272158750" duration="427000" />
+      <workItem from="1643301616511" duration="1234000" />
+      <workItem from="1643303487572" duration="5000" />
+      <workItem from="1643376271354" duration="654000" />
+      <workItem from="1643377948838" duration="279000" />
     </task>
     <task id="LOCAL-00001" summary="Aggiunto elenco aderenti">
       <created>1571815756940</created>
@@ -916,6 +922,16 @@
           <url>file://$PROJECT_DIR$/src/Database/Tabelle/TArticoli.php</url>
           <line>40</line>
           <option name="timeStamp" value="202" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/promozioni.php</url>
+          <line>21</line>
+          <option name="timeStamp" value="203" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/config.php</url>
+          <line>16</line>
+          <option name="timeStamp" value="204" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

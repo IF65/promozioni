@@ -43,6 +43,7 @@ class TPromozioni
                             `testo` text NOT NULL,
                             `tsCreazione` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
                             `tsAggiornamento` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  							`idModelli` varchar(36) DEFAULT NULL,
                             PRIMARY KEY (`id`),
                             UNIQUE KEY `codice` (`codice`)
                         ) ENGINE=InnoDB DEFAULT CHARSET=latin1;";
@@ -59,10 +60,10 @@ class TPromozioni
 		$table = "`$this->schema`.`" . self::$tableName . "`";
 		$sql = "insert into $table 
                             (`id`,`codice`,`codiceCatalina`,`tipo`,`sottoTipo`,`descrizione`,`ripetibilita`,`dataInizio`,`dataFine`,`oraInizio`,`oraFine`,
-                                `calendarioSettimanale`,`tipoCliente`,`categoria`,`sottoreparti`,`bozza`,`stampato`,`pmt`,`barcode`,`testo`)
+                                `calendarioSettimanale`,`tipoCliente`,`categoria`,`sottoreparti`,`bozza`,`stampato`,`pmt`,`barcode`,`testo`,`idModelli`)
                     values
                             (:id,:codice,:codiceCatalina,:tipo,:sottoTipo,:descrizione,:ripetibilita,:dataInizio,:dataFine,:oraInizio,:oraFine,:calendarioSettimanale,
-                                :tipoCliente,:categoria,:sottoreparti,:bozza,:stampato,:pmt,:barcode,:testo)
+                                :tipoCliente,:categoria,:sottoreparti,:bozza,:stampato,:pmt,:barcode,:testo,:idModelli)
                     on duplicate key update 
                             `codice`=:codice,
                             `codiceCatalina`=:codiceCatalina,
@@ -82,7 +83,8 @@ class TPromozioni
                             `stampato`=:stampato,
                             `pmt`=:pmt,
                             `barcode`=:barcode,
-                            `testo`=:testo;";
+                            `testo`=:testo,
+                            `idModelli`=:idModelli;";
 		$stmt = $this->pdo->prepare($sql);
 		$stmt->execute([
 			'id' => $promozione['id'],
@@ -104,7 +106,8 @@ class TPromozioni
 			'stampato' => $promozione['stampato'],
 			'pmt' => $promozione['pmt'],
 			'barcode' => $promozione['barcode'],
-			'testo' => $promozione['testo']
+			'testo' => $promozione['testo'],
+			'idModelli' => $promozione['idModelli']
 		]);
 		$id = $this->pdo->lastInsertId();
 		return $id;
