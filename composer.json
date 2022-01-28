@@ -16,7 +16,7 @@
         "php": ">=7.1",
         "ext-curl": "*",
         "ramsey/uuid": "*",
-        "picqer/php-barcode-generator": "^0.3.0"
+        "picqer/php-barcode-generator": "2.2.*"
     },
     "require-dev": {
         "phpunit/phpunit": "*",

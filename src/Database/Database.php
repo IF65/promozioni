@@ -1,9 +1,6 @@
 <?php
 namespace Database;
 
-use Database\Tabelle\TModelli;
-use Database\Tabelle\TModelliVariabili;
-use Database\Tabelle\TVariabili;
 use \PDO;
 use Database\Tabelle\TArticoli;
 use Database\Tabelle\TArticox2;
@@ -18,6 +15,9 @@ use Database\Tabelle\TProgressivi;
 use Database\Tabelle\TAderentisedi;
 use Database\Tabelle\TAderenti;
 use Database\Tabelle\TIncarichi;
+use Database\Tabelle\TModelli;
+use Database\Tabelle\TModellivariabili;
+use Database\Tabelle\TVariabili;
 use Database\Tabelle\TEod;
 use Database\Tabelle\VArticoli;
 use Ramsey\Uuid\Uuid;
@@ -182,7 +182,7 @@ class Database
 			$this->t_incarichi = new TIncarichi($this->pdo, $this->db['promozioni'], 'incarichi');
 			$this->t_eod = new TEod($this->qPdo, $this->qDb['mtx']);
 			$this->t_modelli = new TModelli($this->pdo, $this->db['promozioni']);
-			$this->t_modelliVariabili = new TModelliVariabili($this->pdo, $this->db['promozioni']);
+			$this->t_modelliVariabili = new TModellivariabili($this->pdo, $this->db['promozioni']);
 			$this->t_variabili = new TVariabili($this->pdo, $this->db['promozioni']);
 
 			// creazione viste

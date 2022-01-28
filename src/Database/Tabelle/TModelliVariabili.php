@@ -2,7 +2,7 @@
 
 namespace Database\Tabelle;
 
-class TModelliVariabili
+class TModellivariabili
 {
 	private $pdo = null;
 	private $schema = '';
