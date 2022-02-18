@@ -194,7 +194,7 @@ class TPromozioni
 		}
 		if (key_exists('dataCorrente', $request)) {
 			$sql .= "dataInizio <= '" . $request['dataCorrente'] . "' and dataFine >= '" . $request['dataCorrente'] . "' and \n";
-		} else {
+		} elseif (key_exists('dallaData', $request) && key_exists('allaData', $request)) {
 			if ($request['dallaData'] == $request['allaData']) {
 				$sql .= "dataInizio <= '" . $request['dallaData'] . "' and dataFine >= '" . $request['dallaData'] . "' and \n";
 			} else {
