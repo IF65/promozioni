@@ -23,7 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="892de775-726b-454a-9d4f-9ec41bbbbd7d" name="Default Changelist" comment="Aggiunto elenco aderenti">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Database/Tabelle/TPromozioni.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Database/Tabelle/TPromozioni.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/promozioni.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/promozioni.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -122,7 +124,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Database/Tabelle" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -857,7 +859,19 @@
       <workItem from="1643376271354" duration="654000" />
       <workItem from="1643377948838" duration="279000" />
       <workItem from="1643380116624" duration="1624000" />
-      <workItem from="1643383859082" duration="6000" />
+      <workItem from="1643383859082" duration="194000" />
+      <workItem from="1643559125299" duration="10000" />
+      <workItem from="1644851764401" duration="1181000" />
+      <workItem from="1644854774760" duration="1000" />
+      <workItem from="1644939263289" duration="71000" />
+      <workItem from="1644939435013" duration="883000" />
+      <workItem from="1644952851769" duration="13000" />
+      <workItem from="1645092475680" duration="18000" />
+      <workItem from="1645120880979" duration="486000" />
+      <workItem from="1645125769756" duration="6000" />
+      <workItem from="1645175290497" duration="1038000" />
+      <workItem from="1645199767731" duration="279000" />
+      <workItem from="1645200498845" duration="201000" />
     </task>
     <task id="LOCAL-00001" summary="Aggiunto elenco aderenti">
       <created>1571815756940</created>
@@ -937,13 +951,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/src/Database/Database.php</url>
-          <line>184</line>
-          <option name="timeStamp" value="205" />
+          <line>226</line>
+          <option name="timeStamp" value="207" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/src/Database/Tabelle/TModellivariabili.php</url>
-          <line>22</line>
-          <option name="timeStamp" value="206" />
+          <url>file://$PROJECT_DIR$/src/Database/Tabelle/TPromozioni.php</url>
+          <line>59</line>
+          <option name="timeStamp" value="208" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/Database/Database.php</url>
+          <line>779</line>
+          <option name="timeStamp" value="209" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

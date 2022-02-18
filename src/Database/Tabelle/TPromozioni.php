@@ -194,12 +194,17 @@ class TPromozioni
 		}
 		if (key_exists('dataCorrente', $request)) {
 			$sql .= "dataInizio <= '" . $request['dataCorrente'] . "' and dataFine >= '" . $request['dataCorrente'] . "' and \n";
-		}
-		if (key_exists('dallaData', $request)) {
-			$sql .= "dataInizio >= '" . $request['dallaData'] . "' and\n";
-		}
-		if (key_exists('allaData', $request)) {
-			$sql .= "dataFine <= '" . $request['allaData'] . "' and\n";
+		} else {
+			if ($request['dallaData'] == $request['allaData']) {
+				$sql .= "dataInizio <= '" . $request['dallaData'] . "' and dataFine >= '" . $request['dallaData'] . "' and \n";
+			} else {
+				if (key_exists('dallaData', $request)) {
+					$sql .= "dataInizio >= '" . $request['dallaData'] . "' and\n";
+				}
+				if (key_exists('allaData', $request)) {
+					$sql .= "dataFine <= '" . $request['allaData'] . "' and\n";
+				}
+			}
 		}
 		if (key_exists('elencoId', $request)) {
 			$sql .= "id  in ('" . implode("','", $request['elencoId']) . "') and\n";
