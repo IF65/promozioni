@@ -199,10 +199,10 @@ class TPromozioni
 				$sql .= "dataInizio <= '" . $request['dallaData'] . "' and dataFine >= '" . $request['dallaData'] . "' and \n";
 			} else {
 				if (key_exists('dallaData', $request)) {
-					$sql .= "dataInizio >= '" . $request['dallaData'] . "' and\n";
+					$sql .= "dataInizio <= '" . $request['allaData'] . "' and\n";
 				}
 				if (key_exists('allaData', $request)) {
-					$sql .= "dataFine <= '" . $request['allaData'] . "' and\n";
+					$sql .= "dataFine >= '" . $request['dallaData'] . "' and\n";
 				}
 			}
 		}
