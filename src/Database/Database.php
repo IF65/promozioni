@@ -551,7 +551,7 @@ class Database
 									$text .= sprintf('%01d', 0);
 									$text .= sprintf('%-40s', $ricompensa['descrizione']);
 									$text .= sprintf('%-15s', $ricompensa['recordM']);
-									$text .= '0111' . sprintf('%4d', $ricompensa['promovar']);
+									$text .= sprintf('%08d', 0);
 									$text .= sprintf('%030s', 0);
 									break;
 								case "0501":
