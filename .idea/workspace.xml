@@ -23,10 +23,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="892de775-726b-454a-9d4f-9ec41bbbbd7d" name="Default Changelist" comment="Aggiunto elenco aderenti">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/excel2Promo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/invioCancellazioni.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/promozioni.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/promozioni.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Database/Database.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Database/Database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,6 +109,17 @@
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php81" />
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php80" />
       <path value="$PROJECT_DIR$/vendor/phpunit/php-invoker" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-client" />
+      <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-factory" />
+      <path value="$PROJECT_DIR$/vendor/ezyang/htmlpurifier" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/php-enum" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/maennchen/zipstream-php" />
+      <path value="$PROJECT_DIR$/vendor/markbaker/complex" />
+      <path value="$PROJECT_DIR$/vendor/markbaker/matrix" />
+      <path value="$PROJECT_DIR$/vendor/phpoffice/phpspreadsheet" />
     </include_path>
   </component>
   <component name="ProjectId" id="1PUyVPL30RIEi5WUf02MX2QWSVv" />
@@ -117,33 +131,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/Database/Tabelle" />
       <recent name="$PROJECT_DIR$/src/Database" />
     </key>
   </component>
-  <component name="RunManager" selected="PHP Script.promozioni.php">
+  <component name="RunManager" selected="PHP Script.excel2Promo.php">
     <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/src/invioPromozioni.php">
       <method v="2" />
     </configuration>
     <configuration name="config.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/src/config.php">
       <method v="2" />
     </configuration>
-    <configuration name="invioBO.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/src/invioBO.php">
+    <configuration name="excel2Promo.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/src/excel2Promo.php">
       <method v="2" />
     </configuration>
-    <configuration name="invioPromozioniOld.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/src/invioPromozioniOld.php">
+    <configuration name="invioCancellazioni.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/src/invioCancellazioni.php">
       <method v="2" />
     </configuration>
     <configuration name="promozioni.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/src/promozioni.php">
@@ -161,19 +176,19 @@
     <list>
       <item itemvalue="PHP Script.promozioni.php" />
       <item itemvalue="PHP Script.test.php" />
+      <item itemvalue="PHP Script.excel2Promo.php" />
+      <item itemvalue="PHP Script.invioCancellazioni.php" />
       <item itemvalue="PHP Script.config.php" />
-      <item itemvalue="PHP Script.invioBO.php" />
-      <item itemvalue="PHP Script.invioPromozioniOld.php" />
       <item itemvalue="PHP Script.verificaIncarichi.php" />
       <item itemvalue="PHP Script.recuperoP_regpar.php" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="PHP Script.excel2Promo.php" />
+        <item itemvalue="PHP Script.invioCancellazioni.php" />
         <item itemvalue="PHP Script.recuperoP_regpar.php" />
         <item itemvalue="PHP Script.verificaIncarichi.php" />
         <item itemvalue="PHP Script.config.php" />
-        <item itemvalue="PHP Script.invioPromozioniOld.php" />
-        <item itemvalue="PHP Script.invioBO.php" />
       </list>
     </recent_temporary>
   </component>
@@ -866,7 +881,16 @@
       <workItem from="1647782995145" duration="2752000" />
       <workItem from="1647960106221" duration="110000" />
       <workItem from="1649663468888" duration="18000" />
-      <workItem from="1651043394577" duration="425000" />
+      <workItem from="1651043394577" duration="562000" />
+      <workItem from="1651046919268" duration="1295000" />
+      <workItem from="1651761610561" duration="14000" />
+      <workItem from="1651843631209" duration="19000" />
+      <workItem from="1651852856699" duration="283000" />
+      <workItem from="1652115395338" duration="127000" />
+      <workItem from="1652882096442" duration="3000" />
+      <workItem from="1652882198704" duration="530000" />
+      <workItem from="1652883704810" duration="4000" />
+      <workItem from="1652886011485" duration="1686000" />
     </task>
     <task id="LOCAL-00001" summary="Aggiunto elenco aderenti">
       <created>1571815756940</created>
