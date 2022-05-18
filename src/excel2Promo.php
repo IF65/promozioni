@@ -7,18 +7,17 @@ use PhpOffice\PhpSpreadsheet\Shared\Date;
 $timeZone = new DateTimeZone('Europe/Rome');
 
 // verifico che il file sia stato effettivamente caricato
-/*if (!isset($_FILES['userfile']) || !is_uploaded_file($_FILES['userfile']['tmp_name'])) {
+if (!isset($_FILES['userfile']) || !is_uploaded_file($_FILES['userfile']['tmp_name'])) {
 	echo 'Non hai inviato nessun file...';
 	//echo json_encode($_FILES, true);
 	exit;
-}*/
+}
 
-/*if (move_uploaded_file( $_FILES['userfile']['tmp_name'], "/phpUpload/".$_FILES['userfile']['name'])) {
+if (move_uploaded_file( $_FILES['userfile']['tmp_name'], "/phpUpload/".$_FILES['userfile']['name'])) {
 
-	$inputFileName = "/phpUpload/" . $_FILES['userfile']['name'];*/
+	$inputFileName = "/phpUpload/" . $_FILES['userfile']['name'];
 
-if (true) {
-	$inputFileName = "/Users/if65/Desktop/CatalinaWave.xlsx";
+	//$inputFileName = "/Users/if65/Desktop/CatalinaWave.xlsx";
 
 	/** Create a new Xls Reader  **/
 	$reader = new Xlsx();

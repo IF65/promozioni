@@ -23,13 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="892de775-726b-454a-9d4f-9ec41bbbbd7d" name="Default Changelist" comment="Aggiunto elenco aderenti">
-      <change afterPath="$PROJECT_DIR$/src/excel2Promo.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/invioCancellazioni.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/promozioni.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/promozioni.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/excel2Promo.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/excel2Promo.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -890,7 +885,7 @@
       <workItem from="1652882096442" duration="3000" />
       <workItem from="1652882198704" duration="530000" />
       <workItem from="1652883704810" duration="4000" />
-      <workItem from="1652886011485" duration="1686000" />
+      <workItem from="1652886011485" duration="1962000" />
     </task>
     <task id="LOCAL-00001" summary="Aggiunto elenco aderenti">
       <created>1571815756940</created>
