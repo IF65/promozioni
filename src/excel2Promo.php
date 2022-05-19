@@ -4,7 +4,7 @@ require '../vendor/autoload.php';
 use PhpOffice\PhpSpreadsheet\Reader\Xlsx;
 use PhpOffice\PhpSpreadsheet\Shared\Date;
 
-$timeZone = new DateTimeZone('Europe/Rome');
+$timeZone = new DateTimeZone('GMT');
 
 // verifico che il file sia stato effettivamente caricato
 if (!isset($_FILES['userfile']) || !is_uploaded_file($_FILES['userfile']['tmp_name'])) {
