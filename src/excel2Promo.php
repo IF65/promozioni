@@ -13,42 +13,52 @@ if (!isset($_FILES['userfile']) || !is_uploaded_file($_FILES['userfile']['tmp_na
 	exit;
 }
 
-if (move_uploaded_file( $_FILES['userfile']['tmp_name'], "/phpUpload/".$_FILES['userfile']['name'])) {
+if (move_uploaded_file($_FILES['userfile']['tmp_name'], "/phpUpload/" . $_FILES['userfile']['name'])) {
 
 	$inputFileName = "/phpUpload/" . $_FILES['userfile']['name'];
-
 	//$inputFileName = "/Users/if65/Desktop/CatalinaWave.xlsx";
 
-	/** Create a new Xls Reader  **/
 	$reader = new Xlsx();
-	//    $reader = new \PhpOffice\PhpSpreadsheet\Reader\Xlsx();
-	//    $reader = new \PhpOffice\PhpSpreadsheet\Reader\Xml();
-	//    $reader = new \PhpOffice\PhpSpreadsheet\Reader\Ods();
-	//    $reader = new \PhpOffice\PhpSpreadsheet\Reader\Slk();
-	//    $reader = new \PhpOffice\PhpSpreadsheet\Reader\Gnumeric();
-	//    $reader = new \PhpOffice\PhpSpreadsheet\Reader\Csv();
-	/** Load $inputFileName to a Spreadsheet Object  **/
 	$reader->setReadDataOnly(true);
 	$reader->setLoadAllSheets();
 
-	$ordini = [];
+	$promozioni = [];
+	$rows = [];
+	try {
+		$spreadsheet = $reader->load($inputFileName);
 
-	$spreadsheet = $reader->load($inputFileName);
-	for ($sheetNumber = 0; $sheetNumber < $spreadsheet->getSheetCount(); $sheetNumber++) {
-		$worksheet = $spreadsheet->getSheet($sheetNumber);
-		$rows = [];
-		foreach ($worksheet->getRowIterator() as $row) {
-			$cellIterator = $row->getCellIterator();
-			$cellIterator->setIterateOnlyExistingCells(FALSE); // This loops through all cells,
-			$cells = [];
-			foreach ($cellIterator as $cell) {
-				$cells[] = $cell->getValue();
+		for ($sheetNumber = 0; $sheetNumber < $spreadsheet->getSheetCount(); $sheetNumber++) {
+			$worksheet = $spreadsheet->getSheet($sheetNumber);
+			foreach ($worksheet->getRowIterator() as $row) {
+				$cellIterator = $row->getCellIterator();
+				$cellIterator->setIterateOnlyExistingCells(FALSE); // This loops through all cells,
+				$cells = [];
+				foreach ($cellIterator as $cell) {
+					$cells[] = $cell->getValue();
+				}
+				$rows[] = $cells;
 			}
-			$rows[] = $cells;
 		}
+
+		foreach ($rows as $recNum => $row) {
+			if ($recNum > 0) {
+				$promozione = [
+					"bl" => $row[0],
+					"descrizione" => trim($row[1]),
+					"valore" => $row[2] * 1,
+					"tipo" => $row[3],
+					"valore_emesso" => $row[4] * 1,
+					"soglia" => $row[5] * 1,
+					"data_inizio" => Date::excelToDateTimeObject($row[6], $timeZone)->format('c'),
+					"data_fine" => Date::excelToDateTimeObject($row[7], $timeZone)->format('c'),
+				];
+				$promozioni[] = $promozione;
+			}
+		}
+	} catch (\PhpOffice\PhpSpreadsheet\Reader\Exception|\PhpOffice\PhpSpreadsheet\Exception $e) {
 	}
 
-	echo json_encode(array("recordCount" => count($rows), "values" => $rows));
+	echo json_encode(array("recordCount" => count($promozioni), "values" => $promozioni));
 } else {
 	echo json_encode($_FILES, true);
 }
