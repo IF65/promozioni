@@ -222,6 +222,12 @@ class Database
 		return $promozioni;
 	}
 
+	public function cercaBarcodeDaCodiceCatalina(array $request) {
+		$elenco = $this->t_promozioni->cercaBarcodeDaCodiceCatalina($request);
+
+		return $elenco;
+	}
+
 	public function creaModificaPromozione(array $promozione)
 	{
 		$id = ($this->t_promozioni->creaModifica($promozione)) * 1;

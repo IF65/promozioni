@@ -163,6 +163,21 @@ class TPromozioni
 		return $result;
 	}
 
+	public function cercaBarcodeDaCodiceCatalina(array $request)
+	{
+		$codes = $request['codici'];
+		$lines = [];
+		foreach ($codes as $code) {
+			$lines[] = "descrizione like '" . $code . "%'";
+		}
+		$sql = "select descrizione, barcode from promozioni.promozioni where " . implode(" or ", $lines);
+		$stmt = $this->pdo->prepare($sql);
+		$stmt->execute();
+		$result = $stmt->fetchAll(\PDO::FETCH_ASSOC);
+
+		return $result;
+	}
+
 	public function elenco(array $request)
 	{
 		$table = "`$this->schema`.`" . self::$tableName . "`";

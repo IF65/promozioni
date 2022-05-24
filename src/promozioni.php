@@ -19,16 +19,16 @@ use Database\Database;
 
 $timeZone = new \DateTimeZone('Europe/Rome');
 
-$debug = false;
+$debug = False;
 if ($debug) {
 	//$input = file_get_contents('/Users/if65/Desktop/request.json');
-	$input ="{\"function\":\"elencoPromozioni\",\"id\":\"533D3807EA804160845901BDAB901729\"}";
+	//$input ="{\"function\":\"elencoPromozioni\",\"id\":\"533D3807EA804160845901BDAB901729\"}";
 	//$input ="{\"function\":\"elencoSediUsate\",\"codiciPromozione\":[\"5001223\",\"5001224\",\"5001225\"]}";
 	//$input ="{\"function\":\"creaIncarichi\",\"promozioniDaInviare\":[{\"codicePromozione\":5000063,\"lavoroCodice\":10,\"data\":\"2020-11-11\",\"ora\":\"15:59\"}]}";
 	//$input ="{\"function\":\"elencoNegozi\"}";
 	//$input ="{\"function\":\"statoCaricamentoQuadrature\",\"sede\":\"0104\",\"dataInizio\":\"2021-07-16\",\"dataFine\":\"2021-07-16\"}";
 
-	//$input = file_get_contents('/Users/if65/Desktop/test.json');
+	$input = file_get_contents('/Users/if65/Desktop/test.json');
 	$request = json_decode($input, true);
 } else {
 	$input = file_get_contents('php://input');
@@ -81,6 +81,10 @@ if ($request['function'] == 'salva') {
 
 } else if ($request['function'] == 'cercaBarcodeDaCodiceArticolo') {
 	$elenco = $db->elencoBarartX2($request);
+	echo json_encode($elenco);
+
+} else if ($request['function'] == 'cercaBarcodeDaCodiceCatalina') {
+	$elenco = $db->cercaBarcodeDaCodiceCatalina($request);
 	echo json_encode($elenco);
 
 } else if ($request['function'] == 'cercaArticolo') {

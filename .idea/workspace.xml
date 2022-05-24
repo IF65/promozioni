@@ -24,7 +24,9 @@
   <component name="ChangeListManager">
     <list default="true" id="892de775-726b-454a-9d4f-9ec41bbbbd7d" name="Default Changelist" comment="Aggiunto elenco aderenti">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Database/Tabelle/VArticoli.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Database/Tabelle/VArticoli.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Database/Database.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Database/Database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Database/Tabelle/TPromozioni.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Database/Tabelle/TPromozioni.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/promozioni.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/promozioni.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,7 +145,7 @@
       <recent name="$PROJECT_DIR$/src/Database" />
     </key>
   </component>
-  <component name="RunManager" selected="PHP Script.excel2Promo.php">
+  <component name="RunManager" selected="PHP Script.promozioni.php">
     <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/src/invioPromozioni.php">
       <method v="2" />
     </configuration>
@@ -889,7 +891,9 @@
       <workItem from="1652949428004" duration="1218000" />
       <workItem from="1652952009875" duration="7000" />
       <workItem from="1652952237235" duration="92000" />
-      <workItem from="1653052740979" duration="470000" />
+      <workItem from="1653052740979" duration="1048000" />
+      <workItem from="1653309068219" duration="34000" />
+      <workItem from="1653384234211" duration="1833000" />
     </task>
     <task id="LOCAL-00001" summary="Aggiunto elenco aderenti">
       <created>1571815756940</created>
@@ -969,7 +973,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/src/Database/Database.php</url>
-          <line>226</line>
+          <line>232</line>
           <option name="timeStamp" value="207" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
@@ -979,12 +983,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/src/Database/Database.php</url>
-          <line>779</line>
+          <line>785</line>
           <option name="timeStamp" value="209" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/src/Database/Tabelle/TPromozioni.php</url>
-          <line>167</line>
+          <line>182</line>
           <option name="timeStamp" value="211" />
         </line-breakpoint>
       </breakpoints>
