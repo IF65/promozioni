@@ -89,7 +89,8 @@ if ($request['function'] == 'salva') {
 	echo json_encode($elenco);
 
 } else if ($request['function'] == 'cercaMaxBarcodeTipo0492') {
-	echo $db->cercaMaxBarcodeTipo0492($request);
+	$barcode = $db->cercaMaxBarcodeTipo0492($request);
+	echo json_encode($barcode);
 
 } else if ($request['function'] == 'cercaArticolo') {
 	$elenco = $db->elencoArticoliX2($request);

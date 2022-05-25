@@ -228,7 +228,7 @@ class Database
 		return $elenco;
 	}
 
-	public function cercaMaxBarcodeTipo0492(array $request): String {
+	public function cercaMaxBarcodeTipo0492(array $request) {
 		return $this->t_promozioni->cercaMaxBarcodeTipo0492($request);
 	}
 

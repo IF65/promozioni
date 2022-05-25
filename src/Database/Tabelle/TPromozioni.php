@@ -178,7 +178,7 @@ class TPromozioni
 		return $result;
 	}
 
-	public function cercaMaxBarcodeTipo0492(array $request): String
+	public function cercaMaxBarcodeTipo0492(array $request)
 	{
 		$suffisso = $request['suffisso'];
 		$lines = [];
@@ -187,7 +187,7 @@ class TPromozioni
 		$stmt->execute();
 		$result = $stmt->fetchAll(\PDO::FETCH_ASSOC);
 
-		return $result[0]['barcode'];
+		return $result[0];
 	}
 
 	public function elenco(array $request)
