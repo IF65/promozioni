@@ -893,7 +893,8 @@
       <workItem from="1652952237235" duration="92000" />
       <workItem from="1653052740979" duration="1048000" />
       <workItem from="1653309068219" duration="34000" />
-      <workItem from="1653384234211" duration="1833000" />
+      <workItem from="1653384234211" duration="2607000" />
+      <workItem from="1653467465866" duration="633000" />
     </task>
     <task id="LOCAL-00001" summary="Aggiunto elenco aderenti">
       <created>1571815756940</created>
@@ -973,7 +974,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/src/Database/Database.php</url>
-          <line>232</line>
+          <line>236</line>
           <option name="timeStamp" value="207" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
@@ -983,13 +984,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/src/Database/Database.php</url>
-          <line>785</line>
+          <line>789</line>
           <option name="timeStamp" value="209" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/src/Database/Tabelle/TPromozioni.php</url>
-          <line>182</line>
-          <option name="timeStamp" value="211" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

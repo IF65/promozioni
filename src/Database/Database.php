@@ -228,6 +228,10 @@ class Database
 		return $elenco;
 	}
 
+	public function cercaMaxBarcodeTipo0492(array $request): String {
+		return $this->t_promozioni->cercaMaxBarcodeTipo0492($request);
+	}
+
 	public function creaModificaPromozione(array $promozione)
 	{
 		$id = ($this->t_promozioni->creaModifica($promozione)) * 1;

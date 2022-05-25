@@ -178,6 +178,18 @@ class TPromozioni
 		return $result;
 	}
 
+	public function cercaMaxBarcodeTipo0492(array $request): String
+	{
+		$suffisso = $request['suffisso'];
+		$lines = [];
+		$sql = "select max(ifnull(barcode, '')) barcode from promozioni.promozioni where barcode like '$suffisso%'";
+		$stmt = $this->pdo->prepare($sql);
+		$stmt->execute();
+		$result = $stmt->fetchAll(\PDO::FETCH_ASSOC);
+
+		return $result[0]['barcode'];
+	}
+
 	public function elenco(array $request)
 	{
 		$table = "`$this->schema`.`" . self::$tableName . "`";

@@ -27,8 +27,9 @@ if ($debug) {
 	//$input ="{\"function\":\"creaIncarichi\",\"promozioniDaInviare\":[{\"codicePromozione\":5000063,\"lavoroCodice\":10,\"data\":\"2020-11-11\",\"ora\":\"15:59\"}]}";
 	//$input ="{\"function\":\"elencoNegozi\"}";
 	//$input ="{\"function\":\"statoCaricamentoQuadrature\",\"sede\":\"0104\",\"dataInizio\":\"2021-07-16\",\"dataFine\":\"2021-07-16\"}";
+	$input ="{\"function\":\"cercaMaxBarcodeTipo0492\",\"suffisso\":\"977011\"}";
 
-	$input = file_get_contents('/Users/if65/Desktop/test.json');
+	//$input = file_get_contents('/Users/if65/Desktop/test.json');
 	$request = json_decode($input, true);
 } else {
 	$input = file_get_contents('php://input');
@@ -86,6 +87,10 @@ if ($request['function'] == 'salva') {
 } else if ($request['function'] == 'cercaBarcodeDaCodiceCatalina') {
 	$elenco = $db->cercaBarcodeDaCodiceCatalina($request);
 	echo json_encode($elenco);
+
+} else if ($request['function'] == 'cercaMaxBarcodeTipo0492') {
+	$barcode = $db->cercaMaxBarcodeTipo0492($request);
+	echo json_encode($barcode);
 
 } else if ($request['function'] == 'cercaArticolo') {
 	$elenco = $db->elencoArticoliX2($request);
